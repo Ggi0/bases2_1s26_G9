@@ -1,0 +1,59 @@
+id_gol,id_partido,anio,num_partido,id_seleccion,equipo,jugador,minuto,es_penal
+1,2,2018,2,32,Uruguay,José María Giménez,89,NO
+2,3,2018,3,12,Egipto,Mohamed Salah,73,SI
+3,6,2018,6,12,Egipto,Mohamed Salah,22,NO
+4,1,2018,1,13,España,Diego Costa,24,NO
+5,1,2018,1,13,España,Diego Costa,55,NO
+6,1,2018,1,13,España,Nacho,58,NO
+7,2,2018,2,16,Irán,Aziz Bouhaddouz (en contra),90,NO
+8,4,2018,4,13,España,Diego Costa,54,NO
+9,5,2018,5,25,Portugal,Ricardo Quaresma,45,NO
+10,6,2018,6,19,Marruecos,Khalid Boutaïb,14,NO
+11,6,2018,6,19,Marruecos,Youssef En-Nesyri,81,NO
+12,1,2018,1,4,Australia,Mile Jedinak,62,SI
+13,2,2018,2,11,Dinamarca,Yussuf Yurary Poulsen,59,NO
+14,4,2018,4,4,Australia,Mile Jedinak,38,SI
+15,6,2018,6,23,Perú,André Carrillo,18,NO
+16,6,2018,6,23,Perú,Paolo Guerrero,50,NO
+17,1,2018,1,17,Islandia,Alfred Finnbogason,23,NO
+18,3,2018,3,10,Croacia,Ante Rebic,53,NO
+19,3,2018,3,10,Croacia,Luka Modric,80,NO
+20,3,2018,3,10,Croacia,Ivan Rakitic,90,NO
+21,5,2018,5,3,Argentina,Lionel Messi,14,NO
+22,5,2018,5,3,Argentina,Marcos Rojo,86,NO
+23,6,2018,6,10,Croacia,Milan Badelj,53,NO
+24,6,2018,6,10,Croacia,Ivan Perisic,90,NO
+25,1,2018,1,30,Suiza,Steven Zuber,50,NO
+26,2,2018,2,28,Serbia,Aleksandar Kolarov,56,NO
+27,4,2018,4,30,Suiza,Granit Xhaka,52,NO
+28,4,2018,4,30,Suiza,Xherdan Shaqiri,90,NO
+29,5,2018,5,5,Brasil,Paulinho,36,NO
+30,5,2018,5,5,Brasil,Thiago Silva,68,NO
+31,6,2018,6,9,Costa Rica,Kendall Waston,56,NO
+32,6,2018,6,9,Costa Rica,Yann Sommer (en contra),90,NO
+33,1,2018,1,20,México,Hirving Lozano,35,NO
+34,3,2018,3,29,Suecia,Ola Toivonen,32,NO
+35,4,2018,4,20,México,Carlos Vela,26,SI
+36,4,2018,4,20,México,Javier Hernandez,66,NO
+37,6,2018,6,29,Suecia,Ludwig Augustinsson,50,NO
+38,6,2018,6,29,Suecia,Andreas Granqvist,62,SI
+39,6,2018,6,29,Suecia,Edson Álvarez (en contra),74,NO
+40,2,2018,2,15,Inglaterra,Harry Kane,11,NO
+41,2,2018,2,15,Inglaterra,Harry Kane,90,NO
+42,3,2018,3,31,Túnez,Dylan Bronn,18,NO
+43,3,2018,3,31,Túnez,Wahbi Khazri,90,NO
+44,4,2018,4,22,Panamá,Felipe Baloy,78,NO
+45,5,2018,5,6,Bélgica,Adnan Januzaj,51,NO
+46,6,2018,6,31,Túnez,Fakhreddine Ben Youssef,51,NO
+47,6,2018,6,31,Túnez,Wahbi Khazri,66,NO
+48,1,2018,1,27,Senegal,Thiago Cionek (en contra),37,NO
+49,1,2018,1,27,Senegal,M'Baye Niang,60,NO
+50,2,2018,2,18,Japón,Shinji Kagawa,6,SI
+51,2,2018,2,18,Japón,Yuya Osako,73,NO
+52,3,2018,3,7,Colombia,Yerry Mina,40,NO
+53,3,2018,3,7,Colombia,Radamel Falcao,70,NO
+54,3,2018,3,7,Colombia,Juan Guillermo Cuadrado,75,NO
+55,4,2018,4,27,Senegal,Sadio Mané,11,NO
+56,4,2018,4,27,Senegal,Moussa Wagué,71,NO
+57,5,2018,5,24,Polonia,Jan Bednarek,59,NO
+58,6,2018,6,7,Colombia,Yerry Mina,74,NO

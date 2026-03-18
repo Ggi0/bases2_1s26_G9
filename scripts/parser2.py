@@ -543,6 +543,353 @@ def detectar_anios():
     return sorted([int(c) for c in os.listdir(HTML_DIR)
                    if os.path.isdir(os.path.join(HTML_DIR, c)) and c.isdigit()])
 
+# ─────────────────────────────────────────────────────────────────────────────
+# NORMALIZACIÓN
+# Toma todos los CSVs crudos generados y produce CSVs normalizados con IDs
+# listos para cargar directamente a la base de datos.
+#
+# Orden de carga en BD:
+#   1. seleccion       (tabla maestra, sin dependencias)
+#   2. mundial         (depende de seleccion)
+#   3. grupo           (depende de mundial)
+#   4. partido         (depende de mundial, seleccion)
+#   5. posicion_grupo  (depende de grupo, seleccion)
+#   6. gol             (depende de partido, seleccion)
+#   7. goleador        (depende de mundial, seleccion)
+#   8. posicion_final  (depende de mundial, seleccion)
+#   9. premio          (depende de mundial, seleccion)
+#  10. equipo_ideal    (depende de mundial, seleccion)
+#  11. tarjeta         (depende de mundial, seleccion)
+#  12. jugador_pais    (depende de seleccion)
+# ─────────────────────────────────────────────────────────────────────────────
+
+import csv as _csv
+
+NORM_DIR = os.path.join(DATA_DIR, "normalizado")
+
+def leer_csv(nombre, carpeta=DATA_DIR):
+    ruta = os.path.join(carpeta, f"{nombre}.csv")
+    if not os.path.exists(ruta):
+        return []
+    with open(ruta, encoding="utf-8") as f:
+        return list(_csv.DictReader(f))
+
+def escribir_csv_norm(nombre, campos, filas):
+    os.makedirs(NORM_DIR, exist_ok=True)
+    ruta = os.path.join(NORM_DIR, f"{nombre}.csv")
+    with open(ruta, "w", newline="", encoding="utf-8") as f:
+        w = _csv.DictWriter(f, fieldnames=campos)
+        w.writeheader()
+        w.writerows(filas)
+    return len(filas)
+
+def normalizar():
+    print(f"\n{'='*52}")
+    print("  NORMALIZANDO datos...")
+    print(f"{'='*52}")
+
+    # ── Leer todos los CSVs crudos ────────────────────────────────────────────
+    mundiales       = leer_csv("mundiales")
+    partidos        = leer_csv("partidos")
+    grupos          = leer_csv("grupos")
+    pos_grupo       = leer_csv("posiciones_grupo")
+    goles           = leer_csv("goles_partido")
+    goleadores      = leer_csv("goleadores")
+    pos_finales     = leer_csv("posiciones_finales")
+    premios         = leer_csv("premios")
+    equipo_ideal    = leer_csv("equipo_ideal")
+    tarjetas        = leer_csv("tarjetas")
+
+    # jugadores_pais viene de parse.py (carpeta data/)
+    jugadores = leer_csv("jugadores_pais")
+
+    # seleccion.csv preexistente (lista maestra de países de descarga.py)
+    sel_externo = leer_csv("seleccion", carpeta=".")
+    if not sel_externo:
+        sel_externo = leer_csv("seleccion", carpeta=DATA_DIR)
+
+    # ── 1. SELECCION: unir países de TODAS las fuentes ────────────────────────
+    paises = set()
+
+    # Desde seleccion.csv externo (lista de jugadores_indice)
+    for r in sel_externo:
+        v = r.get("seleccion") or r.get("nombre") or ""
+        if v.strip(): paises.add(v.strip())
+
+    # Desde todos los CSVs parseados
+    for r in mundiales:
+        for k in ["organizador","campeon"]:
+            if r.get(k,"").strip(): paises.add(r[k].strip())
+    for r in partidos:
+        for k in ["local","visitante"]:
+            if r.get(k,"").strip(): paises.add(r[k].strip())
+    for r in pos_grupo:
+        if r.get("pais","").strip(): paises.add(r["pais"].strip())
+    for r in goles:
+        if r.get("equipo","").strip(): paises.add(r["equipo"].strip())
+    for r in goleadores:
+        if r.get("pais","").strip(): paises.add(r["pais"].strip())
+    for r in pos_finales:
+        if r.get("pais","").strip(): paises.add(r["pais"].strip())
+    for r in premios:
+        if r.get("pais","").strip(): paises.add(r["pais"].strip())
+    for r in equipo_ideal:
+        if r.get("pais","").strip(): paises.add(r["pais"].strip())
+    for r in tarjetas:
+        if r.get("pais","").strip(): paises.add(r["pais"].strip())
+    for r in jugadores:
+        if r.get("seleccion","").strip(): paises.add(r["seleccion"].strip())
+
+    sel_list = sorted(paises)
+    sel_map  = {p: i+1 for i, p in enumerate(sel_list)}
+
+    filas_sel = [{"id_seleccion": sel_map[p], "nombre": p} for p in sel_list]
+    n = escribir_csv_norm("seleccion", ["id_seleccion","nombre"], filas_sel)
+    print(f"  [seleccion]          {n} países")
+
+    # ── 2. MUNDIAL ────────────────────────────────────────────────────────────
+    filas_mun = []
+    for r in mundiales:
+        filas_mun.append({
+            "id_mundial":       int(r["anio"]),
+            "anio":             int(r["anio"]),
+            "id_organizador":   sel_map.get(r.get("organizador","").strip()),
+            "organizador":      r.get("organizador",""),
+            "id_campeon":       sel_map.get(r.get("campeon","").strip()),
+            "campeon":          r.get("campeon",""),
+            "num_selecciones":  r.get("num_selecciones") or None,
+            "num_partidos":     r.get("num_partidos") or None,
+            "goles":            r.get("goles") or None,
+            "promedio_gol":     r.get("promedio_gol") or None,
+        })
+    n = escribir_csv_norm("mundial", ["id_mundial","anio","id_organizador","organizador",
+                                       "id_campeon","campeon","num_selecciones",
+                                       "num_partidos","goles","promedio_gol"], filas_mun)
+    print(f"  [mundial]            {n} mundiales")
+
+    # ── 3. GRUPO ──────────────────────────────────────────────────────────────
+    filas_grp = []
+    grupo_map = {}
+    id_g = 1
+    for r in grupos:
+        key = (int(r["anio"]), r["grupo"].strip())
+        grupo_map[key] = id_g
+        filas_grp.append({
+            "id_grupo":  id_g,
+            "anio":      int(r["anio"]),
+            "nombre":    r["grupo"].strip(),
+        })
+        id_g += 1
+    n = escribir_csv_norm("grupo", ["id_grupo","anio","nombre"], filas_grp)
+    print(f"  [grupo]              {n} grupos")
+
+    # ── 4. PARTIDO ────────────────────────────────────────────────────────────
+    filas_par = []
+    partido_map = {}
+    id_p = 1
+    for r in partidos:
+        anio = int(r["anio"])
+        num  = int(r["num_partido"]) if r.get("num_partido") else None
+        key  = (anio, num)
+        partido_map[key] = id_p
+        filas_par.append({
+            "id_partido":        id_p,
+            "anio":              anio,
+            "num_partido":       num,
+            "fecha":             r.get("fecha",""),
+            "etapa":             r.get("etapa",""),
+            "id_local":          sel_map.get(r.get("local","").strip()),
+            "local":             r.get("local",""),
+            "id_visitante":      sel_map.get(r.get("visitante","").strip()),
+            "visitante":         r.get("visitante",""),
+            "goles_local":       r.get("goles_local") or None,
+            "goles_visitante":   r.get("goles_visitante") or None,
+            "tiempo_extra":      r.get("tiempo_extra",""),
+            "penales":           r.get("penales",""),
+            "penales_local":     r.get("penales_local") or None,
+            "penales_visitante": r.get("penales_visitante") or None,
+        })
+        id_p += 1
+    n = escribir_csv_norm("partido", [
+        "id_partido","anio","num_partido","fecha","etapa",
+        "id_local","local","id_visitante","visitante",
+        "goles_local","goles_visitante","tiempo_extra",
+        "penales","penales_local","penales_visitante"
+    ], filas_par)
+    print(f"  [partido]            {n} partidos")
+
+    # ── 5. POSICION_GRUPO ─────────────────────────────────────────────────────
+    filas_pg = []
+    id_pg = 1
+    for r in pos_grupo:
+        anio  = int(r["anio"])
+        key_g = (anio, r["grupo"].strip())
+        filas_pg.append({
+            "id_posicion_grupo": id_pg,
+            "id_grupo":          grupo_map.get(key_g),
+            "anio":              anio,
+            "grupo":             r["grupo"].strip(),
+            "id_seleccion":      sel_map.get(r.get("pais","").strip()),
+            "pais":              r.get("pais",""),
+            "pts":               r.get("pts") or None,
+            "pj":                r.get("pj") or None,
+            "pg":                r.get("pg") or None,
+            "pe":                r.get("pe") or None,
+            "pp":                r.get("pp") or None,
+            "gf":                r.get("gf") or None,
+            "gc":                r.get("gc") or None,
+            "diferencia":        r.get("diferencia") or None,
+            "clasificado":       r.get("clasificado",""),
+        })
+        id_pg += 1
+    n = escribir_csv_norm("posicion_grupo", [
+        "id_posicion_grupo","id_grupo","anio","grupo","id_seleccion","pais",
+        "pts","pj","pg","pe","pp","gf","gc","diferencia","clasificado"
+    ], filas_pg)
+    print(f"  [posicion_grupo]     {n} filas")
+
+    # ── 6. GOL ────────────────────────────────────────────────────────────────
+    filas_gol = []
+    id_gol = 1
+    for r in goles:
+        anio = int(r["anio"])
+        num  = int(r["num_partido"]) if r.get("num_partido") else None
+        filas_gol.append({
+            "id_gol":          id_gol,
+            "id_partido":      partido_map.get((anio, num)),
+            "anio":            anio,
+            "num_partido":     num,
+            "id_seleccion":    sel_map.get(r.get("equipo","").strip()),
+            "equipo":          r.get("equipo",""),
+            "jugador":         r.get("jugador",""),
+            "minuto":          r.get("minuto") or None,
+            "es_penal":        r.get("es_penal",""),
+        })
+        id_gol += 1
+    n = escribir_csv_norm("gol", [
+        "id_gol","id_partido","anio","num_partido",
+        "id_seleccion","equipo","jugador","minuto","es_penal"
+    ], filas_gol)
+    print(f"  [gol]                {n} goles")
+
+    # ── 7. GOLEADOR ───────────────────────────────────────────────────────────
+    filas_gle = []
+    id_gle = 1
+    for r in goleadores:
+        filas_gle.append({
+            "id_goleador":  id_gle,
+            "anio":         int(r["anio"]),
+            "id_seleccion": sel_map.get(r.get("pais","").strip()),
+            "pais":         r.get("pais",""),
+            "jugador":      r.get("jugador",""),
+            "goles":        r.get("goles") or None,
+            "partidos":     r.get("partidos") or None,
+            "promedio":     r.get("promedio") or None,
+        })
+        id_gle += 1
+    n = escribir_csv_norm("goleador", [
+        "id_goleador","anio","id_seleccion","pais","jugador","goles","partidos","promedio"
+    ], filas_gle)
+    print(f"  [goleador]           {n} jugadores")
+
+    # ── 8. POSICION_FINAL ─────────────────────────────────────────────────────
+    filas_pf = []
+    id_pf = 1
+    for r in pos_finales:
+        filas_pf.append({
+            "id_posicion_final": id_pf,
+            "anio":              int(r["anio"]),
+            "posicion":          r.get("posicion") or None,
+            "id_seleccion":      sel_map.get(r.get("pais","").strip()),
+            "pais":              r.get("pais",""),
+        })
+        id_pf += 1
+    n = escribir_csv_norm("posicion_final", [
+        "id_posicion_final","anio","posicion","id_seleccion","pais"
+    ], filas_pf)
+    print(f"  [posicion_final]     {n} selecciones")
+
+    # ── 9. PREMIO ─────────────────────────────────────────────────────────────
+    filas_pre = []
+    id_pre = 1
+    for r in premios:
+        filas_pre.append({
+            "id_premio":    id_pre,
+            "anio":         int(r["anio"]),
+            "tipo_premio":  r.get("tipo_premio",""),
+            "jugador":      r.get("jugador",""),
+            "id_seleccion": sel_map.get(r.get("pais","").strip()),
+            "pais":         r.get("pais",""),
+        })
+        id_pre += 1
+    n = escribir_csv_norm("premio", [
+        "id_premio","anio","tipo_premio","jugador","id_seleccion","pais"
+    ], filas_pre)
+    print(f"  [premio]             {n} premios")
+
+    # ── 10. EQUIPO_IDEAL ──────────────────────────────────────────────────────
+    filas_ei = []
+    id_ei = 1
+    for r in equipo_ideal:
+        filas_ei.append({
+            "id_equipo_ideal": id_ei,
+            "anio":            int(r["anio"]),
+            "posicion":        r.get("posicion",""),
+            "jugador":         r.get("jugador",""),
+            "id_seleccion":    sel_map.get(r.get("pais","").strip()),
+            "pais":            r.get("pais",""),
+        })
+        id_ei += 1
+    n = escribir_csv_norm("equipo_ideal", [
+        "id_equipo_ideal","anio","posicion","jugador","id_seleccion","pais"
+    ], filas_ei)
+    print(f"  [equipo_ideal]       {n} jugadores")
+
+    # ── 11. TARJETA ───────────────────────────────────────────────────────────
+    filas_tar = []
+    id_tar = 1
+    for r in tarjetas:
+        filas_tar.append({
+            "id_tarjeta":   id_tar,
+            "anio":         int(r["anio"]),
+            "id_seleccion": sel_map.get(r.get("pais","").strip()),
+            "pais":         r.get("pais",""),
+            "jugador":      r.get("jugador",""),
+            "amarillas":    r.get("amarillas") or None,
+            "rojas":        r.get("rojas") or None,
+        })
+        id_tar += 1
+    n = escribir_csv_norm("tarjeta", [
+        "id_tarjeta","anio","id_seleccion","pais","jugador","amarillas","rojas"
+    ], filas_tar)
+    print(f"  [tarjeta]            {n} jugadores")
+
+    # ── 12. JUGADOR_PAIS ──────────────────────────────────────────────────────
+    filas_jug = []
+    id_jug = 1
+    for r in jugadores:
+        filas_jug.append({
+            "id_jugador":   id_jug,
+            "nombre":       r.get("nombre",""),
+            "id_seleccion": sel_map.get(r.get("seleccion","").strip()),
+            "seleccion":    r.get("seleccion",""),
+        })
+        id_jug += 1
+    n = escribir_csv_norm("jugador_pais", [
+        "id_jugador","nombre","id_seleccion","seleccion"
+    ], filas_jug)
+    print(f"  [jugador_pais]       {n} jugadores")
+
+    # ── Resumen final ─────────────────────────────────────────────────────────
+    print(f"\n{'='*52}")
+    print(f"  CSVs normalizados en: {NORM_DIR}/")
+    print(f"{'='*52}")
+    for arch in sorted(os.listdir(NORM_DIR)):
+        if arch.endswith(".csv"):
+            with open(os.path.join(NORM_DIR, arch), encoding="utf-8") as f:
+                filas = sum(1 for _ in f) - 1
+            print(f"  {arch:<35} {filas:>5} filas")
+
 if __name__ == "__main__":
     for arch in ["mundiales","partidos","grupos","posiciones_grupo",
                  "goles_partido","goleadores","posiciones_finales","premios","equipo_ideal","tarjetas"]:
@@ -560,10 +907,12 @@ if __name__ == "__main__":
         parsear_anio(anio)
 
     print(f"\n{'='*52}")
-    print("COMPLETADO - CSVs en ./data/")
+    print("COMPLETADO - CSVs crudos en ./data/")
     print(f"{'='*52}")
     for arch in sorted(os.listdir(DATA_DIR)):
         if arch.endswith(".csv"):
             with open(os.path.join(DATA_DIR, arch), encoding="utf-8") as f:
                 filas = sum(1 for _ in f) - 1
             print(f"  {arch:<35} {filas:>4} filas")
+
+    normalizar()
