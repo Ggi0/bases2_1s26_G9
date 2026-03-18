@@ -161,7 +161,7 @@ def descargar_mundial(anio):
 
             # Delay entre 10 y 20 segundos (excepto después del último)
             if i < total:
-                espera = random.randint(10, 20)
+                espera = random.randint(40, 60)
                 print(f"           Esperando {espera}s...\n")
                 time.sleep(espera)
 

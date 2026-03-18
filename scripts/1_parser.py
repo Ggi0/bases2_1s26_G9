@@ -448,6 +448,96 @@ def parsear_grupo(anio, numero_grupo, soup):
     return filas_tabla, partidos, goles
 
 
+# ─── Parser premios
+def parsear_premios(anio, soup):
+    main = contenido_principal(soup)
+    if not main:
+        return []
+
+    premios = []
+
+    bloques = main.find_all("div", class_=lambda c: c and "margen-y15" in c)
+
+    for bloque in bloques:
+        nombre_premio_tag = bloque.find("p", class_="negri")
+        if not nombre_premio_tag:
+            continue
+
+        nombre_premio = nombre_premio_tag.get_text(strip=True)
+
+        valor_tag = bloque.find("p", class_="margen-b0")
+        if not valor_tag:
+            continue
+
+        # Caso: sin ganador
+        if "-" in valor_tag.get_text():
+            continue
+
+        # Buscar jugador
+        a = valor_tag.find("a")
+        if not a:
+            continue
+
+        jugador = a.get_text(strip=True)
+
+        # Buscar selección (en el alt del img)
+        img = valor_tag.find("img")
+        seleccion = img.get("alt") if img else ""
+
+        premios.append({
+            "anio_mundial": anio,
+            "premio": nombre_premio,
+            "jugador": jugador,
+            "seleccion": seleccion
+        })
+
+    return premios
+
+
+# parsear goles individuales
+def parsear_goleadores(anio, soup):
+    main = contenido_principal(soup)
+    if not main:
+        return []
+
+    goleadores = []
+
+    # Buscar tablas (la página de goleadores siempre usa tablas)
+    for tabla in main.find_all("table"):
+        for tr in tabla.find_all("tr"):
+            celdas = [td.get_text(strip=True) for td in tr.find_all(["td", "th"])]
+
+            # Saltar encabezados o filas inválidas
+            if not celdas:
+                continue
+
+            # Detectar encabezados repetidos
+            texto_fila = " ".join(celdas).lower()
+
+            if (
+                "jugador" in texto_fila and
+                "goles" in texto_fila
+            ):
+                continue
+            
+            # Normalmente: Pos | Jugador | Selección | Goles
+            if len(celdas) < 4:
+                continue
+
+            jugador   = celdas[1]
+            seleccion = celdas[2]
+            goles     = celdas[3]
+
+            goleadores.append({
+                "anio_mundial": anio,
+                "jugador": jugador,
+                "seleccion": seleccion,
+                "goles": goles
+            })
+
+    return goleadores
+
+
 # ─── Orquestador principal ────────────────────────────────────────────────────
 
 def parsear_mundial(anio):
@@ -476,6 +566,24 @@ def parsear_mundial(anio):
         todos_partidos.extend(partidos)
         todos_goles.extend(goles)
         print(f"  {len(partidos)} partidos, {len(goles)} goles encontrados")
+        
+    # ── Premios ──
+    soup_premios = leer_html(anio, f"{anio}_premios.html")
+    if soup_premios:
+        print("Parseando premios...")
+        premios = parsear_premios(anio, soup_premios)
+        print(f"  {len(premios)} premios encontrados")
+    else:
+        premios = []
+        
+    # ── Goleadores ──
+    soup_goleadores = leer_html(anio, f"{anio}_goleadores.html")
+    if soup_goleadores:
+        print("Parseando goleadores...")
+        goleadores = parsear_goleadores(anio, soup_goleadores)
+        print(f"  {len(goleadores)} goleadores encontrados")
+    else:
+        goleadores = []
 
     # ── Posiciones finales ──
     soup_pos = leer_html(anio, f"{anio}_posiciones_finales.html")
@@ -548,6 +656,20 @@ def parsear_mundial(anio):
             todos_goles_grupos,
             ["id_partido", "anio_mundial", "minuto", "jugador",
              "equipo", "es_penal", "es_autogol"]
+        )
+        
+    if premios:
+        guardar_csv(
+            os.path.join(directorio_out, "premios.csv"),
+            premios,
+            ["anio_mundial", "premio", "jugador", "seleccion"]
+        )
+        
+    if goleadores:
+        guardar_csv(
+            os.path.join(directorio_out, "goleadores.csv"),
+            goleadores,
+            ["anio_mundial", "jugador", "seleccion", "goles"]
         )
 
     print(f"\nCSVs guardados en: data/{anio}/")
