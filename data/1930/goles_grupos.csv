@@ -1,0 +1,51 @@
+id_partido,anio_mundial,minuto,jugador,equipo,es_penal,es_autogol
+1930_g1_1,1930,19,Lucien Laurent,Francia,No,No
+1930_g1_1,1930,40,Marcel Langiller,Francia,No,No
+1930_g1_1,1930,43,Andre Maschinot,Francia,No,No
+1930_g1_1,1930,70,Juan Carreno,México,No,No
+1930_g1_1,1930,87,Andre Maschinot,Francia,No,No
+1930_g1_2,1930,81,Luis Monti,Argentina,No,No
+1930_g1_3,1930,3,Carlos Vidal,Chile,No,No
+1930_g1_3,1930,51,Manuel Rosas,Chile,No,Si
+1930_g1_3,1930,65,Carlos Vidal,Chile,No,No
+1930_g1_4,1930,8,Guillermo Stabile,Argentina,No,No
+1930_g1_4,1930,12,Adolfo Zumelzu,Argentina,No,No
+1930_g1_4,1930,17,Guillermo Stabile,Argentina,No,No
+1930_g1_4,1930,42,Manuel Rosas,México,Si,No
+1930_g1_4,1930,53,Francisco Varallo,Argentina,No,No
+1930_g1_4,1930,55,Adolfo Zumelzu,Argentina,No,No
+1930_g1_4,1930,65,Manuel Rosas,México,No,No
+1930_g1_4,1930,75,Roberto Gayon,México,No,No
+1930_g1_4,1930,80,Guillermo Stabile,Argentina,No,No
+1930_g1_5,1930,65,Guillermo Subiabre,Chile,No,No
+1930_g1_6,1930,12,Guillermo Stabile,Argentina,No,No
+1930_g1_6,1930,13,Guillermo Stabile,Argentina,No,No
+1930_g1_6,1930,15,Guillermo Subiabre,Chile,No,No
+1930_g1_6,1930,51,Mario Evaristo,Argentina,No,No
+1930_g2_1,1930,21,Aleksandar Tirnanic,Yugoslavia,No,No
+1930_g2_1,1930,30,Ivica Bek,Yugoslavia,No,No
+1930_g2_1,1930,62,Preguinho,Brasil,No,No
+1930_g2_2,1930,60,Ivica Bek,Yugoslavia,No,No
+1930_g2_2,1930,65,Blagoje Marjanovic,Yugoslavia,No,No
+1930_g2_2,1930,67,Ivica Bek,Yugoslavia,No,No
+1930_g2_2,1930,85,Djordje Vujadinovic,Yugoslavia,No,No
+1930_g2_3,1930,37,Moderato,Brasil,No,No
+1930_g2_3,1930,67,Preguinho,Brasil,No,No
+1930_g2_3,1930,73,Moderato,Brasil,No,No
+1930_g2_3,1930,83,Preguinho,Brasil,No,No
+1930_g3_1,1930,1,Adalbert Desu,Rumania,No,No
+1930_g3_1,1930,75,Luis Souza,Perú,No,No
+1930_g3_1,1930,79,Constantin Stanciu,Rumania,No,No
+1930_g3_1,1930,89,Nicolae Kovacs,Rumania,No,No
+1930_g3_2,1930,60,Hector Castro,Uruguay,No,No
+1930_g3_3,1930,7,Pablo Dorado,Uruguay,No,No
+1930_g3_3,1930,24,Hector Scarone,Uruguay,No,No
+1930_g3_3,1930,30,Juan Anselmo,Uruguay,No,No
+1930_g3_3,1930,35,Pedro Cea,Uruguay,No,No
+1930_g4_1,1930,23,Bart Mcghee,Estados Unidos,No,No
+1930_g4_1,1930,45,Tom Florie,Estados Unidos,No,No
+1930_g4_1,1930,69,Bert Patenaude,Estados Unidos,No,No
+1930_g4_2,1930,10,Bert Patenaude,Estados Unidos,No,No
+1930_g4_2,1930,15,Bert Patenaude,Estados Unidos,No,No
+1930_g4_2,1930,50,Bert Patenaude,Estados Unidos,No,No
+1930_g4_3,1930,40,Luis Vargas Pena,Paraguay,No,No

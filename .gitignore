@@ -1,3 +1,5 @@
 /html
 /entorno
 .DS_Store
+
+.vscode/

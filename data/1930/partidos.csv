@@ -1,0 +1,19 @@
+id_partido,anio_mundial,fecha,etapa,equipo_local,goles_local,goles_visitante,equipo_visitante,url_partido
+1930_1,1930,13-Jul-1930,,Francia,4,1,México,../partidos/1930_francia_mexico.php
+1930_2,1930,13-Jul-1930,,Estados Unidos,3,0,Bélgica,../partidos/1930_estados_unidos_belgica.php
+1930_3,1930,14-Jul-1930,,Rumania,3,1,Perú,../partidos/1930_rumania_peru.php
+1930_4,1930,14-Jul-1930,,Yugoslavia,2,1,Brasil,../partidos/1930_yugoslavia_brasil.php
+1930_5,1930,15-Jul-1930,,Argentina,1,0,Francia,../partidos/1930_argentina_francia.php
+1930_6,1930,16-Jul-1930,,Chile,3,0,México,../partidos/1930_chile_mexico.php
+1930_7,1930,17-Jul-1930,,Yugoslavia,4,0,Bolivia,../partidos/1930_yugoslavia_bolivia.php
+1930_8,1930,17-Jul-1930,,Estados Unidos,3,0,Paraguay,../partidos/1930_estados_unidos_paraguay.php
+1930_9,1930,18-Jul-1930,,Uruguay,1,0,Perú,../partidos/1930_uruguay_peru.php
+1930_10,1930,19-Jul-1930,,Argentina,6,3,México,../partidos/1930_argentina_mexico.php
+1930_11,1930,19-Jul-1930,,Chile,1,0,Francia,../partidos/1930_chile_francia.php
+1930_12,1930,20-Jul-1930,,Paraguay,1,0,Bélgica,../partidos/1930_paraguay_belgica.php
+1930_13,1930,20-Jul-1930,,Brasil,4,0,Bolivia,../partidos/1930_brasil_bolivia.php
+1930_14,1930,21-Jul-1930,,Uruguay,4,0,Rumania,../partidos/1930_uruguay_rumania.php
+1930_15,1930,22-Jul-1930,,Argentina,3,1,Chile,../partidos/1930_argentina_chile.php
+1930_16,1930,26-Jul-1930,Semis,Argentina,6,1,Estados Unidos,../partidos/1930_argentina_estados_unidos.php
+1930_17,1930,27-Jul-1930,Semis,Uruguay,6,1,Yugoslavia,../partidos/1930_uruguay_yugoslavia.php
+1930_18,1930,30-Jul-1930,Final,Argentina,2,4,Uruguay,../partidos/1930_argentina_uruguay.php
