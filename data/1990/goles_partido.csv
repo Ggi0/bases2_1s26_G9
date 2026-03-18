@@ -1,0 +1,38 @@
+anio,grupo,num_partido,fecha,local,visitante,equipo,minuto,jugador,es_penal
+1990,Grupo A,2,10-Jun-1990,Estados Unidos,Checoslovaquia,Checoslovaquia,26,Tomas Skuhravy,NO
+1990,Grupo A,2,10-Jun-1990,Estados Unidos,Checoslovaquia,Checoslovaquia,40,Michal Bilek,SI
+1990,Grupo A,2,10-Jun-1990,Estados Unidos,Checoslovaquia,Checoslovaquia,50,Ivan Hasek,NO
+1990,Grupo A,2,10-Jun-1990,Estados Unidos,Checoslovaquia,Checoslovaquia,78,Tomas Skuhravy,NO
+1990,Grupo A,2,10-Jun-1990,Estados Unidos,Checoslovaquia,Checoslovaquia,90,Milan Luhovy,NO
+1990,Grupo A,4,15-Jun-1990,Austria,Checoslovaquia,Checoslovaquia,31,Michal Bilek,SI
+1990,Grupo A,6,19-Jun-1990,Austria,Estados Unidos,Estados Unidos,83,Bruce Murray,NO
+1990,Grupo B,1,08-Jun-1990,Argentina,Camerún,Camerún,67,Francois Omam-Biyik,NO
+1990,Grupo B,2,09-Jun-1990,URSS,Rumania,Rumania,41,Marius Lacatus,NO
+1990,Grupo B,2,09-Jun-1990,URSS,Rumania,Rumania,55,Marius Lacatus,SI
+1990,Grupo B,4,14-Jun-1990,Camerún,Rumania,Rumania,88,Gavril Balint,NO
+1990,Grupo B,5,18-Jun-1990,Argentina,Rumania,Rumania,68,Gavril Balint,NO
+1990,Grupo B,6,18-Jun-1990,Camerún,URSS,URSS,20,Oleg Protasov,NO
+1990,Grupo B,6,18-Jun-1990,Camerún,URSS,URSS,29,Andrei Zygmantovich,NO
+1990,Grupo B,6,18-Jun-1990,Camerún,URSS,URSS,52,Aleksandr Zavarov,NO
+1990,Grupo B,6,18-Jun-1990,Camerún,URSS,URSS,63,Igor Dobrovolskyi,NO
+1990,Grupo C,1,10-Jun-1990,Brasil,Suecia,Suecia,79,Tomas Brolin,NO
+1990,Grupo C,4,16-Jun-1990,Suecia,Escocia,Escocia,11,Stuart Mccall,NO
+1990,Grupo C,4,16-Jun-1990,Suecia,Escocia,Escocia,81,Mo Johnston,SI
+1990,Grupo C,6,20-Jun-1990,Suecia,Costa Rica,Costa Rica,75,Roger Flores,NO
+1990,Grupo C,6,20-Jun-1990,Suecia,Costa Rica,Costa Rica,87,Hernan Medford,NO
+1990,Grupo D,1,09-Jun-1990,Emiratos Arabes,Colombia,Colombia,50,Bernardo Redin,NO
+1990,Grupo D,1,09-Jun-1990,Emiratos Arabes,Colombia,Colombia,85,Carlos Valderrama,NO
+1990,Grupo D,2,10-Jun-1990,Alemania Occidental,Yugoslavia,Yugoslavia,55,Davor Jozic,NO
+1990,Grupo D,4,15-Jun-1990,Alemania Occidental,Emiratos Arabes,Emiratos Arabes,46,Khalid Ismail,NO
+1990,Grupo D,5,19-Jun-1990,Alemania Occidental,Colombia,Colombia,90,Freddy Rincon,NO
+1990,Grupo D,6,19-Jun-1990,Yugoslavia,Emiratos Arabes,Emiratos Arabes,22,Ali Thani Jumaa,NO
+1990,Grupo E,3,17-Jun-1990,Bélgica,Uruguay,Uruguay,73,Pablo Bengoechea,NO
+1990,Grupo E,4,17-Jun-1990,Corea del Sur,España,España,23,Michel,NO
+1990,Grupo E,4,17-Jun-1990,Corea del Sur,España,España,61,Michel,NO
+1990,Grupo E,4,17-Jun-1990,Corea del Sur,España,España,81,Michel,NO
+1990,Grupo E,5,21-Jun-1990,Bélgica,España,España,26,Michel,SI
+1990,Grupo E,5,21-Jun-1990,Bélgica,España,España,38,Alberto Gorriz,NO
+1990,Grupo E,6,21-Jun-1990,Corea del Sur,Uruguay,Uruguay,90,Daniel Fonseca,NO
+1990,Grupo F,1,11-Jun-1990,Inglaterra,Irlanda,Irlanda,73,Kevin Sheedy,NO
+1990,Grupo F,2,12-Jun-1990,Paises Bajos,Egipto,Egipto,83,Magdy Abedelghani,SI
+1990,Grupo F,6,21-Jun-1990,Irlanda,Paises Bajos,Paises Bajos,11,Ruud Gullit,NO

@@ -1,0 +1,49 @@
+anio,grupo,num_partido,fecha,local,visitante,equipo,minuto,jugador,es_penal
+2010,Grupo A,1,11-Jun-2010,Sudáfrica,México,México,79,Rafael Marquez,NO
+2010,Grupo A,3,16-Jun-2010,Sudáfrica,Uruguay,Uruguay,24,Diego Forlan,NO
+2010,Grupo A,3,16-Jun-2010,Sudáfrica,Uruguay,Uruguay,80,Diego Forlan,SI
+2010,Grupo A,3,16-Jun-2010,Sudáfrica,Uruguay,Uruguay,90,Alvaro Pereira,NO
+2010,Grupo A,4,17-Jun-2010,Francia,México,México,64,Javier Hernandez,NO
+2010,Grupo A,4,17-Jun-2010,Francia,México,México,79,Cuauhtemoc Blanco,SI
+2010,Grupo A,5,22-Jun-2010,México,Uruguay,Uruguay,43,Luis Suarez,NO
+2010,Grupo A,6,22-Jun-2010,Francia,Sudáfrica,Sudáfrica,20,Bongani Khumalo,NO
+2010,Grupo A,6,22-Jun-2010,Francia,Sudáfrica,Sudáfrica,37,Katlego Mphela,NO
+2010,Grupo B,3,17-Jun-2010,Grecia,Nigeria,Nigeria,16,Kalu Uche,NO
+2010,Grupo B,4,17-Jun-2010,Argentina,Corea del Sur,Corea del Sur,45,Chung-yong Lee,NO
+2010,Grupo B,5,22-Jun-2010,Nigeria,Corea del Sur,Corea del Sur,38,Jung Soo Lee,NO
+2010,Grupo B,5,22-Jun-2010,Nigeria,Corea del Sur,Corea del Sur,49,Chu Young Park,NO
+2010,Grupo B,6,22-Jun-2010,Grecia,Argentina,Argentina,77,Martin Demichelis,NO
+2010,Grupo B,6,22-Jun-2010,Grecia,Argentina,Argentina,89,Martin Palermo,NO
+2010,Grupo C,1,12-Jun-2010,Inglaterra,Estados Unidos,Estados Unidos,40,Clint Dempsey,NO
+2010,Grupo C,2,13-Jun-2010,Argelia,Eslovenia,Eslovenia,79,Robert Koren,NO
+2010,Grupo C,3,18-Jun-2010,Eslovenia,Estados Unidos,Estados Unidos,48,Landon Donovan,NO
+2010,Grupo C,3,18-Jun-2010,Eslovenia,Estados Unidos,Estados Unidos,82,Michael Bradley,NO
+2010,Grupo C,5,23-Jun-2010,Eslovenia,Inglaterra,Inglaterra,23,Jermain Defoe,NO
+2010,Grupo D,2,13-Jun-2010,Serbia,Ghana,Ghana,85,Asamoah Gyan,SI
+2010,Grupo D,3,18-Jun-2010,Alemania,Serbia,Serbia,38,Milan Jovanovic,NO
+2010,Grupo D,4,19-Jun-2010,Ghana,Australia,Australia,11,Brett Holman,NO
+2010,Grupo D,5,23-Jun-2010,Ghana,Alemania,Alemania,60,Mesut Ozil,NO
+2010,Grupo D,6,23-Jun-2010,Australia,Serbia,Serbia,84,Marko Pantelic,NO
+2010,Grupo E,4,19-Jun-2010,Camerún,Dinamarca,Dinamarca,33,Nicklas Bendtner,NO
+2010,Grupo E,4,19-Jun-2010,Camerún,Dinamarca,Dinamarca,61,Dennis Rommedahl,NO
+2010,Grupo E,5,24-Jun-2010,Dinamarca,Japón,Japón,17,Keisuke Honda,NO
+2010,Grupo E,5,24-Jun-2010,Dinamarca,Japón,Japón,30,Yasuhito Endo,NO
+2010,Grupo E,5,24-Jun-2010,Dinamarca,Japón,Japón,87,Shinji Okazaki,NO
+2010,Grupo E,6,24-Jun-2010,Camerún,Paises Bajos,Paises Bajos,36,Robin Van Persie,NO
+2010,Grupo E,6,24-Jun-2010,Camerún,Paises Bajos,Paises Bajos,83,Klaas Jan Huntelaar,NO
+2010,Grupo F,1,14-Jun-2010,Italia,Paraguay,Paraguay,39,Antolin Alcaraz,NO
+2010,Grupo F,2,15-Jun-2010,Nueva Zelanda,Eslovaquia,Eslovaquia,50,Robert Vittek,NO
+2010,Grupo F,3,20-Jun-2010,Eslovaquia,Paraguay,Paraguay,27,Enrique Vera,NO
+2010,Grupo F,3,20-Jun-2010,Eslovaquia,Paraguay,Paraguay,86,Cristian Riveros,NO
+2010,Grupo F,4,20-Jun-2010,Italia,Nueva Zelanda,Nueva Zelanda,7,Shane Smeltz,NO
+2010,Grupo F,5,24-Jun-2010,Eslovaquia,Italia,Italia,81,Antonio Di Natale,NO
+2010,Grupo F,5,24-Jun-2010,Eslovaquia,Italia,Italia,90,Fabio Quagliarella,NO
+2010,Grupo G,2,15-Jun-2010,Brasil,Corea del Norte,Corea del Norte,89,Yun Nam Ji,NO
+2010,Grupo G,3,20-Jun-2010,Brasil,Costa de Marfil,Costa de Marfil,79,Didier Drogba,NO
+2010,Grupo G,6,25-Jun-2010,Corea del Norte,Costa de Marfil,Costa de Marfil,14,Yaya Toure,NO
+2010,Grupo G,6,25-Jun-2010,Corea del Norte,Costa de Marfil,Costa de Marfil,20,Romaric,NO
+2010,Grupo G,6,25-Jun-2010,Corea del Norte,Costa de Marfil,Costa de Marfil,82,Salomon Kalou,NO
+2010,Grupo H,1,16-Jun-2010,Honduras,Chile,Chile,34,Jean Beausejour,NO
+2010,Grupo H,2,16-Jun-2010,España,Suiza,Suiza,52,Gelson Fernandes,NO
+2010,Grupo H,5,25-Jun-2010,Chile,España,España,24,David Villa,NO
+2010,Grupo H,5,25-Jun-2010,Chile,España,España,37,Andrés Iniesta,NO

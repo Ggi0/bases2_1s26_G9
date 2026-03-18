@@ -1,0 +1,38 @@
+anio,grupo,num_partido,fecha,local,visitante,equipo,minuto,jugador,es_penal
+1986,Grupo A,1,31-May-1986,Bulgaria,Italia,Italia,43,Alessandro Altobelli,NO
+1986,Grupo A,2,02-Jun-1986,Argentina,Corea del Sur,Corea del Sur,73,Chang Sun Park,NO
+1986,Grupo A,3,05-Jun-1986,Corea del Sur,Bulgaria,Bulgaria,11,Plamen Getov,NO
+1986,Grupo A,4,05-Jun-1986,Italia,Argentina,Argentina,34,Diego Maradona,NO
+1986,Grupo A,6,10-Jun-1986,Corea del Sur,Italia,Italia,17,Alessandro Altobelli,NO
+1986,Grupo A,6,10-Jun-1986,Corea del Sur,Italia,Italia,73,Alessandro Altobelli,NO
+1986,Grupo A,6,10-Jun-1986,Corea del Sur,Italia,Italia,82,Kwang Rae Cho (en contra),NO
+1986,Grupo B,1,03-Jun-1986,Bélgica,México,México,23,Fernando Quirarte,NO
+1986,Grupo B,1,03-Jun-1986,Bélgica,México,México,39,Hugo Sánchez,NO
+1986,Grupo B,3,07-Jun-1986,México,Paraguay,Paraguay,85,Julio Cesar Romero,NO
+1986,Grupo B,4,08-Jun-1986,Iraq,Bélgica,Bélgica,16,Enzo Scifo,NO
+1986,Grupo B,4,08-Jun-1986,Iraq,Bélgica,Bélgica,21,Nico Claesen,SI
+1986,Grupo B,5,11-Jun-1986,Iraq,México,México,54,Fernando Quirarte,NO
+1986,Grupo B,6,11-Jun-1986,Paraguay,Bélgica,Bélgica,30,Frank Vercauteren,NO
+1986,Grupo B,6,11-Jun-1986,Paraguay,Bélgica,Bélgica,59,Daniel Veyt,NO
+1986,Grupo C,1,01-Jun-1986,Canadá,Francia,Francia,79,Jean-Pierre Papin,NO
+1986,Grupo C,3,05-Jun-1986,Francia,URSS,URSS,53,Vasili Rats,NO
+1986,Grupo C,5,09-Jun-1986,Hungría,Francia,Francia,29,Yannick Stopyra,NO
+1986,Grupo C,5,09-Jun-1986,Hungría,Francia,Francia,62,Jean Tigana,NO
+1986,Grupo C,5,09-Jun-1986,Hungría,Francia,Francia,84,Dominique Rocheteau,NO
+1986,Grupo D,1,01-Jun-1986,España,Brasil,Brasil,62,Socrates,NO
+1986,Grupo D,2,03-Jun-1986,Argelia,Irlanda del Norte,Irlanda del Norte,6,Norman Whiteside,NO
+1986,Grupo D,4,07-Jun-1986,Irlanda del Norte,España,España,2,Emilio Butragueño,NO
+1986,Grupo D,4,07-Jun-1986,Irlanda del Norte,España,España,18,Julio Salinas,NO
+1986,Grupo D,5,12-Jun-1986,Argelia,España,España,15,Ramon Maria Caldere,NO
+1986,Grupo D,5,12-Jun-1986,Argelia,España,España,68,Ramon Maria Caldere,NO
+1986,Grupo D,5,12-Jun-1986,Argelia,España,España,70,Eloy,NO
+1986,Grupo D,6,12-Jun-1986,Irlanda del Norte,Brasil,Brasil,15,Careca,NO
+1986,Grupo D,6,12-Jun-1986,Irlanda del Norte,Brasil,Brasil,42,Josimar,NO
+1986,Grupo D,6,12-Jun-1986,Irlanda del Norte,Brasil,Brasil,87,Careca,NO
+1986,Grupo E,1,04-Jun-1986,Escocia,Dinamarca,Dinamarca,57,Preben Elkjaer Larsen,NO
+1986,Grupo E,2,04-Jun-1986,Uruguay,Alemania Occidental,Alemania Occidental,84,Klaus Allofs,NO
+1986,Grupo E,3,08-Jun-1986,Alemania Occidental,Escocia,Escocia,18,Gordon Strachan,NO
+1986,Grupo E,4,08-Jun-1986,Dinamarca,Uruguay,Uruguay,45,Enzo Francescoli,SI
+1986,Grupo F,6,11-Jun-1986,Portugal,Marruecos,Marruecos,19,Abdelrazzak Khairi,NO
+1986,Grupo F,6,11-Jun-1986,Portugal,Marruecos,Marruecos,27,Abdelrazzak Khairi,NO
+1986,Grupo F,6,11-Jun-1986,Portugal,Marruecos,Marruecos,62,Abdelkarim Krimau,NO

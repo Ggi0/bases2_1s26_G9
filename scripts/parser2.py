@@ -392,39 +392,92 @@ def parsear_premios(anio):
     if not soup:
         print(f"  [NO ENCONTRADO] {anio}_premios.html"); return []
 
-    premios = []
-    TIPOS = [
+    premios        = []
+    equipo_ideal   = []
+
+    PREMIOS_INDIVIDUALES = [
         "Balón de Oro","Balón de Plata","Balón de Bronce",
         "Botín de Oro","Botín de Plata","Botín de Bronce",
         "Guante de Oro","Mejor Jugador Joven","FIFA Fair Play",
     ]
-    body = soup.find("body")
 
-    for tipo in TIPOS:
-        tag = body.find(string=re.compile(re.escape(tipo)))
-        if not tag:
-            continue
-        parent = tag.find_parent()
-        if not parent:
-            continue
-        jugador = ""
-        pais    = ""
-        for siguiente in parent.find_next_siblings():
-            enlace = siguiente.find("a", href=lambda h: h and
-                                    ("/jugadores/" in str(h) or "/selecciones/" in str(h)))
-            if enlace:
-                jugador = enlace.get_text(strip=True)
-                img     = siguiente.find("img", src=lambda s: s and "banderas" in s)
-                pais    = img.get("alt","").strip() if img else ""
-                break
-        if jugador:
-            premios.append({"anio": anio, "tipo_premio": tipo,
-                            "jugador": jugador, "pais": pais})
+    POSICIONES_EQUIPO = ["Arquero","Defensores","Mediocampistas",
+                         "Volantes","Delanteros","Entrenador"]
 
-    campos = ["anio","tipo_premio","jugador","pais"]
-    n = guardar_csv("premios", campos, premios)
-    print(f"  [premios]            {anio}: {n} premios")
-    return premios
+    for p in soup.find_all("p", class_=lambda c: c and "negri" in c):
+        texto = p.get_text(strip=True)
+
+        # ── Premios individuales ──────────────────────────────────────────
+        if texto in PREMIOS_INDIVIDUALES:
+            p_jugador = p.find_next_sibling("p")
+            if not p_jugador:
+                continue
+            enlace  = p_jugador.find("a")
+            img     = p_jugador.find("img", src=lambda s: s and "banderas" in s)
+            jugador = enlace.get_text(strip=True) if enlace else ""
+            pais    = img.get("alt","").strip() if img else ""
+            if jugador:
+                premios.append({"anio": anio, "tipo_premio": texto,
+                                "jugador": jugador, "pais": pais})
+
+        # ── Equipo Ideal ──────────────────────────────────────────────────
+        elif texto == "Equipo Ideal":
+            contenedor = p.find_parent("div").find_parent("div")
+            if not contenedor:
+                continue
+
+            posicion_actual = ""
+            for div in contenedor.find_all("div", class_=lambda c: c and "rd-100-25" in c):
+                texto_div = div.get_text(" ", strip=True)
+
+                # Detectar posición (primera palabra antes del salto)
+                for pos in POSICIONES_EQUIPO:
+                    if texto_div.startswith(pos):
+                        posicion_actual = pos.rstrip(":")
+                        break
+
+                # Extraer todos los jugadores del bloque
+                for a in div.find_all("a", href=lambda h: h and "/jugadores/" in str(h)):
+                    img_band = a.find_previous_sibling("img")
+                    if not img_band:
+                        img_band = a.find_parent().find("img",
+                                   src=lambda s: s and "banderas" in str(s))
+                    jugador = a.get_text(strip=True)
+                    pais    = img_band.get("alt","").strip() if img_band else ""
+                    if jugador:
+                        equipo_ideal.append({
+                            "anio": anio, "posicion": posicion_actual,
+                            "jugador": jugador, "pais": pais,
+                        })
+
+            # Entrenador (fuera de rd-100-25, en div con texto "Entrenador:")
+            for div in contenedor.find_all("div"):
+                t = div.get_text(" ", strip=True)
+                if t.startswith("Entrenador:"):
+                    img_band = div.find("img", src=lambda s: s and "banderas" in str(s))
+                    pais     = img_band.get("alt","").strip() if img_band else ""
+                    # Nombre del entrenador: texto después de la bandera
+                    nombre   = re.sub(r"Entrenador:", "", t).strip()
+                    # Quitar el alt de la imagen si quedó pegado
+                    if img_band:
+                        nombre = nombre.replace(pais, "").strip()
+                    if nombre:
+                        equipo_ideal.append({
+                            "anio": anio, "posicion": "Entrenador",
+                            "jugador": nombre, "pais": pais,
+                        })
+                    break
+
+    # Guardar premios individuales
+    campos_p = ["anio","tipo_premio","jugador","pais"]
+    n1 = guardar_csv("premios", campos_p, premios)
+
+    # Guardar equipo ideal en CSV separado
+    campos_e = ["anio","posicion","jugador","pais"]
+    n2 = guardar_csv("equipo_ideal", campos_e, equipo_ideal)
+
+    print(f"  [premios]            {anio}: {n1} premios | {n2} jugadores equipo ideal")
+    return premios, equipo_ideal
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -492,7 +545,7 @@ def detectar_anios():
 
 if __name__ == "__main__":
     for arch in ["mundiales","partidos","grupos","posiciones_grupo",
-                 "goles_partido","goleadores","posiciones_finales","premios","tarjetas"]:
+                 "goles_partido","goleadores","posiciones_finales","premios","equipo_ideal","tarjetas"]:
         ruta = os.path.join(DATA_DIR, f"{arch}.csv")
         if os.path.exists(ruta):
             os.remove(ruta)

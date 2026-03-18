@@ -1,0 +1,39 @@
+anio,grupo,num_partido,fecha,local,visitante,equipo,minuto,jugador,es_penal
+1994,Grupo A,1,18-Jun-1994,Estados Unidos,Suiza,Suiza,39,Georges Bregy,NO
+1994,Grupo A,2,18-Jun-1994,Colombia,Rumania,Rumania,15,Florin Raducioiu,NO
+1994,Grupo A,2,18-Jun-1994,Colombia,Rumania,Rumania,34,Gheorghe Hagi,NO
+1994,Grupo A,2,18-Jun-1994,Colombia,Rumania,Rumania,89,Florin Raducioiu,NO
+1994,Grupo A,3,22-Jun-1994,Rumania,Suiza,Suiza,16,Alain Sutter,NO
+1994,Grupo A,3,22-Jun-1994,Rumania,Suiza,Suiza,52,Stephane Chapuisat,NO
+1994,Grupo A,3,22-Jun-1994,Rumania,Suiza,Suiza,65,Adrian Knup,NO
+1994,Grupo A,3,22-Jun-1994,Rumania,Suiza,Suiza,72,Adrian Knup,NO
+1994,Grupo A,4,22-Jun-1994,Estados Unidos,Colombia,Colombia,90,Adolfo Valencia,NO
+1994,Grupo A,5,26-Jun-1994,Estados Unidos,Rumania,Rumania,18,Dan Petrescu,NO
+1994,Grupo A,6,26-Jun-1994,Suiza,Colombia,Colombia,44,Herman Gaviria,NO
+1994,Grupo A,6,26-Jun-1994,Suiza,Colombia,Colombia,90,John Lozano,NO
+1994,Grupo B,1,19-Jun-1994,Camerún,Suecia,Suecia,8,Roger Ljung,NO
+1994,Grupo B,1,19-Jun-1994,Camerún,Suecia,Suecia,75,Martin Dahlin,NO
+1994,Grupo B,4,24-Jun-1994,Suecia,Rusia,Rusia,4,Oleg Salenko,SI
+1994,Grupo B,5,28-Jun-1994,Rusia,Camerún,Camerún,46,Roger Milla,NO
+1994,Grupo B,6,28-Jun-1994,Brasil,Suecia,Suecia,23,Kennet Andersson,NO
+1994,Grupo C,2,17-Jun-1994,España,Corea del Sur,Corea del Sur,85,Myung Bo Hong,NO
+1994,Grupo C,2,17-Jun-1994,España,Corea del Sur,Corea del Sur,90,Jung Won Seo,NO
+1994,Grupo C,3,21-Jun-1994,Alemania,España,España,14,Goikoetxea,NO
+1994,Grupo C,5,27-Jun-1994,Bolivia,España,España,19,Pep Guardiola,SI
+1994,Grupo C,5,27-Jun-1994,Bolivia,España,España,66,Jose Luis Caminero,NO
+1994,Grupo C,5,27-Jun-1994,Bolivia,España,España,70,Jose Luis Caminero,NO
+1994,Grupo C,6,27-Jun-1994,Alemania,Corea del Sur,Corea del Sur,52,Sun Hong Hwang,NO
+1994,Grupo C,6,27-Jun-1994,Alemania,Corea del Sur,Corea del Sur,63,Myung Bo Hong,NO
+1994,Grupo D,3,25-Jun-1994,Argentina,Nigeria,Nigeria,8,Samson Siasia,NO
+1994,Grupo D,5,30-Jun-1994,Grecia,Nigeria,Nigeria,45,Finidi George,NO
+1994,Grupo D,5,30-Jun-1994,Grecia,Nigeria,Nigeria,90,Daniel Amokachi,NO
+1994,Grupo D,6,30-Jun-1994,Argentina,Bulgaria,Bulgaria,61,Hristo Stoichkov,NO
+1994,Grupo D,6,30-Jun-1994,Argentina,Bulgaria,Bulgaria,90,Nasko Sirakov,NO
+1994,Grupo E,1,18-Jun-1994,Italia,Irlanda,Irlanda,11,Ray Houghton,NO
+1994,Grupo E,4,24-Jun-1994,México,Irlanda,Irlanda,84,John Aldridge,NO
+1994,Grupo E,6,28-Jun-1994,Italia,México,México,57,Marcelino Bernal,NO
+1994,Grupo F,2,20-Jun-1994,Paises Bajos,Arabia Saudita,Arabia Saudita,18,Fuad Amin,NO
+1994,Grupo F,4,25-Jun-1994,Arabia Saudita,Marruecos,Marruecos,26,Mohammed Chaouch,NO
+1994,Grupo F,5,29-Jun-1994,Marruecos,Paises Bajos,Paises Bajos,43,Dennis Bergkamp,NO
+1994,Grupo F,5,29-Jun-1994,Marruecos,Paises Bajos,Paises Bajos,77,Bryan Roy,NO
+1994,Grupo F,6,29-Jun-1994,Bélgica,Arabia Saudita,Arabia Saudita,5,Said Al Owayran,NO

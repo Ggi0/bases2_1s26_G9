@@ -1,0 +1,51 @@
+anio,grupo,num_partido,fecha,local,visitante,equipo,minuto,jugador,es_penal
+1998,Grupo A,1,10-Jun-1998,Brasil,Escocia,Escocia,38,John Collins,SI
+1998,Grupo A,2,10-Jun-1998,Marruecos,Noruega,Noruega,45,Youssef Chippo (en contra),NO
+1998,Grupo A,2,10-Jun-1998,Marruecos,Noruega,Noruega,61,Dan Eggen,NO
+1998,Grupo A,3,16-Jun-1998,Escocia,Noruega,Noruega,46,Havard Flo,NO
+1998,Grupo A,5,23-Jun-1998,Escocia,Marruecos,Marruecos,23,Salaheddine Bassir,NO
+1998,Grupo A,5,23-Jun-1998,Escocia,Marruecos,Marruecos,46,Abdeljalil Hadda,NO
+1998,Grupo A,5,23-Jun-1998,Escocia,Marruecos,Marruecos,85,Salaheddine Bassir,NO
+1998,Grupo A,6,23-Jun-1998,Brasil,Noruega,Noruega,83,Tore Andre Flo,NO
+1998,Grupo A,6,23-Jun-1998,Brasil,Noruega,Noruega,89,Kjetil Rekdal,SI
+1998,Grupo B,1,11-Jun-1998,Camerún,Austria,Austria,90,Toni Polster,NO
+1998,Grupo B,2,11-Jun-1998,Italia,Chile,Chile,45,Marcelo Salas,NO
+1998,Grupo B,2,11-Jun-1998,Italia,Chile,Chile,48,Marcelo Salas,NO
+1998,Grupo B,3,17-Jun-1998,Chile,Austria,Austria,90,Ivica Vastic,NO
+1998,Grupo B,5,23-Jun-1998,Italia,Austria,Austria,90,Andreas Herzog,SI
+1998,Grupo B,6,23-Jun-1998,Chile,Camerún,Camerún,56,Patrick Mboma,NO
+1998,Grupo C,1,12-Jun-1998,Arabia Saudita,Dinamarca,Dinamarca,69,Marc Rieper,NO
+1998,Grupo C,4,18-Jun-1998,Sudáfrica,Dinamarca,Dinamarca,12,Allan Nielsen,NO
+1998,Grupo C,5,24-Jun-1998,Francia,Dinamarca,Dinamarca,42,Michael Laudrup,SI
+1998,Grupo C,6,24-Jun-1998,Sudáfrica,Arabia Saudita,Arabia Saudita,45,Sami Al Jaber,SI
+1998,Grupo C,6,24-Jun-1998,Sudáfrica,Arabia Saudita,Arabia Saudita,74,Youssef Al Tunayan,SI
+1998,Grupo D,2,13-Jun-1998,España,Nigeria,Nigeria,24,Mutiu Adepoju,NO
+1998,Grupo D,2,13-Jun-1998,España,Nigeria,Nigeria,73,Andoni Zubizarreta (en contra),NO
+1998,Grupo D,2,13-Jun-1998,España,Nigeria,Nigeria,78,Sunday Oliseh,NO
+1998,Grupo D,5,24-Jun-1998,España,Bulgaria,Bulgaria,58,Emil Kostadinov,NO
+1998,Grupo D,6,24-Jun-1998,Nigeria,Paraguay,Paraguay,1,Celso Ayala,NO
+1998,Grupo D,6,24-Jun-1998,Nigeria,Paraguay,Paraguay,58,Miguel Benitez,NO
+1998,Grupo D,6,24-Jun-1998,Nigeria,Paraguay,Paraguay,86,Jose Cardozo,NO
+1998,Grupo E,2,13-Jun-1998,Corea del Sur,México,México,50,Ricardo Pelaez Linares,NO
+1998,Grupo E,2,13-Jun-1998,Corea del Sur,México,México,75,Luis Hernandez,NO
+1998,Grupo E,2,13-Jun-1998,Corea del Sur,México,México,84,Luis Hernandez,NO
+1998,Grupo E,4,20-Jun-1998,Bélgica,México,México,55,Alberto Garcia Aspe,SI
+1998,Grupo E,4,20-Jun-1998,Bélgica,México,México,62,Cuauhtemoc Blanco,NO
+1998,Grupo E,5,25-Jun-1998,Bélgica,Corea del Sur,Corea del Sur,72,Sang Chul Yoo,NO
+1998,Grupo E,6,25-Jun-1998,Paises Bajos,México,México,75,Ricardo Pelaez Linares,NO
+1998,Grupo E,6,25-Jun-1998,Paises Bajos,México,México,90,Luis Hernandez,NO
+1998,Grupo F,3,21-Jun-1998,Alemania,RF de Yugoslavia,RF de Yugoslavia,13,Predrag Mijatovic,NO
+1998,Grupo F,3,21-Jun-1998,Alemania,RF de Yugoslavia,RF de Yugoslavia,52,Dragan Stojkovic,NO
+1998,Grupo F,4,21-Jun-1998,Estados Unidos,Irán,Irán,41,Hamid Estili,NO
+1998,Grupo F,4,21-Jun-1998,Estados Unidos,Irán,Irán,83,Mehdi Mahdavikia,NO
+1998,Grupo F,6,25-Jun-1998,Estados Unidos,RF de Yugoslavia,RF de Yugoslavia,3,Slobodan Komljenovic,NO
+1998,Grupo G,4,22-Jun-1998,Rumania,Inglaterra,Inglaterra,81,Michael Owen,NO
+1998,Grupo G,5,26-Jun-1998,Rumania,Túnez,Túnez,12,Skander Souayah,SI
+1998,Grupo G,6,26-Jun-1998,Colombia,Inglaterra,Inglaterra,20,Darren Anderton,NO
+1998,Grupo G,6,26-Jun-1998,Colombia,Inglaterra,Inglaterra,29,David Beckham,NO
+1998,Grupo H,1,14-Jun-1998,Jamaica,Croacia,Croacia,27,Mario Stanic,NO
+1998,Grupo H,1,14-Jun-1998,Jamaica,Croacia,Croacia,53,Robert Prosinecki,NO
+1998,Grupo H,1,14-Jun-1998,Jamaica,Croacia,Croacia,69,Davor Suker,NO
+1998,Grupo H,3,20-Jun-1998,Japón,Croacia,Croacia,77,Davor Suker,NO
+1998,Grupo H,5,26-Jun-1998,Japón,Jamaica,Jamaica,39,Theodore Whitmore,NO
+1998,Grupo H,5,26-Jun-1998,Japón,Jamaica,Jamaica,54,Theodore Whitmore,NO

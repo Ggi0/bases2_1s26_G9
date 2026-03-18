@@ -1,0 +1,55 @@
+anio,grupo,num_partido,fecha,local,visitante,equipo,minuto,jugador,es_penal
+2002,Grupo A,1,31-May-2002,Francia,Senegal,Senegal,30,Bouba Diop,NO
+2002,Grupo A,2,01-Jun-2002,Uruguay,Dinamarca,Dinamarca,45,Jon Dahl Tomasson,NO
+2002,Grupo A,2,01-Jun-2002,Uruguay,Dinamarca,Dinamarca,83,Jon Dahl Tomasson,NO
+2002,Grupo A,4,06-Jun-2002,Dinamarca,Senegal,Senegal,52,Salif Diao,NO
+2002,Grupo A,6,11-Jun-2002,Senegal,Uruguay,Uruguay,46,Richard Morales,NO
+2002,Grupo A,6,11-Jun-2002,Senegal,Uruguay,Uruguay,69,Diego Forlan,NO
+2002,Grupo A,6,11-Jun-2002,Senegal,Uruguay,Uruguay,88,Alvaro Recoba,SI
+2002,Grupo B,1,02-Jun-2002,Paraguay,Sudáfrica,Sudáfrica,63,Teboho Mokoena,NO
+2002,Grupo B,1,02-Jun-2002,Paraguay,Sudáfrica,Sudáfrica,90,Quinton Fortune,SI
+2002,Grupo B,2,02-Jun-2002,España,Eslovenia,Eslovenia,82,Sebastijan Cimirotic,NO
+2002,Grupo B,3,07-Jun-2002,España,Paraguay,Paraguay,10,Carles Puyol (en contra),NO
+2002,Grupo B,5,12-Jun-2002,Sudáfrica,España,España,4,Raul,NO
+2002,Grupo B,5,12-Jun-2002,Sudáfrica,España,España,45,Gaizka Mendieta,NO
+2002,Grupo B,5,12-Jun-2002,Sudáfrica,España,España,56,Raul,NO
+2002,Grupo B,6,12-Jun-2002,Eslovenia,Paraguay,Paraguay,65,Nelson Cuevas,NO
+2002,Grupo B,6,12-Jun-2002,Eslovenia,Paraguay,Paraguay,73,Jorge Campos,NO
+2002,Grupo B,6,12-Jun-2002,Eslovenia,Paraguay,Paraguay,84,Nelson Cuevas,NO
+2002,Grupo C,1,03-Jun-2002,Brasil,Turquía,Turquía,45,Hasan Sas,NO
+2002,Grupo C,2,04-Jun-2002,China,Costa Rica,Costa Rica,61,Ronald Gomez,NO
+2002,Grupo C,2,04-Jun-2002,China,Costa Rica,Costa Rica,65,Mauricio Wright,NO
+2002,Grupo C,4,09-Jun-2002,Costa Rica,Turquía,Turquía,56,Emre Belozoglu,NO
+2002,Grupo C,5,13-Jun-2002,Costa Rica,Brasil,Brasil,10,Ronaldo,NO
+2002,Grupo C,5,13-Jun-2002,Costa Rica,Brasil,Brasil,13,Ronaldo,NO
+2002,Grupo C,5,13-Jun-2002,Costa Rica,Brasil,Brasil,38,Edmilson,NO
+2002,Grupo C,5,13-Jun-2002,Costa Rica,Brasil,Brasil,62,Rivaldo,NO
+2002,Grupo C,5,13-Jun-2002,Costa Rica,Brasil,Brasil,64,Junior,NO
+2002,Grupo D,2,05-Jun-2002,Estados Unidos,Portugal,Portugal,39,Beto,NO
+2002,Grupo D,2,05-Jun-2002,Estados Unidos,Portugal,Portugal,71,Jeff Agoos (en contra),NO
+2002,Grupo D,3,10-Jun-2002,Corea del Sur,Estados Unidos,Estados Unidos,24,Clint Mathis,NO
+2002,Grupo D,5,14-Jun-2002,Portugal,Corea del Sur,Corea del Sur,70,Ji Sung Park,NO
+2002,Grupo D,6,14-Jun-2002,Polonia,Estados Unidos,Estados Unidos,83,Landon Donovan,NO
+2002,Grupo E,1,01-Jun-2002,Irlanda,Camerún,Camerún,39,Patrick Mboma,NO
+2002,Grupo E,3,05-Jun-2002,Alemania,Irlanda,Irlanda,90,Robbie Keane,NO
+2002,Grupo E,5,11-Jun-2002,Camerún,Alemania,Alemania,50,Marco Bode,NO
+2002,Grupo E,5,11-Jun-2002,Camerún,Alemania,Alemania,79,Miroslav Klose,NO
+2002,Grupo E,6,11-Jun-2002,Arabia Saudita,Irlanda,Irlanda,7,Robbie Keane,NO
+2002,Grupo E,6,11-Jun-2002,Arabia Saudita,Irlanda,Irlanda,61,Gary Breen,NO
+2002,Grupo E,6,11-Jun-2002,Arabia Saudita,Irlanda,Irlanda,87,Damien Duff,NO
+2002,Grupo F,1,02-Jun-2002,Inglaterra,Suecia,Suecia,59,Niclas Alexandersson,NO
+2002,Grupo F,3,07-Jun-2002,Suecia,Nigeria,Nigeria,27,Julius Aghahowa,NO
+2002,Grupo F,4,07-Jun-2002,Argentina,Inglaterra,Inglaterra,44,David Beckham,SI
+2002,Grupo F,5,12-Jun-2002,Suecia,Argentina,Argentina,88,Hernan Crespo,NO
+2002,Grupo G,1,03-Jun-2002,Croacia,México,México,60,Cuauhtemoc Blanco,SI
+2002,Grupo G,3,08-Jun-2002,Italia,Croacia,Croacia,73,Ivica Olic,NO
+2002,Grupo G,3,08-Jun-2002,Italia,Croacia,Croacia,76,Milan Rapaic,NO
+2002,Grupo G,4,09-Jun-2002,México,Ecuador,Ecuador,5,Agustin Delgado,NO
+2002,Grupo G,5,13-Jun-2002,México,Italia,Italia,85,Alessandro Del Piero,NO
+2002,Grupo H,1,04-Jun-2002,Japón,Bélgica,Bélgica,57,Marc Wilmots,NO
+2002,Grupo H,1,04-Jun-2002,Japón,Bélgica,Bélgica,75,Peter Van Der Heyden,NO
+2002,Grupo H,4,10-Jun-2002,Túnez,Bélgica,Bélgica,13,Marc Wilmots,NO
+2002,Grupo H,5,14-Jun-2002,Túnez,Japón,Japón,48,Hiroaki Morishima,NO
+2002,Grupo H,5,14-Jun-2002,Túnez,Japón,Japón,75,Hidetoshi Nakata,NO
+2002,Grupo H,6,14-Jun-2002,Bélgica,Rusia,Rusia,52,Vladimir Beschastnykh,NO
+2002,Grupo H,6,14-Jun-2002,Bélgica,Rusia,Rusia,88,Dmitri Sychev,NO

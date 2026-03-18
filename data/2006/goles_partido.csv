@@ -1,0 +1,51 @@
+anio,grupo,num_partido,fecha,local,visitante,equipo,minuto,jugador,es_penal
+2006,Grupo A,1,09-Jun-2006,Alemania,Costa Rica,Costa Rica,12,Paulo Wanchope,NO
+2006,Grupo A,1,09-Jun-2006,Alemania,Costa Rica,Costa Rica,73,Paulo Wanchope,NO
+2006,Grupo A,2,09-Jun-2006,Polonia,Ecuador,Ecuador,24,Carlos Tenorio,NO
+2006,Grupo A,2,09-Jun-2006,Polonia,Ecuador,Ecuador,80,Agustin Delgado,NO
+2006,Grupo A,5,20-Jun-2006,Ecuador,Alemania,Alemania,4,Miroslav Klose,NO
+2006,Grupo A,5,20-Jun-2006,Ecuador,Alemania,Alemania,44,Miroslav Klose,NO
+2006,Grupo A,5,20-Jun-2006,Ecuador,Alemania,Alemania,57,Lukas Podolski,NO
+2006,Grupo A,6,20-Jun-2006,Costa Rica,Polonia,Polonia,33,Bartosz Bosacki,NO
+2006,Grupo A,6,20-Jun-2006,Costa Rica,Polonia,Polonia,66,Bartosz Bosacki,NO
+2006,Grupo B,5,20-Jun-2006,Suecia,Inglaterra,Inglaterra,34,Joe Cole,NO
+2006,Grupo B,5,20-Jun-2006,Suecia,Inglaterra,Inglaterra,85,Steven Gerrard,NO
+2006,Grupo C,1,10-Jun-2006,Argentina,Costa de Marfil,Costa de Marfil,82,Didier Drogba,NO
+2006,Grupo C,2,11-Jun-2006,Serbia y Montenegro,Paises Bajos,Paises Bajos,18,Arjen Robben,NO
+2006,Grupo C,4,16-Jun-2006,Paises Bajos,Costa de Marfil,Costa de Marfil,38,Bakary Kone,NO
+2006,Grupo C,6,21-Jun-2006,Costa de Marfil,Serbia y Montenegro,Serbia y Montenegro,10,Nikola Zigic,NO
+2006,Grupo C,6,21-Jun-2006,Costa de Marfil,Serbia y Montenegro,Serbia y Montenegro,20,Sasa Ilic,NO
+2006,Grupo D,1,11-Jun-2006,México,Irán,Irán,36,Yahya Golmohammadi,NO
+2006,Grupo D,2,11-Jun-2006,Angola,Portugal,Portugal,4,Pauleta,NO
+2006,Grupo D,5,21-Jun-2006,Portugal,México,México,29,Jose Fonseca,NO
+2006,Grupo D,6,21-Jun-2006,Irán,Angola,Angola,60,Flavio,NO
+2006,Grupo E,2,12-Jun-2006,Estados Unidos,República Checa,República Checa,5,Jan Koller,NO
+2006,Grupo E,2,12-Jun-2006,Estados Unidos,República Checa,República Checa,36,Tomas Rosicky,NO
+2006,Grupo E,2,12-Jun-2006,Estados Unidos,República Checa,República Checa,76,Tomas Rosicky,NO
+2006,Grupo E,3,17-Jun-2006,Italia,Estados Unidos,Estados Unidos,27,Cristian Zaccardo (en contra),NO
+2006,Grupo E,4,17-Jun-2006,República Checa,Ghana,Ghana,2,Asamoah Gyan,NO
+2006,Grupo E,4,17-Jun-2006,República Checa,Ghana,Ghana,82,Sulley Muntari,NO
+2006,Grupo E,5,22-Jun-2006,República Checa,Italia,Italia,26,Marco Materazzi,NO
+2006,Grupo E,5,22-Jun-2006,República Checa,Italia,Italia,87,Filippo Inzaghi,NO
+2006,Grupo E,6,22-Jun-2006,Ghana,Estados Unidos,Estados Unidos,43,Clint Dempsey,NO
+2006,Grupo F,1,12-Jun-2006,Australia,Japón,Japón,26,Shunsuke Nakamura,NO
+2006,Grupo F,5,22-Jun-2006,Japón,Brasil,Brasil,45,Ronaldo,NO
+2006,Grupo F,5,22-Jun-2006,Japón,Brasil,Brasil,53,Juninho Pernambucano,NO
+2006,Grupo F,5,22-Jun-2006,Japón,Brasil,Brasil,59,Gilberto Melo,NO
+2006,Grupo F,5,22-Jun-2006,Japón,Brasil,Brasil,81,Ronaldo,NO
+2006,Grupo F,6,22-Jun-2006,Croacia,Australia,Australia,38,Craig Moore,SI
+2006,Grupo F,6,22-Jun-2006,Croacia,Australia,Australia,79,Harry Kewell,NO
+2006,Grupo G,2,13-Jun-2006,Corea del Sur,Togo,Togo,31,Mohamed Kader,NO
+2006,Grupo G,3,18-Jun-2006,Francia,Corea del Sur,Corea del Sur,81,Ji Sung Park,NO
+2006,Grupo G,4,19-Jun-2006,Togo,Suiza,Suiza,16,Alexander Frei,NO
+2006,Grupo G,4,19-Jun-2006,Togo,Suiza,Suiza,88,Tranquillo Barnetta,NO
+2006,Grupo G,5,23-Jun-2006,Togo,Francia,Francia,55,Patrick Vieira,NO
+2006,Grupo G,5,23-Jun-2006,Togo,Francia,Francia,61,Thierry Henry,NO
+2006,Grupo H,2,14-Jun-2006,Túnez,Arabia Saudita,Arabia Saudita,57,Yasser Al Kahtani,NO
+2006,Grupo H,2,14-Jun-2006,Túnez,Arabia Saudita,Arabia Saudita,84,Sami Al Jaber,NO
+2006,Grupo H,3,19-Jun-2006,España,Túnez,Túnez,8,Jaouhar Mnari,NO
+2006,Grupo H,4,19-Jun-2006,Arabia Saudita,Ucrania,Ucrania,4,Andriy Rusol,NO
+2006,Grupo H,4,19-Jun-2006,Arabia Saudita,Ucrania,Ucrania,36,Serhiy Rebrov,NO
+2006,Grupo H,4,19-Jun-2006,Arabia Saudita,Ucrania,Ucrania,46,Andriy Shevchenko,NO
+2006,Grupo H,4,19-Jun-2006,Arabia Saudita,Ucrania,Ucrania,84,Maksym Kalinichenko,NO
+2006,Grupo H,5,23-Jun-2006,Arabia Saudita,España,España,36,Juanito,NO
