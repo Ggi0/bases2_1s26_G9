@@ -1,0 +1,516 @@
+"""
+parser2.py
+==========
+Parsea todos los HTMLs descargados por 1_mundiales.py y genera CSVs.
+
+Estructura esperada:
+    html/{anio}/{anio}_mundial.html
+    html/{anio}/{anio}_resultados.html
+    html/{anio}/{anio}_grupo_a.html ... grupo_h.html
+    html/{anio}/{anio}_goleadores.html
+    html/{anio}/{anio}_posiciones_finales.html
+    html/{anio}/{anio}_premios.html
+    html/{anio}/{anio}_tarjetas.html
+
+CSVs generados en data/:
+    mundiales.csv, partidos.csv, grupos.csv,
+    posiciones_grupo.csv, goles_partido.csv,
+    goleadores.csv, posiciones_finales.csv,
+    premios.csv, tarjetas.csv
+
+Uso:
+    python parser2.py           # parsea todos los años en html/
+    python parser2.py 2022      # solo 2022
+    python parser2.py 2022 2018 # varios años
+"""
+
+import os, sys, csv, re
+from bs4 import BeautifulSoup
+
+HTML_DIR = "html"
+DATA_DIR = "data"
+os.makedirs(DATA_DIR, exist_ok=True)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# UTILIDADES
+# ─────────────────────────────────────────────────────────────────────────────
+
+def leer_html(anio, nombre):
+    ruta = os.path.join(HTML_DIR, str(anio), f"{nombre}.html")
+    if not os.path.exists(ruta):
+        return None
+    with open(ruta, encoding="utf-8") as f:
+        return BeautifulSoup(f.read(), "html.parser")
+
+def guardar_csv(nombre, campos, filas):
+    if not filas:
+        return 0
+    ruta = os.path.join(DATA_DIR, f"{nombre}.csv")
+    modo = "a" if os.path.exists(ruta) else "w"
+    with open(ruta, modo, newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=campos)
+        if modo == "w":
+            w.writeheader()
+        w.writerows(filas)
+    return len(filas)
+
+def num_o_none(texto):
+    t = str(texto).replace(".","").strip()
+    try:    return int(t)
+    except: return None
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 1. MUNDIAL  →  mundiales.csv
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parsear_mundial(anio):
+    soup = leer_html(anio, f"{anio}_mundial")
+    if not soup:
+        print(f"  [NO ENCONTRADO] {anio}_mundial.html"); return []
+
+    d = {"anio": anio, "organizador": "", "campeon": "",
+         "num_selecciones": None, "num_partidos": None,
+         "goles": None, "promedio_gol": None}
+
+    # Info general está en un bloque de texto con guiones
+    tag_org = soup.find(string=lambda t: t and "Organizador:" in t)
+    if tag_org:
+        texto = tag_org.find_parent().get_text(" ", strip=True)
+        m = re.search(r"Organizador:\s*([^\-]+)",   texto)
+        if m: d["organizador"]     = m.group(1).strip()
+        m = re.search(r"Selecciones:\s*(\d+)",      texto)
+        if m: d["num_selecciones"] = int(m.group(1))
+        m = re.search(r"Partidos:\s*(\d+)",         texto)
+        if m: d["num_partidos"]    = int(m.group(1))
+        m = re.search(r"Goles:\s*(\d+)",            texto)
+        if m: d["goles"]           = int(m.group(1))
+        m = re.search(r"Promedio de Gol:\s*([\d.]+)", texto)
+        if m: d["promedio_gol"]    = float(m.group(1))
+
+    # Campeón: primer enlace a /selecciones/ en el contenido principal
+    for a in soup.find_all("a", href=lambda h: h and "/selecciones/" in str(h)):
+        texto = a.get_text(strip=True)
+        if texto:
+            d["campeon"] = texto; break
+
+    campos = ["anio","organizador","campeon","num_selecciones",
+              "num_partidos","goles","promedio_gol"]
+    n = guardar_csv("mundiales", campos, [d])
+    print(f"  [mundiales]          {anio}: {n} fila")
+    return [d]
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 2. PARTIDOS  →  partidos.csv
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parsear_resultados(anio):
+    soup = leer_html(anio, f"{anio}_resultados")
+    if not soup:
+        print(f"  [NO ENCONTRADO] {anio}_resultados.html"); return []
+
+    partidos     = []
+    fecha_actual = None
+    body         = soup.find("body")
+
+    for elem in body.descendants:
+        if not hasattr(elem, "name") or not elem.name:
+            continue
+
+        # Fecha en H3
+        if elem.name == "h3":
+            t = elem.get_text(strip=True)
+            m = re.search(r"(\d{1,2}-\w+-\d{4})", t)
+            if m: fecha_actual = m.group(1)
+            continue
+
+        # Partido: div con clase 'margen-y3' y 'pad-y5' y banderas
+        clases = elem.get("class", [])
+        if elem.name == "div" and "margen-y3" in clases and "pad-y5" in clases:
+            imgs_band = [i for i in elem.find_all("img")
+                         if "banderas" in i.get("src","") and "_min" in i.get("src","")]
+            if len(imgs_band) < 2:
+                continue
+
+            local     = imgs_band[0].get("alt","").strip()
+            visitante = imgs_band[1].get("alt","").strip()
+
+            num_tag     = elem.find("strong")
+            num_partido = num_o_none(num_tag.get_text()) if num_tag else None
+
+            etapa_a = elem.find("a", href=lambda h: h and
+                                ("grupo" in str(h) or "fase_final" in str(h)))
+            etapa   = etapa_a.get_text(strip=True) if etapa_a else ""
+
+            marcador_a = elem.find("a", href=lambda h: h and "/partidos/" in str(h))
+            marcador   = marcador_a.get_text(strip=True) if marcador_a else ""
+            m_res      = re.match(r"(\d+)\s*-\s*(\d+)", marcador)
+            goles_l    = int(m_res.group(1)) if m_res else None
+            goles_v    = int(m_res.group(2)) if m_res else None
+
+            texto_full = elem.get_text(" ", strip=True)
+            tiempo_extra = "SI" if "tiempo extra"  in texto_full.lower() else "NO"
+            penales      = "SI" if "por penales"   in texto_full.lower() else "NO"
+
+            pen_l = pen_v = None
+            if penales == "SI":
+                m_pen = re.search(r"(\d+)\s*-\s*(\d+)\s*por penales", texto_full)
+                if m_pen:
+                    pen_l = int(m_pen.group(1))
+                    pen_v = int(m_pen.group(2))
+
+            partidos.append({
+                "anio": anio, "num_partido": num_partido,
+                "fecha": fecha_actual, "etapa": etapa,
+                "local": local, "visitante": visitante,
+                "goles_local": goles_l, "goles_visitante": goles_v,
+                "tiempo_extra": tiempo_extra, "penales": penales,
+                "penales_local": pen_l, "penales_visitante": pen_v,
+            })
+
+    campos = ["anio","num_partido","fecha","etapa","local","visitante",
+              "goles_local","goles_visitante","tiempo_extra","penales",
+              "penales_local","penales_visitante"]
+    n = guardar_csv("partidos", campos, partidos)
+    print(f"  [partidos]           {anio}: {n} partidos")
+    return partidos
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# HELPER: extraer goles de un div rd-100
+# Estructura: izquierda = goles local (pad-r2), derecha = goles visitante (pad-l2)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def extraer_goles_de_rd100(rd, anio, grupo, num_partido, fecha, local, visitante):
+    goles = []
+
+    def parsear_bloque(bloque, equipo):
+        div_min = bloque.find("div", class_=lambda c: c and "margen-r5" in c)
+        if not div_min:
+            return
+        texto_min = div_min.get_text(" ", strip=True)
+        m = re.search(r"(\d+\+?\d*)'?", texto_min)
+        if not m:
+            return
+        minuto = m.group(1)
+        div_jug = bloque.find("div", class_=lambda c: c and "overflow-x-auto" in c)
+        if not div_jug:
+            return
+        texto_jug = div_jug.get_text(" ", strip=True)
+        es_pen    = "(pen)" in texto_jug.lower()
+        jugador   = re.sub(r"\(pen\)", "", texto_jug, flags=re.IGNORECASE).strip()
+        if jugador:
+            goles.append({
+                "anio": anio, "grupo": grupo,
+                "num_partido": num_partido, "fecha": fecha,
+                "local": local, "visitante": visitante,
+                "equipo": equipo,
+                "minuto": minuto, "jugador": jugador,
+                "es_penal": "SI" if es_pen else "NO",
+            })
+
+    for b in rd.find_all("div", class_=lambda c: c and "pad-r2" in c and "w-50" in c):
+        parsear_bloque(b, local)
+    for b in rd.find_all("div", class_=lambda c: c and "pad-l2" in c and "w-50" in c):
+        parsear_bloque(b, visitante)
+
+    return goles
+
+def parsear_grupos(anio):
+    todos_grupos     = []
+    todas_posiciones = []
+    todos_goles      = []
+
+    for letra in "abcdefghij":
+        soup = leer_html(anio, f"{anio}_grupo_{letra}")
+        if not soup:
+            break
+
+        nombre_grupo = f"Grupo {letra.upper()}"
+
+        # ── Selecciones del grupo (banderas _sml) ─────────────────────────
+        selecciones_grupo = []
+        for img in soup.find_all("img", src=lambda s: s and "_sml" in str(s)):
+            alt = img.get("alt","").strip()
+            if alt and alt not in selecciones_grupo:
+                selecciones_grupo.append(alt)
+
+        todos_grupos.append({
+            "anio": anio, "grupo": nombre_grupo,
+            "selecciones": ", ".join(selecciones_grupo),
+        })
+
+        # ── Tabla de posiciones ───────────────────────────────────────────
+        for tabla in soup.find_all("table"):
+            primera_fila = tabla.find("tr")
+            if not primera_fila:
+                continue
+            encabezados = [td.get_text(strip=True) for td in primera_fila.find_all("td")]
+            if "PTS" not in encabezados:
+                continue
+            for fila in tabla.find_all("tr")[1:]:
+                celdas = fila.find_all("td")
+                if len(celdas) < 5:
+                    continue
+                textos = [c.get_text(strip=True) for c in celdas]
+                img    = fila.find("img", src=lambda s: s and "banderas" in s)
+                pais   = img.get("alt","").strip() if img else ""
+                if not pais or not textos[0]:
+                    continue
+                todas_posiciones.append({
+                    "anio": anio, "grupo": nombre_grupo, "pais": pais,
+                    "pts":        num_o_none(textos[2]),
+                    "pj":         num_o_none(textos[3]),
+                    "pg":         num_o_none(textos[4]),
+                    "pe":         num_o_none(textos[5]),
+                    "pp":         num_o_none(textos[6]),
+                    "gf":         num_o_none(textos[7]),
+                    "gc":         num_o_none(textos[8]),
+                    "diferencia": num_o_none(textos[9]) if len(textos) > 9 else None,
+                    "clasificado": textos[10].strip()   if len(textos) > 10 else "",
+                })
+
+        # ── Partidos y goles del grupo ─────────────────────────────────────
+        # Los partidos usan div con clases margen-y3 y pad-y5
+        divs_partido = soup.find_all("div", class_=lambda c: c and "margen-y3" in c and "pad-y5" in c)
+
+        for div in divs_partido:
+            strong      = div.find("strong")
+            num_partido = num_o_none(strong.get_text()) if strong else None
+
+            imgs = [i for i in div.find_all("img")
+                    if "banderas" in i.get("src","") and "_min" in i.get("src","")]
+            if len(imgs) < 2:
+                continue
+            local     = imgs[0].get("alt","").strip()
+            visitante = imgs[1].get("alt","").strip()
+
+            texto_div = div.get_text(" ", strip=True)
+            m_fecha   = re.search(r"(\d{1,2}-\w+-\d{4})", texto_div)
+            fecha     = m_fecha.group(1) if m_fecha else ""
+
+            rd = div.find("div", class_=lambda c: c and "rd-100" in c)
+            if rd:
+                goles = extraer_goles_de_rd100(
+                    rd, anio, nombre_grupo, num_partido, fecha, local, visitante
+                )
+                todos_goles.extend(goles)
+
+    campos_g  = ["anio","grupo","selecciones"]
+    campos_p  = ["anio","grupo","pais","pts","pj","pg","pe","pp",
+                 "gf","gc","diferencia","clasificado"]
+    campos_gl = ["anio","grupo","num_partido","fecha","local","visitante",
+                 "equipo","minuto","jugador","es_penal"]
+
+    n1 = guardar_csv("grupos",           campos_g,  todos_grupos)
+    n2 = guardar_csv("posiciones_grupo", campos_p,  todas_posiciones)
+    n3 = guardar_csv("goles_partido",    campos_gl, todos_goles)
+    print(f"  [grupos]             {anio}: {n1} grupos | {n2} posiciones | {n3} goles")
+    return todos_grupos, todas_posiciones, todos_goles
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 4. GOLEADORES  →  goleadores.csv
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parsear_goleadores(anio):
+    soup = leer_html(anio, f"{anio}_goleadores")
+    if not soup:
+        print(f"  [NO ENCONTRADO] {anio}_goleadores.html"); return []
+
+    goleadores = []
+    for tabla in soup.find_all("table"):
+        for fila in tabla.find_all("tr"):
+            celdas = fila.find_all("td")
+            if len(celdas) < 3:
+                continue
+            textos = [c.get_text(strip=True) for c in celdas]
+
+            img_band = fila.find("img", src=lambda s: s and "banderas" in s)
+            pais     = img_band.get("alt","").strip() if img_band else ""
+
+            enlace  = fila.find("a", href=lambda h: h and "/jugadores/" in str(h))
+            jugador = enlace.get_text(strip=True) if enlace else ""
+            if not jugador:
+                continue
+
+            numeros = [int(t.replace("*","")) for t in textos
+                       if t.replace("*","").isdigit()]
+            floats  = [float(t) for t in textos
+                       if re.match(r"^\d+\.\d+$", t)]
+
+            goleadores.append({
+                "anio": anio, "jugador": jugador, "pais": pais,
+                "goles":    numeros[0] if len(numeros) > 0 else None,
+                "partidos": numeros[1] if len(numeros) > 1 else None,
+                "promedio": floats[0]  if floats else None,
+            })
+
+    campos = ["anio","jugador","pais","goles","partidos","promedio"]
+    n = guardar_csv("goleadores", campos, goleadores)
+    print(f"  [goleadores]         {anio}: {n} jugadores")
+    return goleadores
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 5. POSICIONES FINALES  →  posiciones_finales.csv
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parsear_posiciones_finales(anio):
+    soup = leer_html(anio, f"{anio}_posiciones_finales")
+    if not soup:
+        print(f"  [NO ENCONTRADO] {anio}_posiciones_finales.html"); return []
+
+    posiciones = []
+    for tabla in soup.find_all("table"):
+        for fila in tabla.find_all("tr"):
+            celdas = fila.find_all("td")
+            if len(celdas) < 2:
+                continue
+            textos  = [c.get_text(strip=True) for c in celdas]
+            img     = fila.find("img", src=lambda s: s and "banderas" in s)
+            pais    = img.get("alt","").strip() if img else ""
+            pos_str = textos[0].replace(".","").strip()
+            pos     = int(pos_str) if pos_str.isdigit() else None
+            if pos and pais:
+                posiciones.append({"anio": anio, "posicion": pos, "pais": pais})
+
+    campos = ["anio","posicion","pais"]
+    n = guardar_csv("posiciones_finales", campos, posiciones)
+    print(f"  [posiciones_finales] {anio}: {n} selecciones")
+    return posiciones
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 6. PREMIOS  →  premios.csv
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parsear_premios(anio):
+    soup = leer_html(anio, f"{anio}_premios")
+    if not soup:
+        print(f"  [NO ENCONTRADO] {anio}_premios.html"); return []
+
+    premios = []
+    TIPOS = [
+        "Balón de Oro","Balón de Plata","Balón de Bronce",
+        "Botín de Oro","Botín de Plata","Botín de Bronce",
+        "Guante de Oro","Mejor Jugador Joven","FIFA Fair Play",
+    ]
+    body = soup.find("body")
+
+    for tipo in TIPOS:
+        tag = body.find(string=re.compile(re.escape(tipo)))
+        if not tag:
+            continue
+        parent = tag.find_parent()
+        if not parent:
+            continue
+        jugador = ""
+        pais    = ""
+        for siguiente in parent.find_next_siblings():
+            enlace = siguiente.find("a", href=lambda h: h and
+                                    ("/jugadores/" in str(h) or "/selecciones/" in str(h)))
+            if enlace:
+                jugador = enlace.get_text(strip=True)
+                img     = siguiente.find("img", src=lambda s: s and "banderas" in s)
+                pais    = img.get("alt","").strip() if img else ""
+                break
+        if jugador:
+            premios.append({"anio": anio, "tipo_premio": tipo,
+                            "jugador": jugador, "pais": pais})
+
+    campos = ["anio","tipo_premio","jugador","pais"]
+    n = guardar_csv("premios", campos, premios)
+    print(f"  [premios]            {anio}: {n} premios")
+    return premios
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 7. TARJETAS  →  tarjetas.csv
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parsear_tarjetas(anio):
+    soup = leer_html(anio, f"{anio}_tarjetas")
+    if not soup:
+        return []
+
+    tarjetas = []
+    for tabla in soup.find_all("table"):
+        primera_fila = tabla.find("tr")
+        if not primera_fila:
+            continue
+        encabezados = [td.get_text(strip=True) for td in primera_fila.find_all("td")]
+        if not any(e in encabezados for e in ["TA","TR","Jugador","Amarillas","Rojas"]):
+            continue
+        for fila in tabla.find_all("tr")[1:]:
+            celdas  = fila.find_all("td")
+            if len(celdas) < 3:
+                continue
+            textos  = [c.get_text(strip=True) for c in celdas]
+            img     = fila.find("img", src=lambda s: s and "banderas" in s)
+            pais    = img.get("alt","").strip() if img else ""
+            enlace  = fila.find("a", href=lambda h: h and "/jugadores/" in str(h))
+            jugador = enlace.get_text(strip=True) if enlace else ""
+            if not jugador:
+                continue
+            numeros = [int(t) for t in textos if t.isdigit()]
+            tarjetas.append({
+                "anio": anio, "jugador": jugador, "pais": pais,
+                "amarillas": numeros[0] if len(numeros) > 0 else None,
+                "rojas":     numeros[1] if len(numeros) > 1 else None,
+            })
+
+    campos = ["anio","jugador","pais","amarillas","rojas"]
+    n = guardar_csv("tarjetas", campos, tarjetas)
+    print(f"  [tarjetas]           {anio}: {n} jugadores")
+    return tarjetas
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# MAIN
+# ─────────────────────────────────────────────────────────────────────────────
+
+def parsear_anio(anio):
+    print(f"\n{'='*52}")
+    print(f"  Parseando Mundial {anio}")
+    print(f"{'='*52}")
+    parsear_mundial(anio)
+    parsear_resultados(anio)
+    parsear_grupos(anio)
+    parsear_goleadores(anio)
+    parsear_posiciones_finales(anio)
+    parsear_premios(anio)
+    parsear_tarjetas(anio)
+
+def detectar_anios():
+    if not os.path.exists(HTML_DIR):
+        return []
+    return sorted([int(c) for c in os.listdir(HTML_DIR)
+                   if os.path.isdir(os.path.join(HTML_DIR, c)) and c.isdigit()])
+
+if __name__ == "__main__":
+    for arch in ["mundiales","partidos","grupos","posiciones_grupo",
+                 "goles_partido","goleadores","posiciones_finales","premios","tarjetas"]:
+        ruta = os.path.join(DATA_DIR, f"{arch}.csv")
+        if os.path.exists(ruta):
+            os.remove(ruta)
+
+    anios = [int(a) for a in sys.argv[1:]] if len(sys.argv) > 1 else detectar_anios()
+    if not anios:
+        print("No se encontraron años en html/. Descarga primero con 1_mundiales.py")
+        sys.exit(1)
+
+    print(f"Años a parsear: {anios}")
+    for anio in anios:
+        parsear_anio(anio)
+
+    print(f"\n{'='*52}")
+    print("COMPLETADO - CSVs en ./data/")
+    print(f"{'='*52}")
+    for arch in sorted(os.listdir(DATA_DIR)):
+        if arch.endswith(".csv"):
+            with open(os.path.join(DATA_DIR, arch), encoding="utf-8") as f:
+                filas = sum(1 for _ in f) - 1
+            print(f"  {arch:<35} {filas:>4} filas")
