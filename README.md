@@ -41,3 +41,4 @@
 esto hará un archivo .csv con los datos recolectados
 
 ![csv jugadores y paises](./images/data/primeraDescarga.png)
+
