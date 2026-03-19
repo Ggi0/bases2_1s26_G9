@@ -106,9 +106,9 @@ def parsear_mundial(anio, soup):
 
     texto_total = soup.get_text(" ", strip=True)
 
-    m = re.search(r"Organizador[:\s]+([^\n\-–]+?)(?:Selecciones|$)", texto_total)
+    m = re.search(r"Organizador:\s*([^\-]+)", texto_total)
     if m:
-        d["organizador"] = m.group(1).strip().strip(":")
+        d["organizador"] = m.group(1).strip()
 
     m = re.search(r"Selecciones[:\s]+(\d+)", texto_total)
     if m:
@@ -611,16 +611,28 @@ PREMIOS_INDIVIDUALES = {
     "Premio Fair Play", "Mejor Portero",
 }
 
-POSICIONES_EQUIPO_IDEAL = {
+# Prefijos de posición que aparecen como NavigableString al inicio de cada
+# div rd-100-25 dentro del bloque Equipo Ideal. Ej: "Arquero:"
+POSICIONES_EQUIPO_IDEAL = [
     "Arquero", "Defensores", "Mediocampistas",
     "Volantes", "Delanteros", "Entrenador",
-}
+]
 
 
 def parsear_premios(anio, soup):
     """
     Parsea {anio}_premios.html.
     Retorna (lista_premios, lista_equipo_ideal).
+
+    Estructura real del HTML:
+      Cada bloque de premio es un <div rd-100-30> (o similar) con:
+        <p class="negri">Nombre del Premio</p>
+        <p class="margen-b0"><img alt="Pais"/>  <a>Jugador o Selección</a></p>
+      Si el ganador es "-" la segunda <p> tiene solo el texto "-".
+
+      El bloque "Equipo Ideal" contiene divs rd-100-25 donde el primer
+      NavigableString (hijo directo) indica la posición: "Arquero:", "Defensores:", etc.
+      Luego hay pares <img alt="Pais"/> <a>Jugador</a> para cada jugador.
 
     premios.csv:      anio, tipo_premio, jugador, seleccion
     equipo_ideal.csv: anio, posicion, jugador, seleccion
@@ -631,25 +643,23 @@ def parsear_premios(anio, soup):
     if not main:
         return premios, equipo_ideal
 
-    # Buscar en bloques con clase margen-y15 (estructura de la fuente)
-    bloques = main.find_all("div", class_=lambda c: c and "margen-y15" in c)
-    if not bloques:
-        # Fallback: buscar por párrafos negri
-        bloques = [main]
-
-    # ── Premios individuales desde párrafos con clase negri ──
     for p in main.find_all("p", class_=lambda c: c and "negri" in c):
         nombre_premio = p.get_text(strip=True)
 
+        # ── Premios individuales ──────────────────────────────────────────────
         if nombre_premio in PREMIOS_INDIVIDUALES:
-            # El jugador está en el siguiente <p>
             p_sig = p.find_next_sibling("p")
             if not p_sig:
                 continue
-            enlace = p_sig.find("a")
-            img_b  = p_sig.find("img", src=lambda s: s and "banderas" in str(s))
+            # Si el texto es solo "-" no hay ganador
+            if p_sig.get_text(strip=True) == "-":
+                continue
+            enlace  = p_sig.find("a")
+            img_b   = p_sig.find("img", src=lambda s: s and "banderas" in str(s))
             jugador = enlace.get_text(strip=True) if enlace else ""
             pais    = img_b.get("alt", "").strip() if img_b else ""
+            # FIFA Fair Play puede ser una selección (el enlace apunta a /selecciones/)
+            # Lo registramos igual; el nombre del jugador quedará vacío solo si no hay enlace
             if jugador and jugador != "-":
                 premios.append({
                     "anio":        anio,
@@ -658,20 +668,43 @@ def parsear_premios(anio, soup):
                     "seleccion":   pais,
                 })
 
-        elif nombre_premio == "Equipo Ideal":
-            # Los jugadores del equipo ideal están en divs rd-100-25
-            contenedor = p.find_parent("div")
-            if not contenedor:
+        # ── Equipo Ideal ──────────────────────────────────────────────────────
+        elif "Equipo Ideal" in nombre_premio:
+            # Subir hasta el contenedor que tiene los divs rd-100-25
+            # La jerarquía es: <div w-100> > <div> > <p negri>Equipo Ideal</p>
+            #                                       > <div margen-l5> > <div rd-100-25>...
+            contenedor_w100 = p.find_parent(
+                "div", class_=lambda c: c and "w-100" in c
+            ) or p.find_parent("div")
+
+            if not contenedor_w100:
                 continue
-            posicion_actual = ""
-            for div in contenedor.find_all("div", class_=lambda c: c and "rd-100-25" in c):
-                texto_div = div.get_text(" ", strip=True)
-                for pos in POSICIONES_EQUIPO_IDEAL:
-                    if texto_div.strip().startswith(pos):
-                        posicion_actual = pos
+
+            for div in contenedor_w100.find_all(
+                "div", class_=lambda c: c and "rd-100-25" in c
+            ):
+                # La posición es el primer NavigableString directo del div
+                # Ej: "Arquero:", "Defensores:", "Mediocampistas:", etc.
+                posicion_actual = ""
+                from bs4 import NavigableString as _NS
+                for hijo in div.children:
+                    if isinstance(hijo, _NS):
+                        texto_hijo = str(hijo).strip().rstrip(":")
+                        for pos in POSICIONES_EQUIPO_IDEAL:
+                            if texto_hijo.lower().startswith(pos.lower()):
+                                posicion_actual = pos
+                                break
+                    if posicion_actual:
                         break
+
+                # Jugadores: pares img + a dentro del div
                 for a in div.find_all("a", href=lambda h: h and "/jugadores/" in str(h)):
-                    img_b   = a.find_previous("img", src=lambda s: s and "banderas" in str(s))
+                    # La imagen de bandera está justo antes del <a> (hermano anterior)
+                    img_b = None
+                    for prev in a.previous_siblings:
+                        if hasattr(prev, "name") and prev.name == "img":
+                            img_b = prev
+                            break
                     jugador = a.get_text(strip=True)
                     pais    = img_b.get("alt", "").strip() if img_b else ""
                     if jugador:
@@ -691,6 +724,25 @@ def parsear_tarjetas(anio, soup):
     """
     Parsea {anio}_tarjetas.html.
     Retorna lista de dicts: anio, jugador, seleccion, amarillas, rojas.
+
+    Estructura real del HTML:
+      <table>
+        <tr class="t-enc-2">   ← encabezado con "Tarjetas Amarillas", "Tarjetas Rojas"
+        <tr class="a-top">     ← fila de datos
+          <td></td>                         (vacía, posición)
+          <td colspan="2"><img/><a/></td>   (bandera + jugador)
+          <td>  <div>N <div class="am"/></div> </td>   (amarillas, puede ser "-")
+          <td>  <div>N <div class="rd"/></div> </td>   (rojas, puede ser "-")
+          <td>(RD / 2TA)</td>
+          <td>partidos</td>
+          <td>Selección</td>
+        </tr>
+      </table>
+
+    El número de amarillas/rojas se extrae del texto de la celda correspondiente.
+    La celda puede contener "-" si no tiene tarjetas de ese tipo.
+    Las posiciones son: [0]=vacío, [1]=jugador+bandera (colspan=2), [2]=amarillas,
+                        [3]=rojas, [4]=(RD/2TA), [5]=partidos, [6]=selección.
     """
     tarjetas = []
     main = contenido_principal(soup)
@@ -701,30 +753,55 @@ def parsear_tarjetas(anio, soup):
         primera = tabla.find("tr")
         if not primera:
             continue
-        enc = [td.get_text(strip=True).upper() for td in primera.find_all(["td", "th"])]
-        if not any(e in enc for e in ["TA", "TR", "AMARILLAS", "ROJAS", "AMARILLA", "ROJA"]):
+        enc_texto = primera.get_text(" ", strip=True).lower()
+        # Verificar que es tabla de tarjetas por texto del encabezado
+        if not any(k in enc_texto for k in ["amarilla", "roja", "tarjeta"]):
             continue
 
         for fila in tabla.find_all("tr")[1:]:
-            celdas  = fila.find_all(["td", "th"])
-            if len(celdas) < 3:
-                continue
-            textos  = [c.get_text(strip=True) for c in celdas]
+            # Jugador desde enlace /jugadores/
             enlace  = fila.find("a", href=lambda h: h and "/jugadores/" in str(h))
             jugador = enlace.get_text(strip=True) if enlace else ""
-            img_b   = fila.find("img", src=lambda s: s and "banderas" in str(s))
-            pais    = img_b.get("alt", "").strip() if img_b else ""
-
             if not jugador:
                 continue
 
-            numeros = [t for t in textos if t.isdigit()]
+            # País desde imagen de bandera
+            img_b = fila.find("img", src=lambda s: s and "banderas" in str(s))
+            pais  = img_b.get("alt", "").strip() if img_b else ""
+
+            # Amarillas y rojas: buscar por clase del div indicador
+            # <div class="am"> → amarilla    <div class="rd"> → roja
+            celdas = fila.find_all("td")
+
+            amarillas = "0"
+            rojas     = "0"
+
+            for celda in celdas:
+                # Si la celda tiene el div indicador de amarilla
+                if celda.find("div", class_="am"):
+                    m = re.search(r"(\d+)", celda.get_text(" ", strip=True))
+                    amarillas = m.group(1) if m else "0"
+                # Si la celda tiene el div indicador de roja
+                elif celda.find("div", class_="rd"):
+                    m = re.search(r"(\d+)", celda.get_text(" ", strip=True))
+                    rojas = m.group(1) if m else "0"
+
+            # Fallback: si no hay divs am/rd, intentar por posición de celda
+            # (estructura más antigua: [1]=jugador, [2]=amarillas, [3]=rojas)
+            if amarillas == "0" and rojas == "0" and len(celdas) >= 4:
+                t_am = celdas[2].get_text(strip=True) if len(celdas) > 2 else "-"
+                t_rd = celdas[3].get_text(strip=True) if len(celdas) > 3 else "-"
+                if t_am.isdigit():
+                    amarillas = t_am
+                if t_rd.isdigit():
+                    rojas = t_rd
+
             tarjetas.append({
                 "anio":      anio,
                 "jugador":   jugador,
                 "seleccion": pais,
-                "amarillas": numeros[0] if numeros else "0",
-                "rojas":     numeros[1] if len(numeros) > 1 else "0",
+                "amarillas": amarillas,
+                "rojas":     rojas,
             })
 
     return tarjetas
@@ -735,52 +812,42 @@ def parsear_tarjetas(anio, soup):
 def parsear_planteles(anio, soup):
     """
     Parsea {anio}_planteles.html.
-    Retorna lista de dicts: anio, seleccion, dorsal, jugador, posicion.
+
+    IMPORTANTE: este HTML es un índice de links a páginas individuales
+    por selección (ej: 1982_argentina_jugadores.php). No contiene los
+    jugadores directamente. Lo que sí podemos extraer es:
+      - La lista de selecciones que participaron (desde los alt de las banderas)
+
+    Retorna lista de dicts: anio, seleccion
+    (dorsal y posicion quedan vacíos — están en páginas separadas no descargadas)
+
+    Si en el futuro se descargan los HTMLs individuales de planteles,
+    este parser deberá extenderse para leerlos desde html/{anio}/planteles/.
     """
     planteles = []
     main = contenido_principal(soup)
     if not main:
         return planteles
 
-    # Los planteles suelen estar en bloques por selección
-    # Estructura variable según el año — buscamos tablas o listas
-    seleccion_actual = ""
+    selecciones_vistas = set()
 
-    for elem in main.descendants:
-        if not isinstance(elem, Tag):
-            continue
+    # Extraer selecciones desde los links con imágenes de bandera
+    for a in main.find_all("a", href=lambda h: h and "jugadores.php" in str(h)):
+        img_b = a.find("img", src=lambda s: s and "banderas" in str(s))
+        if img_b:
+            pais = img_b.get("alt", "").strip()
+        else:
+            pais = a.get_text(strip=True)
 
-        # Detectar nombre de selección en encabezados
-        if elem.name in ("h2", "h3", "h4"):
-            img_b = elem.find("img", src=lambda s: s and "banderas" in str(s))
-            if img_b:
-                seleccion_actual = img_b.get("alt", "").strip()
-            else:
-                t = elem.get_text(strip=True)
-                if t and len(t) < 60:
-                    seleccion_actual = t
-            continue
-
-        # Jugadores en tablas
-        if elem.name == "table" and seleccion_actual:
-            for fila in elem.find_all("tr"):
-                celdas  = fila.find_all(["td", "th"])
-                if len(celdas) < 2:
-                    continue
-                textos  = [c.get_text(strip=True) for c in celdas]
-                enlace  = fila.find("a", href=lambda h: h and "/jugadores/" in str(h))
-                nombre  = enlace.get_text(strip=True) if enlace else textos[1] if len(textos) > 1 else ""
-                if not nombre or nombre.lower() in ("jugador", "nombre"):
-                    continue
-                dorsal   = textos[0] if textos[0].isdigit() else ""
-                posicion = textos[2] if len(textos) > 2 else ""
-                planteles.append({
-                    "anio":      anio,
-                    "seleccion": seleccion_actual,
-                    "dorsal":    dorsal,
-                    "jugador":   nombre,
-                    "posicion":  posicion,
-                })
+        if pais and pais not in selecciones_vistas:
+            selecciones_vistas.add(pais)
+            planteles.append({
+                "anio":      anio,
+                "seleccion": pais,
+                "dorsal":    "",
+                "jugador":   "",
+                "posicion":  "",
+            })
 
     return planteles
 

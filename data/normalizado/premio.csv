@@ -18,3 +18,87 @@ id_premio,anio,id_tipo_premio,tipo_premio,id_jugador,jugador,id_seleccion,selecc
 17,1978,4,Botín de Oro,5290,Mario Kempes,6,Argentina
 18,1978,8,Mejor Jugador Joven,5563,Antonio Cabrini,51,Italia
 19,1978,9,FIFA Fair Play,,Argentina,6,Argentina
+20,1982,1,Balón de Oro,5752,Paolo Rossi,51,Italia
+21,1982,2,Balón de Plata,1623,Falcao,11,Brasil
+22,1982,3,Balón de Bronce,6265,Karl-Heinz Rummenigge,,Alemania Occidental
+23,1982,4,Botín de Oro,5752,Paolo Rossi,51,Italia
+24,1982,8,Mejor Jugador Joven,3822,Manuel Amoros,36,Francia
+25,1982,9,FIFA Fair Play,,Brasil,11,Brasil
+26,1986,1,Balón de Oro,5307,Diego Maradona,6,Argentina
+27,1986,2,Balón de Plata,6276,Harald Schumacher,,Alemania Occidental
+28,1986,3,Balón de Bronce,4208,Preben Elkjaer Larsen,26,Dinamarca
+29,1986,4,Botín de Oro,1325,Gary Lineker,44,Inglaterra
+30,1986,8,Mejor Jugador Joven,6690,Enzo Scifo,13,Bélgica
+31,1986,9,FIFA Fair Play,,Brasil,11,Brasil
+32,1990,1,Balón de Oro,5758,Salvatore Schillaci,51,Italia
+33,1990,2,Balón de Plata,6212,Lothar Matthaeus,,Alemania Occidental
+34,1990,3,Balón de Bronce,5307,Diego Maradona,6,Argentina
+35,1990,4,Botín de Oro,5758,Salvatore Schillaci,51,Italia
+36,1990,8,Mejor Jugador Joven,3705,Robert Prosinecki,,Yugoslavia
+37,1990,9,FIFA Fair Play,,Inglaterra,44,Inglaterra
+38,1994,1,Balón de Oro,1791,Romario,11,Brasil
+39,1994,2,Balón de Plata,5533,Roberto Baggio,51,Italia
+40,1994,3,Balón de Bronce,3001,Hristo Stoichkov,12,Bulgaria
+41,1994,4,Botín de Oro,385,Oleg Salenko,69,Rusia
+42,1994,7,Guante de Oro,6684,Michel Preudhomme,13,Bélgica
+43,1994,8,Mejor Jugador Joven,6458,Marc Overmars,60,Paises Bajos
+44,1994,9,FIFA Fair Play,,Brasil,11,Brasil
+45,1998,1,Balón de Oro,1795,Ronaldo,11,Brasil
+46,1998,2,Balón de Plata,3743,Davor Suker,24,Croacia
+47,1998,3,Balón de Bronce,4051,Lilian Thuram,36,Francia
+48,1998,4,Botín de Oro,3743,Davor Suker,24,Croacia
+49,1998,7,Guante de Oro,3832,Fabien Barthez,36,Francia
+50,1998,8,Mejor Jugador Joven,1358,Michael Owen,44,Inglaterra
+51,1998,9,FIFA Fair Play,,Francia,36,Francia
+52,2002,1,Balón de Oro,6161,Oliver Kahn,1,Alemania
+53,2002,2,Balón de Plata,1795,Ronaldo,11,Brasil
+54,2002,3,Balón de Bronce,6972,Myung Bo Hong,21,Corea del Sur
+55,2002,4,Botín de Oro,1795,Ronaldo,11,Brasil
+56,2002,7,Guante de Oro,6161,Oliver Kahn,1,Alemania
+57,2002,8,Mejor Jugador Joven,2789,Landon Donovan,35,Estados Unidos
+58,2002,9,FIFA Fair Play,,Bélgica,13,Bélgica
+59,2006,1,Balón de Oro,4075,Zinedine Zidane,36,Francia
+60,2006,2,Balón de Plata,5568,Fabio Cannavaro,51,Italia
+61,2006,3,Balón de Bronce,5733,Andrea Pirlo,51,Italia
+62,2006,4,Botín de Oro,6176,Miroslav Klose,1,Alemania
+63,2006,5,Botín de Plata,5225,Hernan Crespo,6,Argentina
+64,2006,6,Botín de Bronce,1795,Ronaldo,11,Brasil
+65,2006,7,Guante de Oro,5559,Gianluigi Buffon,51,Italia
+66,2006,8,Mejor Jugador Joven,6248,Lukas Podolski,1,Alemania
+67,2006,9,FIFA Fair Play,,Brasil,11,Brasil
+68,2010,1,Balón de Oro,5872,Diego Forlan,80,Uruguay
+69,2010,2,Balón de Plata,6481,Wesley Sneijder,60,Paises Bajos
+70,2010,3,Balón de Bronce,5091,David Villa,34,España
+71,2010,4,Botín de Oro,6226,Thomas Müller,1,Alemania
+72,2010,5,Botín de Plata,5091,David Villa,34,España
+73,2010,6,Botín de Bronce,6481,Wesley Sneijder,60,Paises Bajos
+74,2010,7,Guante de Oro,4892,Iker Casillas,34,España
+75,2010,8,Mejor Jugador Joven,6226,Thomas Müller,1,Alemania
+76,2010,9,FIFA Fair Play,,España,34,España
+77,2014,1,Balón de Oro,5318,Lionel Messi,6,Argentina
+78,2014,2,Balón de Plata,6226,Thomas Müller,1,Alemania
+79,2014,3,Balón de Bronce,6471,Arjen Robben,60,Paises Bajos
+80,2014,4,Botín de Oro,2715,James Rodríguez,19,Colombia
+81,2014,5,Botín de Plata,6226,Thomas Müller,1,Alemania
+82,2014,6,Botín de Bronce,1735,Neymar Jr.,11,Brasil
+83,2014,7,Guante de Oro,6230,Manuel Neuer,1,Alemania
+84,2014,8,Mejor Jugador Joven,4013,Paul Pogba,36,Francia
+85,2014,9,FIFA Fair Play,,Colombia,19,Colombia
+86,2018,1,Balón de Oro,1124,Luka Modric,24,Croacia
+87,2018,2,Balón de Plata,6628,Eden Hazard,13,Bélgica
+88,2018,3,Balón de Bronce,3930,Antoine Griezmann,36,Francia
+89,2018,4,Botín de Oro,1312,Harry Kane,44,Inglaterra
+90,2018,5,Botín de Plata,3930,Antoine Griezmann,36,Francia
+91,2018,6,Botín de Bronce,6648,Romelu Lukaku,13,Bélgica
+92,2018,7,Guante de Oro,6581,Thibaut Courtois,13,Bélgica
+93,2018,8,Mejor Jugador Joven,3992,Kylian Mbappé,36,Francia
+94,2018,9,FIFA Fair Play,,España,34,España
+95,2022,1,Balón de Oro,5318,Lionel Messi,6,Argentina
+96,2022,2,Balón de Plata,3992,Kylian Mbappé,36,Francia
+97,2022,3,Balón de Bronce,1124,Luka Modric,24,Croacia
+98,2022,4,Botín de Oro,3992,Kylian Mbappé,36,Francia
+99,2022,5,Botín de Plata,5318,Lionel Messi,6,Argentina
+100,2022,6,Botín de Bronce,3923,Olivier Giroud,36,Francia
+101,2022,7,Guante de Oro,5309,Emiliano Martinez,6,Argentina
+102,2022,8,Mejor Jugador Joven,5251,Enzo Fernandez,6,Argentina
+103,2022,9,FIFA Fair Play,,Inglaterra,44,Inglaterra

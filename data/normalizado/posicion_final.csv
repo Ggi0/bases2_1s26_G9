@@ -169,3 +169,323 @@ id_posicion_final,anio,posicion,id_seleccion,seleccion
 168,1978,14,48,Irán
 169,1978,15,42,Hungría
 170,1978,16,56,México
+171,1982,1,51,Italia
+172,1982,2,,Alemania Occidental
+173,1982,3,64,Polonia
+174,1982,4,36,Francia
+175,1982,5,11,Brasil
+176,1982,6,44,Inglaterra
+177,1982,7,,URSS
+178,1982,8,8,Austria
+179,1982,9,47,Irlanda del Norte
+180,1982,10,13,Bélgica
+181,1982,11,6,Argentina
+182,1982,12,34,España
+183,1982,13,5,Argelia
+184,1982,14,42,Hungría
+185,1982,15,31,Escocia
+186,1982,16,,Yugoslavia
+187,1982,17,14,Camerún
+188,1982,18,41,Honduras
+189,1982,19,,Checoslovaquia
+190,1982,20,63,Perú
+191,1982,21,54,Kuwait
+192,1982,22,17,Chile
+193,1982,23,59,Nueva Zelanda
+194,1982,24,29,El Salvador
+195,1986,1,6,Argentina
+196,1986,2,,Alemania Occidental
+197,1986,3,36,Francia
+198,1986,4,13,Bélgica
+199,1986,5,11,Brasil
+200,1986,6,56,México
+201,1986,7,34,España
+202,1986,8,44,Inglaterra
+203,1986,9,26,Dinamarca
+204,1986,10,,URSS
+205,1986,11,55,Marruecos
+206,1986,12,51,Italia
+207,1986,13,62,Paraguay
+208,1986,14,64,Polonia
+209,1986,15,12,Bulgaria
+210,1986,16,80,Uruguay
+211,1986,17,65,Portugal
+212,1986,18,42,Hungría
+213,1986,19,31,Escocia
+214,1986,20,21,Corea del Sur
+215,1986,21,47,Irlanda del Norte
+216,1986,22,5,Argelia
+217,1986,23,45,Iraq
+218,1986,24,15,Canadá
+219,1990,1,,Alemania Occidental
+220,1990,2,6,Argentina
+221,1990,3,51,Italia
+222,1990,4,44,Inglaterra
+223,1990,5,,Yugoslavia
+224,1990,6,,Checoslovaquia
+225,1990,7,14,Camerún
+226,1990,8,46,Irlanda
+227,1990,9,11,Brasil
+228,1990,10,34,España
+229,1990,11,13,Bélgica
+230,1990,12,68,Rumania
+231,1990,13,22,Costa Rica
+232,1990,14,19,Colombia
+233,1990,15,60,Paises Bajos
+234,1990,16,80,Uruguay
+235,1990,17,,URSS
+236,1990,18,8,Austria
+237,1990,18,31,Escocia
+238,1990,20,28,Egipto
+239,1990,21,73,Suecia
+240,1990,22,21,Corea del Sur
+241,1990,23,35,Estados Unidos
+242,1990,24,30,Emiratos Arabes
+243,1994,1,11,Brasil
+244,1994,2,51,Italia
+245,1994,3,73,Suecia
+246,1994,4,12,Bulgaria
+247,1994,5,1,Alemania
+248,1994,6,68,Rumania
+249,1994,7,60,Paises Bajos
+250,1994,8,34,España
+251,1994,9,57,Nigeria
+252,1994,10,6,Argentina
+253,1994,11,13,Bélgica
+254,1994,12,4,Arabia Saudita
+255,1994,13,56,México
+256,1994,14,35,Estados Unidos
+257,1994,15,74,Suiza
+258,1994,16,46,Irlanda
+259,1994,17,58,Noruega
+260,1994,18,69,Rusia
+261,1994,19,19,Colombia
+262,1994,20,21,Corea del Sur
+263,1994,21,9,Bolivia
+264,1994,22,14,Camerún
+265,1994,23,55,Marruecos
+266,1994,24,39,Grecia
+267,1998,1,36,Francia
+268,1998,2,11,Brasil
+269,1998,3,24,Croacia
+270,1998,4,60,Paises Bajos
+271,1998,5,51,Italia
+272,1998,6,6,Argentina
+273,1998,7,1,Alemania
+274,1998,8,26,Dinamarca
+275,1998,9,44,Inglaterra
+276,1998,10,,RF de Yugoslavia
+277,1998,11,68,Rumania
+278,1998,12,57,Nigeria
+279,1998,13,56,México
+280,1998,14,62,Paraguay
+281,1998,15,58,Noruega
+282,1998,16,17,Chile
+283,1998,17,34,España
+284,1998,18,55,Marruecos
+285,1998,19,13,Bélgica
+286,1998,20,48,Irán
+287,1998,21,19,Colombia
+288,1998,22,52,Jamaica
+289,1998,23,8,Austria
+290,1998,24,72,Sudáfrica
+291,1998,25,14,Camerún
+292,1998,26,78,Túnez
+293,1998,27,31,Escocia
+294,1998,28,4,Arabia Saudita
+295,1998,29,12,Bulgaria
+296,1998,30,21,Corea del Sur
+297,1998,31,53,Japón
+298,1998,32,35,Estados Unidos
+299,2002,1,11,Brasil
+300,2002,2,1,Alemania
+301,2002,3,77,Turquía
+302,2002,4,21,Corea del Sur
+303,2002,5,34,España
+304,2002,6,44,Inglaterra
+305,2002,7,70,Senegal
+306,2002,8,35,Estados Unidos
+307,2002,9,53,Japón
+308,2002,10,26,Dinamarca
+309,2002,11,56,México
+310,2002,12,46,Irlanda
+311,2002,13,73,Suecia
+312,2002,14,13,Bélgica
+313,2002,15,51,Italia
+314,2002,16,62,Paraguay
+315,2002,17,72,Sudáfrica
+316,2002,18,6,Argentina
+317,2002,19,22,Costa Rica
+318,2002,20,14,Camerún
+319,2002,21,65,Portugal
+320,2002,22,69,Rusia
+321,2002,23,24,Croacia
+322,2002,24,27,Ecuador
+323,2002,25,64,Polonia
+324,2002,26,80,Uruguay
+325,2002,27,57,Nigeria
+326,2002,28,36,Francia
+327,2002,29,78,Túnez
+328,2002,30,33,Eslovenia
+329,2002,31,18,China
+330,2002,32,4,Arabia Saudita
+331,2006,1,51,Italia
+332,2006,2,36,Francia
+333,2006,3,1,Alemania
+334,2006,4,65,Portugal
+335,2006,5,11,Brasil
+336,2006,6,6,Argentina
+337,2006,7,44,Inglaterra
+338,2006,8,79,Ucrania
+339,2006,9,34,España
+340,2006,10,74,Suiza
+341,2006,11,60,Paises Bajos
+342,2006,12,27,Ecuador
+343,2006,13,38,Ghana
+344,2006,14,73,Suecia
+345,2006,15,56,México
+346,2006,16,7,Australia
+347,2006,17,21,Corea del Sur
+348,2006,18,62,Paraguay
+349,2006,19,23,Costa de Marfil
+350,2006,20,67,República Checa
+351,2006,21,64,Polonia
+352,2006,22,24,Croacia
+353,2006,23,3,Angola
+354,2006,24,78,Túnez
+355,2006,25,35,Estados Unidos
+356,2006,26,48,Irán
+357,2006,27,76,Trinidad y Tobago
+358,2006,28,4,Arabia Saudita
+359,2006,29,53,Japón
+360,2006,30,75,Togo
+361,2006,31,22,Costa Rica
+362,2006,32,,Serbia y Montenegro
+363,2010,1,34,España
+364,2010,2,60,Paises Bajos
+365,2010,3,1,Alemania
+366,2010,4,80,Uruguay
+367,2010,5,6,Argentina
+368,2010,6,11,Brasil
+369,2010,7,38,Ghana
+370,2010,8,62,Paraguay
+371,2010,9,53,Japón
+372,2010,10,17,Chile
+373,2010,11,65,Portugal
+374,2010,12,35,Estados Unidos
+375,2010,13,44,Inglaterra
+376,2010,14,56,México
+377,2010,15,21,Corea del Sur
+378,2010,16,32,Eslovaquia
+379,2010,17,23,Costa de Marfil
+380,2010,18,33,Eslovenia
+381,2010,19,74,Suiza
+382,2010,20,72,Sudáfrica
+383,2010,21,7,Australia
+384,2010,22,59,Nueva Zelanda
+385,2010,23,71,Serbia
+386,2010,24,26,Dinamarca
+387,2010,25,39,Grecia
+388,2010,26,51,Italia
+389,2010,27,57,Nigeria
+390,2010,28,5,Argelia
+391,2010,29,36,Francia
+392,2010,30,41,Honduras
+393,2010,31,14,Camerún
+394,2010,32,20,Corea del Norte
+395,2014,1,1,Alemania
+396,2014,2,6,Argentina
+397,2014,3,60,Paises Bajos
+398,2014,4,11,Brasil
+399,2014,5,19,Colombia
+400,2014,6,13,Bélgica
+401,2014,7,36,Francia
+402,2014,8,22,Costa Rica
+403,2014,9,17,Chile
+404,2014,10,56,México
+405,2014,11,74,Suiza
+406,2014,12,80,Uruguay
+407,2014,13,39,Grecia
+408,2014,14,5,Argelia
+409,2014,15,35,Estados Unidos
+410,2014,16,57,Nigeria
+411,2014,17,27,Ecuador
+412,2014,18,65,Portugal
+413,2014,19,24,Croacia
+414,2014,20,10,Bosnia-Herzegovina
+415,2014,21,23,Costa de Marfil
+416,2014,22,51,Italia
+417,2014,23,34,España
+418,2014,24,69,Rusia
+419,2014,25,38,Ghana
+420,2014,26,44,Inglaterra
+421,2014,27,21,Corea del Sur
+422,2014,28,48,Irán
+423,2014,29,53,Japón
+424,2014,30,7,Australia
+425,2014,31,41,Honduras
+426,2014,32,14,Camerún
+427,2018,1,36,Francia
+428,2018,2,24,Croacia
+429,2018,3,13,Bélgica
+430,2018,4,44,Inglaterra
+431,2018,5,80,Uruguay
+432,2018,6,11,Brasil
+433,2018,7,73,Suecia
+434,2018,8,69,Rusia
+435,2018,9,19,Colombia
+436,2018,10,34,España
+437,2018,11,26,Dinamarca
+438,2018,12,56,México
+439,2018,13,65,Portugal
+440,2018,14,74,Suiza
+441,2018,15,53,Japón
+442,2018,16,6,Argentina
+443,2018,17,70,Senegal
+444,2018,18,48,Irán
+445,2018,19,21,Corea del Sur
+446,2018,20,63,Perú
+447,2018,21,57,Nigeria
+448,2018,22,1,Alemania
+449,2018,23,71,Serbia
+450,2018,24,78,Túnez
+451,2018,25,64,Polonia
+452,2018,26,4,Arabia Saudita
+453,2018,27,55,Marruecos
+454,2018,28,49,Islandia
+455,2018,29,22,Costa Rica
+456,2018,30,7,Australia
+457,2018,31,28,Egipto
+458,2018,32,61,Panamá
+459,2022,1,6,Argentina
+460,2022,2,36,Francia
+461,2022,3,24,Croacia
+462,2022,4,55,Marruecos
+463,2022,5,60,Paises Bajos
+464,2022,6,44,Inglaterra
+465,2022,7,11,Brasil
+466,2022,8,65,Portugal
+467,2022,9,53,Japón
+468,2022,10,70,Senegal
+469,2022,11,7,Australia
+470,2022,12,74,Suiza
+471,2022,13,34,España
+472,2022,14,35,Estados Unidos
+473,2022,15,64,Polonia
+474,2022,16,21,Corea del Sur
+475,2022,17,1,Alemania
+476,2022,18,27,Ecuador
+477,2022,19,14,Camerún
+478,2022,20,80,Uruguay
+479,2022,21,78,Túnez
+480,2022,22,56,México
+481,2022,23,13,Bélgica
+482,2022,24,38,Ghana
+483,2022,25,4,Arabia Saudita
+484,2022,26,48,Irán
+485,2022,27,22,Costa Rica
+486,2022,28,26,Dinamarca
+487,2022,29,71,Serbia
+488,2022,30,37,Gales
+489,2022,31,15,Canadá
+490,2022,32,16,Catar

@@ -1049,3 +1049,1673 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1048,544,1978,6,Argentina,5290,Mario Kempes,105,NO,NO
 1049,544,1978,6,Argentina,5186,Daniel Bertoni,116,NO,NO
 1050,544,1978,60,Paises Bajos,6451,Dick Nanninga,82,NO,NO
+1051,545,1982,64,Polonia,3035,Zbigniew Boniek,4,NO,NO
+1052,545,1982,64,Polonia,3035,Zbigniew Boniek,26,NO,NO
+1053,545,1982,64,Polonia,3035,Zbigniew Boniek,53,NO,NO
+1054,546,1982,,URSS,368,Khoren Oganesian,48,NO,NO
+1055,549,1982,,Alemania Occidental,6202,Pierre Littbarski,50,NO,NO
+1056,549,1982,,Alemania Occidental,6093,Klaus Fischer,75,NO,NO
+1057,549,1982,34,España,5097,Jesus Zamora,82,NO,NO
+1058,551,1982,51,Italia,5772,Marco Tardelli,57,NO,NO
+1059,551,1982,51,Italia,5563,Antonio Cabrini,67,NO,NO
+1060,551,1982,6,Argentina,5350,Daniel Passarella,83,NO,NO
+1061,552,1982,6,Argentina,5240,Ramon Diaz,89,NO,NO
+1062,552,1982,11,Brasil,1843,Zico,11,NO,NO
+1063,552,1982,11,Brasil,1801,Serginho,66,NO,NO
+1064,552,1982,11,Brasil,1680,Junior,75,NO,NO
+1065,553,1982,51,Italia,5752,Paolo Rossi,5,NO,NO
+1066,553,1982,51,Italia,5752,Paolo Rossi,25,NO,NO
+1067,553,1982,51,Italia,5752,Paolo Rossi,74,NO,NO
+1068,553,1982,11,Brasil,1805,Socrates,12,NO,NO
+1069,553,1982,11,Brasil,1623,Falcao,68,NO,NO
+1070,554,1982,36,Francia,3918,Bernard Genghini,39,NO,NO
+1071,555,1982,8,Austria,4620,Bruno Pezzey,50,NO,NO
+1072,555,1982,8,Austria,4582,Reinhold Hintermaier,68,NO,NO
+1073,555,1982,47,Irlanda del Norte,2247,Billy Hamilton,27,NO,NO
+1074,555,1982,47,Irlanda del Norte,2247,Billy Hamilton,75,NO,NO
+1075,556,1982,36,Francia,3922,Alain Giresse,33,NO,NO
+1076,556,1982,36,Francia,4025,Dominique Rocheteau,46,NO,NO
+1077,556,1982,36,Francia,4025,Dominique Rocheteau,68,NO,NO
+1078,556,1982,36,Francia,3922,Alain Giresse,80,NO,NO
+1079,556,1982,47,Irlanda del Norte,2225,Gerry Armstrong,75,NO,NO
+1080,559,1982,51,Italia,5595,Bruno Conti,18,NO,NO
+1081,559,1982,63,Perú,2154,Ruben Diaz,83,NO,NO
+1082,561,1982,64,Polonia,3156,Wlodimierz Smolarek,55,NO,NO
+1083,561,1982,64,Polonia,3110,Grzegorz Lato,58,NO,NO
+1084,561,1982,64,Polonia,3035,Zbigniew Boniek,61,NO,NO
+1085,561,1982,64,Polonia,3041,Andrzej Buncol,68,NO,NO
+1086,561,1982,64,Polonia,3045,Wlodzimierz Ciolek,76,NO,NO
+1087,561,1982,63,Perú,2175,Guillermo La Rosa,83,NO,NO
+1088,562,1982,51,Italia,5651,Francesco Graziani,60,NO,NO
+1089,562,1982,14,Camerún,930,Gregoire Mbida,61,NO,NO
+1090,563,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,67,NO,NO
+1091,563,1982,5,Argelia,6875,Rabah Madjer,54,NO,NO
+1092,563,1982,5,Argelia,6835,Lakhdar Belloumi,68,NO,NO
+1093,564,1982,8,Austria,4638,Walter Schachner,22,NO,NO
+1094,565,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,9,NO,NO
+1095,565,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,57,NO,NO
+1096,565,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,66,NO,NO
+1097,565,1982,,Alemania Occidental,6256,Uwe Reinders,83,NO,NO
+1098,565,1982,17,Chile,709,Gustavo Moscoso,90,NO,NO
+1099,566,1982,8,Austria,4638,Walter Schachner,55,NO,NO
+1100,566,1982,8,Austria,4603,Hans Krankl,67,NO,NO
+1101,567,1982,5,Argelia,6831,Salah Assad,7,NO,NO
+1102,567,1982,5,Argelia,6831,Salah Assad,31,NO,NO
+1103,567,1982,5,Argelia,6839,Tedj Bensaoula,35,NO,NO
+1104,567,1982,17,Chile,717,Miguel Neira,59,SI,NO
+1105,567,1982,17,Chile,696,Juan Letelier,73,NO,NO
+1106,568,1982,,Alemania Occidental,6149,Horst Hrubesch,10,NO,NO
+1107,569,1982,13,Bélgica,6731,Erwin Vandenbergh,62,NO,NO
+1108,570,1982,42,Hungría,7579,Tibor Nyilasi,4,NO,NO
+1109,570,1982,42,Hungría,7586,Gabor Poloskei,11,NO,NO
+1110,570,1982,42,Hungría,7521,Laszlo Fazekas,23,NO,NO
+1111,570,1982,42,Hungría,7622,Jozsef Toth,50,NO,NO
+1112,570,1982,42,Hungría,7521,Laszlo Fazekas,54,NO,NO
+1113,570,1982,42,Hungría,7550,Laszlo Kiss,69,NO,NO
+1114,570,1982,42,Hungría,7608,Lazar Szentes,70,NO,NO
+1115,570,1982,42,Hungría,7550,Laszlo Kiss,72,NO,NO
+1116,570,1982,42,Hungría,7550,Laszlo Kiss,76,NO,NO
+1117,570,1982,42,Hungría,7579,Tibor Nyilasi,83,NO,NO
+1118,570,1982,29,El Salvador,848,Luis Ramirez,64,NO,NO
+1119,571,1982,6,Argentina,5186,Daniel Bertoni,26,NO,NO
+1120,571,1982,6,Argentina,5307,Diego Maradona,28,NO,NO
+1121,571,1982,6,Argentina,5307,Diego Maradona,57,NO,NO
+1122,571,1982,6,Argentina,5163,Osvaldo Ardiles,60,NO,NO
+1123,571,1982,42,Hungría,7586,Gabor Poloskei,76,NO,NO
+1124,572,1982,13,Bélgica,6579,Ludo Coeck,19,NO,NO
+1125,573,1982,13,Bélgica,6584,Alex Czerniatynski,76,NO,NO
+1126,573,1982,42,Hungría,7627,Jozsef Varga,27,NO,NO
+1127,574,1982,6,Argentina,5350,Daniel Passarella,22,SI,NO
+1128,574,1982,6,Argentina,5186,Daniel Bertoni,54,NO,NO
+1129,575,1982,44,Inglaterra,1379,Bryan Robson,1,NO,NO
+1130,575,1982,44,Inglaterra,1379,Bryan Robson,67,NO,NO
+1131,575,1982,44,Inglaterra,1332,Paul Mariner,83,NO,NO
+1132,575,1982,36,Francia,4043,Gerard Soler,24,NO,NO
+1133,576,1982,,Checoslovaquia,544,Antonin Panenka,21,SI,NO
+1134,576,1982,54,Kuwait,7902,Faisal Al Dakhil,57,NO,NO
+1135,577,1982,44,Inglaterra,1279,Trevor Francis,62,NO,NO
+1136,577,1982,44,Inglaterra,434,Jozef Barmos,66,NO,SI
+1137,578,1982,36,Francia,3918,Bernard Genghini,31,NO,NO
+1138,578,1982,36,Francia,4012,Michel Platini,43,NO,NO
+1139,578,1982,36,Francia,4042,Didier Six,48,NO,NO
+1140,578,1982,36,Francia,3852,Maxime Bossis,89,NO,NO
+1141,578,1982,54,Kuwait,7901,Abdulaziz Al Balushi,75,NO,NO
+1142,579,1982,36,Francia,4042,Didier Six,66,NO,NO
+1143,579,1982,,Checoslovaquia,544,Antonin Panenka,84,SI,NO
+1144,580,1982,44,Inglaterra,1279,Trevor Francis,27,NO,NO
+1145,581,1982,34,España,4974,Lopez Ufarte,65,SI,NO
+1146,581,1982,41,Honduras,245,Hector Zelaya,7,NO,NO
+1147,583,1982,34,España,4957,Juanito,14,SI,NO
+1148,583,1982,34,España,5062,Enrique Saura,66,NO,NO
+1149,583,1982,,Yugoslavia,3583,Ivan Gudelj,10,NO,NO
+1150,584,1982,41,Honduras,219,Eduardo Laing,60,NO,NO
+1151,584,1982,47,Irlanda del Norte,2225,Gerry Armstrong,9,NO,NO
+1152,585,1982,,Yugoslavia,3700,Vladimir Petrovic,88,SI,NO
+1153,586,1982,47,Irlanda del Norte,2225,Gerry Armstrong,47,NO,NO
+1154,587,1982,11,Brasil,1805,Socrates,75,NO,NO
+1155,587,1982,11,Brasil,3225,Eder,88,NO,NO
+1156,587,1982,,URSS,253,Andrei Bal,34,NO,NO
+1157,588,1982,31,Escocia,2314,Kenny Dalglish,18,NO,NO
+1158,588,1982,31,Escocia,2413,John Wark,29,NO,NO
+1159,588,1982,31,Escocia,2413,John Wark,32,NO,NO
+1160,588,1982,31,Escocia,2401,John Robertson,73,NO,NO
+1161,588,1982,31,Escocia,2284,Steve Archibald,79,NO,NO
+1162,588,1982,59,Nueva Zelanda,5139,Steve Sumner,54,NO,NO
+1163,588,1982,59,Nueva Zelanda,5146,Steve Wooddin,64,NO,NO
+1164,589,1982,11,Brasil,1843,Zico,33,NO,NO
+1165,589,1982,11,Brasil,1744,Oscar,48,NO,NO
+1166,589,1982,11,Brasil,3225,Eder,63,NO,NO
+1167,589,1982,11,Brasil,1623,Falcao,87,NO,NO
+1168,589,1982,31,Escocia,2393,David Narey,18,NO,NO
+1169,590,1982,,URSS,298,Yuri Gavrilov,24,NO,NO
+1170,590,1982,,URSS,263,Oleg Blokhin,48,NO,NO
+1171,590,1982,,URSS,254,Sergei Baltacha,68,NO,NO
+1172,591,1982,,URSS,276,Aleksandr Chivadze,59,NO,NO
+1173,591,1982,,URSS,397,Ramaz Shengelia,84,NO,NO
+1174,591,1982,31,Escocia,2356,Joe Jordan,15,NO,NO
+1175,591,1982,31,Escocia,2406,Graeme Souness,86,NO,NO
+1176,592,1982,11,Brasil,1843,Zico,28,NO,NO
+1177,592,1982,11,Brasil,1843,Zico,31,NO,NO
+1178,592,1982,11,Brasil,1623,Falcao,64,NO,NO
+1179,592,1982,11,Brasil,1801,Serginho,70,NO,NO
+1180,645,1982,,Alemania Occidental,6202,Pierre Littbarski,17,NO,NO
+1181,645,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,102,NO,NO
+1182,645,1982,,Alemania Occidental,6093,Klaus Fischer,108,NO,NO
+1183,645,1982,36,Francia,4012,Michel Platini,26,SI,NO
+1184,645,1982,36,Francia,4056,Marius Tresor,92,NO,NO
+1185,645,1982,36,Francia,3922,Alain Giresse,98,NO,NO
+1186,645,1982,51,Italia,5752,Paolo Rossi,22,NO,NO
+1187,645,1982,51,Italia,5752,Paolo Rossi,73,NO,NO
+1188,645,1982,64,Polonia,3160,Andrzej Szarmach,40,NO,NO
+1189,645,1982,64,Polonia,3120,Stefan Majewski,44,NO,NO
+1190,645,1982,64,Polonia,3106,Janusz Kupcewicz,46,NO,NO
+1191,645,1982,36,Francia,3921,Rene Girard,13,NO,NO
+1192,645,1982,36,Francia,3881,Alain Couriol,72,NO,NO
+1193,645,1982,51,Italia,5752,Paolo Rossi,57,NO,NO
+1194,645,1982,51,Italia,5772,Marco Tardelli,69,NO,NO
+1195,645,1982,51,Italia,5520,Alessandro Altobelli,81,NO,NO
+1196,645,1982,,Alemania Occidental,6067,Paul Breitner,83,NO,NO
+1197,646,1986,12,Bulgaria,2998,Nasko Sirakov,85,NO,NO
+1198,646,1986,51,Italia,5520,Alessandro Altobelli,43,NO,NO
+1199,647,1986,6,Argentina,5430,Jorge Valdano,6,NO,NO
+1200,647,1986,6,Argentina,5390,Oscar Ruggeri,18,NO,NO
+1201,647,1986,6,Argentina,5430,Jorge Valdano,46,NO,NO
+1202,647,1986,21,Corea del Sur,7071,Chang Sun Park,73,NO,NO
+1203,648,1986,21,Corea del Sur,7008,Jong Boo Kim,70,NO,NO
+1204,648,1986,12,Bulgaria,2936,Plamen Getov,11,NO,NO
+1205,649,1986,51,Italia,5520,Alessandro Altobelli,6,SI,NO
+1206,649,1986,6,Argentina,5307,Diego Maradona,34,NO,NO
+1207,650,1986,6,Argentina,5430,Jorge Valdano,3,NO,NO
+1208,650,1986,6,Argentina,5200,Jorge Burruchaga,76,NO,NO
+1209,651,1986,21,Corea del Sur,6948,Soon Ho Choi,62,NO,NO
+1210,651,1986,21,Corea del Sur,6973,Jung Moo Huh,83,NO,NO
+1211,651,1986,51,Italia,5520,Alessandro Altobelli,17,NO,NO
+1212,651,1986,51,Italia,5520,Alessandro Altobelli,73,NO,NO
+1213,651,1986,51,Italia,6935,Kwang Rae Cho,82,NO,SI
+1214,652,1986,13,Bélgica,6731,Erwin Vandenbergh,45,NO,NO
+1215,652,1986,56,México,7831,Fernando Quirarte,23,NO,NO
+1216,652,1986,56,México,7864,Hugo Sánchez,39,NO,NO
+1217,653,1986,62,Paraguay,4416,Julio Cesar Romero,35,NO,NO
+1218,654,1986,56,México,7719,Luis Flores,3,NO,NO
+1219,654,1986,62,Paraguay,4416,Julio Cesar Romero,85,NO,NO
+1220,655,1986,45,Iraq,1187,Ahmed Radhi,59,NO,NO
+1221,655,1986,13,Bélgica,6690,Enzo Scifo,16,NO,NO
+1222,655,1986,13,Bélgica,6575,Nico Claesen,21,SI,NO
+1223,656,1986,56,México,7831,Fernando Quirarte,54,NO,NO
+1224,657,1986,62,Paraguay,4329,Roberto Cabañas,50,NO,NO
+1225,657,1986,62,Paraguay,4329,Roberto Cabañas,76,NO,NO
+1226,657,1986,13,Bélgica,6738,Frank Vercauteren,30,NO,NO
+1227,657,1986,13,Bélgica,6750,Daniel Veyt,59,NO,NO
+1228,658,1986,36,Francia,4002,Jean-Pierre Papin,79,NO,NO
+1229,659,1986,,URSS,418,Pavel Yakovenko,2,NO,NO
+1230,659,1986,,URSS,248,Sergei Aleinikov,4,NO,NO
+1231,659,1986,,URSS,257,Igor Belanov,24,SI,NO
+1232,659,1986,,URSS,419,Ivan Yaremchuk,66,NO,NO
+1233,659,1986,,URSS,7514,Laszlo Dajka,73,NO,SI
+1234,659,1986,,URSS,381,Sergei Rodionov,80,NO,NO
+1235,660,1986,36,Francia,3912,Luis Fernandez,62,NO,NO
+1236,660,1986,,URSS,380,Vasili Rats,53,NO,NO
+1237,661,1986,42,Hungría,7519,Marton Esterhazy,2,NO,NO
+1238,661,1986,42,Hungría,7515,Lajos Detari,75,NO,NO
+1239,662,1986,36,Francia,4045,Yannick Stopyra,29,NO,NO
+1240,662,1986,36,Francia,4053,Jean Tigana,62,NO,NO
+1241,662,1986,36,Francia,4025,Dominique Rocheteau,84,NO,NO
+1242,663,1986,,URSS,263,Oleg Blokhin,58,NO,NO
+1243,663,1986,,URSS,427,Aleksandr Zavarov,74,NO,NO
+1244,664,1986,11,Brasil,1805,Socrates,62,NO,NO
+1245,665,1986,5,Argelia,6901,Djamel Zidane,59,NO,NO
+1246,665,1986,47,Irlanda del Norte,2278,Norman Whiteside,6,NO,NO
+1247,666,1986,11,Brasil,1569,Careca,66,NO,NO
+1248,667,1986,47,Irlanda del Norte,2235,Colin Clarke,47,NO,NO
+1249,667,1986,34,España,4880,Emilio Butragueño,2,NO,NO
+1250,667,1986,34,España,4959,Julio Salinas,18,NO,NO
+1251,668,1986,34,España,4881,Ramon Maria Caldere,15,NO,NO
+1252,668,1986,34,España,4881,Ramon Maria Caldere,68,NO,NO
+1253,668,1986,34,España,4914,Eloy,70,NO,NO
+1254,669,1986,11,Brasil,1569,Careca,15,NO,NO
+1255,669,1986,11,Brasil,1671,Josimar,42,NO,NO
+1256,669,1986,11,Brasil,1569,Careca,87,NO,NO
+1257,670,1986,26,Dinamarca,4208,Preben Elkjaer Larsen,57,NO,NO
+1258,671,1986,80,Uruguay,5806,Antonio Alzamendi,4,NO,NO
+1259,671,1986,,Alemania Occidental,6039,Klaus Allofs,84,NO,NO
+1260,672,1986,,Alemania Occidental,6306,Rudi Voeller,22,NO,NO
+1261,672,1986,,Alemania Occidental,6039,Klaus Allofs,50,NO,NO
+1262,672,1986,31,Escocia,2408,Gordon Strachan,18,NO,NO
+1263,673,1986,26,Dinamarca,4208,Preben Elkjaer Larsen,11,NO,NO
+1264,673,1986,26,Dinamarca,4247,Soren Lerby,41,NO,NO
+1265,673,1986,26,Dinamarca,4243,Michael Laudrup,52,NO,NO
+1266,673,1986,26,Dinamarca,4208,Preben Elkjaer Larsen,67,NO,NO
+1267,673,1986,26,Dinamarca,4208,Preben Elkjaer Larsen,80,NO,NO
+1268,673,1986,26,Dinamarca,4265,Jesper Olsen,88,NO,NO
+1269,673,1986,80,Uruguay,5874,Enzo Francescoli,45,SI,NO
+1270,674,1986,26,Dinamarca,4265,Jesper Olsen,43,SI,NO
+1271,674,1986,26,Dinamarca,4211,John Eriksen,62,NO,NO
+1272,677,1986,65,Portugal,3207,Carlos Manuel,75,NO,NO
+1273,679,1986,64,Polonia,3156,Wlodimierz Smolarek,68,NO,NO
+1274,680,1986,44,Inglaterra,1325,Gary Lineker,9,NO,NO
+1275,680,1986,44,Inglaterra,1325,Gary Lineker,14,NO,NO
+1276,680,1986,44,Inglaterra,1325,Gary Lineker,34,NO,NO
+1277,681,1986,65,Portugal,3222,Diamantino,79,NO,NO
+1278,681,1986,55,Marruecos,8375,Abdelrazzak Khairi,19,NO,NO
+1279,681,1986,55,Marruecos,8375,Abdelrazzak Khairi,27,NO,NO
+1280,681,1986,55,Marruecos,8377,Abdelkarim Krimau,62,NO,NO
+1281,734,1986,,URSS,257,Igor Belanov,27,NO,NO
+1282,734,1986,,URSS,257,Igor Belanov,70,NO,NO
+1283,734,1986,,URSS,257,Igor Belanov,111,SI,NO
+1284,734,1986,13,Bélgica,6690,Enzo Scifo,56,NO,NO
+1285,734,1986,13,Bélgica,6571,Jan Ceulemans,77,NO,NO
+1286,734,1986,13,Bélgica,6605,Stephane Demol,102,NO,NO
+1287,734,1986,13,Bélgica,6575,Nico Claesen,110,NO,NO
+1288,734,1986,56,México,7804,Manuel Negrete,34,NO,NO
+1289,734,1986,56,México,7870,Raul Servin,61,NO,NO
+1290,734,1986,11,Brasil,1805,Socrates,30,SI,NO
+1291,734,1986,11,Brasil,1671,Josimar,55,NO,NO
+1292,734,1986,11,Brasil,1610,Edinho,79,NO,NO
+1293,734,1986,11,Brasil,1569,Careca,83,SI,NO
+1294,734,1986,6,Argentina,5349,Pedro Pasculli,42,NO,NO
+1295,734,1986,,Alemania Occidental,6212,Lothar Matthaeus,87,NO,NO
+1296,734,1986,36,Francia,4012,Michel Platini,15,NO,NO
+1297,734,1986,36,Francia,4045,Yannick Stopyra,57,NO,NO
+1298,734,1986,44,Inglaterra,1325,Gary Lineker,31,NO,NO
+1299,734,1986,44,Inglaterra,1213,Peter Beardsley,56,NO,NO
+1300,734,1986,44,Inglaterra,1325,Gary Lineker,73,NO,NO
+1301,734,1986,26,Dinamarca,4265,Jesper Olsen,33,SI,NO
+1302,734,1986,34,España,4880,Emilio Butragueño,43,NO,NO
+1303,734,1986,34,España,4880,Emilio Butragueño,56,NO,NO
+1304,734,1986,34,España,4933,Goikoetxea,68,SI,NO
+1305,734,1986,34,España,4880,Emilio Butragueño,80,NO,NO
+1306,734,1986,34,España,4880,Emilio Butragueño,89,SI,NO
+1307,734,1986,11,Brasil,1569,Careca,17,NO,NO
+1308,734,1986,36,Francia,4012,Michel Platini,40,NO,NO
+1309,734,1986,6,Argentina,5307,Diego Maradona,51,NO,NO
+1310,734,1986,6,Argentina,5307,Diego Maradona,54,NO,NO
+1311,734,1986,44,Inglaterra,1325,Gary Lineker,80,NO,NO
+1312,734,1986,13,Bélgica,6571,Jan Ceulemans,35,NO,NO
+1313,734,1986,34,España,5064,Juan Antonio Senor,85,NO,NO
+1314,734,1986,6,Argentina,5307,Diego Maradona,51,NO,NO
+1315,734,1986,6,Argentina,5307,Diego Maradona,63,NO,NO
+1316,734,1986,,Alemania Occidental,6066,Andreas Brehme,9,NO,NO
+1317,734,1986,,Alemania Occidental,6306,Rudi Voeller,89,NO,NO
+1318,734,1986,13,Bélgica,6571,Jan Ceulemans,11,NO,NO
+1319,734,1986,13,Bélgica,6575,Nico Claesen,73,NO,NO
+1320,734,1986,36,Francia,3913,Jean-Marc Ferreri,27,NO,NO
+1321,734,1986,36,Francia,4002,Jean-Pierre Papin,43,NO,NO
+1322,734,1986,36,Francia,3918,Bernard Genghini,104,NO,NO
+1323,734,1986,36,Francia,3822,Manuel Amoros,111,SI,NO
+1324,734,1986,6,Argentina,5197,Jose Brown,23,NO,NO
+1325,734,1986,6,Argentina,5430,Jorge Valdano,55,NO,NO
+1326,734,1986,6,Argentina,5200,Jorge Burruchaga,83,NO,NO
+1327,734,1986,,Alemania Occidental,6265,Karl-Heinz Rummenigge,74,NO,NO
+1328,734,1986,,Alemania Occidental,6306,Rudi Voeller,80,NO,NO
+1329,735,1990,51,Italia,5758,Salvatore Schillaci,78,NO,NO
+1330,736,1990,35,Estados Unidos,2764,Paul Caligiuri,60,NO,NO
+1331,736,1990,,Checoslovaquia,576,Tomas Skuhravy,26,NO,NO
+1332,736,1990,,Checoslovaquia,440,Michal Bilek,40,SI,NO
+1333,736,1990,,Checoslovaquia,470,Ivan Hasek,50,NO,NO
+1334,736,1990,,Checoslovaquia,576,Tomas Skuhravy,78,NO,NO
+1335,736,1990,,Checoslovaquia,522,Milan Luhovy,90,NO,NO
+1336,737,1990,51,Italia,5646,Giuseppe Giannini,11,NO,NO
+1337,738,1990,,Checoslovaquia,440,Michal Bilek,31,SI,NO
+1338,739,1990,51,Italia,5758,Salvatore Schillaci,9,NO,NO
+1339,739,1990,51,Italia,5533,Roberto Baggio,78,NO,NO
+1340,740,1990,8,Austria,4616,Andeas Ogris,49,NO,NO
+1341,740,1990,8,Austria,4635,Gerhard Rodax,63,NO,NO
+1342,740,1990,35,Estados Unidos,2853,Bruce Murray,83,NO,NO
+1343,741,1990,14,Camerún,961,Francois Omam-Biyik,67,NO,NO
+1344,742,1990,68,Rumania,1898,Marius Lacatus,41,NO,NO
+1345,742,1990,68,Rumania,1898,Marius Lacatus,55,SI,NO
+1346,743,1990,6,Argentina,5425,Pedro Troglio,27,NO,NO
+1347,743,1990,6,Argentina,5200,Jorge Burruchaga,79,NO,NO
+1348,744,1990,14,Camerún,936,Roger Milla,76,NO,NO
+1349,744,1990,14,Camerún,936,Roger Milla,86,NO,NO
+1350,744,1990,68,Rumania,1851,Gavril Balint,88,NO,NO
+1351,745,1990,6,Argentina,5325,Pedro Monzon,62,NO,NO
+1352,745,1990,68,Rumania,1851,Gavril Balint,68,NO,NO
+1353,746,1990,,URSS,377,Oleg Protasov,20,NO,NO
+1354,746,1990,,URSS,431,Andrei Zygmantovich,29,NO,NO
+1355,746,1990,,URSS,427,Aleksandr Zavarov,52,NO,NO
+1356,746,1990,,URSS,285,Igor Dobrovolskyi,63,NO,NO
+1357,747,1990,11,Brasil,1569,Careca,40,NO,NO
+1358,747,1990,11,Brasil,1569,Careca,63,NO,NO
+1359,747,1990,73,Suecia,3366,Tomas Brolin,79,NO,NO
+1360,748,1990,22,Costa Rica,1979,Juan Cayasso,49,NO,NO
+1361,749,1990,11,Brasil,1731,Muller,33,NO,NO
+1362,750,1990,73,Suecia,3513,Glenn Stromberg,86,NO,NO
+1363,750,1990,31,Escocia,2373,Stuart Mccall,11,NO,NO
+1364,750,1990,31,Escocia,2351,Mo Johnston,81,SI,NO
+1365,751,1990,11,Brasil,1731,Muller,81,NO,NO
+1366,752,1990,73,Suecia,3378,Johnny Ekstrom,32,NO,NO
+1367,752,1990,22,Costa Rica,1994,Roger Flores,75,NO,NO
+1368,752,1990,22,Costa Rica,2023,Hernan Medford,87,NO,NO
+1369,753,1990,19,Colombia,2712,Bernardo Redin,50,NO,NO
+1370,753,1990,19,Colombia,2725,Carlos Valderrama,85,NO,NO
+1371,754,1990,,Alemania Occidental,6212,Lothar Matthaeus,28,NO,NO
+1372,754,1990,,Alemania Occidental,6174,Juergen Klinsmann,39,NO,NO
+1373,754,1990,,Alemania Occidental,6212,Lothar Matthaeus,64,NO,NO
+1374,754,1990,,Alemania Occidental,6306,Rudi Voeller,70,NO,NO
+1375,754,1990,,Yugoslavia,3610,Davor Jozic,55,NO,NO
+1376,755,1990,,Yugoslavia,3610,Davor Jozic,75,NO,NO
+1377,756,1990,,Alemania Occidental,6306,Rudi Voeller,35,NO,NO
+1378,756,1990,,Alemania Occidental,6174,Juergen Klinsmann,37,NO,NO
+1379,756,1990,,Alemania Occidental,6212,Lothar Matthaeus,47,NO,NO
+1380,756,1990,,Alemania Occidental,6053,Uwe Bein,58,NO,NO
+1381,756,1990,,Alemania Occidental,6306,Rudi Voeller,75,NO,NO
+1382,756,1990,30,Emiratos Arabes,7958,Khalid Ismail,46,NO,NO
+1383,757,1990,,Alemania Occidental,6202,Pierre Littbarski,88,NO,NO
+1384,757,1990,19,Colombia,2714,Freddy Rincon,90,NO,NO
+1385,758,1990,,Yugoslavia,3745,Safet Susic,5,NO,NO
+1386,758,1990,,Yugoslavia,3685,Darko Pancev,9,NO,NO
+1387,758,1990,,Yugoslavia,3685,Darko Pancev,46,NO,NO
+1388,758,1990,,Yugoslavia,3705,Robert Prosinecki,90,NO,NO
+1389,758,1990,30,Emiratos Arabes,7956,Ali Thani Jumaa,22,NO,NO
+1390,759,1990,13,Bélgica,6591,Marc De Grijse,53,NO,NO
+1391,759,1990,13,Bélgica,6599,Michel De Wolf,64,NO,NO
+1392,761,1990,13,Bélgica,6578,Leo Clijsters,15,NO,NO
+1393,761,1990,13,Bélgica,6690,Enzo Scifo,24,NO,NO
+1394,761,1990,13,Bélgica,6571,Jan Ceulemans,47,NO,NO
+1395,761,1990,80,Uruguay,5817,Pablo Bengoechea,73,NO,NO
+1396,762,1990,21,Corea del Sur,6974,Bo Kwan Hwang,43,NO,NO
+1397,762,1990,34,España,4989,Michel,23,NO,NO
+1398,762,1990,34,España,4989,Michel,61,NO,NO
+1399,762,1990,34,España,4989,Michel,81,NO,NO
+1400,763,1990,13,Bélgica,6749,Patrick Vervoort,29,NO,NO
+1401,763,1990,34,España,4989,Michel,26,SI,NO
+1402,763,1990,34,España,4938,Alberto Gorriz,38,NO,NO
+1403,764,1990,80,Uruguay,5870,Daniel Fonseca,90,NO,NO
+1404,765,1990,44,Inglaterra,1325,Gary Lineker,9,NO,NO
+1405,765,1990,46,Irlanda,7483,Kevin Sheedy,73,NO,NO
+1406,766,1990,60,Paises Bajos,6427,Wim Kieft,58,NO,NO
+1407,766,1990,28,Egipto,2068,Magdy Abedelghani,83,SI,NO
+1408,769,1990,44,Inglaterra,1436,Mark Wright,58,NO,NO
+1409,770,1990,46,Irlanda,7481,Niall Quinn,71,NO,NO
+1410,770,1990,60,Paises Bajos,6409,Ruud Gullit,11,NO,NO
+1411,807,1990,14,Camerún,936,Roger Milla,106,NO,NO
+1412,807,1990,14,Camerún,936,Roger Milla,109,NO,NO
+1413,807,1990,19,Colombia,2712,Bernardo Redin,115,NO,NO
+1414,808,1990,,Checoslovaquia,576,Tomas Skuhravy,12,NO,NO
+1415,808,1990,,Checoslovaquia,576,Tomas Skuhravy,63,NO,NO
+1416,808,1990,,Checoslovaquia,515,Lubos Kubik,75,NO,NO
+1417,808,1990,,Checoslovaquia,576,Tomas Skuhravy,82,NO,NO
+1418,808,1990,22,Costa Rica,2004,Ronald Gonzalez,54,NO,NO
+1419,809,1990,6,Argentina,5208,Claudio Caniggia,80,NO,NO
+1420,810,1990,,Alemania Occidental,6174,Juergen Klinsmann,51,NO,NO
+1421,810,1990,,Alemania Occidental,6066,Andreas Brehme,82,NO,NO
+1422,810,1990,60,Paises Bajos,6431,Ronald Koeman,89,SI,NO
+1423,812,1990,51,Italia,5758,Salvatore Schillaci,65,NO,NO
+1424,812,1990,51,Italia,5764,Aldo Serena,85,NO,NO
+1425,813,1990,34,España,4959,Julio Salinas,83,NO,NO
+1426,813,1990,,Yugoslavia,3739,Dragan Stojkovic,78,NO,NO
+1427,813,1990,,Yugoslavia,3739,Dragan Stojkovic,92,NO,NO
+1428,814,1990,44,Inglaterra,1368,David Platt,119,NO,NO
+1429,816,1990,51,Italia,5758,Salvatore Schillaci,38,NO,NO
+1430,817,1990,,Alemania Occidental,6212,Lothar Matthaeus,25,SI,NO
+1431,818,1990,14,Camerún,914,Emmanuel Kunde,61,SI,NO
+1432,818,1990,14,Camerún,884,Eugene Ekeke,65,NO,NO
+1433,818,1990,44,Inglaterra,1368,David Platt,25,NO,NO
+1434,818,1990,44,Inglaterra,1325,Gary Lineker,83,SI,NO
+1435,818,1990,44,Inglaterra,1325,Gary Lineker,105,SI,NO
+1436,819,1990,51,Italia,5758,Salvatore Schillaci,17,NO,NO
+1437,819,1990,6,Argentina,5208,Claudio Caniggia,67,NO,NO
+1438,820,1990,44,Inglaterra,1325,Gary Lineker,80,NO,NO
+1439,820,1990,,Alemania Occidental,6066,Andreas Brehme,60,NO,NO
+1440,821,1990,51,Italia,5533,Roberto Baggio,71,NO,NO
+1441,821,1990,51,Italia,5758,Salvatore Schillaci,86,SI,NO
+1442,821,1990,44,Inglaterra,1368,David Platt,81,NO,NO
+1443,822,1990,,Alemania Occidental,6066,Andreas Brehme,85,SI,NO
+1444,823,1994,35,Estados Unidos,2905,Eric Wynalda,44,NO,NO
+1445,823,1994,74,Suiza,8057,Georges Bregy,39,NO,NO
+1446,824,1994,19,Colombia,2727,Adolfo Valencia,43,NO,NO
+1447,824,1994,68,Rumania,1933,Florin Raducioiu,15,NO,NO
+1448,824,1994,68,Rumania,1891,Gheorghe Hagi,34,NO,NO
+1449,824,1994,68,Rumania,1933,Florin Raducioiu,89,NO,NO
+1450,825,1994,68,Rumania,1891,Gheorghe Hagi,35,NO,NO
+1451,825,1994,74,Suiza,8206,Alain Sutter,16,NO,NO
+1452,825,1994,74,Suiza,8066,Stephane Chapuisat,52,NO,NO
+1453,825,1994,74,Suiza,8130,Adrian Knup,65,NO,NO
+1454,825,1994,74,Suiza,8130,Adrian Knup,72,NO,NO
+1455,826,1994,35,Estados Unidos,2662,Andres Escobar,35,NO,SI
+1456,826,1994,35,Estados Unidos,2886,Earnie Stewart,52,NO,NO
+1457,826,1994,19,Colombia,2727,Adolfo Valencia,90,NO,NO
+1458,827,1994,68,Rumania,1923,Dan Petrescu,18,NO,NO
+1459,828,1994,19,Colombia,2669,Herman Gaviria,44,NO,NO
+1460,828,1994,19,Colombia,2687,John Lozano,90,NO,NO
+1461,829,1994,14,Camerún,888,David Embe,31,NO,NO
+1462,829,1994,14,Camerún,961,Francois Omam-Biyik,47,NO,NO
+1463,829,1994,73,Suecia,3453,Roger Ljung,8,NO,NO
+1464,829,1994,73,Suecia,3371,Martin Dahlin,75,NO,NO
+1465,830,1994,11,Brasil,1791,Romario,26,NO,NO
+1466,830,1994,11,Brasil,1768,Rai,52,SI,NO
+1467,831,1994,11,Brasil,1791,Romario,39,NO,NO
+1468,831,1994,11,Brasil,1708,Marcio Santos,66,NO,NO
+1469,831,1994,11,Brasil,1551,Bebeto,73,NO,NO
+1470,832,1994,73,Suecia,3366,Tomas Brolin,37,SI,NO
+1471,832,1994,73,Suecia,3371,Martin Dahlin,59,NO,NO
+1472,832,1994,73,Suecia,3371,Martin Dahlin,81,NO,NO
+1473,832,1994,69,Rusia,385,Oleg Salenko,4,SI,NO
+1474,833,1994,69,Rusia,385,Oleg Salenko,15,NO,NO
+1475,833,1994,69,Rusia,385,Oleg Salenko,41,NO,NO
+1476,833,1994,69,Rusia,385,Oleg Salenko,44,SI,NO
+1477,833,1994,69,Rusia,385,Oleg Salenko,72,NO,NO
+1478,833,1994,69,Rusia,385,Oleg Salenko,75,NO,NO
+1479,833,1994,69,Rusia,379,Dmitri Radchenko,81,NO,NO
+1480,833,1994,14,Camerún,936,Roger Milla,46,NO,NO
+1481,834,1994,11,Brasil,1791,Romario,46,NO,NO
+1482,834,1994,73,Suecia,3343,Kennet Andersson,23,NO,NO
+1483,835,1994,1,Alemania,6174,Juergen Klinsmann,61,NO,NO
+1484,836,1994,34,España,4959,Julio Salinas,51,NO,NO
+1485,836,1994,34,España,4933,Goikoetxea,55,NO,NO
+1486,836,1994,21,Corea del Sur,6972,Myung Bo Hong,85,NO,NO
+1487,836,1994,21,Corea del Sur,7083,Jung Won Seo,90,NO,NO
+1488,837,1994,1,Alemania,6174,Juergen Klinsmann,48,NO,NO
+1489,837,1994,34,España,4933,Goikoetxea,14,NO,NO
+1490,839,1994,9,Bolivia,4738,Erwin Sanchez,67,NO,NO
+1491,839,1994,34,España,4940,Pep Guardiola,19,SI,NO
+1492,839,1994,34,España,4884,Jose Luis Caminero,66,NO,NO
+1493,839,1994,34,España,4884,Jose Luis Caminero,70,NO,NO
+1494,840,1994,1,Alemania,6174,Juergen Klinsmann,12,NO,NO
+1495,840,1994,1,Alemania,6260,Karlheinz Riedle,20,NO,NO
+1496,840,1994,1,Alemania,6174,Juergen Klinsmann,37,NO,NO
+1497,840,1994,21,Corea del Sur,6978,Sun Hong Hwang,52,NO,NO
+1498,840,1994,21,Corea del Sur,6972,Myung Bo Hong,63,NO,NO
+1499,841,1994,6,Argentina,5181,Gabriel Batistuta,2,NO,NO
+1500,841,1994,6,Argentina,5181,Gabriel Batistuta,44,NO,NO
+1501,841,1994,6,Argentina,5307,Diego Maradona,60,NO,NO
+1502,841,1994,6,Argentina,5181,Gabriel Batistuta,90,SI,NO
+1503,842,1994,57,Nigeria,4543,Rasheed Yekini,21,NO,NO
+1504,842,1994,57,Nigeria,4456,Daniel Amokachi,43,NO,NO
+1505,842,1994,57,Nigeria,4457,Emmanuel Amunike,55,NO,NO
+1506,843,1994,6,Argentina,5208,Claudio Caniggia,21,NO,NO
+1507,843,1994,6,Argentina,5208,Claudio Caniggia,28,NO,NO
+1508,843,1994,57,Nigeria,4532,Samson Siasia,8,NO,NO
+1509,844,1994,12,Bulgaria,3001,Hristo Stoichkov,5,SI,NO
+1510,844,1994,12,Bulgaria,3001,Hristo Stoichkov,55,SI,NO
+1511,844,1994,12,Bulgaria,2968,Iordan Letchkov,65,NO,NO
+1512,844,1994,12,Bulgaria,2919,Daniel Borimirov,90,NO,NO
+1513,845,1994,57,Nigeria,4483,Finidi George,45,NO,NO
+1514,845,1994,57,Nigeria,4456,Daniel Amokachi,90,NO,NO
+1515,846,1994,12,Bulgaria,3001,Hristo Stoichkov,61,NO,NO
+1516,846,1994,12,Bulgaria,2998,Nasko Sirakov,90,NO,NO
+1517,847,1994,46,Irlanda,7457,Ray Houghton,11,NO,NO
+1518,848,1994,58,Noruega,7432,Kjetil Rekdal,84,NO,NO
+1519,849,1994,51,Italia,5532,Dino Baggio,69,NO,NO
+1520,850,1994,56,México,7727,Luis Garcia,42,NO,NO
+1521,850,1994,56,México,7727,Luis Garcia,65,NO,NO
+1522,850,1994,46,Irlanda,7441,John Aldridge,84,NO,NO
+1523,852,1994,51,Italia,5685,Daniele Massaro,48,NO,NO
+1524,852,1994,56,México,7658,Marcelino Bernal,57,NO,NO
+1525,853,1994,13,Bélgica,6591,Marc De Grijse,11,NO,NO
+1526,854,1994,60,Paises Bajos,6425,Wim Jonk,50,NO,NO
+1527,854,1994,60,Paises Bajos,6487,Gaston Taument,86,NO,NO
+1528,854,1994,4,Arabia Saudita,4818,Fuad Amin,18,NO,NO
+1529,855,1994,13,Bélgica,6543,Philippe Albert,65,NO,NO
+1530,856,1994,4,Arabia Saudita,4768,Sami Al Jaber,7,SI,NO
+1531,856,1994,4,Arabia Saudita,4818,Fuad Amin,45,NO,NO
+1532,856,1994,55,Marruecos,8327,Mohammed Chaouch,26,NO,NO
+1533,857,1994,55,Marruecos,8386,Hassan Nader,47,NO,NO
+1534,857,1994,60,Paises Bajos,6362,Dennis Bergkamp,43,NO,NO
+1535,857,1994,60,Paises Bajos,6472,Bryan Roy,77,NO,NO
+1536,858,1994,4,Arabia Saudita,4776,Said Al Owayran,5,NO,NO
+1537,895,1994,1,Alemania,6306,Rudi Voeller,6,NO,NO
+1538,895,1994,1,Alemania,6174,Juergen Klinsmann,11,NO,NO
+1539,895,1994,1,Alemania,6306,Rudi Voeller,40,NO,NO
+1540,895,1994,13,Bélgica,6627,Georges Grun,8,NO,NO
+1541,895,1994,13,Bélgica,6543,Philippe Albert,90,NO,NO
+1542,896,1994,34,España,4945,Fernando Hierro,15,NO,NO
+1543,896,1994,34,España,4975,Luis Enrique,74,NO,NO
+1544,896,1994,34,España,4876,Txiki Beguiristain,86,SI,NO
+1545,897,1994,4,Arabia Saudita,4763,Fahad Al Ghesheyan,85,NO,NO
+1546,897,1994,73,Suecia,3371,Martin Dahlin,6,NO,NO
+1547,897,1994,73,Suecia,3343,Kennet Andersson,51,NO,NO
+1548,897,1994,73,Suecia,3343,Kennet Andersson,88,NO,NO
+1549,898,1994,68,Rumania,1883,Ilie Dumitrescu,11,NO,NO
+1550,898,1994,68,Rumania,1883,Ilie Dumitrescu,18,NO,NO
+1551,898,1994,68,Rumania,1891,Gheorghe Hagi,58,NO,NO
+1552,898,1994,6,Argentina,5181,Gabriel Batistuta,16,SI,NO
+1553,898,1994,6,Argentina,5172,Abel Balbo,75,NO,NO
+1554,899,1994,60,Paises Bajos,6362,Dennis Bergkamp,11,NO,NO
+1555,899,1994,60,Paises Bajos,6425,Wim Jonk,41,NO,NO
+1556,900,1994,11,Brasil,1551,Bebeto,72,NO,NO
+1557,901,1994,57,Nigeria,4457,Emmanuel Amunike,25,NO,NO
+1558,901,1994,51,Italia,5533,Roberto Baggio,89,NO,NO
+1559,901,1994,51,Italia,5533,Roberto Baggio,100,SI,NO
+1560,902,1994,56,México,7729,Alberto Garcia Aspe,18,SI,NO
+1561,902,1994,12,Bulgaria,3001,Hristo Stoichkov,6,NO,NO
+1562,903,1994,51,Italia,5532,Dino Baggio,25,NO,NO
+1563,903,1994,51,Italia,5533,Roberto Baggio,87,NO,NO
+1564,903,1994,34,España,4884,Jose Luis Caminero,58,NO,NO
+1565,904,1994,60,Paises Bajos,6362,Dennis Bergkamp,64,NO,NO
+1566,904,1994,60,Paises Bajos,6537,Aron Winter,76,NO,NO
+1567,904,1994,11,Brasil,1791,Romario,53,NO,NO
+1568,904,1994,11,Brasil,1551,Bebeto,63,NO,NO
+1569,904,1994,11,Brasil,1559,Branco,81,NO,NO
+1570,905,1994,12,Bulgaria,3001,Hristo Stoichkov,75,NO,NO
+1571,905,1994,12,Bulgaria,2968,Iordan Letchkov,78,NO,NO
+1572,905,1994,1,Alemania,6212,Lothar Matthaeus,47,SI,NO
+1573,906,1994,68,Rumania,1933,Florin Raducioiu,88,NO,NO
+1574,906,1994,68,Rumania,1933,Florin Raducioiu,101,NO,NO
+1575,906,1994,73,Suecia,3366,Tomas Brolin,78,NO,NO
+1576,906,1994,73,Suecia,3343,Kennet Andersson,115,NO,NO
+1577,907,1994,12,Bulgaria,3001,Hristo Stoichkov,44,SI,NO
+1578,907,1994,51,Italia,5533,Roberto Baggio,20,NO,NO
+1579,907,1994,51,Italia,5533,Roberto Baggio,25,NO,NO
+1580,908,1994,11,Brasil,1791,Romario,80,NO,NO
+1581,909,1994,73,Suecia,3366,Tomas Brolin,8,NO,NO
+1582,909,1994,73,Suecia,3464,Hakan Mild,30,NO,NO
+1583,909,1994,73,Suecia,3440,Henrik Larsson,37,NO,NO
+1584,909,1994,73,Suecia,3343,Kennet Andersson,40,NO,NO
+1585,911,1998,11,Brasil,1580,Cesar Sampaio,5,NO,NO
+1586,911,1998,11,Brasil,2292,Tom Boyd,74,NO,SI
+1587,911,1998,31,Escocia,2305,John Collins,38,SI,NO
+1588,912,1998,55,Marruecos,8348,Mustafa El Hadji,37,NO,NO
+1589,912,1998,55,Marruecos,8363,Abdeljalil Hadda,60,NO,NO
+1590,912,1998,58,Noruega,8330,Youssef Chippo,45,NO,SI
+1591,912,1998,58,Noruega,7398,Dan Eggen,61,NO,NO
+1592,913,1998,31,Escocia,2298,Craig Burley,66,NO,NO
+1593,913,1998,58,Noruega,7401,Havard Flo,46,NO,NO
+1594,914,1998,11,Brasil,1795,Ronaldo,9,NO,NO
+1595,914,1998,11,Brasil,1781,Rivaldo,45,NO,NO
+1596,914,1998,11,Brasil,1551,Bebeto,50,NO,NO
+1597,915,1998,55,Marruecos,8309,Salaheddine Bassir,23,NO,NO
+1598,915,1998,55,Marruecos,8363,Abdeljalil Hadda,46,NO,NO
+1599,915,1998,55,Marruecos,8309,Salaheddine Bassir,85,NO,NO
+1600,916,1998,11,Brasil,1551,Bebeto,78,NO,NO
+1601,916,1998,58,Noruega,7403,Tore Andre Flo,83,NO,NO
+1602,916,1998,58,Noruega,7432,Kjetil Rekdal,89,SI,NO
+1603,917,1998,14,Camerún,951,Pierre Njanka,77,NO,NO
+1604,917,1998,8,Austria,4626,Toni Polster,90,NO,NO
+1605,918,1998,51,Italia,5787,Christian Vieri,11,NO,NO
+1606,918,1998,51,Italia,5533,Roberto Baggio,84,SI,NO
+1607,918,1998,17,Chile,756,Marcelo Salas,45,NO,NO
+1608,918,1998,17,Chile,756,Marcelo Salas,48,NO,NO
+1609,919,1998,17,Chile,756,Marcelo Salas,70,NO,NO
+1610,919,1998,8,Austria,4659,Ivica Vastic,90,NO,NO
+1611,920,1998,51,Italia,5612,Luigi Di Biagio,7,NO,NO
+1612,920,1998,51,Italia,5787,Christian Vieri,75,NO,NO
+1613,920,1998,51,Italia,5787,Christian Vieri,89,NO,NO
+1614,921,1998,51,Italia,5787,Christian Vieri,48,NO,NO
+1615,921,1998,51,Italia,5533,Roberto Baggio,90,NO,NO
+1616,921,1998,8,Austria,4579,Andreas Herzog,90,SI,NO
+1617,922,1998,17,Chile,761,Jose Sierra,20,NO,NO
+1618,922,1998,14,Camerún,932,Patrick Mboma,56,NO,NO
+1619,923,1998,26,Dinamarca,4272,Marc Rieper,69,NO,NO
+1620,924,1998,36,Francia,3908,Christophe Dugarry,36,NO,NO
+1621,924,1998,36,Francia,8248,Pierre Issa,77,NO,SI
+1622,924,1998,36,Francia,3937,Thierry Henry,90,NO,NO
+1623,925,1998,36,Francia,3937,Thierry Henry,37,NO,NO
+1624,925,1998,36,Francia,4057,David Trezeguet,68,NO,NO
+1625,925,1998,36,Francia,3937,Thierry Henry,78,NO,NO
+1626,925,1998,36,Francia,3974,Bixente Lizarazu,85,NO,NO
+1627,926,1998,72,Sudáfrica,8261,Benni Mccarthy,51,NO,NO
+1628,926,1998,26,Dinamarca,4260,Allan Nielsen,12,NO,NO
+1629,927,1998,36,Francia,3905,Youri Djorkaeff,12,SI,NO
+1630,927,1998,36,Francia,4005,Emmanuel Petit,56,NO,NO
+1631,927,1998,26,Dinamarca,4243,Michael Laudrup,42,SI,NO
+1632,928,1998,72,Sudáfrica,8237,Shaun Bartlett,18,NO,NO
+1633,928,1998,72,Sudáfrica,8237,Shaun Bartlett,90,SI,NO
+1634,928,1998,4,Arabia Saudita,4768,Sami Al Jaber,45,SI,NO
+1635,928,1998,4,Arabia Saudita,4787,Youssef Al Tunayan,74,SI,NO
+1636,930,1998,34,España,4945,Fernando Hierro,21,NO,NO
+1637,930,1998,34,España,5036,Raul,47,NO,NO
+1638,930,1998,57,Nigeria,4444,Mutiu Adepoju,24,NO,NO
+1639,930,1998,57,Nigeria,5101,Andoni Zubizarreta,73,NO,SI
+1640,930,1998,57,Nigeria,4522,Sunday Oliseh,78,NO,NO
+1641,931,1998,57,Nigeria,4490,Victor Ikpeba,28,NO,NO
+1642,933,1998,34,España,4945,Fernando Hierro,6,SI,NO
+1643,933,1998,34,España,4975,Luis Enrique,18,NO,NO
+1644,933,1998,34,España,4998,Fernando Morientes,55,NO,NO
+1645,933,1998,34,España,4998,Fernando Morientes,81,NO,NO
+1646,933,1998,34,España,2916,Georgi Bachev,88,NO,SI
+1647,933,1998,34,España,4961,Kiko,90,NO,NO
+1648,933,1998,12,Bulgaria,2960,Emil Kostadinov,58,NO,NO
+1649,934,1998,57,Nigeria,4527,Wilson Oruma,11,NO,NO
+1650,934,1998,62,Paraguay,4312,Celso Ayala,1,NO,NO
+1651,934,1998,62,Paraguay,4320,Miguel Benitez,58,NO,NO
+1652,934,1998,62,Paraguay,4342,Jose Cardozo,86,NO,NO
+1653,936,1998,21,Corea del Sur,6965,Seok Ju Ha,27,NO,NO
+1654,936,1998,56,México,7817,Ricardo Pelaez Linares,50,NO,NO
+1655,936,1998,56,México,7754,Luis Hernandez,75,NO,NO
+1656,936,1998,56,México,7754,Luis Hernandez,84,NO,NO
+1657,937,1998,60,Paises Bajos,6377,Phillip Cocu,37,NO,NO
+1658,937,1998,60,Paises Bajos,6458,Marc Overmars,41,NO,NO
+1659,937,1998,60,Paises Bajos,6362,Dennis Bergkamp,71,NO,NO
+1660,937,1998,60,Paises Bajos,6511,Pierre Van Hooijdonk,78,NO,NO
+1661,937,1998,60,Paises Bajos,6382,Ronald De Boer,83,NO,NO
+1662,938,1998,13,Bélgica,6757,Marc Wilmots,42,NO,NO
+1663,938,1998,13,Bélgica,6757,Marc Wilmots,47,NO,NO
+1664,938,1998,56,México,7729,Alberto Garcia Aspe,55,SI,NO
+1665,938,1998,56,México,7660,Cuauhtemoc Blanco,62,NO,NO
+1666,939,1998,13,Bélgica,6667,Luc Nilis,7,NO,NO
+1667,939,1998,21,Corea del Sur,7095,Sang Chul Yoo,72,NO,NO
+1668,940,1998,60,Paises Bajos,6377,Phillip Cocu,4,NO,NO
+1669,940,1998,60,Paises Bajos,6382,Ronald De Boer,18,NO,NO
+1670,940,1998,56,México,7817,Ricardo Pelaez Linares,75,NO,NO
+1671,940,1998,56,México,7754,Luis Hernandez,90,NO,NO
+1672,941,1998,,RF de Yugoslavia,3653,Sinisa Mihajlovic,73,NO,NO
+1673,942,1998,1,Alemania,6219,Andreas Moeller,10,NO,NO
+1674,942,1998,1,Alemania,6174,Juergen Klinsmann,67,NO,NO
+1675,943,1998,1,Alemania,3653,Sinisa Mihajlovic,72,NO,SI
+1676,943,1998,1,Alemania,6058,Oliver Bierhoff,78,NO,NO
+1677,943,1998,,RF de Yugoslavia,3654,Predrag Mijatovic,13,NO,NO
+1678,943,1998,,RF de Yugoslavia,3739,Dragan Stojkovic,52,NO,NO
+1679,944,1998,35,Estados Unidos,2843,Brian Mcbride,87,NO,NO
+1680,944,1998,48,Irán,4103,Hamid Estili,41,NO,NO
+1681,944,1998,48,Irán,4140,Mehdi Mahdavikia,83,NO,NO
+1682,945,1998,1,Alemania,6058,Oliver Bierhoff,50,NO,NO
+1683,945,1998,1,Alemania,6174,Juergen Klinsmann,57,NO,NO
+1684,946,1998,,RF de Yugoslavia,3620,Slobodan Komljenovic,3,NO,NO
+1685,947,1998,68,Rumania,1892,Adrian Ilie,45,NO,NO
+1686,948,1998,44,Inglaterra,1389,Alan Shearer,42,NO,NO
+1687,948,1998,44,Inglaterra,1384,Paul Scholes,89,NO,NO
+1688,949,1998,19,Colombia,2708,Leider Preciado,82,NO,NO
+1689,950,1998,68,Rumania,1910,Viorel Moldovan,46,NO,NO
+1690,950,1998,68,Rumania,1923,Dan Petrescu,90,NO,NO
+1691,950,1998,44,Inglaterra,1358,Michael Owen,81,NO,NO
+1692,951,1998,68,Rumania,1910,Viorel Moldovan,71,NO,NO
+1693,951,1998,78,Túnez,7252,Skander Souayah,12,SI,NO
+1694,952,1998,44,Inglaterra,1198,Darren Anderton,20,NO,NO
+1695,952,1998,44,Inglaterra,1215,David Beckham,29,NO,NO
+1696,953,1998,52,Jamaica,7267,Robert Earle,45,NO,NO
+1697,953,1998,24,Croacia,1149,Mario Stanic,27,NO,NO
+1698,953,1998,24,Croacia,3705,Robert Prosinecki,53,NO,NO
+1699,953,1998,24,Croacia,3743,Davor Suker,69,NO,NO
+1700,954,1998,6,Argentina,5181,Gabriel Batistuta,28,NO,NO
+1701,955,1998,24,Croacia,3743,Davor Suker,77,NO,NO
+1702,956,1998,6,Argentina,5337,Ariel Ortega,31,NO,NO
+1703,956,1998,6,Argentina,5337,Ariel Ortega,55,NO,NO
+1704,956,1998,6,Argentina,5181,Gabriel Batistuta,73,NO,NO
+1705,956,1998,6,Argentina,5181,Gabriel Batistuta,78,NO,NO
+1706,956,1998,6,Argentina,5181,Gabriel Batistuta,83,SI,NO
+1707,957,1998,53,Japón,142,Masashi Nakayama,74,NO,NO
+1708,957,1998,52,Jamaica,7280,Theodore Whitmore,39,NO,NO
+1709,957,1998,52,Jamaica,7280,Theodore Whitmore,54,NO,NO
+1710,958,1998,6,Argentina,5366,Mauricio Pineda,36,NO,NO
+1711,1007,1998,11,Brasil,1580,Cesar Sampaio,11,NO,NO
+1712,1007,1998,11,Brasil,1580,Cesar Sampaio,27,NO,NO
+1713,1007,1998,11,Brasil,1795,Ronaldo,45,SI,NO
+1714,1007,1998,11,Brasil,1795,Ronaldo,70,NO,NO
+1715,1007,1998,17,Chile,756,Marcelo Salas,68,NO,NO
+1716,1008,1998,51,Italia,5787,Christian Vieri,18,NO,NO
+1717,1009,1998,57,Nigeria,4461,Tijani Babangida,78,NO,NO
+1718,1009,1998,26,Dinamarca,4256,Peter Moller,3,NO,NO
+1719,1009,1998,26,Dinamarca,4242,Brian Laudrup,12,NO,NO
+1720,1009,1998,26,Dinamarca,4275,Ebbe Sand,60,NO,NO
+1721,1009,1998,26,Dinamarca,4219,Thomas Helveg,76,NO,NO
+1722,1010,1998,36,Francia,3848,Laurent Blanc,113,NO,NO
+1723,1011,1998,1,Alemania,6174,Juergen Klinsmann,75,NO,NO
+1724,1011,1998,1,Alemania,6058,Oliver Bierhoff,86,NO,NO
+1725,1011,1998,56,México,7754,Luis Hernandez,47,NO,NO
+1726,1012,1998,60,Paises Bajos,6362,Dennis Bergkamp,38,NO,NO
+1727,1012,1998,60,Paises Bajos,6379,Edgar Davids,90,NO,NO
+1728,1012,1998,,RF de Yugoslavia,3620,Slobodan Komljenovic,48,NO,NO
+1729,1013,1998,6,Argentina,5181,Gabriel Batistuta,6,SI,NO
+1730,1013,1998,6,Argentina,5443,Javier Zanetti,45,NO,NO
+1731,1013,1998,44,Inglaterra,1389,Alan Shearer,10,SI,NO
+1732,1013,1998,44,Inglaterra,1358,Michael Owen,16,NO,NO
+1733,1014,1998,24,Croacia,3743,Davor Suker,45,SI,NO
+1734,1016,1998,11,Brasil,1551,Bebeto,11,NO,NO
+1735,1016,1998,11,Brasil,1781,Rivaldo,27,NO,NO
+1736,1016,1998,11,Brasil,1781,Rivaldo,60,NO,NO
+1737,1016,1998,26,Dinamarca,4229,Martin Jorgensen,2,NO,NO
+1738,1016,1998,26,Dinamarca,4242,Brian Laudrup,50,NO,NO
+1739,1017,1998,24,Croacia,3600,Robert Jarni,45,NO,NO
+1740,1017,1998,24,Croacia,1162,Goran Vlaovic,80,NO,NO
+1741,1017,1998,24,Croacia,3743,Davor Suker,85,NO,NO
+1742,1018,1998,60,Paises Bajos,6429,Patrick Kluivert,12,NO,NO
+1743,1018,1998,60,Paises Bajos,6362,Dennis Bergkamp,89,NO,NO
+1744,1018,1998,6,Argentina,5299,Claudio Lopez,17,NO,NO
+1745,1019,1998,11,Brasil,1795,Ronaldo,46,NO,NO
+1746,1019,1998,60,Paises Bajos,6429,Patrick Kluivert,87,NO,NO
+1747,1020,1998,36,Francia,4051,Lilian Thuram,47,NO,NO
+1748,1020,1998,36,Francia,4051,Lilian Thuram,69,NO,NO
+1749,1020,1998,24,Croacia,3743,Davor Suker,46,NO,NO
+1750,1021,1998,60,Paises Bajos,6541,Boudewijn Zenden,21,NO,NO
+1751,1021,1998,24,Croacia,3705,Robert Prosinecki,13,NO,NO
+1752,1021,1998,24,Croacia,3743,Davor Suker,35,NO,NO
+1753,1022,1998,36,Francia,4075,Zinedine Zidane,27,NO,NO
+1754,1022,1998,36,Francia,4075,Zinedine Zidane,45,NO,NO
+1755,1022,1998,36,Francia,4005,Emmanuel Petit,90,NO,NO
+1756,1023,2002,70,Senegal,1031,Bouba Diop,30,NO,NO
+1757,1024,2002,80,Uruguay,5979,Dario Rodriguez,47,NO,NO
+1758,1024,2002,26,Dinamarca,4288,Jon Dahl Tomasson,45,NO,NO
+1759,1024,2002,26,Dinamarca,4288,Jon Dahl Tomasson,83,NO,NO
+1760,1026,2002,26,Dinamarca,4288,Jon Dahl Tomasson,16,SI,NO
+1761,1026,2002,70,Senegal,1025,Salif Diao,52,NO,NO
+1762,1027,2002,26,Dinamarca,4273,Dennis Rommedahl,22,NO,NO
+1763,1027,2002,26,Dinamarca,4288,Jon Dahl Tomasson,67,NO,NO
+1764,1028,2002,70,Senegal,1035,Khalilou Fadiga,20,SI,NO
+1765,1028,2002,70,Senegal,1031,Bouba Diop,26,NO,NO
+1766,1028,2002,70,Senegal,1031,Bouba Diop,38,NO,NO
+1767,1028,2002,80,Uruguay,5932,Richard Morales,46,NO,NO
+1768,1028,2002,80,Uruguay,5872,Diego Forlan,69,NO,NO
+1769,1028,2002,80,Uruguay,5968,Alvaro Recoba,88,SI,NO
+1770,1029,2002,62,Paraguay,4419,Roque Santa Cruz,39,NO,NO
+1771,1029,2002,62,Paraguay,4307,Francisco Arce,55,NO,NO
+1772,1029,2002,72,Sudáfrica,8268,Teboho Mokoena,63,NO,NO
+1773,1029,2002,72,Sudáfrica,8245,Quinton Fortune,90,SI,NO
+1774,1030,2002,34,España,5036,Raul,44,NO,NO
+1775,1030,2002,34,España,5086,Juan Carlos Valeron,74,NO,NO
+1776,1030,2002,34,España,4945,Fernando Hierro,87,SI,NO
+1777,1030,2002,33,Eslovenia,3780,Sebastijan Cimirotic,82,NO,NO
+1778,1031,2002,34,España,4998,Fernando Morientes,53,NO,NO
+1779,1031,2002,34,España,4998,Fernando Morientes,69,NO,NO
+1780,1031,2002,34,España,4945,Fernando Hierro,83,SI,NO
+1781,1031,2002,62,Paraguay,5028,Carles Puyol,10,NO,SI
+1782,1032,2002,72,Sudáfrica,8277,Siyabonga Nomvethe,4,NO,NO
+1783,1033,2002,72,Sudáfrica,8261,Benni Mccarthy,31,NO,NO
+1784,1033,2002,72,Sudáfrica,8284,Lucas Radebe,53,NO,NO
+1785,1033,2002,34,España,5036,Raul,4,NO,NO
+1786,1033,2002,34,España,4988,Gaizka Mendieta,45,NO,NO
+1787,1033,2002,34,España,5036,Raul,56,NO,NO
+1788,1034,2002,33,Eslovenia,3773,Milenko Acimovic,45,NO,NO
+1789,1034,2002,62,Paraguay,4351,Nelson Cuevas,65,NO,NO
+1790,1034,2002,62,Paraguay,7674,Jorge Campos,73,NO,NO
+1791,1034,2002,62,Paraguay,4351,Nelson Cuevas,84,NO,NO
+1792,1035,2002,11,Brasil,1795,Ronaldo,50,NO,NO
+1793,1035,2002,11,Brasil,1781,Rivaldo,87,SI,NO
+1794,1035,2002,77,Turquía,5485,Hasan Sas,45,NO,NO
+1795,1036,2002,22,Costa Rica,2001,Ronald Gomez,61,NO,NO
+1796,1036,2002,22,Costa Rica,2063,Mauricio Wright,65,NO,NO
+1797,1037,2002,11,Brasil,1784,Roberto Carlos,15,NO,NO
+1798,1037,2002,11,Brasil,1781,Rivaldo,32,NO,NO
+1799,1037,2002,11,Brasil,1794,Ronaldinho,45,SI,NO
+1800,1037,2002,11,Brasil,1795,Ronaldo,55,NO,NO
+1801,1038,2002,22,Costa Rica,2035,Winston Parks,86,NO,NO
+1802,1038,2002,77,Turquía,5453,Emre Belozoglu,56,NO,NO
+1803,1039,2002,22,Costa Rica,2060,Paulo Wanchope,39,NO,NO
+1804,1039,2002,22,Costa Rica,2001,Ronald Gomez,56,NO,NO
+1805,1039,2002,11,Brasil,1795,Ronaldo,10,NO,NO
+1806,1039,2002,11,Brasil,1795,Ronaldo,13,NO,NO
+1807,1039,2002,11,Brasil,1612,Edmilson,38,NO,NO
+1808,1039,2002,11,Brasil,1781,Rivaldo,62,NO,NO
+1809,1039,2002,11,Brasil,1680,Junior,64,NO,NO
+1810,1040,2002,77,Turquía,5485,Hasan Sas,6,NO,NO
+1811,1040,2002,77,Turquía,5471,Bulent Korkmaz,9,NO,NO
+1812,1040,2002,77,Turquía,5460,Umit Davala,85,NO,NO
+1813,1041,2002,21,Corea del Sur,6978,Sun Hong Hwang,26,NO,NO
+1814,1041,2002,21,Corea del Sur,7095,Sang Chul Yoo,53,NO,NO
+1815,1042,2002,35,Estados Unidos,2856,John O'Brien,4,NO,NO
+1816,1042,2002,35,Estados Unidos,3252,Jorge Costa,29,NO,SI
+1817,1042,2002,35,Estados Unidos,2843,Brian Mcbride,36,NO,NO
+1818,1042,2002,65,Portugal,3202,Beto,39,NO,NO
+1819,1042,2002,65,Portugal,2739,Jeff Agoos,71,NO,SI
+1820,1043,2002,21,Corea del Sur,6925,Jung Hwan Ahn,78,NO,NO
+1821,1043,2002,35,Estados Unidos,2842,Clint Mathis,24,NO,NO
+1822,1044,2002,65,Portugal,3285,Pauleta,14,NO,NO
+1823,1044,2002,65,Portugal,3285,Pauleta,65,NO,NO
+1824,1044,2002,65,Portugal,3285,Pauleta,77,NO,NO
+1825,1044,2002,65,Portugal,3309,Rui Costa,88,NO,NO
+1826,1045,2002,21,Corea del Sur,7075,Ji Sung Park,70,NO,NO
+1827,1046,2002,64,Polonia,3134,Emmanuel Olisadebe,3,NO,NO
+1828,1046,2002,64,Polonia,3101,Pawel Kryszalowicz,5,NO,NO
+1829,1046,2002,64,Polonia,3182,Marcin Zewlakow,66,NO,NO
+1830,1046,2002,35,Estados Unidos,2789,Landon Donovan,83,NO,NO
+1831,1047,2002,46,Irlanda,7456,Matt Holland,52,NO,NO
+1832,1047,2002,14,Camerún,932,Patrick Mboma,39,NO,NO
+1833,1048,2002,1,Alemania,6176,Miroslav Klose,20,NO,NO
+1834,1048,2002,1,Alemania,6176,Miroslav Klose,25,NO,NO
+1835,1048,2002,1,Alemania,6047,Michael Ballack,40,NO,NO
+1836,1048,2002,1,Alemania,6156,Carsten Jancker,45,NO,NO
+1837,1048,2002,1,Alemania,6176,Miroslav Klose,70,NO,NO
+1838,1048,2002,1,Alemania,6201,Thomas Linke,73,NO,NO
+1839,1048,2002,1,Alemania,6058,Oliver Bierhoff,84,NO,NO
+1840,1048,2002,1,Alemania,6273,Bernd Schneider,90,NO,NO
+1841,1049,2002,1,Alemania,6176,Miroslav Klose,19,NO,NO
+1842,1049,2002,46,Irlanda,7460,Robbie Keane,90,NO,NO
+1843,1050,2002,14,Camerún,894,Samuel Eto'o,66,NO,NO
+1844,1051,2002,1,Alemania,6061,Marco Bode,50,NO,NO
+1845,1051,2002,1,Alemania,6176,Miroslav Klose,79,NO,NO
+1846,1052,2002,46,Irlanda,7460,Robbie Keane,7,NO,NO
+1847,1052,2002,46,Irlanda,7444,Gary Breen,61,NO,NO
+1848,1052,2002,46,Irlanda,7451,Damien Duff,87,NO,NO
+1849,1053,2002,44,Inglaterra,1235,Sol Campbell,24,NO,NO
+1850,1053,2002,73,Suecia,3332,Niclas Alexandersson,59,NO,NO
+1851,1054,2002,6,Argentina,5181,Gabriel Batistuta,63,NO,NO
+1852,1055,2002,73,Suecia,3440,Henrik Larsson,35,NO,NO
+1853,1055,2002,73,Suecia,3440,Henrik Larsson,63,SI,NO
+1854,1055,2002,57,Nigeria,4448,Julius Aghahowa,27,NO,NO
+1855,1056,2002,44,Inglaterra,1215,David Beckham,44,SI,NO
+1856,1057,2002,73,Suecia,3516,Anders Svensson,59,NO,NO
+1857,1057,2002,6,Argentina,5225,Hernan Crespo,88,NO,NO
+1858,1059,2002,56,México,7660,Cuauhtemoc Blanco,60,SI,NO
+1859,1060,2002,51,Italia,5787,Christian Vieri,7,NO,NO
+1860,1060,2002,51,Italia,5787,Christian Vieri,27,NO,NO
+1861,1061,2002,51,Italia,5787,Christian Vieri,55,NO,NO
+1862,1061,2002,24,Croacia,1126,Ivica Olic,73,NO,NO
+1863,1061,2002,24,Croacia,1138,Milan Rapaic,76,NO,NO
+1864,1062,2002,56,México,7663,Jared Borgetti,28,NO,NO
+1865,1062,2002,56,México,7878,Gerardo Torrado,57,NO,NO
+1866,1062,2002,27,Ecuador,24,Agustin Delgado,5,NO,NO
+1867,1063,2002,56,México,7663,Jared Borgetti,34,NO,NO
+1868,1063,2002,51,Italia,5609,Alessandro Del Piero,85,NO,NO
+1869,1064,2002,27,Ecuador,47,Edison Mendez,48,NO,NO
+1870,1065,2002,53,Japón,169,Takayuki Suzuki,59,NO,NO
+1871,1065,2002,53,Japón,97,Junichi Inamoto,67,NO,NO
+1872,1065,2002,13,Bélgica,6757,Marc Wilmots,57,NO,NO
+1873,1065,2002,13,Bélgica,6716,Peter Van Der Heyden,75,NO,NO
+1874,1066,2002,69,Rusia,411,Egor Titov,59,NO,NO
+1875,1066,2002,69,Rusia,315,Valeri Karpin,64,SI,NO
+1876,1067,2002,53,Japón,97,Junichi Inamoto,51,NO,NO
+1877,1068,2002,78,Túnez,7175,Raouf Bouzaiene,17,NO,NO
+1878,1068,2002,13,Bélgica,6757,Marc Wilmots,13,NO,NO
+1879,1069,2002,53,Japón,131,Hiroaki Morishima,48,NO,NO
+1880,1069,2002,53,Japón,140,Hidetoshi Nakata,75,NO,NO
+1881,1070,2002,13,Bélgica,6754,Johan Walem,7,NO,NO
+1882,1070,2002,13,Bélgica,6697,Wesley Sonck,78,NO,NO
+1883,1070,2002,13,Bélgica,6757,Marc Wilmots,82,NO,NO
+1884,1070,2002,69,Rusia,260,Vladimir Beschastnykh,52,NO,NO
+1885,1070,2002,69,Rusia,408,Dmitri Sychev,88,NO,NO
+1886,1119,2002,1,Alemania,6232,Oliver Neuville,88,NO,NO
+1887,1120,2002,44,Inglaterra,1270,Rio Ferdinand,5,NO,NO
+1888,1120,2002,44,Inglaterra,1358,Michael Owen,22,NO,NO
+1889,1120,2002,44,Inglaterra,1292,Emile Heskey,44,NO,NO
+1890,1121,2002,73,Suecia,3440,Henrik Larsson,11,NO,NO
+1891,1121,2002,70,Senegal,1013,Henri Camara,37,NO,NO
+1892,1121,2002,70,Senegal,1013,Henri Camara,14,NO,NO
+1893,1122,2002,34,España,4998,Fernando Morientes,8,NO,NO
+1894,1122,2002,46,Irlanda,7460,Robbie Keane,90,SI,NO
+1895,1123,2002,35,Estados Unidos,2843,Brian Mcbride,8,NO,NO
+1896,1123,2002,35,Estados Unidos,2789,Landon Donovan,65,NO,NO
+1897,1124,2002,11,Brasil,1781,Rivaldo,67,NO,NO
+1898,1124,2002,11,Brasil,1795,Ronaldo,87,NO,NO
+1899,1125,2002,77,Turquía,5460,Umit Davala,12,NO,NO
+1900,1126,2002,21,Corea del Sur,7084,Ki Hyeon Seol,88,NO,NO
+1901,1126,2002,21,Corea del Sur,6925,Jung Hwan Ahn,117,NO,NO
+1902,1126,2002,51,Italia,5787,Christian Vieri,18,NO,NO
+1903,1127,2002,44,Inglaterra,1358,Michael Owen,23,NO,NO
+1904,1127,2002,11,Brasil,1781,Rivaldo,45,NO,NO
+1905,1127,2002,11,Brasil,1794,Ronaldinho,50,NO,NO
+1906,1128,2002,1,Alemania,6047,Michael Ballack,39,NO,NO
+1907,1130,2002,77,Turquía,5473,Ilhan Mansiz,4,NO,NO
+1908,1131,2002,1,Alemania,6047,Michael Ballack,75,NO,NO
+1909,1132,2002,11,Brasil,1795,Ronaldo,49,NO,NO
+1910,1133,2002,21,Corea del Sur,7039,Eul Yong Lee,9,NO,NO
+1911,1133,2002,21,Corea del Sur,7089,Chong Gug Song,90,NO,NO
+1912,1133,2002,77,Turquía,5488,Hakan Sukur,1,NO,NO
+1913,1133,2002,77,Turquía,5473,Ilhan Mansiz,13,NO,NO
+1914,1133,2002,77,Turquía,5473,Ilhan Mansiz,32,NO,NO
+1915,1134,2002,11,Brasil,1795,Ronaldo,67,NO,NO
+1916,1134,2002,11,Brasil,1795,Ronaldo,79,NO,NO
+1917,1135,2006,1,Alemania,6196,Philipp Lahm,6,NO,NO
+1918,1135,2006,1,Alemania,6176,Miroslav Klose,17,NO,NO
+1919,1135,2006,1,Alemania,6176,Miroslav Klose,61,NO,NO
+1920,1135,2006,1,Alemania,6100,Torsten Frings,87,NO,NO
+1921,1135,2006,22,Costa Rica,2060,Paulo Wanchope,12,NO,NO
+1922,1135,2006,22,Costa Rica,2060,Paulo Wanchope,73,NO,NO
+1923,1136,2006,27,Ecuador,71,Carlos Tenorio,24,NO,NO
+1924,1136,2006,27,Ecuador,24,Agustin Delgado,80,NO,NO
+1925,1137,2006,1,Alemania,6232,Oliver Neuville,90,NO,NO
+1926,1138,2006,27,Ecuador,71,Carlos Tenorio,8,NO,NO
+1927,1138,2006,27,Ecuador,24,Agustin Delgado,54,NO,NO
+1928,1138,2006,27,Ecuador,42,Ivan Kaviedes,90,NO,NO
+1929,1139,2006,1,Alemania,6176,Miroslav Klose,4,NO,NO
+1930,1139,2006,1,Alemania,6176,Miroslav Klose,44,NO,NO
+1931,1139,2006,1,Alemania,6248,Lukas Podolski,57,NO,NO
+1932,1140,2006,22,Costa Rica,2001,Ronald Gomez,25,NO,NO
+1933,1140,2006,64,Polonia,3037,Bartosz Bosacki,33,NO,NO
+1934,1140,2006,64,Polonia,3037,Bartosz Bosacki,66,NO,NO
+1935,1141,2006,44,Inglaterra,4366,Carlos Gamarra,3,NO,SI
+1936,1143,2006,44,Inglaterra,1255,Peter Crouch,83,NO,NO
+1937,1143,2006,44,Inglaterra,1282,Steven Gerrard,90,NO,NO
+1938,1144,2006,73,Suecia,3454,Fredrik Ljungberg,89,NO,NO
+1939,1145,2006,73,Suecia,3333,Marcus Allback,51,NO,NO
+1940,1145,2006,73,Suecia,3440,Henrik Larsson,90,NO,NO
+1941,1145,2006,44,Inglaterra,1250,Joe Cole,34,NO,NO
+1942,1145,2006,44,Inglaterra,1282,Steven Gerrard,85,NO,NO
+1943,1146,2006,62,Paraguay,617,Brent Sancho,25,NO,SI
+1944,1146,2006,62,Paraguay,4351,Nelson Cuevas,86,NO,NO
+1945,1147,2006,6,Argentina,5225,Hernan Crespo,24,NO,NO
+1946,1147,2006,6,Argentina,5401,Javier Saviola,38,NO,NO
+1947,1147,2006,23,Costa de Marfil,6775,Didier Drogba,82,NO,NO
+1948,1148,2006,60,Paises Bajos,6471,Arjen Robben,18,NO,NO
+1949,1149,2006,6,Argentina,5381,Maxi Rodriguez,6,NO,NO
+1950,1149,2006,6,Argentina,5205,Esteban Cambiasso,31,NO,NO
+1951,1149,2006,6,Argentina,5381,Maxi Rodriguez,41,NO,NO
+1952,1149,2006,6,Argentina,5225,Hernan Crespo,78,NO,NO
+1953,1149,2006,6,Argentina,5422,Carlos Tevez,84,NO,NO
+1954,1149,2006,6,Argentina,5318,Lionel Messi,88,NO,NO
+1955,1150,2006,60,Paises Bajos,6518,Robin Van Persie,23,NO,NO
+1956,1150,2006,60,Paises Bajos,6517,Ruud Van Nistelrooij,27,NO,NO
+1957,1150,2006,23,Costa de Marfil,6788,Bakary Kone,38,NO,NO
+1958,1152,2006,23,Costa de Marfil,6770,Aruna Dindane,37,SI,NO
+1959,1152,2006,23,Costa de Marfil,6770,Aruna Dindane,67,NO,NO
+1960,1152,2006,23,Costa de Marfil,6784,Bonaventure Kalou,86,SI,NO
+1961,1152,2006,,Serbia y Montenegro,3769,Nikola Zigic,10,NO,NO
+1962,1152,2006,,Serbia y Montenegro,3592,Sasa Ilic,20,NO,NO
+1963,1153,2006,56,México,7666,Omar Bravo,28,NO,NO
+1964,1153,2006,56,México,7666,Omar Bravo,76,NO,NO
+1965,1153,2006,56,México,7898,Zinha,79,NO,NO
+1966,1153,2006,48,Irán,4111,Yahya Golmohammadi,36,NO,NO
+1967,1154,2006,65,Portugal,3285,Pauleta,4,NO,NO
+1968,1156,2006,65,Portugal,3221,Deco,63,NO,NO
+1969,1156,2006,65,Portugal,3307,Cristiano Ronaldo,80,SI,NO
+1970,1157,2006,65,Portugal,3262,Maniche,6,NO,NO
+1971,1157,2006,65,Portugal,3317,Simao,24,SI,NO
+1972,1157,2006,56,México,7720,Jose Fonseca,29,NO,NO
+1973,1158,2006,48,Irán,4087,Sohrab Bakhtiarizadeh,75,NO,NO
+1974,1158,2006,3,Angola,7927,Flavio,60,NO,NO
+1975,1159,2006,51,Italia,5733,Andrea Pirlo,40,NO,NO
+1976,1159,2006,51,Italia,5656,Vincenzo Iaquinta,83,NO,NO
+1977,1160,2006,67,República Checa,501,Jan Koller,5,NO,NO
+1978,1160,2006,67,República Checa,564,Tomas Rosicky,36,NO,NO
+1979,1160,2006,67,República Checa,564,Tomas Rosicky,76,NO,NO
+1980,1161,2006,51,Italia,5647,Alberto Gilardino,22,NO,NO
+1981,1161,2006,35,Estados Unidos,5792,Cristian Zaccardo,27,NO,SI
+1982,1162,2006,38,Ghana,1474,Asamoah Gyan,2,NO,NO
+1983,1162,2006,38,Ghana,1488,Sulley Muntari,82,NO,NO
+1984,1163,2006,51,Italia,5686,Marco Materazzi,26,NO,NO
+1985,1163,2006,51,Italia,5659,Filippo Inzaghi,87,NO,NO
+1986,1164,2006,38,Ghana,1472,Haminu Draman,22,NO,NO
+1987,1164,2006,38,Ghana,1458,Stephen Appiah,45,SI,NO
+1988,1164,2006,35,Estados Unidos,2783,Clint Dempsey,43,NO,NO
+1989,1165,2006,7,Australia,7294,Tim Cahill,84,NO,NO
+1990,1165,2006,7,Australia,7294,Tim Cahill,89,NO,NO
+1991,1165,2006,7,Australia,7283,John Aloisi,90,NO,NO
+1992,1165,2006,53,Japón,138,Shunsuke Nakamura,26,NO,NO
+1993,1166,2006,11,Brasil,1684,Kaká,44,NO,NO
+1994,1167,2006,11,Brasil,1522,Adriano,49,NO,NO
+1995,1167,2006,11,Brasil,1634,Fred,90,NO,NO
+1996,1169,2006,53,Japón,171,Keiji Tamada,34,NO,NO
+1997,1169,2006,11,Brasil,1795,Ronaldo,45,NO,NO
+1998,1169,2006,11,Brasil,1679,Juninho Pernambucano,53,NO,NO
+1999,1169,2006,11,Brasil,1642,Gilberto Melo,59,NO,NO
+2000,1169,2006,11,Brasil,1795,Ronaldo,81,NO,NO
+2001,1170,2006,24,Croacia,1148,Darijo Srna,2,NO,NO
+2002,1170,2006,24,Croacia,1107,Niko Kovac,56,NO,NO
+2003,1170,2006,7,Australia,7346,Craig Moore,38,SI,NO
+2004,1170,2006,7,Australia,7327,Harry Kewell,79,NO,NO
+2005,1172,2006,21,Corea del Sur,7036,Chun Soo Lee,54,NO,NO
+2006,1172,2006,21,Corea del Sur,6925,Jung Hwan Ahn,72,NO,NO
+2007,1172,2006,75,Togo,6915,Mohamed Kader,31,NO,NO
+2008,1173,2006,36,Francia,3937,Thierry Henry,9,NO,NO
+2009,1173,2006,21,Corea del Sur,7075,Ji Sung Park,81,NO,NO
+2010,1174,2006,74,Suiza,8093,Alexander Frei,16,NO,NO
+2011,1174,2006,74,Suiza,8047,Tranquillo Barnetta,88,NO,NO
+2012,1175,2006,36,Francia,4068,Patrick Vieira,55,NO,NO
+2013,1175,2006,36,Francia,3937,Thierry Henry,61,NO,NO
+2014,1176,2006,74,Suiza,8188,Philippe Senderos,23,NO,NO
+2015,1176,2006,74,Suiza,8093,Alexander Frei,77,NO,NO
+2016,1177,2006,34,España,4857,Xabi Alonso,13,NO,NO
+2017,1177,2006,34,España,5091,David Villa,17,NO,NO
+2018,1177,2006,34,España,5091,David Villa,48,SI,NO
+2019,1177,2006,34,España,5076,Fernando Torres,81,NO,NO
+2020,1178,2006,78,Túnez,7208,Zied Jaziri,23,NO,NO
+2021,1178,2006,78,Túnez,7205,Radhi Jaidi,90,NO,NO
+2022,1178,2006,4,Arabia Saudita,4771,Yasser Al Kahtani,57,NO,NO
+2023,1178,2006,4,Arabia Saudita,4768,Sami Al Jaber,84,NO,NO
+2024,1179,2006,34,España,5036,Raul,71,NO,NO
+2025,1179,2006,34,España,5076,Fernando Torres,76,NO,NO
+2026,1179,2006,34,España,5076,Fernando Torres,90,SI,NO
+2027,1179,2006,78,Túnez,7237,Jaouhar Mnari,8,NO,NO
+2028,1180,2006,79,Ucrania,7114,Andriy Rusol,4,NO,NO
+2029,1180,2006,79,Ucrania,7112,Serhiy Rebrov,36,NO,NO
+2030,1180,2006,79,Ucrania,7116,Andriy Shevchenko,46,NO,NO
+2031,1180,2006,79,Ucrania,7107,Maksym Kalinichenko,84,NO,NO
+2032,1181,2006,34,España,4957,Juanito,36,NO,NO
+2033,1182,2006,79,Ucrania,7116,Andriy Shevchenko,70,SI,NO
+2034,1231,2006,1,Alemania,6248,Lukas Podolski,4,NO,NO
+2035,1231,2006,1,Alemania,6248,Lukas Podolski,12,NO,NO
+2036,1232,2006,6,Argentina,5225,Hernan Crespo,10,NO,NO
+2037,1232,2006,6,Argentina,5381,Maxi Rodriguez,98,NO,NO
+2038,1232,2006,56,México,7777,Rafael Marquez,6,NO,NO
+2039,1233,2006,44,Inglaterra,1215,David Beckham,60,NO,NO
+2040,1234,2006,65,Portugal,3262,Maniche,23,NO,NO
+2041,1235,2006,51,Italia,5779,Francesco Totti,90,SI,NO
+2042,1237,2006,11,Brasil,1795,Ronaldo,5,NO,NO
+2043,1237,2006,11,Brasil,1522,Adriano,45,NO,NO
+2044,1237,2006,11,Brasil,1838,Ze Roberto,84,NO,NO
+2045,1238,2006,34,España,5091,David Villa,28,SI,NO
+2046,1238,2006,36,Francia,4021,Franck Ribery,41,NO,NO
+2047,1238,2006,36,Francia,4068,Patrick Vieira,83,NO,NO
+2048,1238,2006,36,Francia,4075,Zinedine Zidane,90,NO,NO
+2049,1239,2006,1,Alemania,6176,Miroslav Klose,80,NO,NO
+2050,1239,2006,6,Argentina,5169,Roberto Ayala,49,NO,NO
+2051,1240,2006,51,Italia,5794,Gianluca Zambrotta,6,NO,NO
+2052,1240,2006,51,Italia,5777,Luca Toni,59,NO,NO
+2053,1240,2006,51,Italia,5777,Luca Toni,69,NO,NO
+2054,1242,2006,36,Francia,3937,Thierry Henry,57,NO,NO
+2055,1243,2006,51,Italia,5652,Fabio Grosso,119,NO,NO
+2056,1243,2006,51,Italia,5609,Alessandro Del Piero,121,NO,NO
+2057,1244,2006,36,Francia,4075,Zinedine Zidane,33,SI,NO
+2058,1245,2006,1,Alemania,6280,Bastian Schweinsteiger,56,NO,NO
+2059,1245,2006,1,Alemania,3297,Petit,60,NO,SI
+2060,1245,2006,1,Alemania,6280,Bastian Schweinsteiger,78,NO,NO
+2061,1245,2006,65,Portugal,3279,Nuno Gomes,88,NO,NO
+2062,1246,2006,51,Italia,5686,Marco Materazzi,19,NO,NO
+2063,1246,2006,36,Francia,4075,Zinedine Zidane,7,SI,NO
+2064,1247,2010,72,Sudáfrica,8289,Siphiwe Tshabalala,55,NO,NO
+2065,1247,2010,56,México,7777,Rafael Marquez,79,NO,NO
+2066,1249,2010,80,Uruguay,5872,Diego Forlan,24,NO,NO
+2067,1249,2010,80,Uruguay,5872,Diego Forlan,80,SI,NO
+2068,1249,2010,80,Uruguay,5954,Alvaro Pereira,90,NO,NO
+2069,1250,2010,56,México,7753,Javier Hernandez,64,NO,NO
+2070,1250,2010,56,México,7660,Cuauhtemoc Blanco,79,SI,NO
+2071,1251,2010,80,Uruguay,6010,Luis Suarez,43,NO,NO
+2072,1252,2010,36,Francia,3983,Florent Malouda,70,NO,NO
+2073,1252,2010,72,Sudáfrica,8252,Bongani Khumalo,20,NO,NO
+2074,1252,2010,72,Sudáfrica,8274,Katlego Mphela,37,NO,NO
+2075,1253,2010,6,Argentina,5279,Gabriel Heinze,6,NO,NO
+2076,1254,2010,21,Corea del Sur,7044,Jung Soo Lee,7,NO,NO
+2077,1254,2010,21,Corea del Sur,7075,Ji Sung Park,52,NO,NO
+2078,1255,2010,39,Grecia,2617,Dimitrios Salpingidis,44,NO,NO
+2079,1255,2010,39,Grecia,2625,Vasileios Torosidis,71,NO,NO
+2080,1255,2010,57,Nigeria,4536,Kalu Uche,16,NO,NO
+2081,1256,2010,6,Argentina,7072,Chu Young Park,17,NO,SI
+2082,1256,2010,6,Argentina,5282,Gonzalo Higuain,33,NO,NO
+2083,1256,2010,6,Argentina,5282,Gonzalo Higuain,76,NO,NO
+2084,1256,2010,6,Argentina,5282,Gonzalo Higuain,80,NO,NO
+2085,1256,2010,21,Corea del Sur,7037,Chung-yong Lee,45,NO,NO
+2086,1257,2010,57,Nigeria,4536,Kalu Uche,12,NO,NO
+2087,1257,2010,57,Nigeria,4450,Yakubu Aiyegbeni,69,SI,NO
+2088,1257,2010,21,Corea del Sur,7044,Jung Soo Lee,38,NO,NO
+2089,1257,2010,21,Corea del Sur,7072,Chu Young Park,49,NO,NO
+2090,1258,2010,6,Argentina,5236,Martin Demichelis,77,NO,NO
+2091,1258,2010,6,Argentina,5346,Martin Palermo,89,NO,NO
+2092,1259,2010,44,Inglaterra,1282,Steven Gerrard,4,NO,NO
+2093,1259,2010,35,Estados Unidos,2783,Clint Dempsey,40,NO,NO
+2094,1260,2010,33,Eslovenia,3795,Robert Koren,79,NO,NO
+2095,1261,2010,33,Eslovenia,3774,Valter Birsa,13,NO,NO
+2096,1261,2010,33,Eslovenia,3797,Zlatan Ljubijankic,42,NO,NO
+2097,1261,2010,35,Estados Unidos,2789,Landon Donovan,48,NO,NO
+2098,1261,2010,35,Estados Unidos,2759,Michael Bradley,82,NO,NO
+2099,1263,2010,44,Inglaterra,1256,Jermain Defoe,23,NO,NO
+2100,1264,2010,35,Estados Unidos,2789,Landon Donovan,90,NO,NO
+2101,1265,2010,1,Alemania,6248,Lukas Podolski,8,NO,NO
+2102,1265,2010,1,Alemania,6176,Miroslav Klose,26,NO,NO
+2103,1265,2010,1,Alemania,6226,Thomas Müller,68,NO,NO
+2104,1265,2010,1,Alemania,6075,Cacau,70,NO,NO
+2105,1266,2010,38,Ghana,1474,Asamoah Gyan,85,SI,NO
+2106,1267,2010,71,Serbia,3606,Milan Jovanovic,38,NO,NO
+2107,1268,2010,38,Ghana,1474,Asamoah Gyan,25,SI,NO
+2108,1268,2010,7,Australia,7317,Brett Holman,11,NO,NO
+2109,1269,2010,1,Alemania,6240,Mesut Ozil,60,NO,NO
+2110,1270,2010,7,Australia,7294,Tim Cahill,69,NO,NO
+2111,1270,2010,7,Australia,7317,Brett Holman,73,NO,NO
+2112,1270,2010,71,Serbia,3687,Marko Pantelic,84,NO,NO
+2113,1271,2010,60,Paises Bajos,4184,Daniel Agger,46,NO,SI
+2114,1271,2010,60,Paises Bajos,6437,Dirk Kuyt,85,NO,NO
+2115,1272,2010,53,Japón,94,Keisuke Honda,39,NO,NO
+2116,1273,2010,60,Paises Bajos,6481,Wesley Sneijder,53,NO,NO
+2117,1274,2010,14,Camerún,894,Samuel Eto'o,10,NO,NO
+2118,1274,2010,26,Dinamarca,4192,Nicklas Bendtner,33,NO,NO
+2119,1274,2010,26,Dinamarca,4273,Dennis Rommedahl,61,NO,NO
+2120,1275,2010,26,Dinamarca,4288,Jon Dahl Tomasson,81,NO,NO
+2121,1275,2010,53,Japón,94,Keisuke Honda,17,NO,NO
+2122,1275,2010,53,Japón,86,Yasuhito Endo,30,NO,NO
+2123,1275,2010,53,Japón,152,Shinji Okazaki,87,NO,NO
+2124,1276,2010,14,Camerún,894,Samuel Eto'o,65,SI,NO
+2125,1276,2010,60,Paises Bajos,6518,Robin Van Persie,36,NO,NO
+2126,1276,2010,60,Paises Bajos,6418,Klaas Jan Huntelaar,83,NO,NO
+2127,1277,2010,51,Italia,5605,Daniele De Rossi,63,NO,NO
+2128,1277,2010,62,Paraguay,4302,Antolin Alcaraz,39,NO,NO
+2129,1278,2010,59,Nueva Zelanda,5133,Winston Reid,90,NO,NO
+2130,1278,2010,32,Eslovaquia,814,Robert Vittek,50,NO,NO
+2131,1279,2010,62,Paraguay,4435,Enrique Vera,27,NO,NO
+2132,1279,2010,62,Paraguay,4411,Cristian Riveros,86,NO,NO
+2133,1280,2010,51,Italia,5656,Vincenzo Iaquinta,29,SI,NO
+2134,1280,2010,59,Nueva Zelanda,5137,Shane Smeltz,7,NO,NO
+2135,1281,2010,32,Eslovaquia,814,Robert Vittek,25,NO,NO
+2136,1281,2010,32,Eslovaquia,814,Robert Vittek,73,NO,NO
+2137,1281,2010,32,Eslovaquia,800,Kamil Kopunek,89,NO,NO
+2138,1281,2010,51,Italia,5616,Antonio Di Natale,81,NO,NO
+2139,1281,2010,51,Italia,5741,Fabio Quagliarella,90,NO,NO
+2140,1284,2010,11,Brasil,1703,Maicon,55,NO,NO
+2141,1284,2010,11,Brasil,1616,Elano,72,NO,NO
+2142,1284,2010,20,Corea del Norte,7975,Yun Nam Ji,89,NO,NO
+2143,1285,2010,11,Brasil,1694,Luis Fabiano,25,NO,NO
+2144,1285,2010,11,Brasil,1694,Luis Fabiano,50,NO,NO
+2145,1285,2010,11,Brasil,1616,Elano,62,NO,NO
+2146,1285,2010,23,Costa de Marfil,6775,Didier Drogba,79,NO,NO
+2147,1286,2010,65,Portugal,3267,Raul Meireles,29,NO,NO
+2148,1286,2010,65,Portugal,3317,Simao,53,NO,NO
+2149,1286,2010,65,Portugal,3193,Hugo Almeida,56,NO,NO
+2150,1286,2010,65,Portugal,3321,Tiago,60,NO,NO
+2151,1286,2010,65,Portugal,3259,Liedson,81,NO,NO
+2152,1286,2010,65,Portugal,3307,Cristiano Ronaldo,87,NO,NO
+2153,1286,2010,65,Portugal,3321,Tiago,89,NO,NO
+2154,1288,2010,23,Costa de Marfil,6799,Yaya Toure,14,NO,NO
+2155,1288,2010,23,Costa de Marfil,6793,Romaric,20,NO,NO
+2156,1288,2010,23,Costa de Marfil,6785,Salomon Kalou,82,NO,NO
+2157,1289,2010,17,Chile,636,Jean Beausejour,34,NO,NO
+2158,1290,2010,74,Suiza,8089,Gelson Fernandes,52,NO,NO
+2159,1291,2010,17,Chile,684,Mark Gonzalez,75,NO,NO
+2160,1292,2010,34,España,5091,David Villa,17,NO,NO
+2161,1292,2010,34,España,5091,David Villa,51,NO,NO
+2162,1293,2010,17,Chile,706,Rodrigo Millar,47,NO,NO
+2163,1293,2010,34,España,5091,David Villa,24,NO,NO
+2164,1293,2010,34,España,4948,Andrés Iniesta,37,NO,NO
+2165,1343,2010,80,Uruguay,6010,Luis Suarez,8,NO,NO
+2166,1343,2010,80,Uruguay,6010,Luis Suarez,80,NO,NO
+2167,1343,2010,21,Corea del Sur,7037,Chung-yong Lee,68,NO,NO
+2168,1344,2010,35,Estados Unidos,2789,Landon Donovan,62,NO,NO
+2169,1344,2010,38,Ghana,1466,Kevin Prince Boateng,5,NO,NO
+2170,1344,2010,38,Ghana,1474,Asamoah Gyan,93,NO,NO
+2171,1345,2010,1,Alemania,6176,Miroslav Klose,20,NO,NO
+2172,1345,2010,1,Alemania,6248,Lukas Podolski,32,NO,NO
+2173,1345,2010,1,Alemania,6226,Thomas Müller,67,NO,NO
+2174,1345,2010,1,Alemania,6226,Thomas Müller,70,NO,NO
+2175,1345,2010,44,Inglaterra,1414,Matt Upson,37,NO,NO
+2176,1346,2010,6,Argentina,5422,Carlos Tevez,26,NO,NO
+2177,1346,2010,6,Argentina,5282,Gonzalo Higuain,33,NO,NO
+2178,1346,2010,6,Argentina,5422,Carlos Tevez,52,NO,NO
+2179,1346,2010,56,México,7753,Javier Hernandez,71,NO,NO
+2180,1347,2010,60,Paises Bajos,6471,Arjen Robben,18,NO,NO
+2181,1347,2010,60,Paises Bajos,6481,Wesley Sneijder,84,NO,NO
+2182,1347,2010,32,Eslovaquia,814,Robert Vittek,90,SI,NO
+2183,1348,2010,11,Brasil,1673,Juan,35,NO,NO
+2184,1348,2010,11,Brasil,1694,Luis Fabiano,38,NO,NO
+2185,1348,2010,11,Brasil,1787,Robinho,59,NO,NO
+2186,1350,2010,34,España,5091,David Villa,63,NO,NO
+2187,1351,2010,60,Paises Bajos,6481,Wesley Sneijder,53,NO,NO
+2188,1351,2010,60,Paises Bajos,6481,Wesley Sneijder,68,NO,NO
+2189,1351,2010,11,Brasil,1787,Robinho,10,NO,NO
+2190,1352,2010,80,Uruguay,5872,Diego Forlan,55,NO,NO
+2191,1352,2010,38,Ghana,1488,Sulley Muntari,45,NO,NO
+2192,1353,2010,1,Alemania,6226,Thomas Müller,3,NO,NO
+2193,1353,2010,1,Alemania,6176,Miroslav Klose,68,NO,NO
+2194,1353,2010,1,Alemania,6099,Arne Friedrich,74,NO,NO
+2195,1353,2010,1,Alemania,6176,Miroslav Klose,89,NO,NO
+2196,1354,2010,34,España,5091,David Villa,83,NO,NO
+2197,1355,2010,80,Uruguay,5872,Diego Forlan,41,NO,NO
+2198,1355,2010,80,Uruguay,5956,Maximiliano Pereira,90,NO,NO
+2199,1355,2010,60,Paises Bajos,6498,Giovanni Van Bronckhorst,18,NO,NO
+2200,1355,2010,60,Paises Bajos,6481,Wesley Sneijder,70,NO,NO
+2201,1355,2010,60,Paises Bajos,6471,Arjen Robben,73,NO,NO
+2202,1356,2010,34,España,5028,Carles Puyol,73,NO,NO
+2203,1357,2010,80,Uruguay,5841,Edinson Cavani,28,NO,NO
+2204,1357,2010,80,Uruguay,5872,Diego Forlan,51,NO,NO
+2205,1357,2010,1,Alemania,6226,Thomas Müller,19,NO,NO
+2206,1357,2010,1,Alemania,6158,Marcell Jansen,56,NO,NO
+2207,1357,2010,1,Alemania,6168,Sami Khedira,82,NO,NO
+2208,1358,2010,34,España,4948,Andrés Iniesta,116,NO,NO
+2209,1359,2014,11,Brasil,1735,Neymar Jr.,29,NO,NO
+2210,1359,2014,11,Brasil,1735,Neymar Jr.,71,SI,NO
+2211,1359,2014,11,Brasil,1744,Oscar,90,NO,NO
+2212,1359,2014,24,Croacia,1707,Marcelo,11,NO,SI
+2213,1360,2014,56,México,7820,Oribe Peralta,61,NO,NO
+2214,1362,2014,24,Croacia,1126,Ivica Olic,11,NO,NO
+2215,1362,2014,24,Croacia,1129,Ivan Perisic,48,NO,NO
+2216,1362,2014,24,Croacia,1122,Mario Mandzukic,61,NO,NO
+2217,1362,2014,24,Croacia,1122,Mario Mandzukic,73,NO,NO
+2218,1363,2014,14,Camerún,926,Joel Matip,26,NO,NO
+2219,1363,2014,11,Brasil,1735,Neymar Jr.,17,NO,NO
+2220,1363,2014,11,Brasil,1735,Neymar Jr.,34,NO,NO
+2221,1363,2014,11,Brasil,1634,Fred,49,NO,NO
+2222,1363,2014,11,Brasil,1627,Fernandinho,84,NO,NO
+2223,1364,2014,24,Croacia,1129,Ivan Perisic,87,NO,NO
+2224,1364,2014,56,México,7777,Rafael Marquez,72,NO,NO
+2225,1364,2014,56,México,7739,Andres Guardado,75,NO,NO
+2226,1364,2014,56,México,7753,Javier Hernandez,82,NO,NO
+2227,1365,2014,34,España,4857,Xabi Alonso,27,SI,NO
+2228,1365,2014,60,Paises Bajos,6518,Robin Van Persie,44,NO,NO
+2229,1365,2014,60,Paises Bajos,6471,Arjen Robben,53,NO,NO
+2230,1365,2014,60,Paises Bajos,6393,Stefan de Vrij,65,NO,NO
+2231,1365,2014,60,Paises Bajos,6518,Robin Van Persie,72,NO,NO
+2232,1365,2014,60,Paises Bajos,6471,Arjen Robben,80,NO,NO
+2233,1366,2014,17,Chile,757,Alexis Sanchez,12,NO,NO
+2234,1366,2014,17,Chile,778,Jorge Valdivia,14,NO,NO
+2235,1366,2014,17,Chile,636,Jean Beausejour,90,NO,NO
+2236,1366,2014,7,Australia,7294,Tim Cahill,35,NO,NO
+2237,1367,2014,17,Chile,782,Eduardo Vargas,20,NO,NO
+2238,1367,2014,17,Chile,629,Charles Aránguiz,43,NO,NO
+2239,1368,2014,7,Australia,7294,Tim Cahill,21,NO,NO
+2240,1368,2014,7,Australia,7320,Mile Jedinak,54,SI,NO
+2241,1368,2014,60,Paises Bajos,6471,Arjen Robben,20,NO,NO
+2242,1368,2014,60,Paises Bajos,6518,Robin Van Persie,58,NO,NO
+2243,1368,2014,60,Paises Bajos,6397,Memphis Depay,68,NO,NO
+2244,1369,2014,34,España,5091,David Villa,36,NO,NO
+2245,1369,2014,34,España,5076,Fernando Torres,69,NO,NO
+2246,1369,2014,34,España,4987,Juan Mata,82,NO,NO
+2247,1370,2014,60,Paises Bajos,6402,Leroy Fer,77,NO,NO
+2248,1370,2014,60,Paises Bajos,6397,Memphis Depay,90,NO,NO
+2249,1371,2014,19,Colombia,2641,Pablo Armero,5,NO,NO
+2250,1371,2014,19,Colombia,2676,Teófilo Gutiérrez,58,NO,NO
+2251,1371,2014,19,Colombia,2715,James Rodríguez,90,NO,NO
+2252,1372,2014,23,Costa de Marfil,6767,Wilfried Bony,64,NO,NO
+2253,1372,2014,23,Costa de Marfil,6779,Gervinho,66,NO,NO
+2254,1372,2014,53,Japón,94,Keisuke Honda,16,NO,NO
+2255,1373,2014,19,Colombia,2715,James Rodríguez,64,NO,NO
+2256,1373,2014,19,Colombia,2709,Juan Quintero,70,NO,NO
+2257,1373,2014,23,Costa de Marfil,6779,Gervinho,73,NO,NO
+2258,1375,2014,53,Japón,152,Shinji Okazaki,45,NO,NO
+2259,1375,2014,19,Colombia,2658,Juan Guillermo Cuadrado,17,SI,NO
+2260,1375,2014,19,Colombia,2688,Jackson Martinez,55,NO,NO
+2261,1375,2014,19,Colombia,2688,Jackson Martinez,82,NO,NO
+2262,1375,2014,19,Colombia,2715,James Rodríguez,90,NO,NO
+2263,1376,2014,39,Grecia,2619,Andreas Samaris,42,NO,NO
+2264,1376,2014,39,Grecia,2618,Georgios Samaras,90,SI,NO
+2265,1376,2014,23,Costa de Marfil,6767,Wilfried Bony,74,NO,NO
+2266,1377,2014,80,Uruguay,5841,Edinson Cavani,24,SI,NO
+2267,1377,2014,22,Costa Rica,1977,Joel Campbell,54,NO,NO
+2268,1377,2014,22,Costa Rica,1993,Óscar Duarte,57,NO,NO
+2269,1377,2014,22,Costa Rica,2054,Marco Ureña,84,NO,NO
+2270,1378,2014,44,Inglaterra,1407,Daniel Sturridge,37,NO,NO
+2271,1378,2014,51,Italia,5679,Claudio Marchisio,35,NO,NO
+2272,1378,2014,51,Italia,5535,Mario Balotelli,50,NO,NO
+2273,1379,2014,80,Uruguay,6010,Luis Suarez,39,NO,NO
+2274,1379,2014,80,Uruguay,6010,Luis Suarez,85,NO,NO
+2275,1379,2014,44,Inglaterra,1380,Wayne Rooney,75,NO,NO
+2276,1380,2014,22,Costa Rica,2042,Bryan Ruiz,44,NO,NO
+2277,1381,2014,80,Uruguay,5883,Diego Godin,81,NO,NO
+2278,1383,2014,74,Suiza,8149,Admir Mehmedi,48,NO,NO
+2279,1383,2014,74,Suiza,8187,Haris Seferovic,90,NO,NO
+2280,1383,2014,27,Ecuador,76,Enner Valencia,22,NO,NO
+2281,1384,2014,36,Francia,3842,Karim Benzema,45,SI,NO
+2282,1384,2014,36,Francia,241,Noel Valladares,48,NO,SI
+2283,1384,2014,36,Francia,3842,Karim Benzema,72,NO,NO
+2284,1385,2014,74,Suiza,8076,Blerim Dzemaili,81,NO,NO
+2285,1385,2014,74,Suiza,8228,Granit Xhaka,87,NO,NO
+2286,1385,2014,36,Francia,3923,Olivier Giroud,17,NO,NO
+2287,1385,2014,36,Francia,3990,Blaise Matuidi,18,NO,NO
+2288,1385,2014,36,Francia,4061,Mathieu Valbuena,40,NO,NO
+2289,1385,2014,36,Francia,3842,Karim Benzema,67,NO,NO
+2290,1385,2014,36,Francia,4041,Moussa Sissoko,73,NO,NO
+2291,1386,2014,41,Honduras,203,Carlo Costly,31,NO,NO
+2292,1386,2014,27,Ecuador,76,Enner Valencia,34,NO,NO
+2293,1386,2014,27,Ecuador,76,Enner Valencia,65,NO,NO
+2294,1387,2014,74,Suiza,8190,Xherdan Shaqiri,6,NO,NO
+2295,1387,2014,74,Suiza,8190,Xherdan Shaqiri,31,NO,NO
+2296,1387,2014,74,Suiza,8190,Xherdan Shaqiri,71,NO,NO
+2297,1389,2014,6,Argentina,8020,Sead Kolasinac,3,NO,SI
+2298,1389,2014,6,Argentina,5318,Lionel Messi,65,NO,NO
+2299,1389,2014,10,Bosnia-Herzegovina,8018,Vedad Ibisevic,84,NO,NO
+2300,1391,2014,6,Argentina,5318,Lionel Messi,90,NO,NO
+2301,1392,2014,57,Nigeria,4509,Peter Odemwingie,29,NO,NO
+2302,1393,2014,57,Nigeria,4499,Ahmed Musa,4,NO,NO
+2303,1393,2014,57,Nigeria,4499,Ahmed Musa,47,NO,NO
+2304,1393,2014,6,Argentina,5318,Lionel Messi,3,NO,NO
+2305,1393,2014,6,Argentina,5318,Lionel Messi,45,NO,NO
+2306,1393,2014,6,Argentina,5383,Marcos Rojo,50,NO,NO
+2307,1394,2014,10,Bosnia-Herzegovina,8014,Edin Dzeko,23,NO,NO
+2308,1394,2014,10,Bosnia-Herzegovina,8025,Miralem Pjanic,59,NO,NO
+2309,1394,2014,10,Bosnia-Herzegovina,8032,Avdija Vrsajevic,83,NO,NO
+2310,1394,2014,48,Irán,4110,Reza Ghoochannejhad,82,NO,NO
+2311,1395,2014,1,Alemania,6226,Thomas Müller,12,SI,NO
+2312,1395,2014,1,Alemania,6150,Mats Hummels,32,NO,NO
+2313,1395,2014,1,Alemania,6226,Thomas Müller,45,NO,NO
+2314,1395,2014,1,Alemania,6226,Thomas Müller,78,NO,NO
+2315,1396,2014,38,Ghana,1462,Andre Ayew,82,NO,NO
+2316,1396,2014,35,Estados Unidos,2783,Clint Dempsey,1,NO,NO
+2317,1396,2014,35,Estados Unidos,2760,John Anthony Brooks,86,NO,NO
+2318,1397,2014,1,Alemania,6111,Mario Götze,51,NO,NO
+2319,1397,2014,1,Alemania,6176,Miroslav Klose,71,NO,NO
+2320,1397,2014,38,Ghana,1462,Andre Ayew,54,NO,NO
+2321,1397,2014,38,Ghana,1474,Asamoah Gyan,63,NO,NO
+2322,1398,2014,35,Estados Unidos,2825,Jermaine Jones,64,NO,NO
+2323,1398,2014,35,Estados Unidos,2783,Clint Dempsey,81,NO,NO
+2324,1398,2014,65,Portugal,3274,Nani,5,NO,NO
+2325,1398,2014,65,Portugal,3323,Silvestre Varela,90,NO,NO
+2326,1399,2014,1,Alemania,6226,Thomas Müller,55,NO,NO
+2327,1400,2014,65,Portugal,1467,John Boye,31,NO,SI
+2328,1400,2014,65,Portugal,3307,Cristiano Ronaldo,80,NO,NO
+2329,1400,2014,38,Ghana,1474,Asamoah Gyan,57,NO,NO
+2330,1401,2014,13,Bélgica,6619,Marouane Fellaini,70,NO,NO
+2331,1401,2014,13,Bélgica,6655,Dries Mertens,80,NO,NO
+2332,1401,2014,5,Argelia,6856,Sofiane Feghouli,25,SI,NO
+2333,1402,2014,69,Rusia,317,Alexander Kerzhakov,74,NO,NO
+2334,1402,2014,21,Corea del Sur,7046,Keun-Ho Lee,68,NO,NO
+2335,1403,2014,13,Bélgica,6672,Divock Origi,88,NO,NO
+2336,1404,2014,21,Corea del Sur,7086,Heung-Min Son,50,NO,NO
+2337,1404,2014,21,Corea del Sur,7031,Ja-Cheol Koo,72,NO,NO
+2338,1404,2014,5,Argelia,6892,Islam Slimani,26,NO,NO
+2339,1404,2014,5,Argelia,6864,Rafik Halliche,28,NO,NO
+2340,1404,2014,5,Argelia,6852,Abdelmoumene Djabou,38,NO,NO
+2341,1404,2014,5,Argelia,6845,Yacine Brahimi,62,NO,NO
+2342,1405,2014,13,Bélgica,6748,Jan Vertonghen,78,NO,NO
+2343,1406,2014,5,Argelia,6892,Islam Slimani,60,NO,NO
+2344,1406,2014,69,Rusia,327,Alexander Kokorin,6,NO,NO
+2345,1455,2014,11,Brasil,1591,David Luiz,18,NO,NO
+2346,1455,2014,17,Chile,757,Alexis Sanchez,32,NO,NO
+2347,1456,2014,19,Colombia,2715,James Rodríguez,28,NO,NO
+2348,1456,2014,19,Colombia,2715,James Rodríguez,50,NO,NO
+2349,1457,2014,60,Paises Bajos,6481,Wesley Sneijder,88,NO,NO
+2350,1457,2014,60,Paises Bajos,6418,Klaas Jan Huntelaar,90,SI,NO
+2351,1457,2014,56,México,7709,Giovani dos Santos,48,NO,NO
+2352,1458,2014,22,Costa Rica,2042,Bryan Ruiz,52,NO,NO
+2353,1458,2014,39,Grecia,2614,Sokratis Papastathopoulos,90,NO,NO
+2354,1459,2014,36,Francia,4013,Paul Pogba,79,NO,NO
+2355,1459,2014,36,Francia,4544,Joseph Yobo,90,NO,SI
+2356,1460,2014,1,Alemania,6277,André Schürrle,92,NO,NO
+2357,1460,2014,1,Alemania,6240,Mesut Ozil,120,NO,NO
+2358,1460,2014,5,Argelia,6852,Abdelmoumene Djabou,120,NO,NO
+2359,1461,2014,6,Argentina,5238,Angel Di Maria,118,NO,NO
+2360,1462,2014,13,Bélgica,6588,Kevin De Bruyne,93,NO,NO
+2361,1462,2014,13,Bélgica,6648,Romelu Lukaku,105,NO,NO
+2362,1462,2014,35,Estados Unidos,2809,Julian Green,107,NO,NO
+2363,1463,2014,11,Brasil,1804,Thiago Silva,7,NO,NO
+2364,1463,2014,11,Brasil,1591,David Luiz,69,NO,NO
+2365,1463,2014,19,Colombia,2715,James Rodríguez,80,SI,NO
+2366,1464,2014,1,Alemania,6150,Mats Hummels,13,NO,NO
+2367,1466,2014,6,Argentina,5282,Gonzalo Higuain,8,NO,NO
+2368,1467,2014,11,Brasil,1744,Oscar,90,NO,NO
+2369,1467,2014,1,Alemania,6226,Thomas Müller,11,NO,NO
+2370,1467,2014,1,Alemania,6176,Miroslav Klose,23,NO,NO
+2371,1467,2014,1,Alemania,6189,Toni Kroos,24,NO,NO
+2372,1467,2014,1,Alemania,6189,Toni Kroos,26,NO,NO
+2373,1467,2014,1,Alemania,6168,Sami Khedira,29,NO,NO
+2374,1467,2014,1,Alemania,6277,André Schürrle,69,NO,NO
+2375,1467,2014,1,Alemania,6277,André Schürrle,79,NO,NO
+2376,1469,2014,60,Paises Bajos,6518,Robin Van Persie,3,SI,NO
+2377,1469,2014,60,Paises Bajos,6365,Daley Blind,17,NO,NO
+2378,1469,2014,60,Paises Bajos,6535,Georginio Wijnaldum,90,NO,NO
+2379,1470,2014,1,Alemania,6111,Mario Götze,113,NO,NO
+2380,1471,2018,69,Rusia,299,Yury Gazinsky,12,NO,NO
+2381,1471,2018,69,Rusia,274,Denis Cheryshev,43,NO,NO
+2382,1471,2018,69,Rusia,289,Artem Dzyuba,71,NO,NO
+2383,1471,2018,69,Rusia,274,Denis Cheryshev,90,NO,NO
+2384,1471,2018,69,Rusia,302,Aleksandr Golovin,90,NO,NO
+2385,1472,2018,80,Uruguay,5882,José María Giménez,89,NO,NO
+2386,1473,2018,69,Rusia,2083,Ahmed Fathy,47,NO,SI
+2387,1473,2018,69,Rusia,274,Denis Cheryshev,59,NO,NO
+2388,1473,2018,69,Rusia,289,Artem Dzyuba,62,NO,NO
+2389,1473,2018,28,Egipto,2112,Mohamed Salah,73,SI,NO
+2390,1474,2018,80,Uruguay,6010,Luis Suarez,23,NO,NO
+2391,1475,2018,80,Uruguay,6010,Luis Suarez,10,NO,NO
+2392,1475,2018,80,Uruguay,274,Denis Cheryshev,23,NO,SI
+2393,1475,2018,80,Uruguay,5841,Edinson Cavani,90,NO,NO
+2394,1476,2018,4,Arabia Saudita,4798,Salman Al-Faraj,45,SI,NO
+2395,1476,2018,4,Arabia Saudita,4797,Salem Al-Dawsari,90,NO,NO
+2396,1476,2018,28,Egipto,2112,Mohamed Salah,22,NO,NO
+2397,1477,2018,65,Portugal,3307,Cristiano Ronaldo,4,SI,NO
+2398,1477,2018,65,Portugal,3307,Cristiano Ronaldo,44,NO,NO
+2399,1477,2018,65,Portugal,3307,Cristiano Ronaldo,88,NO,NO
+2400,1477,2018,34,España,4902,Diego Costa,24,NO,NO
+2401,1477,2018,34,España,4902,Diego Costa,55,NO,NO
+2402,1477,2018,34,España,5000,Nacho,58,NO,NO
+2403,1478,2018,48,Irán,8319,Aziz Bouhaddouz,90,NO,SI
+2404,1479,2018,65,Portugal,3307,Cristiano Ronaldo,4,NO,NO
+2405,1480,2018,34,España,4902,Diego Costa,54,NO,NO
+2406,1481,2018,48,Irán,4083,Karim Ansarifard,90,SI,NO
+2407,1481,2018,65,Portugal,3299,Ricardo Quaresma,45,NO,NO
+2408,1482,2018,34,España,4951,Isco,19,NO,NO
+2409,1482,2018,34,España,4870,Iago Aspas,90,NO,NO
+2410,1482,2018,55,Marruecos,8322,Khalid Boutaïb,14,NO,NO
+2411,1482,2018,55,Marruecos,8357,Youssef En-Nesyri,81,NO,NO
+2412,1483,2018,36,Francia,3930,Antoine Griezmann,58,SI,NO
+2413,1483,2018,36,Francia,7289,Aziz Behich,81,NO,SI
+2414,1483,2018,7,Australia,7320,Mile Jedinak,62,SI,NO
+2415,1484,2018,26,Dinamarca,4293,Yussuf Yurary Poulsen,59,NO,NO
+2416,1485,2018,36,Francia,3992,Kylian Mbappé,34,NO,NO
+2417,1486,2018,26,Dinamarca,4210,Christian Eriksen,7,NO,NO
+2418,1486,2018,7,Australia,7320,Mile Jedinak,38,SI,NO
+2419,1488,2018,63,Perú,2138,André Carrillo,18,NO,NO
+2420,1488,2018,63,Perú,2172,Paolo Guerrero,50,NO,NO
+2421,1489,2018,6,Argentina,5151,Sergio Agüero,19,NO,NO
+2422,1489,2018,49,Islandia,7129,Alfred Finnbogason,23,NO,NO
+2423,1490,2018,24,Croacia,4478,Oghenekaro Etebo,32,NO,SI
+2424,1490,2018,24,Croacia,1124,Luka Modric,71,SI,NO
+2425,1491,2018,24,Croacia,1139,Ante Rebic,53,NO,NO
+2426,1491,2018,24,Croacia,1124,Luka Modric,80,NO,NO
+2427,1491,2018,24,Croacia,1137,Ivan Rakitic,90,NO,NO
+2428,1492,2018,57,Nigeria,4499,Ahmed Musa,49,NO,NO
+2429,1492,2018,57,Nigeria,4499,Ahmed Musa,75,NO,NO
+2430,1493,2018,57,Nigeria,4498,Victor Moses,51,SI,NO
+2431,1493,2018,6,Argentina,5318,Lionel Messi,14,NO,NO
+2432,1493,2018,6,Argentina,5383,Marcos Rojo,86,NO,NO
+2433,1494,2018,49,Islandia,7142,Gylfi Sigurdsson,76,SI,NO
+2434,1494,2018,24,Croacia,1078,Milan Badelj,53,NO,NO
+2435,1494,2018,24,Croacia,1129,Ivan Perisic,90,NO,NO
+2436,1495,2018,11,Brasil,1762,Philippe Coutinho,20,NO,NO
+2437,1495,2018,74,Suiza,8232,Steven Zuber,50,NO,NO
+2438,1496,2018,71,Serbia,3619,Aleksandar Kolarov,56,NO,NO
+2439,1497,2018,11,Brasil,1762,Philippe Coutinho,90,NO,NO
+2440,1497,2018,11,Brasil,1735,Neymar Jr.,90,NO,NO
+2441,1498,2018,71,Serbia,3666,Aleksandar Mitrović,5,NO,NO
+2442,1498,2018,74,Suiza,8228,Granit Xhaka,52,NO,NO
+2443,1498,2018,74,Suiza,8190,Xherdan Shaqiri,90,NO,NO
+2444,1499,2018,11,Brasil,1750,Paulinho,36,NO,NO
+2445,1499,2018,11,Brasil,1804,Thiago Silva,68,NO,NO
+2446,1500,2018,74,Suiza,8076,Blerim Dzemaili,31,NO,NO
+2447,1500,2018,74,Suiza,8074,Josip Drmic,88,NO,NO
+2448,1500,2018,22,Costa Rica,2061,Kendall Waston,56,NO,NO
+2449,1500,2018,22,Costa Rica,8193,Yann Sommer,90,NO,SI
+2450,1501,2018,56,México,7772,Hirving Lozano,35,NO,NO
+2451,1502,2018,73,Suecia,3393,Andreas Granqvist,65,SI,NO
+2452,1503,2018,1,Alemania,6257,Marco Reus,48,NO,NO
+2453,1503,2018,1,Alemania,6189,Toni Kroos,90,NO,NO
+2454,1503,2018,73,Suecia,3527,Ola Toivonen,32,NO,NO
+2455,1504,2018,21,Corea del Sur,7086,Heung-Min Son,90,NO,NO
+2456,1504,2018,56,México,7890,Carlos Vela,26,SI,NO
+2457,1504,2018,56,México,7753,Javier Hernandez,66,NO,NO
+2458,1505,2018,21,Corea del Sur,7028,Young-Gwon Kim,90,NO,NO
+2459,1505,2018,21,Corea del Sur,7086,Heung-Min Son,90,NO,NO
+2460,1506,2018,73,Suecia,3353,Ludwig Augustinsson,50,NO,NO
+2461,1506,2018,73,Suecia,3393,Andreas Granqvist,62,SI,NO
+2462,1506,2018,73,Suecia,7639,Edson Álvarez,74,NO,SI
+2463,1507,2018,13,Bélgica,6655,Dries Mertens,47,NO,NO
+2464,1507,2018,13,Bélgica,6648,Romelu Lukaku,69,NO,NO
+2465,1507,2018,13,Bélgica,6648,Romelu Lukaku,75,NO,NO
+2466,1508,2018,78,Túnez,7248,Ferjani Sassi,35,SI,NO
+2467,1508,2018,44,Inglaterra,1312,Harry Kane,11,NO,NO
+2468,1508,2018,44,Inglaterra,1312,Harry Kane,90,NO,NO
+2469,1509,2018,13,Bélgica,6628,Eden Hazard,6,SI,NO
+2470,1509,2018,13,Bélgica,6648,Romelu Lukaku,16,NO,NO
+2471,1509,2018,13,Bélgica,6648,Romelu Lukaku,45,NO,NO
+2472,1509,2018,13,Bélgica,6628,Eden Hazard,51,NO,NO
+2473,1509,2018,13,Bélgica,6550,Michy Batshuayi,90,NO,NO
+2474,1509,2018,78,Túnez,7176,Dylan Bronn,18,NO,NO
+2475,1509,2018,78,Túnez,7220,Wahbi Khazri,90,NO,NO
+2476,1510,2018,44,Inglaterra,1406,John Stones,8,NO,NO
+2477,1510,2018,44,Inglaterra,1312,Harry Kane,22,SI,NO
+2478,1510,2018,44,Inglaterra,1326,Jesse Lingard,36,NO,NO
+2479,1510,2018,44,Inglaterra,1406,John Stones,40,NO,NO
+2480,1510,2018,44,Inglaterra,1312,Harry Kane,45,SI,NO
+2481,1510,2018,44,Inglaterra,1312,Harry Kane,62,NO,NO
+2482,1510,2018,61,Panamá,8414,Felipe Baloy,78,NO,NO
+2483,1511,2018,13,Bélgica,6640,Adnan Januzaj,51,NO,NO
+2484,1512,2018,61,Panamá,7233,Yassine Meriah,33,NO,SI
+2485,1512,2018,78,Túnez,7167,Fakhreddine Ben Youssef,51,NO,NO
+2486,1512,2018,78,Túnez,7220,Wahbi Khazri,66,NO,NO
+2487,1513,2018,64,Polonia,3100,Grzegorz Krychowiak,86,NO,NO
+2488,1513,2018,70,Senegal,3046,Thiago Cionek,37,NO,SI
+2489,1513,2018,70,Senegal,1064,M'Baye Niang,60,NO,NO
+2490,1514,2018,19,Colombia,2709,Juan Quintero,39,NO,NO
+2491,1514,2018,53,Japón,106,Shinji Kagawa,6,SI,NO
+2492,1514,2018,53,Japón,156,Yuya Osako,73,NO,NO
+2493,1515,2018,19,Colombia,2691,Yerry Mina,40,NO,NO
+2494,1515,2018,19,Colombia,2667,Radamel Falcao,70,NO,NO
+2495,1515,2018,19,Colombia,2658,Juan Guillermo Cuadrado,75,NO,NO
+2496,1516,2018,53,Japón,99,Takashi Inui,34,NO,NO
+2497,1516,2018,53,Japón,94,Keisuke Honda,78,NO,NO
+2498,1516,2018,70,Senegal,1047,Sadio Mané,11,NO,NO
+2499,1516,2018,70,Senegal,1075,Moussa Wagué,71,NO,NO
+2500,1517,2018,64,Polonia,3031,Jan Bednarek,59,NO,NO
+2501,1518,2018,19,Colombia,2691,Yerry Mina,74,NO,NO
+2502,1567,2018,80,Uruguay,5841,Edinson Cavani,7,NO,NO
+2503,1567,2018,80,Uruguay,5841,Edinson Cavani,62,NO,NO
+2504,1567,2018,65,Portugal,3292,Pepe,55,NO,NO
+2505,1568,2018,36,Francia,3930,Antoine Griezmann,13,SI,NO
+2506,1568,2018,36,Francia,4003,Benjamin Pavard,57,NO,NO
+2507,1568,2018,36,Francia,3992,Kylian Mbappé,64,NO,NO
+2508,1568,2018,36,Francia,3992,Kylian Mbappé,68,NO,NO
+2509,1568,2018,6,Argentina,5238,Angel Di Maria,41,NO,NO
+2510,1568,2018,6,Argentina,5317,Gabriel Mercado,48,NO,NO
+2511,1568,2018,6,Argentina,5151,Sergio Agüero,90,NO,NO
+2512,1569,2018,34,España,306,Sergei Ignashevich,12,NO,SI
+2513,1569,2018,69,Rusia,289,Artem Dzyuba,41,SI,NO
+2514,1570,2018,24,Croacia,1122,Mario Mandzukic,4,NO,NO
+2515,1570,2018,26,Dinamarca,4230,Mathias Jørgensen,1,NO,NO
+2516,1571,2018,11,Brasil,1735,Neymar Jr.,51,NO,NO
+2517,1571,2018,11,Brasil,1786,Roberto Firmino,88,NO,NO
+2518,1572,2018,13,Bélgica,6748,Jan Vertonghen,69,NO,NO
+2519,1572,2018,13,Bélgica,6619,Marouane Fellaini,74,NO,NO
+2520,1572,2018,13,Bélgica,6572,Nacer Chadli,90,NO,NO
+2521,1572,2018,53,Japón,89,Genki Haraguchi,48,NO,NO
+2522,1572,2018,53,Japón,99,Takashi Inui,52,NO,NO
+2523,1573,2018,73,Suecia,3388,Emil Forsberg,66,NO,NO
+2524,1574,2018,19,Colombia,2691,Yerry Mina,90,NO,NO
+2525,1574,2018,44,Inglaterra,1312,Harry Kane,57,SI,NO
+2526,1575,2018,36,Francia,4063,Raphael Varane,40,NO,NO
+2527,1575,2018,36,Francia,3930,Antoine Griezmann,61,NO,NO
+2528,1576,2018,11,Brasil,1773,Renato Augusto,76,NO,NO
+2529,1576,2018,13,Bélgica,1627,Fernandinho,13,NO,SI
+2530,1576,2018,13,Bélgica,6588,Kevin De Bruyne,31,NO,NO
+2531,1577,2018,69,Rusia,274,Denis Cheryshev,31,NO,NO
+2532,1577,2018,69,Rusia,293,Mário Fernandes,115,NO,NO
+2533,1577,2018,24,Croacia,1111,Andrej Kramarić,39,NO,NO
+2534,1577,2018,24,Croacia,1161,Domagoj Vida,101,NO,NO
+2535,1578,2018,44,Inglaterra,1330,Harry Maguire,30,NO,NO
+2536,1578,2018,44,Inglaterra,1195,Dele Alli,59,NO,NO
+2537,1579,2018,36,Francia,4059,Samuel Umtiti,51,NO,NO
+2538,1580,2018,24,Croacia,1129,Ivan Perisic,68,NO,NO
+2539,1580,2018,24,Croacia,1122,Mario Mandzukic,109,NO,NO
+2540,1580,2018,44,Inglaterra,1413,Kieran Trippier,5,NO,NO
+2541,1581,2018,13,Bélgica,6656,Thomas Meunier,4,NO,NO
+2542,1581,2018,13,Bélgica,6628,Eden Hazard,82,NO,NO
+2543,1582,2018,36,Francia,1122,Mario Mandzukic,18,NO,SI
+2544,1582,2018,36,Francia,3930,Antoine Griezmann,38,SI,NO
+2545,1582,2018,36,Francia,4013,Paul Pogba,59,NO,NO
+2546,1582,2018,36,Francia,3992,Kylian Mbappé,65,NO,NO
+2547,1582,2018,24,Croacia,1129,Ivan Perisic,28,NO,NO
+2548,1582,2018,24,Croacia,1122,Mario Mandzukic,69,NO,NO
+2549,1583,2022,27,Ecuador,76,Enner Valencia,16,SI,NO
+2550,1583,2022,27,Ecuador,76,Enner Valencia,31,NO,NO
+2551,1584,2022,60,Paises Bajos,6405,Cody Gakpo,84,NO,NO
+2552,1584,2022,60,Paises Bajos,6428,Davy Klaassen,90,NO,NO
+2553,1585,2022,16,Catar,6351,Mohammed Muntari,78,NO,NO
+2554,1585,2022,70,Senegal,1021,Boulaye Dia,41,NO,NO
+2555,1585,2022,70,Senegal,1028,Famara Diéhiou,48,NO,NO
+2556,1585,2022,70,Senegal,1029,Bamba Dieng,84,NO,NO
+2557,1586,2022,60,Paises Bajos,6405,Cody Gakpo,6,NO,NO
+2558,1586,2022,27,Ecuador,76,Enner Valencia,49,NO,NO
+2559,1587,2022,60,Paises Bajos,6405,Cody Gakpo,26,NO,NO
+2560,1587,2022,60,Paises Bajos,6387,Frenkie de Jong,49,NO,NO
+2561,1588,2022,27,Ecuador,18,Moisés Caicedo,67,NO,NO
+2562,1588,2022,70,Senegal,1068,Ismaïla Sarr,44,NO,NO
+2563,1588,2022,70,Senegal,1044,Kalidou Koulibaly,70,NO,NO
+2564,1589,2022,44,Inglaterra,1217,Jude Bellingham,35,NO,NO
+2565,1589,2022,44,Inglaterra,1382,Bukayo Saka,43,NO,NO
+2566,1589,2022,44,Inglaterra,1401,Raheem Sterling,45,NO,NO
+2567,1589,2022,44,Inglaterra,1382,Bukayo Saka,62,NO,NO
+2568,1589,2022,44,Inglaterra,1373,Marcus Rashford,71,NO,NO
+2569,1589,2022,44,Inglaterra,1283,Jack Grealish,90,NO,NO
+2570,1589,2022,48,Irán,4178,Mehdi Taremi,65,NO,NO
+2571,1589,2022,48,Irán,4178,Mehdi Taremi,90,SI,NO
+2572,1590,2022,35,Estados Unidos,2897,Tim Weah,36,NO,NO
+2573,1590,2022,37,Gales,2532,Gareth Bale,82,SI,NO
+2574,1591,2022,48,Irán,4094,Rouzbeh Cheshmi,90,NO,NO
+2575,1591,2022,48,Irán,4167,Ramin Rezaeian,90,NO,NO
+2576,1593,2022,44,Inglaterra,1373,Marcus Rashford,50,NO,NO
+2577,1593,2022,44,Inglaterra,1274,Phil Foden,51,NO,NO
+2578,1593,2022,44,Inglaterra,1373,Marcus Rashford,68,NO,NO
+2579,1594,2022,35,Estados Unidos,2865,Christian Pulisic,38,NO,NO
+2580,1595,2022,6,Argentina,5318,Lionel Messi,10,SI,NO
+2581,1595,2022,4,Arabia Saudita,4814,Saleh Al-Shehri,48,NO,NO
+2582,1595,2022,4,Arabia Saudita,4797,Salem Al-Dawsari,53,NO,NO
+2583,1597,2022,64,Polonia,3186,Piotr Zieliński,39,NO,NO
+2584,1597,2022,64,Polonia,3112,Robert Lewandowski,82,NO,NO
+2585,1598,2022,6,Argentina,5318,Lionel Messi,64,NO,NO
+2586,1598,2022,6,Argentina,5251,Enzo Fernandez,87,NO,NO
+2587,1599,2022,4,Arabia Saudita,4797,Salem Al-Dawsari,90,NO,NO
+2588,1599,2022,56,México,7778,Henry Martin,47,NO,NO
+2589,1599,2022,56,México,7689,Luis Chávez,52,NO,NO
+2590,1600,2022,6,Argentina,5305,Alexis Mac Allister,46,NO,NO
+2591,1600,2022,6,Argentina,5159,Julian Alvarez,67,NO,NO
+2592,1602,2022,36,Francia,4015,Adrien Rabiot,27,NO,NO
+2593,1602,2022,36,Francia,3923,Olivier Giroud,32,NO,NO
+2594,1602,2022,36,Francia,3992,Kylian Mbappé,68,NO,NO
+2595,1602,2022,36,Francia,3923,Olivier Giroud,71,NO,NO
+2596,1602,2022,7,Australia,7312,Craig Goodwin,9,NO,NO
+2597,1603,2022,7,Australia,7306,Mitchell Duke,23,NO,NO
+2598,1604,2022,36,Francia,3992,Kylian Mbappé,61,NO,NO
+2599,1604,2022,36,Francia,3992,Kylian Mbappé,86,NO,NO
+2600,1604,2022,26,Dinamarca,4198,Andreas Christensen,68,NO,NO
+2601,1605,2022,7,Australia,7333,Mathew Leckie,60,NO,NO
+2602,1606,2022,78,Túnez,7220,Wahbi Khazri,58,NO,NO
+2603,1607,2022,1,Alemania,6115,Ilkay Gündogan,33,SI,NO
+2604,1607,2022,53,Japón,83,Ritsu Doan,75,NO,NO
+2605,1607,2022,53,Japón,82,Takuma Asano,83,NO,NO
+2606,1608,2022,34,España,5010,Dani Olmo,11,NO,NO
+2607,1608,2022,34,España,4869,Marco Asensio,21,NO,NO
+2608,1608,2022,34,España,5077,Ferran Torres,31,SI,NO
+2609,1608,2022,34,España,5077,Ferran Torres,54,NO,NO
+2610,1608,2022,34,España,4930,Gavi,74,NO,NO
+2611,1608,2022,34,España,5071,Carlos Soler,90,NO,NO
+2612,1608,2022,34,España,4996,Álvaro Morata,90,NO,NO
+2613,1609,2022,22,Costa Rica,1998,Keysher Fuller,81,NO,NO
+2614,1610,2022,34,España,4996,Álvaro Morata,62,NO,NO
+2615,1610,2022,1,Alemania,6101,Niclas Füllkrug,83,NO,NO
+2616,1611,2022,53,Japón,83,Ritsu Doan,48,NO,NO
+2617,1611,2022,53,Japón,172,Ao Tanaka,51,NO,NO
+2618,1611,2022,34,España,4996,Álvaro Morata,11,NO,NO
+2619,1612,2022,22,Costa Rica,2051,Yeltsin Tejeda,58,NO,NO
+2620,1612,2022,22,Costa Rica,2056,Juan Pablo Vargas,70,NO,NO
+2621,1612,2022,1,Alemania,6107,Serge Gnabry,10,NO,NO
+2622,1612,2022,1,Alemania,6124,Kai Havertz,73,NO,NO
+2623,1612,2022,1,Alemania,6124,Kai Havertz,85,NO,NO
+2624,1612,2022,1,Alemania,6101,Niclas Füllkrug,89,NO,NO
+2625,1614,2022,13,Bélgica,6550,Michy Batshuayi,44,NO,NO
+2626,1615,2022,55,Marruecos,8400,Romain Saïss,73,NO,NO
+2627,1615,2022,55,Marruecos,8294,Zakaria Aboukhlal,90,NO,NO
+2628,1616,2022,24,Croacia,1111,Andrej Kramarić,36,NO,NO
+2629,1616,2022,24,Croacia,1117,Marko Livaja,44,NO,NO
+2630,1616,2022,24,Croacia,1111,Andrej Kramarić,70,NO,NO
+2631,1616,2022,24,Croacia,1120,Lovro Majer,90,NO,NO
+2632,1616,2022,15,Canadá,2463,Alphonso Davies,2,NO,NO
+2633,1618,2022,15,Canadá,8296,Nayef Aguerd,40,NO,SI
+2634,1618,2022,55,Marruecos,8410,Hakim Ziyech,4,NO,NO
+2635,1618,2022,55,Marruecos,8357,Youssef En-Nesyri,23,NO,NO
+2636,1619,2022,74,Suiza,8084,Breel Embolo,48,NO,NO
+2637,1620,2022,11,Brasil,1779,Richarlison,62,NO,NO
+2638,1620,2022,11,Brasil,1779,Richarlison,73,NO,NO
+2639,1621,2022,14,Camerún,875,Jean-Charles Castelletto,29,NO,NO
+2640,1621,2022,14,Camerún,861,Vincent Aboubakar,63,NO,NO
+2641,1621,2022,14,Camerún,877,Eric Maxim Choupo Moting,66,NO,NO
+2642,1621,2022,71,Serbia,3692,Strahinja Pavlovic,45,NO,NO
+2643,1621,2022,71,Serbia,3657,Sergej Milinković-Savić,45,NO,NO
+2644,1621,2022,71,Serbia,3666,Aleksandar Mitrović,53,NO,NO
+2645,1622,2022,11,Brasil,1576,Casemiro,83,NO,NO
+2646,1623,2022,71,Serbia,3666,Aleksandar Mitrović,26,NO,NO
+2647,1623,2022,71,Serbia,3759,Dusan Vlahovic,35,NO,NO
+2648,1623,2022,74,Suiza,8190,Xherdan Shaqiri,20,NO,NO
+2649,1623,2022,74,Suiza,8084,Breel Embolo,44,NO,NO
+2650,1623,2022,74,Suiza,8095,Remo Freuler,48,NO,NO
+2651,1624,2022,14,Camerún,861,Vincent Aboubakar,90,NO,NO
+2652,1626,2022,65,Portugal,3307,Cristiano Ronaldo,65,SI,NO
+2653,1626,2022,65,Portugal,3229,João Félix,78,NO,NO
+2654,1626,2022,65,Portugal,3258,Rafael Leão,80,NO,NO
+2655,1626,2022,38,Ghana,1462,Andre Ayew,73,NO,NO
+2656,1626,2022,38,Ghana,1468,Osman Bukari,89,NO,NO
+2657,1627,2022,21,Corea del Sur,6932,Gue-sung Cho,58,NO,NO
+2658,1627,2022,21,Corea del Sur,6932,Gue-sung Cho,61,NO,NO
+2659,1627,2022,38,Ghana,1502,Mohammed Salisu,24,NO,NO
+2660,1627,2022,38,Ghana,1479,Mohammed Kudus,34,NO,NO
+2661,1627,2022,38,Ghana,1479,Mohammed Kudus,68,NO,NO
+2662,1628,2022,65,Portugal,3230,Bruno Fernandes,54,NO,NO
+2663,1628,2022,65,Portugal,3230,Bruno Fernandes,90,NO,NO
+2664,1629,2022,80,Uruguay,5853,Giorgian De Arrascaeta,26,NO,NO
+2665,1629,2022,80,Uruguay,5853,Giorgian De Arrascaeta,32,NO,NO
+2666,1630,2022,21,Corea del Sur,7028,Young-Gwon Kim,27,NO,NO
+2667,1630,2022,21,Corea del Sur,6975,Hee-chan Hwang,90,NO,NO
+2668,1630,2022,65,Portugal,3245,Ricardo Horta,5,NO,NO
+2669,1679,2022,60,Paises Bajos,6397,Memphis Depay,10,NO,NO
+2670,1679,2022,60,Paises Bajos,6365,Daley Blind,45,NO,NO
+2671,1679,2022,60,Paises Bajos,6400,Denzel Dumfries,81,NO,NO
+2672,1679,2022,35,Estados Unidos,2904,Haji Wright,76,NO,NO
+2673,1680,2022,6,Argentina,5318,Lionel Messi,35,NO,NO
+2674,1680,2022,6,Argentina,5159,Julian Alvarez,57,NO,NO
+2675,1680,2022,7,Australia,5251,Enzo Fernandez,77,NO,SI
+2676,1681,2022,44,Inglaterra,1291,Jordan Henderson,38,NO,NO
+2677,1681,2022,44,Inglaterra,1312,Harry Kane,45,NO,NO
+2678,1681,2022,44,Inglaterra,1382,Bukayo Saka,57,NO,NO
+2679,1682,2022,36,Francia,3923,Olivier Giroud,44,NO,NO
+2680,1682,2022,36,Francia,3992,Kylian Mbappé,74,NO,NO
+2681,1682,2022,36,Francia,3992,Kylian Mbappé,90,NO,NO
+2682,1682,2022,64,Polonia,3112,Robert Lewandowski,90,SI,NO
+2683,1683,2022,53,Japón,119,Daizen Maeda,43,NO,NO
+2684,1683,2022,24,Croacia,1129,Ivan Perisic,55,NO,NO
+2685,1684,2022,11,Brasil,1824,Vinicius Junior,7,NO,NO
+2686,1684,2022,11,Brasil,1735,Neymar Jr.,13,NO,NO
+2687,1684,2022,11,Brasil,1779,Richarlison,29,NO,NO
+2688,1684,2022,11,Brasil,1747,Lucas Paqueta,36,NO,NO
+2689,1684,2022,21,Corea del Sur,7070,Seung-ho Paik,76,NO,NO
+2690,1686,2022,65,Portugal,3302,Gonçalo Ramos,17,NO,NO
+2691,1686,2022,65,Portugal,3292,Pepe,33,NO,NO
+2692,1686,2022,65,Portugal,3302,Gonçalo Ramos,51,NO,NO
+2693,1686,2022,65,Portugal,3243,Raphaël Guerreiro,55,NO,NO
+2694,1686,2022,65,Portugal,3302,Gonçalo Ramos,67,NO,NO
+2695,1686,2022,65,Portugal,3258,Rafael Leão,90,NO,NO
+2696,1686,2022,74,Suiza,8037,Manuel Akanji,58,NO,NO
+2697,1687,2022,60,Paises Bajos,6533,Wout Weghorst,83,NO,NO
+2698,1687,2022,60,Paises Bajos,6533,Wout Weghorst,90,NO,NO
+2699,1687,2022,6,Argentina,5322,Nahuel Molina,35,NO,NO
+2700,1687,2022,6,Argentina,5318,Lionel Messi,73,SI,NO
+2701,1688,2022,24,Croacia,1130,Bruno Petkovic,117,NO,NO
+2702,1688,2022,11,Brasil,1735,Neymar Jr.,105,NO,NO
+2703,1689,2022,44,Inglaterra,1312,Harry Kane,54,SI,NO
+2704,1689,2022,36,Francia,4048,Aurélien Tchouaméni,17,NO,NO
+2705,1689,2022,36,Francia,3923,Olivier Giroud,78,NO,NO
+2706,1690,2022,55,Marruecos,8357,Youssef En-Nesyri,42,NO,NO
+2707,1691,2022,6,Argentina,5318,Lionel Messi,34,SI,NO
+2708,1691,2022,6,Argentina,5159,Julian Alvarez,39,NO,NO
+2709,1691,2022,6,Argentina,5159,Julian Alvarez,69,NO,NO
+2710,1692,2022,36,Francia,3941,Théo Hernandez,5,NO,NO
+2711,1692,2022,36,Francia,3952,Randal Kolo Muani,79,NO,NO
+2712,1693,2022,24,Croacia,1095,Josko Gvardiol,7,NO,NO
+2713,1693,2022,24,Croacia,1127,Mislav Orsic,42,NO,NO
+2714,1693,2022,55,Marruecos,8335,Achraf Dari,9,NO,NO
+2715,1694,2022,6,Argentina,5318,Lionel Messi,23,SI,NO
+2716,1694,2022,6,Argentina,5238,Angel Di Maria,36,NO,NO
+2717,1694,2022,6,Argentina,5318,Lionel Messi,108,NO,NO
+2718,1694,2022,36,Francia,3992,Kylian Mbappé,80,SI,NO
+2719,1694,2022,36,Francia,3992,Kylian Mbappé,81,NO,NO
+2720,1694,2022,36,Francia,3992,Kylian Mbappé,118,SI,NO
