@@ -3,7 +3,7 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 2,1930,80,Uruguay,5842,Pedro Cea,5,4,1.25
 3,1930,35,Estados Unidos,2861,Bert Patenaude,4,3,1.33
 4,1930,80,Uruguay,5810,Juan Anselmo,3,2,1.5
-5,1930,,Yugoslavia,3544,Ivica Bek,3,3,1.0
+5,1930,85,Yugoslavia,3544,Ivica Bek,3,3,1.0
 6,1930,6,Argentina,5363,Carlos Peucelle,3,4,0.75
 7,1930,11,Brasil,1767,Preguinho,3,2,1.5
 8,1930,80,Uruguay,5838,Hector Castro,2,2,1.0
@@ -25,18 +25,18 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 24,1930,68,Rumania,1897,Nicolae Kovacs,1,2,0.5
 25,1930,36,Francia,3963,Marcel Langiller,1,3,0.33
 26,1930,36,Francia,3966,Lucien Laurent,1,2,0.5
-27,1930,,Yugoslavia,3645,Blagoje Marjanovic,1,3,0.33
+27,1930,85,Yugoslavia,3645,Blagoje Marjanovic,1,3,0.33
 28,1930,35,Estados Unidos,2844,Bart Mcghee,1,3,0.33
 29,1930,80,Uruguay,5995,Hector Scarone,1,3,0.33
 30,1930,6,Argentina,5403,Alejandro Scopelli,1,1,1.0
-31,1930,,Yugoslavia,3721,Branislav Sekulic,1,2,0.5
+31,1930,85,Yugoslavia,3721,Branislav Sekulic,1,2,0.5
 32,1930,63,Perú,2216,Luis Souza,1,2,0.5
 33,1930,68,Rumania,1946,Constantin Stanciu,1,1,1.0
-34,1930,,Yugoslavia,3749,Aleksandar Tirnanic,1,3,0.33
+34,1930,85,Yugoslavia,3749,Aleksandar Tirnanic,1,3,0.33
 35,1930,6,Argentina,5434,Francisco Varallo,1,4,0.25
 36,1930,62,Paraguay,4434,Luis Vargas Pena,1,2,0.5
-37,1930,,Yugoslavia,3760,Djordje Vujadinovic,1,3,0.33
-38,1934,,Checoslovaquia,537,Oldrich Nejedly,5,4,1.25
+37,1930,85,Yugoslavia,3760,Djordje Vujadinovic,1,3,0.33
+38,1934,86,Checoslovaquia,537,Oldrich Nejedly,5,4,1.25
 39,1934,1,Alemania,6077,Edmund Conen,4,4,1.0
 40,1934,51,Italia,5757,Angelo Schiavio,4,4,1.0
 41,1934,74,Suiza,8129,Leopold Kielholz,3,2,1.5
@@ -49,8 +49,8 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 48,1934,73,Suecia,3424,Sven Jonasson,2,2,1.0
 49,1934,1,Alemania,6198,Ernest Lehner,2,4,0.5
 50,1934,51,Italia,5689,Giuseppe Meazza,2,5,0.4
-51,1934,,Checoslovaquia,560,Antonin Puc,2,4,0.5
-52,1934,,Checoslovaquia,585,Frantisek Svoboda,2,3,0.67
+51,1934,86,Checoslovaquia,560,Antonin Puc,2,4,0.5
+52,1934,86,Checoslovaquia,585,Frantisek Svoboda,2,3,0.67
 53,1934,42,Hungría,7618,Geza Toldi,2,2,1.0
 54,1934,13,Bélgica,6753,Bernard Voorhoof,2,1,2.0
 55,1934,74,Suiza,8033,Andre Abegglen,1,2,0.5
@@ -94,7 +94,7 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 93,1938,25,Cuba,2431,Hector Socorro,3,3,1.0
 94,1938,73,Suecia,3532,Gustav Wetterstrom,3,2,1.5
 95,1938,68,Rumania,1877,Stefan Dobay,2,2,1.0
-96,1938,,Checoslovaquia,537,Oldrich Nejedly,2,2,1.0
+96,1938,86,Checoslovaquia,537,Oldrich Nejedly,2,2,1.0
 97,1938,36,Francia,3998,Jean Nicolas,2,2,1.0
 98,1938,73,Suecia,3342,Harry Andersson,1,3,0.33
 99,1938,68,Rumania,1852,Iuliu Baratky,1,2,0.5
@@ -109,8 +109,8 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 108,1938,13,Bélgica,6638,Henri Isemborghs,1,1,1.0
 109,1938,73,Suecia,3424,Sven Jonasson,1,3,0.33
 110,1938,42,Hungría,7553,Vilmos Kohut,1,2,0.5
-111,1938,,Checoslovaquia,503,Vlastimil Kopecky,1,3,0.33
-112,1938,,Checoslovaquia,506,Josef Kostalek,1,3,0.33
+111,1938,86,Checoslovaquia,503,Vlastimil Kopecky,1,3,0.33
+112,1938,86,Checoslovaquia,506,Josef Kostalek,1,3,0.33
 113,1938,25,Cuba,2428,Jose Magrina,1,2,0.5
 114,1938,51,Italia,5689,Giuseppe Meazza,1,4,0.25
 115,1938,11,Brasil,5047,Roberto,1,2,0.5
@@ -120,7 +120,7 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 119,1938,42,Hungría,7618,Geza Toldi,1,2,0.5
 120,1938,36,Francia,4064,Emile Veinante,1,2,0.5
 121,1938,74,Suiza,8219,Eugen Walachek,1,3,0.33
-122,1938,,Checoslovaquia,597,Josef Zeman,1,1,1.0
+122,1938,86,Checoslovaquia,597,Josef Zeman,1,1,1.0
 123,1950,11,Brasil,1519,Ademir,9,6,1.5
 124,1950,80,Uruguay,5927,Oscar Miguez,5,4,1.25
 125,1950,34,España,4875,Estanislao Basora,4,6,0.67
@@ -132,19 +132,19 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 131,1950,73,Suecia,3514,Stig Sundqvist,3,5,0.6
 132,1950,73,Suecia,3349,Sune Andersson,2,5,0.4
 133,1950,11,Brasil,1546,Baltazar,2,2,1.0
-134,1950,,Yugoslavia,3554,Zeljko Cajkovski,2,3,0.67
+134,1950,85,Yugoslavia,3554,Zeljko Cajkovski,2,3,0.67
 135,1950,51,Italia,5572,Riccardo Carapellese,2,2,1.0
 136,1950,17,Chile,656,Atilio Cremaschi,2,3,0.67
 137,1950,74,Suiza,8087,Jackie Fatton,2,3,0.67
 138,1950,34,España,4947,Silvestre Igoa,2,5,0.4
 139,1950,11,Brasil,1660,Jair,2,5,0.4
 140,1950,73,Suecia,3419,Hans Jeppsson,2,4,0.5
-141,1950,,Yugoslavia,3750,Kosta Tomasevic,2,3,0.67
+141,1950,85,Yugoslavia,3750,Kosta Tomasevic,2,3,0.67
 142,1950,11,Brasil,1846,Zizinho,2,4,0.5
 143,1950,11,Brasil,1528,Alfredo Ii,1,1,1.0
 144,1950,74,Suiza,8042,Kiki Antenen,1,2,0.5
 145,1950,74,Suiza,8043,Rene Bader,1,3,0.33
-146,1950,,Yugoslavia,3546,Stjepan Bobek,1,3,0.33
+146,1950,85,Yugoslavia,3546,Stjepan Bobek,1,3,0.33
 147,1950,56,México,7681,Horacio Casarin,1,3,0.33
 148,1950,11,Brasil,1635,Friaca,1,4,0.25
 149,1950,35,Estados Unidos,2801,Joe Gaetjens,1,3,0.33
@@ -154,10 +154,10 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 153,1950,11,Brasil,1704,Maneca,1,4,0.25
 154,1950,44,Inglaterra,1331,Wilf Mannion,1,2,0.5
 155,1950,73,Suecia,3462,Bror Mellberg,1,2,0.5
-156,1950,,Yugoslavia,3665,Rajko Mitic,1,3,0.33
+156,1950,85,Yugoslavia,3665,Rajko Mitic,1,3,0.33
 157,1950,44,Inglaterra,1348,Stan Mortensen,1,3,0.33
 158,1950,51,Italia,5702,Ermes Muccinelli,1,2,0.5
-159,1950,,Yugoslavia,3679,Tihomir Ognjanov,1,1,1.0
+159,1950,85,Yugoslavia,3679,Tihomir Ognjanov,1,1,1.0
 160,1950,56,México,7812,Hector Ortiz,1,3,0.33
 161,1950,51,Italia,5717,Egisto Pandolfini,1,1,1.0
 162,1950,35,Estados Unidos,2860,Gino Pariani,1,3,0.33
@@ -170,15 +170,15 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 169,1950,35,Estados Unidos,2896,Frank Wallace,1,3,0.33
 170,1954,42,Hungría,7552,Sandor Kocsis,11,5,2.2
 171,1954,74,Suiza,8118,Sepp Huegi,6,3,2.0
-172,1954,,Alemania Occidental,6220,Max Morlock,6,5,1.2
+172,1954,87,Alemania Occidental,6220,Max Morlock,6,5,1.2
 173,1954,8,Austria,4628,Erich Probst,6,5,1.2
 174,1954,74,Suiza,8046,Robert Ballaman,4,4,1.0
 175,1954,80,Uruguay,5821,Carlos Borges,4,5,0.8
 176,1954,42,Hungría,7538,Nandor Hidegkuti,4,4,1.0
 177,1954,42,Hungría,7587,Ferenc Puskas,4,3,1.33
-178,1954,,Alemania Occidental,6251,Helmut Rahn,4,4,1.0
-179,1954,,Alemania Occidental,6269,Hans Schaefer,4,5,0.8
-180,1954,,Alemania Occidental,6312,Ottmar Walter,4,5,0.8
+178,1954,87,Alemania Occidental,6251,Helmut Rahn,4,4,1.0
+179,1954,87,Alemania Occidental,6269,Hans Schaefer,4,5,0.8
+180,1954,87,Alemania Occidental,6312,Ottmar Walter,4,5,0.8
 181,1954,13,Bélgica,6545,Leopold Anoul,3,2,1.5
 182,1954,77,Turquía,5455,Sargun Burhan,3,2,1.5
 183,1954,42,Hungría,7513,Zoltan Czibor,3,5,0.6
@@ -188,7 +188,7 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 187,1954,8,Austria,4650,Ernst Stojaspal,3,4,0.75
 188,1954,77,Turquía,5486,Mamat Suat,3,2,1.5
 189,1954,8,Austria,4662,Theodor Wagner,3,4,0.75
-190,1954,,Alemania Occidental,6311,Fritz Walter,3,6,0.5
+190,1954,87,Alemania Occidental,6311,Fritz Walter,3,6,0.5
 191,1954,80,Uruguay,5799,Julio Abbadie,2,4,0.5
 192,1954,44,Inglaterra,1223,Ivor Broadis,2,3,0.67
 193,1954,11,Brasil,1596,Didi,2,3,0.67
@@ -211,49 +211,49 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 210,1954,44,Inglaterra,1271,Tom Finney,1,3,0.33
 211,1954,51,Italia,5635,Amleto Frignani,1,2,0.5
 212,1954,51,Italia,5639,Carlo Galli,1,2,0.5
-213,1954,,Alemania Occidental,6134,Richard Herrmann,1,1,1.0
+213,1954,87,Alemania Occidental,6134,Richard Herrmann,1,1,1.0
 214,1954,77,Turquía,5470,Erol Keskin,1,3,0.33
-215,1954,,Alemania Occidental,6175,Berni Klodt,1,2,0.5
+215,1954,87,Alemania Occidental,6175,Berni Klodt,1,2,0.5
 216,1954,36,Francia,3954,Raymond Kopa,1,2,0.5
 217,1954,56,México,7763,Jose Lamadrid,1,2,0.5
 218,1954,51,Italia,5667,Benito Lorenzi,1,3,0.33
-219,1954,,Yugoslavia,3663,Milos Milutinovic,1,3,0.33
+219,1954,85,Yugoslavia,3663,Milos Milutinovic,1,3,0.33
 220,1954,44,Inglaterra,1350,Jimmy Mullen,1,1,1.0
 221,1954,51,Italia,5707,Fulvio Nesti,1,3,0.33
 222,1954,51,Italia,5717,Egisto Pandolfini,1,3,0.33
-223,1954,,Alemania Occidental,6245,Alfred Pfaff,1,1,1.0
+223,1954,87,Alemania Occidental,6245,Alfred Pfaff,1,1,1.0
 224,1954,42,Hungría,7622,Jozsef Toth,1,2,0.5
 225,1954,80,Uruguay,6025,Obdulio Varela,1,3,0.33
 226,1954,36,Francia,4070,Jean Vincent,1,2,0.5
 227,1954,44,Inglaterra,1428,Dennis Wilshaw,1,2,0.5
-228,1954,,Yugoslavia,3767,Branko Zebec,1,3,0.33
+228,1954,85,Yugoslavia,3767,Branko Zebec,1,3,0.33
 229,1958,36,Francia,3915,Just Fontaine,13,6,2.17
 230,1958,11,Brasil,1759,Pelé,6,4,1.5
-231,1958,,Alemania Occidental,6251,Helmut Rahn,6,6,1.0
+231,1958,87,Alemania Occidental,6251,Helmut Rahn,6,6,1.0
 232,1958,47,Irlanda del Norte,2261,Peter Mcparland,5,5,1.0
 233,1958,11,Brasil,1820,Vava,5,4,1.25
 234,1958,73,Suecia,3402,Kurt Hamrin,4,5,0.8
 235,1958,73,Suecia,3508,Agne Simonsson,4,5,0.8
 236,1958,42,Hungría,7616,Lajos Tichy,4,4,1.0
-237,1958,,Checoslovaquia,599,Zdenek Zikan,4,3,1.33
+237,1958,86,Checoslovaquia,599,Zdenek Zikan,4,3,1.33
 238,1958,6,Argentina,5223,Omar Oreste Corbatta,3,3,1.0
 239,1958,36,Francia,3954,Raymond Kopa,3,6,0.5
 240,1958,36,Francia,4007,Roger Piantoni,3,5,0.6
-241,1958,,Alemania Occidental,6269,Hans Schaefer,3,6,0.5
-242,1958,,Yugoslavia,3756,Toza Veselinovic,3,4,0.75
+241,1958,87,Alemania Occidental,6269,Hans Schaefer,3,6,0.5
+242,1958,85,Yugoslavia,3756,Toza Veselinovic,3,4,0.75
 243,1958,62,Paraguay,4297,Juan Aguero,2,3,0.67
 244,1958,37,Gales,2526,Ivor Allchurch,2,5,0.4
 245,1958,11,Brasil,5519,Jose Altafini,2,3,0.67
 246,1958,62,Paraguay,4306,Florencio Amarilla,2,3,0.67
-247,1958,,Checoslovaquia,460,Milan Dvorak,2,4,0.5
-248,1958,,Checoslovaquia,478,Vaclav Hovorka,2,3,0.67
-249,1958,,URSS,307,Anatoli Ilyin,2,5,0.4
+247,1958,86,Checoslovaquia,460,Milan Dvorak,2,4,0.5
+248,1958,86,Checoslovaquia,478,Vaclav Hovorka,2,3,0.67
+249,1958,88,URSS,307,Anatoli Ilyin,2,5,0.4
 250,1958,44,Inglaterra,1315,Derek Kevan,2,4,0.5
 251,1958,73,Suecia,3445,Nils Liedholm,2,5,0.4
 252,1958,62,Paraguay,4405,Jose Parodi,2,3,0.67
-253,1958,,Yugoslavia,3694,Aleksandar Petakovic,2,4,0.5
+253,1958,85,Yugoslavia,3694,Aleksandar Petakovic,2,4,0.5
 254,1958,62,Paraguay,4415,Jorge Romero,2,3,0.67
-255,1958,,Alemania Occidental,6281,Uwe Seeler,2,5,0.4
+255,1958,87,Alemania Occidental,6281,Uwe Seeler,2,5,0.4
 256,1958,36,Francia,4072,Maryan Wisnieski,2,6,0.33
 257,1958,6,Argentina,5168,Ludovico Avio,1,2,0.5
 258,1958,31,Escocia,2285,Sammy Baird,1,1,1.0
@@ -261,17 +261,17 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 260,1958,42,Hungría,7495,Jozsef Bencsis,1,2,0.5
 261,1958,42,Hungría,7503,Jozsef Bozsik,1,3,0.33
 262,1958,37,Gales,2535,John Charles,1,4,0.25
-263,1958,,Alemania Occidental,6076,Hans Ciesclarczyk,1,2,0.5
+263,1958,87,Alemania Occidental,6076,Hans Ciesclarczyk,1,2,0.5
 264,1958,31,Escocia,2304,Bobby Collins,1,3,0.33
 265,1958,47,Irlanda del Norte,2239,Wilbur Cush,1,5,0.2
 266,1958,11,Brasil,1596,Didi,1,6,0.17
 267,1958,36,Francia,3906,Yvon Douis,1,1,1.0
-268,1958,,Checoslovaquia,461,Jiri Feureisl,1,3,0.33
+268,1958,86,Checoslovaquia,461,Jiri Feureisl,1,3,0.33
 269,1958,44,Inglaterra,1271,Tom Finney,1,1,1.0
 270,1958,73,Suecia,3394,Gunnar Gren,1,5,0.2
 271,1958,44,Inglaterra,1290,John Haynes,1,4,0.25
-272,1958,,URSS,310,Valentin Ivanov,1,5,0.2
-273,1958,,URSS,309,Aleksandr Ivanov,1,4,0.25
+272,1958,88,URSS,310,Valentin Ivanov,1,5,0.2
+273,1958,88,URSS,309,Aleksandr Ivanov,1,4,0.25
 274,1958,8,Austria,4593,Alfred Koerner,1,3,0.33
 275,1958,8,Austria,4596,Karl Koller,1,3,0.33
 276,1958,37,Gales,2556,Terry Medwin,1,4,0.25
@@ -279,36 +279,36 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 278,1958,31,Escocia,2391,Jackie Mudie,1,3,0.33
 279,1958,31,Escocia,2392,Jimmy Murray,1,2,0.5
 280,1958,11,Brasil,1739,Nilton Santos,1,6,0.17
-281,1958,,Yugoslavia,3680,Radivoje Ognjanovic,1,2,0.5
-282,1958,,Yugoslavia,3712,Zdravko Rajkov,1,4,0.25
+281,1958,85,Yugoslavia,3680,Radivoje Ognjanovic,1,2,0.5
+282,1958,85,Yugoslavia,3712,Zdravko Rajkov,1,4,0.25
 283,1958,62,Paraguay,4408,Cayetano Re,1,3,0.33
 284,1958,42,Hungría,7594,Karoly Sandor,1,3,0.33
-285,1958,,URSS,401,Nikita Simonyan,1,5,0.2
+285,1958,88,URSS,401,Nikita Simonyan,1,5,0.2
 286,1958,73,Suecia,3511,Lennart Skoglund,1,6,0.17
 287,1958,36,Francia,4070,Jean Vincent,1,6,0.17
 288,1958,11,Brasil,1833,Zagallo,1,6,0.17
 289,1962,42,Hungría,7490,Florian Albert,4,3,1.33
 290,1962,11,Brasil,1637,Garrincha,4,6,0.67
-291,1962,,URSS,310,Valentin Ivanov,4,4,1.0
-292,1962,,Yugoslavia,3601,Drazen Jerkovic,4,6,0.67
+291,1962,88,URSS,310,Valentin Ivanov,4,4,1.0
+292,1962,85,Yugoslavia,3601,Drazen Jerkovic,4,6,0.67
 293,1962,17,Chile,758,Leonel Sanchez,4,6,0.67
 294,1962,11,Brasil,1820,Vava,4,6,0.67
 295,1962,11,Brasil,1535,Amarildo,3,4,0.75
-296,1962,,Yugoslavia,3579,Milan Galic,3,6,0.5
-297,1962,,Checoslovaquia,568,Adolf Scherer,3,6,0.5
+296,1962,85,Yugoslavia,3579,Milan Galic,3,6,0.5
+297,1962,86,Checoslovaquia,568,Adolf Scherer,3,6,0.5
 298,1962,42,Hungría,7616,Lajos Tichy,3,4,0.75
 299,1962,51,Italia,5561,Giacomo Bulgarelli,2,1,2.0
-300,1962,,URSS,275,Igor Chislenko,2,3,0.67
+300,1962,88,URSS,275,Igor Chislenko,2,3,0.67
 301,1962,44,Inglaterra,1272,Ron Flowers,2,4,0.5
-302,1962,,URSS,373,Viktor Ponedelnik,2,4,0.5
+302,1962,88,URSS,373,Viktor Ponedelnik,2,4,0.5
 303,1962,17,Chile,735,Jaime Ramirez,2,6,0.33
 304,1962,17,Chile,748,Eladio Rojas,2,6,0.33
 305,1962,80,Uruguay,5994,Jose Sasia,2,3,0.67
-306,1962,,Alemania Occidental,6281,Uwe Seeler,2,4,0.5
+306,1962,87,Alemania Occidental,6281,Uwe Seeler,2,4,0.5
 307,1962,17,Chile,771,Jorge Toro,2,5,0.4
 308,1962,19,Colombia,2632,German Aceros,1,3,0.33
 309,1962,34,España,4848,Adelardo,1,1,1.0
-310,1962,,Alemania Occidental,6069,Albert Bruells,1,4,0.25
+310,1962,87,Alemania Occidental,6069,Albert Bruells,1,4,0.25
 311,1962,80,Uruguay,5825,Angel Cabrera,1,2,0.5
 312,1962,44,Inglaterra,1239,Bobby Charlton,1,4,0.25
 313,1962,19,Colombia,2653,Marcos Coll,1,3,0.33
@@ -319,58 +319,58 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 318,1962,44,Inglaterra,1284,Jimmy Greaves,1,4,0.25
 319,1962,56,México,7752,Hector Hernandez,1,3,0.33
 320,1962,44,Inglaterra,1293,Gerry Hitchens,1,2,0.5
-321,1962,,Checoslovaquia,495,Josef Kadraba,1,3,0.33
+321,1962,86,Checoslovaquia,495,Josef Kadraba,1,3,0.33
 322,1962,19,Colombia,2684,Marino Klinger,1,3,0.33
-323,1962,,URSS,351,Aleksei Mamykin,1,2,0.5
-324,1962,,Checoslovaquia,526,Vaclav Masek,1,1,1.0
-325,1962,,Checoslovaquia,528,Josef Masopust,1,6,0.17
-326,1962,,Yugoslavia,3649,Vojislav Melic,1,2,0.5
+323,1962,88,URSS,351,Aleksei Mamykin,1,2,0.5
+324,1962,86,Checoslovaquia,526,Vaclav Masek,1,1,1.0
+325,1962,86,Checoslovaquia,528,Josef Masopust,1,6,0.17
+326,1962,85,Yugoslavia,3649,Vojislav Melic,1,2,0.5
 327,1962,51,Italia,5697,Bruno Mora,1,2,0.5
 328,1962,34,España,5019,Joaquin Peiro,1,2,0.5
 329,1962,11,Brasil,1759,Pelé,1,2,0.5
 330,1962,19,Colombia,2710,Antonio Rada,1,2,0.5
-331,1962,,Yugoslavia,3708,Petar Radakovic,1,5,0.2
+331,1962,85,Yugoslavia,3708,Petar Radakovic,1,5,0.2
 332,1962,6,Argentina,5397,Jose Sanfilippo,1,2,0.5
 333,1962,74,Suiza,8184,Heinz Schneiter,1,3,0.33
-334,1962,,Yugoslavia,3724,Josip Skoblar,1,5,0.2
+334,1962,85,Yugoslavia,3724,Josip Skoblar,1,5,0.2
 335,1962,12,Bulgaria,2999,Georgi Sokolov,1,2,0.5
 336,1962,42,Hungría,7600,Erno Solymosi,1,4,0.25
-337,1962,,Checoslovaquia,582,Josef Stibranyi,1,3,0.33
-338,1962,,Alemania Occidental,6297,Horst Szymaniak,1,4,0.25
+337,1962,86,Checoslovaquia,582,Josef Stibranyi,1,3,0.33
+338,1962,87,Alemania Occidental,6297,Horst Szymaniak,1,4,0.25
 339,1962,74,Suiza,8226,Rolf Wuethrich,1,3,0.33
 340,1962,11,Brasil,1833,Zagallo,1,6,0.17
 341,1962,11,Brasil,1845,Zito,1,6,0.17
 342,1962,19,Colombia,2734,Francisco Zuluaga,1,1,1.0
 343,1966,65,Portugal,3228,Eusebio,9,6,1.5
-344,1966,,Alemania Occidental,6119,Helmut Haller,6,5,1.2
-345,1966,,Alemania Occidental,6051,Franz Beckenbauer,4,6,0.67
+344,1966,87,Alemania Occidental,6119,Helmut Haller,6,5,1.2
+345,1966,87,Alemania Occidental,6051,Franz Beckenbauer,4,6,0.67
 346,1966,42,Hungría,7496,Ferenc Bene,4,4,1.0
 347,1966,44,Inglaterra,1304,Geoff Hurst,4,3,1.33
-348,1966,,URSS,376,Valeriy Porkuyan,4,3,1.33
+348,1966,88,URSS,376,Valeriy Porkuyan,4,3,1.33
 349,1966,6,Argentina,5165,Luis Artime,3,4,0.75
 350,1966,44,Inglaterra,1239,Bobby Charlton,3,6,0.5
 351,1966,44,Inglaterra,1302,Roger Hunt,3,6,0.5
 352,1966,65,Portugal,3255,Jose Augusto,3,6,0.5
-353,1966,,URSS,350,Eduard Malofeyev,3,5,0.6
+353,1966,88,URSS,350,Eduard Malofeyev,3,5,0.6
 354,1966,65,Portugal,3322,Jose Torres,3,6,0.5
-355,1966,,URSS,275,Igor Chislenko,2,4,0.5
+355,1966,88,URSS,275,Igor Chislenko,2,4,0.5
 356,1966,17,Chile,700,Ruben Marcos,2,3,0.67
 357,1966,42,Hungría,7571,Kalman Meszoly,2,4,0.5
 358,1966,20,Corea del Norte,8000,Seung Zin Pak,2,4,0.5
-359,1966,,Alemania Occidental,6281,Uwe Seeler,2,6,0.33
+359,1966,87,Alemania Occidental,6281,Uwe Seeler,2,6,0.33
 360,1966,34,España,4858,Amancio,1,2,0.5
 361,1966,12,Bulgaria,2915,Georgi Asparukhov,1,3,0.33
-362,1966,,URSS,255,Anatoli Banishevski,1,5,0.2
+362,1966,88,URSS,255,Anatoli Banishevski,1,5,0.2
 363,1966,51,Italia,5538,Paolo Barison,1,2,0.5
 364,1966,56,México,7664,Enrique Borja,1,3,0.33
 365,1966,80,Uruguay,5847,Julio Cortes,1,4,0.25
 366,1966,36,Francia,3886,Hector De Bourgoing,1,1,1.0
-367,1966,,Alemania Occidental,6088,Lothar Emmerich,1,4,0.25
+367,1966,87,Alemania Occidental,6088,Lothar Emmerich,1,4,0.25
 368,1966,42,Hungría,7520,Janos Farkas,1,4,0.25
 369,1966,34,España,4923,Jose Maria Fuste,1,1,1.0
 370,1966,11,Brasil,1637,Garrincha,1,2,0.5
 371,1966,36,Francia,3935,Gerard Hausser,1,3,0.33
-372,1966,,Alemania Occidental,6128,Sigi Held,1,6,0.17
+372,1966,87,Alemania Occidental,6128,Sigi Held,1,6,0.17
 373,1966,20,Corea del Norte,7991,Dong Woon Li,1,2,0.5
 374,1966,51,Italia,5688,Sandro Mazzola,1,3,0.33
 375,1966,6,Argentina,5334,Ermindo Onega,1,4,0.25
@@ -384,28 +384,28 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 383,1966,34,España,5057,Manuel Sanchis,1,3,0.33
 384,1966,65,Portugal,3318,Simoes,1,6,0.17
 385,1966,11,Brasil,1816,Tostao,1,1,1.0
-386,1966,,Alemania Occidental,6313,Wolfgang Weber,1,6,0.17
+386,1966,87,Alemania Occidental,6313,Wolfgang Weber,1,6,0.17
 387,1966,20,Corea del Norte,8009,Seung Kook Yang,1,2,0.5
-388,1970,,Alemania Occidental,6223,Gerd Mueller,10,6,1.67
+388,1970,87,Alemania Occidental,6223,Gerd Mueller,10,6,1.67
 389,1970,11,Brasil,1663,Jairzinho,7,6,1.17
 390,1970,63,Perú,2147,Teofilo Cubillas,5,4,1.25
-391,1970,,URSS,262,Anatoly Bishovets,4,4,1.0
+391,1970,88,URSS,262,Anatoly Bishovets,4,4,1.0
 392,1970,11,Brasil,1759,Pelé,4,6,0.67
 393,1970,51,Italia,5746,Gigi Riva,3,6,0.5
 394,1970,11,Brasil,1782,Rivelino,3,5,0.6
-395,1970,,Alemania Occidental,6281,Uwe Seeler,3,6,0.5
+395,1970,87,Alemania Occidental,6281,Uwe Seeler,3,6,0.5
 396,1970,51,Italia,5553,Roberto Boninsegna,2,6,0.33
 397,1970,68,Rumania,1882,Florea Dumitrache,2,3,0.67
 398,1970,63,Perú,2162,Alberto Gallardo,2,4,0.5
 399,1970,13,Bélgica,6644,Raoul Lambert,2,2,1.0
-400,1970,,Checoslovaquia,548,Ladislav Petras,2,3,0.67
+400,1970,86,Checoslovaquia,548,Ladislav Petras,2,3,0.67
 401,1970,51,Italia,5747,Gianni Rivera,2,4,0.5
 402,1970,11,Brasil,1816,Tostao,2,6,0.33
 403,1970,56,México,7883,Javier Valdivia,2,4,0.5
 404,1970,13,Bélgica,6726,Wilfried Van Moer,2,3,0.67
-405,1970,,URSS,252,Kakhi Asatiani,1,4,0.25
+405,1970,88,URSS,252,Kakhi Asatiani,1,4,0.25
 406,1970,56,México,7655,Juan Ignacio Basaguren,1,2,0.5
-407,1970,,Alemania Occidental,6051,Franz Beckenbauer,1,5,0.2
+407,1970,87,Alemania Occidental,6051,Franz Beckenbauer,1,5,0.2
 408,1970,12,Bulgaria,2918,Hristo Bonev,1,3,0.33
 409,1970,51,Italia,5562,Tarcisio Burgnich,1,6,0.17
 410,1970,11,Brasil,1571,Carlos Alberto,1,6,0.17
@@ -425,18 +425,18 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 424,1970,73,Suecia,3391,Ove Grahn,1,2,0.5
 425,1970,44,Inglaterra,1304,Geoff Hurst,1,3,0.33
 426,1970,55,Marruecos,8371,Houmane Jarir,1,2,0.5
-427,1970,,URSS,322,Vitali Khmelnitski,1,4,0.25
+427,1970,88,URSS,322,Vitali Khmelnitski,1,4,0.25
 428,1970,12,Bulgaria,2959,Todor Kolev,1,2,0.5
-429,1970,,Alemania Occidental,6199,Stan Libuda,1,5,0.2
+429,1970,87,Alemania Occidental,6199,Stan Libuda,1,5,0.2
 430,1970,80,Uruguay,5913,Ildo Maneiro,1,6,0.17
 431,1970,80,Uruguay,5935,Juan Mujica,1,6,0.17
 432,1970,44,Inglaterra,1351,Alan Mullery,1,4,0.25
 433,1970,68,Rumania,1916,Alexandru Neagu,1,3,0.33
 434,1970,12,Bulgaria,2981,Asparukh Nikodimov,1,2,0.5
-435,1970,,Alemania Occidental,6239,Wolfgang Overath,1,6,0.17
+435,1970,87,Alemania Occidental,6239,Wolfgang Overath,1,6,0.17
 436,1970,56,México,7819,Gustavo Pena,1,4,0.25
 437,1970,44,Inglaterra,1365,Martin Peters,1,4,0.25
-438,1970,,Alemania Occidental,6274,Karl-Heinz Schnellinger,1,5,0.2
+438,1970,87,Alemania Occidental,6274,Karl-Heinz Schnellinger,1,5,0.2
 439,1970,50,Israel,1006,Mordechai Spiegler,1,3,0.33
 440,1970,73,Suecia,3529,Tom Turesson,1,2,0.5
 441,1970,12,Bulgaria,3024,Dobromir Zhechev,1,2,0.5
@@ -444,47 +444,47 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 443,1974,60,Paises Bajos,6452,Johan Neeskens,5,7,0.71
 444,1974,64,Polonia,3160,Andrzej Szarmach,5,6,0.83
 445,1974,73,Suecia,3375,Ralf Edstrom,4,6,0.67
-446,1974,,Alemania Occidental,6223,Gerd Mueller,4,7,0.57
+446,1974,87,Alemania Occidental,6223,Gerd Mueller,4,7,0.57
 447,1974,60,Paises Bajos,6468,Johnny Rep,4,7,0.57
-448,1974,,Yugoslavia,3540,Dusan Bajevic,3,3,1.0
-449,1974,,Alemania Occidental,6067,Paul Breitner,3,7,0.43
+448,1974,85,Yugoslavia,3540,Dusan Bajevic,3,3,1.0
+449,1974,87,Alemania Occidental,6067,Paul Breitner,3,7,0.43
 450,1974,60,Paises Bajos,6378,Johan Cruyff,3,7,0.43
 451,1974,64,Polonia,3048,Kazimierz Deyna,3,7,0.43
 452,1974,6,Argentina,5283,Rene Houseman,3,6,0.5
 453,1974,11,Brasil,1782,Rivelino,3,7,0.43
 454,1974,11,Brasil,1663,Jairzinho,2,7,0.29
 455,1974,31,Escocia,2356,Joe Jordan,2,3,0.67
-456,1974,,Yugoslavia,3614,Stanislav Karasi,2,4,0.5
-457,1974,,Alemania Occidental,6239,Wolfgang Overath,2,7,0.29
+456,1974,85,Yugoslavia,3614,Stanislav Karasi,2,4,0.5
+457,1974,87,Alemania Occidental,6239,Wolfgang Overath,2,7,0.29
 458,1974,73,Suecia,3503,Roland Sandberg,2,6,0.33
 459,1974,40,Haití,2454,Emmanuel Sanon,2,3,0.67
 460,1974,2,Alemania Oriental,2522,Joachim Streich,2,4,0.5
-461,1974,,Yugoslavia,3744,Ivica Surjak,2,6,0.33
+461,1974,85,Yugoslavia,3744,Ivica Surjak,2,6,0.33
 462,1974,6,Argentina,5441,Hector Yazalde,2,3,0.67
 463,1974,17,Chile,626,Sergio Ahumada,1,3,0.33
 464,1974,51,Italia,5523,Pietro Anastasi,1,3,0.33
 465,1974,6,Argentina,5170,Ruben Ayala,1,6,0.17
 466,1974,6,Argentina,5171,Carlos Babington,1,5,0.2
 467,1974,51,Italia,5543,Romeo Benetti,1,3,0.33
-468,1974,,Yugoslavia,3547,Vladislav Bogicevic,1,5,0.2
+468,1974,85,Yugoslavia,3547,Vladislav Bogicevic,1,5,0.2
 469,1974,12,Bulgaria,2918,Hristo Bonev,1,3,0.33
-470,1974,,Alemania Occidental,6063,Rainer Bonhof,1,4,0.25
+470,1974,87,Alemania Occidental,6063,Rainer Bonhof,1,4,0.25
 471,1974,6,Argentina,5196,Miguel Brindisi,1,4,0.25
 472,1974,51,Italia,5569,Fabio Capello,1,3,0.33
-473,1974,,Alemania Occidental,6078,Bernd Cullmann,1,3,0.33
+473,1974,87,Alemania Occidental,6078,Bernd Cullmann,1,3,0.33
 474,1974,60,Paises Bajos,6390,Theo De Jong,1,4,0.25
-475,1974,,Yugoslavia,3575,Dragan Dzajic,1,5,0.2
+475,1974,85,Yugoslavia,3575,Dragan Dzajic,1,5,0.2
 476,1974,64,Polonia,3069,Jerzy Gorgon,1,7,0.14
-477,1974,,Alemania Occidental,6112,Juergen Grabowski,1,6,0.17
+477,1974,87,Alemania Occidental,6112,Juergen Grabowski,1,6,0.17
 478,1974,6,Argentina,5280,Ramon Heredia,1,6,0.17
-479,1974,,Alemania Occidental,6142,Uli Hoeness,1,7,0.14
+479,1974,87,Alemania Occidental,6142,Uli Hoeness,1,7,0.14
 480,1974,2,Alemania Oriental,2511,Martin Hoffmann,1,6,0.17
-481,1974,,Yugoslavia,3615,Josip Katalinski,1,6,0.17
+481,1974,85,Yugoslavia,3615,Josip Katalinski,1,6,0.17
 482,1974,60,Paises Bajos,6434,Ruud Krol,1,7,0.14
 483,1974,31,Escocia,2363,Peter Lorimer,1,3,0.33
-484,1974,,Yugoslavia,3677,Branko Oblak,1,5,0.2
+484,1974,85,Yugoslavia,3677,Branko Oblak,1,5,0.2
 485,1974,80,Uruguay,5948,Ricardo Pavoni,1,3,0.33
-486,1974,,Yugoslavia,3696,Ilija Petkovic,1,5,0.2
+486,1974,85,Yugoslavia,3696,Ilija Petkovic,1,5,0.2
 487,1974,60,Paises Bajos,6467,Rob Rensenbrink,1,6,0.17
 488,1974,51,Italia,5747,Gianni Rivera,1,2,0.5
 489,1974,2,Alemania Oriental,2521,Juergen Sparwasser,1,6,0.17
@@ -499,18 +499,18 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 498,1978,60,Paises Bajos,6468,Johnny Rep,3,7,0.43
 499,1978,11,Brasil,1785,Roberto Dinamite,3,5,0.6
 500,1978,51,Italia,5752,Paolo Rossi,3,7,0.43
-501,1978,,Alemania Occidental,6265,Karl-Heinz Rummenigge,3,5,0.6
+501,1978,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,3,5,0.6
 502,1978,6,Argentina,5186,Daniel Bertoni,2,6,0.33
 503,1978,51,Italia,5549,Roberto Bettega,2,7,0.29
 504,1978,64,Polonia,3035,Zbigniew Boniek,2,6,0.33
 505,1978,60,Paises Bajos,6373,Ernie Brandts,2,4,0.5
-506,1978,,Alemania Occidental,6094,Heinz Flohe,2,4,0.5
+506,1978,87,Alemania Occidental,6094,Heinz Flohe,2,4,0.5
 507,1978,31,Escocia,2328,Archie Gemmill,2,3,0.67
 508,1978,60,Paises Bajos,6410,Arie Haan,2,6,0.33
 509,1978,64,Polonia,3110,Grzegorz Lato,2,6,0.33
-510,1978,,Alemania Occidental,6222,Dieter Mueller,2,4,0.5
+510,1978,87,Alemania Occidental,6222,Dieter Mueller,2,4,0.5
 511,1978,11,Brasil,1733,Nelinho,2,4,0.5
-512,1978,,Alemania Occidental,6035,Ruediger Abramczik,1,3,0.33
+512,1978,87,Alemania Occidental,6035,Ruediger Abramczik,1,3,0.33
 513,1978,34,España,4867,Juan Manuel Asensi,1,3,0.33
 514,1978,51,Italia,5543,Romeo Benetti,1,6,0.17
 515,1978,36,Francia,3843,Marc Berdoll,1,2,0.5
@@ -523,13 +523,13 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 522,1978,64,Polonia,3048,Kazimierz Deyna,1,6,0.17
 523,1978,78,Túnez,7187,Mokhtar Douieb,1,3,0.33
 524,1978,78,Túnez,7197,Nejib Ghommidh,1,3,0.33
-525,1978,,Alemania Occidental,6140,Bernd Hoelzenbein,1,3,0.33
+525,1978,87,Alemania Occidental,6140,Bernd Hoelzenbein,1,3,0.33
 526,1978,6,Argentina,5283,Rene Houseman,1,6,0.17
 527,1978,31,Escocia,2356,Joe Jordan,1,3,0.33
 528,1978,78,Túnez,7213,Ali Kaabi,1,3,0.33
 529,1978,36,Francia,3959,Bernard Lacombe,1,2,0.5
 530,1978,36,Francia,3977,Christian Lopez,1,2,0.5
-531,1978,,Alemania Occidental,6224,Hansi Mueller,1,4,0.25
+531,1978,87,Alemania Occidental,6224,Hansi Mueller,1,4,0.25
 532,1978,60,Paises Bajos,6451,Dick Nanninga,1,4,0.25
 533,1978,8,Austria,4614,Erich Obermayer,1,6,0.17
 534,1978,6,Argentina,5350,Daniel Passarella,1,7,0.14
@@ -551,7 +551,7 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 550,1978,11,Brasil,1843,Zico,1,6,0.17
 551,1978,42,Hungría,7633,Sandor Zombori,1,3,0.33
 552,1982,51,Italia,5752,Paolo Rossi,6,7,0.86
-553,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,5,7,0.71
+553,1982,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,5,7,0.71
 554,1982,64,Polonia,3035,Zbigniew Boniek,4,6,0.67
 555,1982,11,Brasil,1843,Zico,4,5,0.8
 556,1982,47,Irlanda del Norte,2225,Gerry Armstrong,3,5,0.6
@@ -562,14 +562,14 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 561,1982,6,Argentina,5186,Daniel Bertoni,2,5,0.4
 562,1982,11,Brasil,3225,Eder,2,5,0.4
 563,1982,42,Hungría,7521,Laszlo Fazekas,2,3,0.67
-564,1982,,Alemania Occidental,6093,Klaus Fischer,2,6,0.33
+564,1982,87,Alemania Occidental,6093,Klaus Fischer,2,6,0.33
 565,1982,44,Inglaterra,1279,Trevor Francis,2,5,0.4
 566,1982,36,Francia,3918,Bernard Genghini,2,5,0.4
 567,1982,47,Irlanda del Norte,2247,Billy Hamilton,2,5,0.4
-568,1982,,Alemania Occidental,6202,Pierre Littbarski,2,7,0.29
+568,1982,87,Alemania Occidental,6202,Pierre Littbarski,2,7,0.29
 569,1982,6,Argentina,5307,Diego Maradona,2,5,0.4
 570,1982,42,Hungría,7579,Tibor Nyilasi,2,3,0.67
-571,1982,,Checoslovaquia,544,Antonin Panenka,2,2,1.0
+571,1982,86,Checoslovaquia,544,Antonin Panenka,2,2,1.0
 572,1982,6,Argentina,5350,Daniel Passarella,2,5,0.4
 573,1982,36,Francia,4012,Michel Platini,2,5,0.4
 574,1982,42,Hungría,7586,Gabor Poloskei,2,3,0.67
@@ -586,16 +586,16 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 585,1982,51,Italia,5520,Alessandro Altobelli,1,3,0.33
 586,1982,31,Escocia,2284,Steve Archibald,1,3,0.33
 587,1982,6,Argentina,5163,Osvaldo Ardiles,1,5,0.2
-588,1982,,URSS,253,Andrei Bal,1,4,0.25
-589,1982,,URSS,254,Sergei Baltacha,1,5,0.2
+588,1982,88,URSS,253,Andrei Bal,1,4,0.25
+589,1982,88,URSS,254,Sergei Baltacha,1,5,0.2
 590,1982,5,Argelia,6835,Lakhdar Belloumi,1,2,0.5
 591,1982,5,Argelia,6839,Tedj Bensaoula,1,3,0.33
-592,1982,,URSS,263,Oleg Blokhin,1,5,0.2
+592,1982,88,URSS,263,Oleg Blokhin,1,5,0.2
 593,1982,36,Francia,3852,Maxime Bossis,1,6,0.17
-594,1982,,Alemania Occidental,6067,Paul Breitner,1,7,0.14
+594,1982,87,Alemania Occidental,6067,Paul Breitner,1,7,0.14
 595,1982,64,Polonia,3041,Andrzej Buncol,1,7,0.14
 596,1982,51,Italia,5563,Antonio Cabrini,1,7,0.14
-597,1982,,URSS,276,Aleksandr Chivadze,1,5,0.2
+597,1982,88,URSS,276,Aleksandr Chivadze,1,5,0.2
 598,1982,64,Polonia,3045,Wlodzimierz Ciolek,1,4,0.25
 599,1982,13,Bélgica,6579,Ludo Coeck,1,5,0.2
 600,1982,51,Italia,5595,Bruno Conti,1,7,0.14
@@ -604,12 +604,12 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 603,1982,31,Escocia,2314,Kenny Dalglish,1,2,0.5
 604,1982,6,Argentina,5240,Ramon Diaz,1,4,0.25
 605,1982,63,Perú,2154,Ruben Diaz,1,3,0.33
-606,1982,,URSS,298,Yuri Gavrilov,1,5,0.2
+606,1982,88,URSS,298,Yuri Gavrilov,1,5,0.2
 607,1982,36,Francia,3921,Rene Girard,1,5,0.2
 608,1982,51,Italia,5651,Francesco Graziani,1,7,0.14
-609,1982,,Yugoslavia,3583,Ivan Gudelj,1,3,0.33
+609,1982,85,Yugoslavia,3583,Ivan Gudelj,1,3,0.33
 610,1982,8,Austria,4582,Reinhold Hintermaier,1,5,0.2
-611,1982,,Alemania Occidental,6149,Horst Hrubesch,1,5,0.2
+611,1982,87,Alemania Occidental,6149,Horst Hrubesch,1,5,0.2
 612,1982,31,Escocia,2356,Joe Jordan,1,1,1.0
 613,1982,34,España,4957,Juanito,1,4,0.25
 614,1982,11,Brasil,1680,Junior,1,5,0.2
@@ -627,15 +627,15 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 626,1982,17,Chile,709,Gustavo Moscoso,1,3,0.33
 627,1982,31,Escocia,2393,David Narey,1,3,0.33
 628,1982,17,Chile,717,Miguel Neira,1,3,0.33
-629,1982,,URSS,368,Khoren Oganesian,1,3,0.33
+629,1982,88,URSS,368,Khoren Oganesian,1,3,0.33
 630,1982,11,Brasil,1744,Oscar,1,5,0.2
-631,1982,,Yugoslavia,3700,Vladimir Petrovic,1,3,0.33
+631,1982,85,Yugoslavia,3700,Vladimir Petrovic,1,3,0.33
 632,1982,8,Austria,4620,Bruno Pezzey,1,5,0.2
 633,1982,29,El Salvador,848,Luis Ramirez,1,3,0.33
-634,1982,,Alemania Occidental,6256,Uwe Reinders,1,3,0.33
+634,1982,87,Alemania Occidental,6256,Uwe Reinders,1,3,0.33
 635,1982,31,Escocia,2401,John Robertson,1,3,0.33
 636,1982,34,España,5062,Enrique Saura,1,4,0.25
-637,1982,,URSS,397,Ramaz Shengelia,1,5,0.2
+637,1982,88,URSS,397,Ramaz Shengelia,1,5,0.2
 638,1982,64,Polonia,3156,Wlodimierz Smolarek,1,6,0.17
 639,1982,36,Francia,4043,Gerard Soler,1,6,0.17
 640,1982,31,Escocia,2406,Graeme Souness,1,3,0.33
@@ -654,14 +654,14 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 653,1986,11,Brasil,1569,Careca,5,5,1.0
 654,1986,6,Argentina,5307,Diego Maradona,5,7,0.71
 655,1986,51,Italia,5520,Alessandro Altobelli,4,4,1.0
-656,1986,,URSS,257,Igor Belanov,4,4,1.0
+656,1986,88,URSS,257,Igor Belanov,4,4,1.0
 657,1986,26,Dinamarca,4208,Preben Elkjaer Larsen,4,4,1.0
 658,1986,6,Argentina,5430,Jorge Valdano,4,7,0.57
 659,1986,13,Bélgica,6571,Jan Ceulemans,3,7,0.43
 660,1986,13,Bélgica,6575,Nico Claesen,3,7,0.43
 661,1986,26,Dinamarca,4265,Jesper Olsen,3,4,0.75
-662,1986,,Alemania Occidental,6306,Rudi Voeller,3,6,0.5
-663,1986,,Alemania Occidental,6039,Klaus Allofs,2,7,0.29
+662,1986,87,Alemania Occidental,6306,Rudi Voeller,3,6,0.5
+663,1986,87,Alemania Occidental,6039,Klaus Allofs,2,7,0.29
 664,1986,6,Argentina,5200,Jorge Burruchaga,2,7,0.29
 665,1986,62,Paraguay,4329,Roberto Cabañas,2,4,0.5
 666,1986,34,España,4881,Ramon Maria Caldere,2,4,0.5
@@ -674,12 +674,12 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 673,1986,13,Bélgica,6690,Enzo Scifo,2,7,0.29
 674,1986,11,Brasil,1805,Socrates,2,5,0.4
 675,1986,36,Francia,4045,Yannick Stopyra,2,6,0.33
-676,1986,,URSS,248,Sergei Aleinikov,1,4,0.25
+676,1986,88,URSS,248,Sergei Aleinikov,1,4,0.25
 677,1986,80,Uruguay,5806,Antonio Alzamendi,1,3,0.33
 678,1986,36,Francia,3822,Manuel Amoros,1,7,0.14
 679,1986,44,Inglaterra,1213,Peter Beardsley,1,4,0.25
-680,1986,,URSS,263,Oleg Blokhin,1,2,0.5
-681,1986,,Alemania Occidental,6066,Andreas Brehme,1,5,0.2
+680,1986,88,URSS,263,Oleg Blokhin,1,2,0.5
+681,1986,87,Alemania Occidental,6066,Andreas Brehme,1,5,0.2
 682,1986,6,Argentina,5197,Jose Brown,1,7,0.14
 683,1986,65,Portugal,3207,Carlos Manuel,1,3,0.33
 684,1986,21,Corea del Sur,6948,Soon Ho Choi,1,2,0.5
@@ -704,16 +704,16 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 703,1986,55,Marruecos,8377,Abdelkarim Krimau,1,4,0.25
 704,1986,26,Dinamarca,4243,Michael Laudrup,1,4,0.25
 705,1986,26,Dinamarca,4247,Soren Lerby,1,4,0.25
-706,1986,,Alemania Occidental,6212,Lothar Matthaeus,1,7,0.14
+706,1986,87,Alemania Occidental,6212,Lothar Matthaeus,1,7,0.14
 707,1986,56,México,7804,Manuel Negrete,1,5,0.2
 708,1986,21,Corea del Sur,7071,Chang Sun Park,1,3,0.33
 709,1986,6,Argentina,5349,Pedro Pasculli,1,2,0.5
 710,1986,45,Iraq,1187,Ahmed Radhi,1,3,0.33
-711,1986,,URSS,380,Vasili Rats,1,3,0.33
+711,1986,88,URSS,380,Vasili Rats,1,3,0.33
 712,1986,36,Francia,4025,Dominique Rocheteau,1,4,0.25
-713,1986,,URSS,381,Sergei Rodionov,1,4,0.25
+713,1986,88,URSS,381,Sergei Rodionov,1,4,0.25
 714,1986,6,Argentina,5390,Oscar Ruggeri,1,7,0.14
-715,1986,,Alemania Occidental,6265,Karl-Heinz Rummenigge,1,7,0.14
+715,1986,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,1,7,0.14
 716,1986,56,México,7864,Hugo Sánchez,1,4,0.25
 717,1986,34,España,5064,Juan Antonio Senor,1,4,0.25
 718,1986,56,México,7870,Raul Servin,1,5,0.2
@@ -725,33 +725,33 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 724,1986,13,Bélgica,6738,Frank Vercauteren,1,6,0.17
 725,1986,13,Bélgica,6750,Daniel Veyt,1,5,0.2
 726,1986,47,Irlanda del Norte,2278,Norman Whiteside,1,3,0.33
-727,1986,,URSS,418,Pavel Yakovenko,1,3,0.33
-728,1986,,URSS,419,Ivan Yaremchuk,1,3,0.33
-729,1986,,URSS,427,Aleksandr Zavarov,1,4,0.25
+727,1986,88,URSS,418,Pavel Yakovenko,1,3,0.33
+728,1986,88,URSS,419,Ivan Yaremchuk,1,3,0.33
+729,1986,88,URSS,427,Aleksandr Zavarov,1,4,0.25
 730,1986,5,Argelia,6901,Djamel Zidane,1,3,0.33
 731,1990,51,Italia,5758,Salvatore Schillaci,6,7,0.86
-732,1990,,Checoslovaquia,576,Tomas Skuhravy,5,5,1.0
+732,1990,86,Checoslovaquia,576,Tomas Skuhravy,5,5,1.0
 733,1990,44,Inglaterra,1325,Gary Lineker,4,7,0.57
-734,1990,,Alemania Occidental,6212,Lothar Matthaeus,4,7,0.57
+734,1990,87,Alemania Occidental,6212,Lothar Matthaeus,4,7,0.57
 735,1990,34,España,4989,Michel,4,4,1.0
 736,1990,14,Camerún,936,Roger Milla,4,5,0.8
-737,1990,,Alemania Occidental,6066,Andreas Brehme,3,6,0.5
-738,1990,,Alemania Occidental,6174,Juergen Klinsmann,3,7,0.43
+737,1990,87,Alemania Occidental,6066,Andreas Brehme,3,6,0.5
+738,1990,87,Alemania Occidental,6174,Juergen Klinsmann,3,7,0.43
 739,1990,44,Inglaterra,1368,David Platt,3,6,0.5
-740,1990,,Alemania Occidental,6306,Rudi Voeller,3,6,0.5
+740,1990,87,Alemania Occidental,6306,Rudi Voeller,3,6,0.5
 741,1990,51,Italia,5533,Roberto Baggio,2,5,0.4
 742,1990,68,Rumania,1851,Gavril Balint,2,4,0.5
-743,1990,,Checoslovaquia,440,Michal Bilek,2,5,0.4
+743,1990,86,Checoslovaquia,440,Michal Bilek,2,5,0.4
 744,1990,6,Argentina,5208,Claudio Caniggia,2,6,0.33
 745,1990,11,Brasil,1569,Careca,2,4,0.5
-746,1990,,Yugoslavia,3610,Davor Jozic,2,5,0.4
+746,1990,85,Yugoslavia,3610,Davor Jozic,2,5,0.4
 747,1990,68,Rumania,1898,Marius Lacatus,2,3,0.67
 748,1990,11,Brasil,1731,Muller,2,4,0.5
-749,1990,,Yugoslavia,3685,Darko Pancev,2,3,0.67
+749,1990,85,Yugoslavia,3685,Darko Pancev,2,3,0.67
 750,1990,19,Colombia,2712,Bernardo Redin,2,3,0.67
-751,1990,,Yugoslavia,3739,Dragan Stojkovic,2,5,0.4
+751,1990,85,Yugoslavia,3739,Dragan Stojkovic,2,5,0.4
 752,1990,28,Egipto,2068,Magdy Abedelghani,1,3,0.33
-753,1990,,Alemania Occidental,6053,Uwe Bein,1,4,0.25
+753,1990,87,Alemania Occidental,6053,Uwe Bein,1,4,0.25
 754,1990,80,Uruguay,5817,Pablo Bengoechea,1,1,1.0
 755,1990,73,Suecia,3366,Tomas Brolin,1,3,0.33
 756,1990,6,Argentina,5200,Jorge Burruchaga,1,7,0.14
@@ -761,7 +761,7 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 760,1990,13,Bélgica,6578,Leo Clijsters,1,3,0.33
 761,1990,13,Bélgica,6591,Marc De Grijse,1,4,0.25
 762,1990,13,Bélgica,6599,Michel De Wolf,1,4,0.25
-763,1990,,URSS,285,Igor Dobrovolskyi,1,3,0.33
+763,1990,88,URSS,285,Igor Dobrovolskyi,1,3,0.33
 764,1990,14,Camerún,884,Eugene Ekeke,1,1,1.0
 765,1990,73,Suecia,3378,Johnny Ekstrom,1,2,0.5
 766,1990,22,Costa Rica,1994,Roger Flores,1,4,0.25
@@ -770,7 +770,7 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 769,1990,22,Costa Rica,2004,Ronald Gonzalez,1,4,0.25
 770,1990,34,España,4938,Alberto Gorriz,1,4,0.25
 771,1990,60,Paises Bajos,6409,Ruud Gullit,1,4,0.25
-772,1990,,Checoslovaquia,470,Ivan Hasek,1,5,0.2
+772,1990,86,Checoslovaquia,470,Ivan Hasek,1,5,0.2
 773,1990,21,Corea del Sur,6974,Bo Kwan Hwang,1,2,0.5
 774,1990,31,Escocia,2351,Mo Johnston,1,3,0.33
 775,1990,34,España,4959,Julio Salinas,1,3,0.33
@@ -778,18 +778,18 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 777,1990,30,Emiratos Arabes,7958,Khalid Ismail,1,2,0.5
 778,1990,60,Paises Bajos,6427,Wim Kieft,1,4,0.25
 779,1990,60,Paises Bajos,6431,Ronald Koeman,1,4,0.25
-780,1990,,Checoslovaquia,515,Lubos Kubik,1,4,0.25
+780,1990,86,Checoslovaquia,515,Lubos Kubik,1,4,0.25
 781,1990,14,Camerún,914,Emmanuel Kunde,1,4,0.25
-782,1990,,Alemania Occidental,6202,Pierre Littbarski,1,6,0.17
-783,1990,,Checoslovaquia,522,Milan Luhovy,1,1,1.0
+782,1990,87,Alemania Occidental,6202,Pierre Littbarski,1,6,0.17
+783,1990,86,Checoslovaquia,522,Milan Luhovy,1,1,1.0
 784,1990,31,Escocia,2373,Stuart Mccall,1,3,0.33
 785,1990,22,Costa Rica,2023,Hernan Medford,1,3,0.33
 786,1990,6,Argentina,5325,Pedro Monzon,1,4,0.25
 787,1990,35,Estados Unidos,2853,Bruce Murray,1,3,0.33
 788,1990,8,Austria,4616,Andeas Ogris,1,3,0.33
 789,1990,14,Camerún,961,Francois Omam-Biyik,1,5,0.2
-790,1990,,Yugoslavia,3705,Robert Prosinecki,1,3,0.33
-791,1990,,URSS,377,Oleg Protasov,1,3,0.33
+790,1990,85,Yugoslavia,3705,Robert Prosinecki,1,3,0.33
+791,1990,88,URSS,377,Oleg Protasov,1,3,0.33
 792,1990,46,Irlanda,7481,Niall Quinn,1,4,0.25
 793,1990,19,Colombia,2714,Freddy Rincon,1,4,0.25
 794,1990,8,Austria,4635,Gerhard Rodax,1,2,0.5
@@ -797,13 +797,13 @@ id_goleador,anio,id_seleccion,seleccion,id_jugador,jugador,goles,partidos,promed
 796,1990,51,Italia,5764,Aldo Serena,1,3,0.33
 797,1990,46,Irlanda,7483,Kevin Sheedy,1,5,0.2
 798,1990,73,Suecia,3513,Glenn Stromberg,1,3,0.33
-799,1990,,Yugoslavia,3745,Safet Susic,1,5,0.2
+799,1990,85,Yugoslavia,3745,Safet Susic,1,5,0.2
 800,1990,6,Argentina,5425,Pedro Troglio,1,6,0.17
 801,1990,19,Colombia,2725,Carlos Valderrama,1,4,0.25
 802,1990,13,Bélgica,6749,Patrick Vervoort,1,3,0.33
 803,1990,44,Inglaterra,1436,Mark Wright,1,6,0.17
-804,1990,,URSS,427,Aleksandr Zavarov,1,3,0.33
-805,1990,,URSS,431,Andrei Zygmantovich,1,2,0.5
+804,1990,88,URSS,427,Aleksandr Zavarov,1,3,0.33
+805,1990,88,URSS,431,Andrei Zygmantovich,1,2,0.5
 806,1994,69,Rusia,385,Oleg Salenko,6,3,2.0
 807,1994,12,Bulgaria,3001,Hristo Stoichkov,6,7,0.86
 808,1994,73,Suecia,3343,Kennet Andersson,5,7,0.71

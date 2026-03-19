@@ -1,6 +1,6 @@
 id_premio,anio,id_tipo_premio,tipo_premio,id_jugador,jugador,id_seleccion,seleccion
 1,1930,4,Botín de Oro,5415,Guillermo Stabile,6,Argentina
-2,1934,4,Botín de Oro,537,Oldrich Nejedly,,Checoslovaquia
+2,1934,4,Botín de Oro,537,Oldrich Nejedly,86,Checoslovaquia
 3,1938,4,Botín de Oro,1690,Leonidas,11,Brasil
 4,1950,4,Botín de Oro,1519,Ademir,11,Brasil
 5,1954,4,Botín de Oro,7552,Sandor Kocsis,42,Hungría
@@ -9,8 +9,8 @@ id_premio,anio,id_tipo_premio,tipo_premio,id_jugador,jugador,id_seleccion,selecc
 8,1962,4,Botín de Oro,7490,Florian Albert,42,Hungría
 9,1962,8,Mejor Jugador Joven,7490,Florian Albert,42,Hungría
 10,1966,4,Botín de Oro,3228,Eusebio,65,Portugal
-11,1966,8,Mejor Jugador Joven,6051,Franz Beckenbauer,,Alemania Occidental
-12,1970,4,Botín de Oro,6223,Gerd Mueller,,Alemania Occidental
+11,1966,8,Mejor Jugador Joven,6051,Franz Beckenbauer,87,Alemania Occidental
+12,1970,4,Botín de Oro,6223,Gerd Mueller,87,Alemania Occidental
 13,1970,8,Mejor Jugador Joven,2147,Teofilo Cubillas,63,Perú
 14,1970,9,FIFA Fair Play,,Perú,63,Perú
 15,1974,4,Botín de Oro,3110,Grzegorz Lato,64,Polonia
@@ -20,21 +20,21 @@ id_premio,anio,id_tipo_premio,tipo_premio,id_jugador,jugador,id_seleccion,selecc
 19,1978,9,FIFA Fair Play,,Argentina,6,Argentina
 20,1982,1,Balón de Oro,5752,Paolo Rossi,51,Italia
 21,1982,2,Balón de Plata,1623,Falcao,11,Brasil
-22,1982,3,Balón de Bronce,6265,Karl-Heinz Rummenigge,,Alemania Occidental
+22,1982,3,Balón de Bronce,6265,Karl-Heinz Rummenigge,87,Alemania Occidental
 23,1982,4,Botín de Oro,5752,Paolo Rossi,51,Italia
 24,1982,8,Mejor Jugador Joven,3822,Manuel Amoros,36,Francia
 25,1982,9,FIFA Fair Play,,Brasil,11,Brasil
 26,1986,1,Balón de Oro,5307,Diego Maradona,6,Argentina
-27,1986,2,Balón de Plata,6276,Harald Schumacher,,Alemania Occidental
+27,1986,2,Balón de Plata,6276,Harald Schumacher,87,Alemania Occidental
 28,1986,3,Balón de Bronce,4208,Preben Elkjaer Larsen,26,Dinamarca
 29,1986,4,Botín de Oro,1325,Gary Lineker,44,Inglaterra
 30,1986,8,Mejor Jugador Joven,6690,Enzo Scifo,13,Bélgica
 31,1986,9,FIFA Fair Play,,Brasil,11,Brasil
 32,1990,1,Balón de Oro,5758,Salvatore Schillaci,51,Italia
-33,1990,2,Balón de Plata,6212,Lothar Matthaeus,,Alemania Occidental
+33,1990,2,Balón de Plata,6212,Lothar Matthaeus,87,Alemania Occidental
 34,1990,3,Balón de Bronce,5307,Diego Maradona,6,Argentina
 35,1990,4,Botín de Oro,5758,Salvatore Schillaci,51,Italia
-36,1990,8,Mejor Jugador Joven,3705,Robert Prosinecki,,Yugoslavia
+36,1990,8,Mejor Jugador Joven,3705,Robert Prosinecki,85,Yugoslavia
 37,1990,9,FIFA Fair Play,,Inglaterra,44,Inglaterra
 38,1994,1,Balón de Oro,1791,Romario,11,Brasil
 39,1994,2,Balón de Plata,5533,Roberto Baggio,51,Italia

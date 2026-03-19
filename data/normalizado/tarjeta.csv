@@ -2,53 +2,53 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 1,1966,6,Argentina,5374,Antonio Rattin,1,1
 2,1966,80,Uruguay,6000,Hector Silva,1,1
 3,1966,6,Argentina,5154,Rafael Albrecht,0,1
-4,1966,,URSS,275,Igor Chislenko,0,1
+4,1966,88,URSS,275,Igor Chislenko,0,1
 5,1966,80,Uruguay,6016,Horacio Troche,0,1
-6,1966,,Alemania Occidental,6051,Franz Beckenbauer,2,0
+6,1966,87,Alemania Occidental,6051,Franz Beckenbauer,2,0
 7,1966,6,Argentina,5165,Luis Artime,1,0
 8,1966,65,Portugal,3211,Coluna,1,0
 9,1966,11,Brasil,1593,Denilson,1,0
 10,1966,12,Bulgaria,2923,Dinko Dermendzhiev,1,0
 11,1966,65,Portugal,3228,Eusebio,1,0
 12,1966,34,España,4932,Jesus Glaria,1,0
-13,1966,,URSS,325,Galimzyan Khusainov,1,0
+13,1966,88,URSS,325,Galimzyan Khusainov,1,0
 14,1966,12,Bulgaria,2958,Ivan Kolev,1,0
 15,1966,17,Chile,700,Ruben Marcos,1,0
-16,1966,,Alemania Occidental,6239,Wolfgang Overath,1,0
+16,1966,87,Alemania Occidental,6239,Wolfgang Overath,1,0
 17,1966,44,Inglaterra,1365,Martin Peters,1,0
-18,1966,,URSS,384,Yozhef Sabo,1,0
+18,1966,88,URSS,384,Yozhef Sabo,1,0
 19,1966,6,Argentina,5410,Jorge Solari,1,0
 20,1966,44,Inglaterra,1405,Nobby Stiles,1,0
-21,1966,,URSS,417,Valeri Voronin,1,0
-22,1966,,Alemania Occidental,6313,Wolfgang Weber,1,0
+21,1966,88,URSS,417,Valeri Voronin,1,0
+22,1966,87,Alemania Occidental,6313,Wolfgang Weber,1,0
 23,1966,12,Bulgaria,3024,Dobromir Zhechev,1,0
 24,1970,80,Uruguay,5871,Dagoberto Fontes,2,0
 25,1970,44,Inglaterra,1322,Francis Lee,2,0
-26,1970,,Alemania Occidental,6223,Gerd Mueller,2,0
+26,1970,87,Alemania Occidental,6223,Gerd Mueller,2,0
 27,1970,56,México,7819,Gustavo Pena,2,0
 28,1970,50,Israel,997,David Primo,2,0
-29,1970,,URSS,252,Kakhi Asatiani,1,0
+29,1970,88,URSS,252,Kakhi Asatiani,1,0
 30,1970,50,Israel,988,Shraga Bar,1,0
 31,1970,50,Israel,989,Menachem Bello,1,0
-32,1970,,URSS,262,Anatoly Bishovets,1,0
+32,1970,88,URSS,262,Anatoly Bishovets,1,0
 33,1970,51,Italia,5553,Roberto Boninsegna,1,0
 34,1970,51,Italia,5562,Tarcisio Burgnich,1,0
 35,1970,11,Brasil,1571,Carlos Alberto,1,0
 36,1970,80,Uruguay,5847,Julio Cortes,1,0
 37,1970,73,Suecia,3370,Claes Cronqvist,1,0
 38,1970,51,Italia,5608,Giancarlo De Sisti,1,0
-39,1970,,Checoslovaquia,458,Karol Dobias,1,0
+39,1970,86,Checoslovaquia,458,Karol Dobias,1,0
 40,1970,51,Italia,5617,Angelo Domenghini,1,0
 41,1970,68,Rumania,1884,Ion Dumitru,1,0
 42,1970,29,El Salvador,827,Salvador Flamenco Cabezas,1,0
 43,1970,11,Brasil,1640,Gerson,1,0
-44,1970,,Checoslovaquia,477,Alexander Horvath,1,0
-45,1970,,URSS,322,Vitali Khmelnitski,1,0
-46,1970,,Checoslovaquia,518,Andrej Kvasnak,1,0
-47,1970,,Alemania Occidental,6203,Hennes Loehr,1,0
-48,1970,,URSS,347,Gennadi Logofet,1,0
-49,1970,,Alemania Occidental,6204,Max Lorenz,1,0
-50,1970,,URSS,348,Evgeni Lovchev,1,0
+44,1970,86,Checoslovaquia,477,Alexander Horvath,1,0
+45,1970,88,URSS,322,Vitali Khmelnitski,1,0
+46,1970,86,Checoslovaquia,518,Andrej Kvasnak,1,0
+47,1970,87,Alemania Occidental,6203,Hennes Loehr,1,0
+48,1970,88,URSS,347,Gennadi Logofet,1,0
+49,1970,87,Alemania Occidental,6204,Max Lorenz,1,0
+50,1970,88,URSS,348,Evgeni Lovchev,1,0
 51,1970,29,El Salvador,834,Raul Magana,1,0
 52,1970,80,Uruguay,5913,Ildo Maneiro,1,0
 53,1970,29,El Salvador,836,Salvador Mariona,1,0
@@ -56,9 +56,9 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 55,1970,68,Rumania,1909,Mihai Mocanu,1,0
 56,1970,80,Uruguay,5930,Julio Montero Castillo,1,0
 57,1970,80,Uruguay,5935,Juan Mujica,1,0
-58,1970,,URSS,367,Givili Nodiya,1,0
+58,1970,88,URSS,367,Givili Nodiya,1,0
 59,1970,68,Rumania,1918,Radu Nunweiller,1,0
-60,1970,,Alemania Occidental,6239,Wolfgang Overath,1,0
+60,1970,87,Alemania Occidental,6239,Wolfgang Overath,1,0
 61,1970,73,Suecia,3492,Orjan Persson,1,0
 62,1970,11,Brasil,1782,Rivelino,1,0
 63,1970,51,Italia,5747,Gianni Rivera,1,0
@@ -77,27 +77,27 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 76,1974,40,Haití,2439,Pierre Bayonne,2,0
 77,1974,60,Paises Bajos,6378,Johan Cruyff,2,0
 78,1974,73,Suecia,3391,Ove Grahn,2,0
-79,1974,,Yugoslavia,3585,Enver Hadziabdic,2,0
+79,1974,85,Yugoslavia,3585,Enver Hadziabdic,2,0
 80,1974,11,Brasil,1663,Jairzinho,2,0
 81,1974,64,Polonia,3089,Henryk Kasperczak,2,0
-82,1974,,Yugoslavia,3615,Josip Katalinski,2,0
+82,1974,85,Yugoslavia,3615,Josip Katalinski,2,0
 83,1974,2,Alemania Oriental,2513,Gerd Kische,2,0
 84,1974,11,Brasil,1712,Marinho Peres,2,0
 85,1974,60,Paises Bajos,6452,Johan Neeskens,2,0
-86,1974,,Yugoslavia,3677,Branko Oblak,2,0
+86,1974,85,Yugoslavia,3677,Branko Oblak,2,0
 87,1974,6,Argentina,5361,Roberto Perfumo,2,0
 88,1974,60,Paises Bajos,6468,Johnny Rep,2,0
 89,1974,2,Alemania Oriental,2521,Juergen Sparwasser,2,0
 90,1974,60,Paises Bajos,6486,Wim Suurbier,2,0
 91,1974,60,Paises Bajos,6509,Wim Van Hanegem,2,0
-92,1974,,Alemania Occidental,6307,Berti Vogts,2,0
-93,1974,,Yugoslavia,3535,Jovan Acimovic,1,0
+92,1974,87,Alemania Occidental,6307,Berti Vogts,2,0
+93,1974,85,Yugoslavia,3535,Jovan Acimovic,1,0
 94,1974,73,Suecia,3339,Bjorn Andersson,1,0
-95,1974,,Yugoslavia,3540,Dusan Bajevic,1,0
+95,1974,85,Yugoslavia,3540,Dusan Bajevic,1,0
 96,1974,6,Argentina,5177,Angel Bargas,1,0
 97,1974,51,Italia,5543,Romeo Benetti,1,0
 98,1974,51,Italia,5553,Roberto Boninsegna,1,0
-99,1974,,Yugoslavia,3553,Ivan Buljan,1,0
+99,1974,85,Yugoslavia,3553,Ivan Buljan,1,0
 100,1974,11,Brasil,1573,Carpegiani,1,0
 101,1974,2,Alemania Oriental,2506,Juergen Croy,1,0
 102,1974,12,Bulgaria,2922,Georgi Denev,1,0
@@ -115,7 +115,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 114,1974,60,Paises Bajos,6422,Wim Jansen,1,0
 115,1974,80,Uruguay,5901,Baudilio Jauregui,1,0
 116,1974,31,Escocia,2356,Joe Jordan,1,0
-117,1974,,Yugoslavia,3614,Stanislav Karasi,1,0
+117,1974,85,Yugoslavia,3614,Stanislav Karasi,1,0
 118,1974,2,Alemania Oriental,2514,Hans-Juergen Kreische,1,0
 119,1974,40,Haití,2446,Fritz Leandre,1,0
 120,1974,7,Australia,7336,Jimmy Mackay,1,0
@@ -126,7 +126,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 125,1974,11,Brasil,1727,Mirandinha,1,0
 126,1974,64,Polonia,3131,Adam Musial,1,0
 127,1974,73,Suecia,3479,Bjorn Nordqvist,1,0
-128,1974,,Alemania Occidental,6239,Wolfgang Overath,1,0
+128,1974,87,Alemania Occidental,6239,Wolfgang Overath,1,0
 129,1974,17,Chile,724,Guillermo Paez,1,0
 130,1974,73,Suecia,3492,Orjan Persson,1,0
 131,1974,17,Chile,739,Carlos Reinoso,1,0
@@ -145,10 +145,10 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 144,1978,51,Italia,5543,Romeo Benetti,2,0
 145,1978,48,Irán,4102,Andranik Eskandarian,2,0
 146,1978,51,Italia,5772,Marco Tardelli,2,0
-147,1978,,Alemania Occidental,6035,Ruediger Abramczik,1,0
+147,1978,87,Alemania Occidental,6035,Ruediger Abramczik,1,0
 148,1978,6,Argentina,5163,Osvaldo Ardiles,1,0
 149,1978,11,Brasil,1549,Batista,1,0
-150,1978,,Alemania Occidental,6063,Rainer Bonhof,1,0
+150,1978,87,Alemania Occidental,6063,Rainer Bonhof,1,0
 151,1978,64,Polonia,3035,Zbigniew Boniek,1,0
 152,1978,73,Suecia,3364,Hasse Borg,1,0
 153,1978,51,Italia,5563,Antonio Cabrini,1,0
@@ -165,11 +165,11 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 164,1978,6,Argentina,5294,Omar Larrosa,1,0
 165,1978,34,España,4967,Eugenio Leal,1,0
 166,1978,64,Polonia,3117,Henryk Maculewicz,1,0
-167,1978,,Alemania Occidental,6208,Sepp Maier,1,0
+167,1978,87,Alemania Occidental,6208,Sepp Maier,1,0
 168,1978,63,Perú,2183,Rodolfo Manzo,1,0
 169,1978,42,Hungría,7566,Gyozo Martos,1,0
 170,1978,36,Francia,3994,Henri Michel,1,0
-171,1978,,Alemania Occidental,6224,Hansi Mueller,1,0
+171,1978,87,Alemania Occidental,6224,Hansi Mueller,1,0
 172,1978,63,Perú,2187,Juan Munante,1,0
 173,1978,48,Irán,4153,Hassan Nazari,1,0
 174,1978,60,Paises Bajos,6452,Johan Neeskens,1,0
@@ -195,7 +195,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 194,1982,6,Argentina,5262,Americo Gallego,1,1
 195,1982,6,Argentina,5307,Diego Maradona,1,1
 196,1982,47,Irlanda del Norte,2240,Mal Donaghy,0,1
-197,1982,,Checoslovaquia,593,Ladislav Vizek,0,1
+197,1982,86,Checoslovaquia,593,Ladislav Vizek,0,1
 198,1982,41,Honduras,244,Gilberto Yearwood,0,1
 199,1982,36,Francia,3822,Manuel Amoros,2,0
 200,1982,64,Polonia,3035,Zbigniew Boniek,2,0
@@ -205,33 +205,33 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 204,1982,51,Italia,5712,Gabriele Oriali,2,0
 205,1982,29,El Salvador,843,Francisco Osorto,2,0
 206,1982,64,Polonia,3156,Wlodimierz Smolarek,2,0
-207,1982,,Alemania Occidental,6287,Uli Stielike,2,0
+207,1982,87,Alemania Occidental,6287,Uli Stielike,2,0
 208,1982,54,Kuwait,7900,Abdulaziz Al Anbari,1,0
 209,1982,34,España,4853,Jose Alexanko,1,0
 210,1982,51,Italia,5527,Giancarlo Antognoni,1,0
 211,1982,14,Camerún,866,Ibrahim Aoudou,1,0
 212,1982,6,Argentina,5163,Osvaldo Ardiles,1,0
-213,1982,,URSS,254,Sergei Baltacha,1,0
+213,1982,88,URSS,254,Sergei Baltacha,1,0
 214,1982,6,Argentina,5186,Daniel Bertoni,1,0
-215,1982,,URSS,261,Vladimir Bessonov,1,0
-216,1982,,URSS,265,Sergei Borovski,1,0
-217,1982,,Alemania Occidental,6068,Hans-Peter Briegel,1,0
+215,1982,88,URSS,261,Vladimir Bessonov,1,0
+216,1982,88,URSS,265,Sergei Borovski,1,0
+217,1982,87,Alemania Occidental,6068,Hans-Peter Briegel,1,0
 218,1982,44,Inglaterra,1228,Terry Butcher,1,0
 219,1982,34,España,4882,Jose Antonio Camacho,1,0
-220,1982,,Checoslovaquia,454,Pavel Chaloupka,1,0
-221,1982,,URSS,276,Aleksandr Chivadze,1,0
+220,1982,86,Checoslovaquia,454,Pavel Chaloupka,1,0
+221,1982,88,URSS,276,Aleksandr Chivadze,1,0
 222,1982,51,Italia,5592,Fulvio Collovati,1,0
 223,1982,51,Italia,5595,Bruno Conti,1,0
 224,1982,8,Austria,4558,Josef Degeorgi,1,0
-225,1982,,Alemania Occidental,6083,Wolfgang Dremmler,1,0
+225,1982,87,Alemania Occidental,6083,Wolfgang Dremmler,1,0
 226,1982,63,Perú,2155,Jaime Duarte,1,0
 227,1982,17,Chile,661,Rodolfo Dubo,1,0
 228,1982,29,El Salvador,825,Ramon Fagoaga,1,0
 229,1982,54,Kuwait,7912,Naim Fajah,1,0
 230,1982,11,Brasil,1623,Falcao,1,0
 231,1982,42,Hungría,7521,Laszlo Fazekas,1,0
-232,1982,,Alemania Occidental,6093,Klaus Fischer,1,0
-233,1982,,Alemania Occidental,6095,Bernd Foerster,1,0
+232,1982,87,Alemania Occidental,6093,Klaus Fischer,1,0
+233,1982,87,Alemania Occidental,6095,Bernd Foerster,1,0
 234,1982,17,Chile,680,Miguel Gamboa,1,0
 235,1982,17,Chile,682,Lizardo Garrido,1,0
 236,1982,36,Francia,3918,Bernard Genghini,1,0
@@ -239,12 +239,12 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 238,1982,34,España,4936,Rafael Gordillo,1,0
 239,1982,8,Austria,4576,Roland Hattenberger,1,0
 240,1982,8,Austria,4582,Reinhold Hintermaier,1,0
-241,1982,,Alemania Occidental,6149,Horst Hrubesch,1,0
+241,1982,87,Alemania Occidental,6149,Horst Hrubesch,1,0
 242,1982,34,España,4957,Juanito,1,0
 243,1982,6,Argentina,5290,Mario Kempes,1,0
-244,1982,,Yugoslavia,3630,Zlatko Krmpotic,1,0
+244,1982,85,Yugoslavia,3630,Zlatko Krmpotic,1,0
 245,1982,17,Chile,696,Juan Letelier,1,0
-246,1982,,Alemania Occidental,6202,Pierre Littbarski,1,0
+246,1982,87,Alemania Occidental,6202,Pierre Littbarski,1,0
 247,1982,5,Argelia,6875,Rabah Madjer,1,0
 248,1982,64,Polonia,3120,Stefan Majewski,1,0
 249,1982,5,Argelia,6878,Faouzi Mansouri,1,0
@@ -262,7 +262,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 261,1982,8,Austria,4614,Erich Obermayer,1,0
 262,1982,6,Argentina,5333,Jorge Olguin,1,0
 263,1982,64,Polonia,3136,Andrzej Palasz,1,0
-264,1982,,Checoslovaquia,544,Antonin Panenka,1,0
+264,1982,86,Checoslovaquia,544,Antonin Panenka,1,0
 265,1982,6,Argentina,5350,Daniel Passarella,1,0
 266,1982,13,Bélgica,6679,Jean-Marie Pfaff,1,0
 267,1982,8,Austria,4623,Andy Pichler,1,0
@@ -272,10 +272,10 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 271,1982,34,España,5055,Jose Sanchez,1,0
 272,1982,8,Austria,4638,Walter Schachner,1,0
 273,1982,51,Italia,5759,Gaetano Scirea,1,0
-274,1982,,Yugoslavia,3725,Edhem Sljivo,1,0
+274,1982,85,Yugoslavia,3725,Edhem Sljivo,1,0
 275,1982,36,Francia,4043,Gerard Soler,1,0
 276,1982,31,Escocia,2406,Graeme Souness,1,0
-277,1982,,Yugoslavia,3740,Nenad Stojkovic,1,0
+277,1982,85,Yugoslavia,3740,Nenad Stojkovic,1,0
 278,1982,51,Italia,5772,Marco Tardelli,1,0
 279,1982,36,Francia,4053,Jean Tigana,1,0
 280,1982,63,Perú,2222,Jose Velasquez,1,0
@@ -291,7 +291,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 290,1986,15,Canadá,2496,Mike Sweeney,1,1
 291,1986,44,Inglaterra,1426,Ray Wilkins,1,1
 292,1986,80,Uruguay,5816,Jose Batista,0,1
-293,1986,,Alemania Occidental,6057,Thomas Berthold,0,1
+293,1986,87,Alemania Occidental,6057,Thomas Berthold,0,1
 294,1986,45,Iraq,1173,Bassel Gorgis,0,1
 295,1986,44,Inglaterra,1268,Terry Fenwick,3,0
 296,1986,56,México,7864,Hugo Sánchez,3,0
@@ -306,12 +306,12 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 305,1986,34,España,4933,Goikoetxea,2,0
 306,1986,55,Marruecos,8376,Labid Khalifa,2,0
 307,1986,21,Corea del Sur,7009,Joo Sung Kim,2,0
-308,1986,,Alemania Occidental,6212,Lothar Matthaeus,2,0
+308,1986,87,Alemania Occidental,6212,Lothar Matthaeus,2,0
 309,1986,6,Argentina,5372,Nery Pumpido,2,0
 310,1986,62,Paraguay,4422,Vladimiro Schettina,2,0
 311,1986,45,Iraq,1191,Shaker Samir,2,0
 312,1986,80,Uruguay,5801,Eduardo Acevedo,1,0
-313,1986,,Alemania Occidental,6039,Klaus Allofs,1,0
+313,1986,87,Alemania Occidental,6039,Klaus Allofs,1,0
 314,1986,80,Uruguay,5805,Fernando Alvez,1,0
 315,1986,36,Francia,3822,Manuel Amoros,1,0
 316,1986,26,Dinamarca,4185,Henrik Andersen,1,0
@@ -320,11 +320,11 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 319,1986,51,Italia,5534,Salvatore Bagni,1,0
 320,1986,31,Escocia,2286,Eamonn Bannon,1,0
 321,1986,6,Argentina,5180,Sergio Batista,1,0
-322,1986,,URSS,257,Igor Belanov,1,0
+322,1986,88,URSS,257,Igor Belanov,1,0
 323,1986,26,Dinamarca,4193,Klaus Berggreen,1,0
 324,1986,64,Polonia,3035,Zbigniew Boniek,1,0
 325,1986,11,Brasil,1559,Branco,1,0
-326,1986,,Alemania Occidental,6068,Hans-Peter Briegel,1,0
+326,1986,87,Alemania Occidental,6068,Hans-Peter Briegel,1,0
 327,1986,6,Argentina,5197,Jose Brown,1,0
 328,1986,44,Inglaterra,1228,Terry Butcher,1,0
 329,1986,80,Uruguay,5826,Wilmar Cabrera,1,0
@@ -340,10 +340,10 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 339,1986,13,Bélgica,6605,Stephane Demol,1,0
 340,1986,51,Italia,5613,Antonio Di Gennaro,1,0
 341,1986,47,Irlanda del Norte,2240,Mal Donaghy,1,0
-342,1986,,Alemania Occidental,6086,Norbert Eder,1,0
+342,1986,87,Alemania Occidental,6086,Norbert Eder,1,0
 343,1986,11,Brasil,1610,Edinho,1,0
 344,1986,6,Argentina,5244,Hector Enrique,1,0
-345,1986,,Alemania Occidental,6096,Karl-Heinz Foerster,1,0
+345,1986,87,Alemania Occidental,6096,Karl-Heinz Foerster,1,0
 346,1986,80,Uruguay,5874,Enzo Francescoli,1,0
 347,1986,6,Argentina,5269,Ricardo Giusti,1,0
 348,1986,65,Portugal,3241,Gomes,1,0
@@ -355,14 +355,14 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 354,1986,44,Inglaterra,1289,Mark Hateley,1,0
 355,1986,44,Inglaterra,1295,Steve Hodge,1,0
 356,1986,21,Corea del Sur,6973,Jung Moo Huh,1,0
-357,1986,,Alemania Occidental,6155,Ditmar Jakobs,1,0
+357,1986,87,Alemania Occidental,6155,Ditmar Jakobs,1,0
 358,1986,34,España,4958,Julio Alberto,1,0
 359,1986,55,Marruecos,8375,Abdelrazzak Khairi,1,0
 360,1986,45,Iraq,1181,Khalil Mohamed,1,0
 361,1986,55,Marruecos,8380,Abdelmajid Lamriss,1,0
 362,1986,15,Canadá,2479,Bob Lenarduzzi,1,0
 363,1986,5,Argelia,6875,Rabah Madjer,1,0
-364,1986,,Alemania Occidental,6206,Felix Magath,1,0
+364,1986,87,Alemania Occidental,6206,Felix Magath,1,0
 365,1986,31,Escocia,2367,Maurice Malpas,1,0
 366,1986,5,Argelia,6878,Faouzi Mansouri,1,0
 367,1986,6,Argentina,5307,Diego Maradona,1,0
@@ -384,7 +384,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 383,1986,21,Corea del Sur,7080,Kyung Hoon Park,1,0
 384,1986,13,Bélgica,6679,Jean-Marie Pfaff,1,0
 385,1986,56,México,7831,Fernando Quirarte,1,0
-386,1986,,URSS,380,Vasili Rats,1,0
+386,1986,88,URSS,380,Vasili Rats,1,0
 387,1986,13,Bélgica,6688,Michel Renquin,1,0
 388,1986,36,Francia,4025,Dominique Rocheteau,1,0
 389,1986,62,Paraguay,4416,Julio Cesar Romero,1,0
@@ -409,20 +409,20 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 408,1990,14,Camerún,912,Andre Kana-Biyik,2,1
 409,1990,14,Camerún,925,Benjamin Massing,2,1
 410,1990,6,Argentina,5325,Pedro Monzon,2,1
-411,1990,,Checoslovaquia,533,Lubomir Moravcik,2,1
+411,1990,86,Checoslovaquia,533,Lubomir Moravcik,2,1
 412,1990,60,Paises Bajos,6469,Frank Rijkaard,2,1
-413,1990,,Yugoslavia,3716,Refik Sabanadzovic,2,1
-414,1990,,Alemania Occidental,6306,Rudi Voeller,2,1
+413,1990,85,Yugoslavia,3716,Refik Sabanadzovic,2,1
+414,1990,87,Alemania Occidental,6306,Rudi Voeller,2,1
 415,1990,6,Argentina,5237,Gustavo Dezotti,1,1
 416,1990,6,Argentina,5269,Ricardo Giusti,1,1
 417,1990,21,Corea del Sur,7096,Deok Yeo Yoon,1,1
 418,1990,8,Austria,4547,Peter Artner,0,1
-419,1990,,URSS,261,Vladimir Bessonov,0,1
+419,1990,88,URSS,261,Vladimir Bessonov,0,1
 420,1990,13,Bélgica,6622,Eric Gerets,0,1
 421,1990,30,Emiratos Arabes,7957,Khaleel Ghanim,0,1
 422,1990,11,Brasil,1777,Ricardo Gomes,0,1
 423,1990,35,Estados Unidos,2905,Eric Wynalda,0,1
-424,1990,,Alemania Occidental,6066,Andreas Brehme,3,0
+424,1990,87,Alemania Occidental,6066,Andreas Brehme,3,0
 425,1990,6,Argentina,5406,Jose Serrizuela,3,0
 426,1990,35,Estados Unidos,2748,Jimmy Banks,2,0
 427,1990,6,Argentina,5180,Sergio Batista,2,0
@@ -432,7 +432,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 431,1990,19,Colombia,2670,Gabriel Gomez,2,0
 432,1990,22,Costa Rica,2000,Roger Gomez,2,0
 433,1990,68,Rumania,1891,Gheorghe Hagi,2,0
-434,1990,,Checoslovaquia,515,Lubos Kubik,2,0
+434,1990,86,Checoslovaquia,515,Lubos Kubik,2,0
 435,1990,68,Rumania,1898,Marius Lacatus,2,0
 436,1990,6,Argentina,5307,Diego Maradona,2,0
 437,1990,22,Costa Rica,2017,Hector Marchena,2,0
@@ -445,7 +445,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 444,1990,14,Camerún,964,Jules Denis Onana,2,0
 445,1990,8,Austria,4617,Robert Pecl,2,0
 446,1990,80,Uruguay,5952,Jose Perdomo,2,0
-447,1990,,Checoslovaquia,583,Frantisek Straka,2,0
+447,1990,86,Checoslovaquia,583,Frantisek Straka,2,0
 448,1990,6,Argentina,5425,Pedro Troglio,2,0
 449,1990,30,Emiratos Arabes,7964,Yousuf Hussain,2,0
 450,1990,8,Austria,4670,Manfred Zsak,2,0
@@ -455,16 +455,16 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 454,1990,80,Uruguay,5805,Fernando Alvez,1,0
 455,1990,51,Italia,5533,Roberto Baggio,1,0
 456,1990,44,Inglaterra,1213,Peter Beardsley,1,0
-457,1990,,Alemania Occidental,6057,Thomas Berthold,1,0
-458,1990,,Checoslovaquia,440,Michal Bilek,1,0
+457,1990,87,Alemania Occidental,6057,Thomas Berthold,1,0
+458,1990,86,Checoslovaquia,440,Michal Bilek,1,0
 459,1990,11,Brasil,1559,Branco,1,0
-460,1990,,Yugoslavia,3551,Dragoljub Brnovic,1,0
+460,1990,85,Yugoslavia,3551,Dragoljub Brnovic,1,0
 461,1990,6,Argentina,5200,Jorge Burruchaga,1,0
 462,1990,35,Estados Unidos,2764,Paul Caligiuri,1,0
 463,1990,34,España,4897,Chendo,1,0
 464,1990,21,Corea del Sur,6948,Soon Ho Choi,1,0
 465,1990,21,Corea del Sur,6946,Kang Hee Choi,1,0
-466,1990,,Checoslovaquia,455,Jozef Chovanec,1,0
+466,1990,86,Checoslovaquia,455,Jozef Chovanec,1,0
 467,1990,21,Corea del Sur,6955,Hae Won Chung,1,0
 468,1990,51,Italia,5603,Luigi De Agostini,1,0
 469,1990,11,Brasil,1605,Dunga,1,0
@@ -476,7 +476,7 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 475,1990,22,Costa Rica,2004,Ronald Gonzalez,1,0
 476,1990,6,Argentina,5275,Sergio Goycochea,1,0
 477,1990,80,Uruguay,5896,Nelson Gutierrez,1,0
-478,1990,,Checoslovaquia,470,Ivan Hasek,1,0
+478,1990,86,Checoslovaquia,470,Ivan Hasek,1,0
 479,1990,28,Egipto,2090,Ibrahim Hassan,1,0
 480,1990,19,Colombia,2678,Luis Herrera,1,0
 481,1990,80,Uruguay,5898,Jose Herrera,1,0
@@ -488,19 +488,19 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 487,1990,34,España,4953,Manuel Jimenez,1,0
 488,1990,31,Escocia,2351,Mo Johnston,1,0
 489,1990,11,Brasil,1670,Jorginho,1,0
-490,1990,,Checoslovaquia,494,Miroslav Kadlec,1,0
-491,1990,,Yugoslavia,3616,Srecko Katanec,1,0
-492,1990,,URSS,320,Vagiz Khidiyatullin,1,0
+490,1990,86,Checoslovaquia,494,Miroslav Kadlec,1,0
+491,1990,85,Yugoslavia,3616,Srecko Katanec,1,0
+492,1990,88,URSS,320,Vagiz Khidiyatullin,1,0
 493,1990,60,Paises Bajos,6427,Wim Kieft,1,0
 494,1990,68,Rumania,1895,Michael Klein,1,0
-495,1990,,Alemania Occidental,6174,Juergen Klinsmann,1,0
-496,1990,,Checoslovaquia,499,Ivo Knoflicek,1,0
-497,1990,,Checoslovaquia,500,Jan Kocian,1,0
+495,1990,87,Alemania Occidental,6174,Juergen Klinsmann,1,0
+496,1990,86,Checoslovaquia,499,Ivo Knoflicek,1,0
+497,1990,86,Checoslovaquia,500,Jan Kocian,1,0
 498,1990,21,Corea del Sur,7040,Heung Sil Lee,1,0
 499,1990,8,Austria,4608,Klaus Lindenberger,1,0
 500,1990,68,Rumania,1903,Ioan Lupescu,1,0
 501,1990,68,Rumania,1905,Danut Lupu,1,0
-502,1990,,Alemania Occidental,6212,Lothar Matthaeus,1,0
+502,1990,87,Alemania Occidental,6212,Lothar Matthaeus,1,0
 503,1990,11,Brasil,1717,Mauro Galvao,1,0
 504,1990,46,Irlanda,7472,Paul Mcgrath,1,0
 505,1990,31,Escocia,2382,Murdo Mcleod,1,0
@@ -512,13 +512,13 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 511,1990,35,Estados Unidos,2853,Bruce Murray,1,0
 512,1990,73,Suecia,3470,Joakim Nilsson,1,0
 513,1990,80,Uruguay,5946,Santiago Ostolaza,1,0
-514,1990,,Yugoslavia,3685,Darko Pancev,1,0
+514,1990,85,Yugoslavia,3685,Darko Pancev,1,0
 515,1990,44,Inglaterra,1362,Paul Parker,1,0
 516,1990,44,Inglaterra,1364,Stuart Pearce,1,0
 517,1990,19,Colombia,2703,Luis Carlos Perea,1,0
 518,1990,8,Austria,4621,Anton Pfeffer,1,0
 519,1990,80,Uruguay,5963,Jose Pintos,1,0
-520,1990,,URSS,377,Oleg Protasov,1,0
+520,1990,88,URSS,377,Oleg Protasov,1,0
 521,1990,28,Egipto,2109,Ahmed Ramzy,1,0
 522,1990,8,Austria,4633,Andreas Reisinger,1,0
 523,1990,11,Brasil,1778,Ricardo Rocha,1,0
@@ -528,19 +528,19 @@ id_tarjeta,anio,id_seleccion,seleccion,id_jugador,jugador,amarillas,rojas
 527,1990,6,Argentina,5405,Roberto Sensini,1,0
 528,1990,28,Egipto,2117,Ahmed Shoubeir,1,0
 529,1990,6,Argentina,5409,Juan Simon,1,0
-530,1990,,Checoslovaquia,576,Tomas Skuhravy,1,0
+530,1990,86,Checoslovaquia,576,Tomas Skuhravy,1,0
 531,1990,80,Uruguay,6006,Ruben Sosa,1,0
-532,1990,,Yugoslavia,3739,Dragan Stojkovic,1,0
+532,1990,85,Yugoslavia,3739,Dragan Stojkovic,1,0
 533,1990,73,Suecia,3513,Glenn Stromberg,1,0
 534,1990,73,Suecia,3525,Jonas Thern,1,0
 535,1990,35,Estados Unidos,2891,Steve Trittschuh,1,0
 536,1990,60,Paises Bajos,6495,Marco Van Basten,1,0
 537,1990,34,España,5092,Francisco Villaroya,1,0
-538,1990,,Yugoslavia,3761,Zlatko Vujovic,1,0
-539,1990,,Yugoslavia,3765,Zoran Vulic,1,0
+538,1990,85,Yugoslavia,3761,Zlatko Vujovic,1,0
+539,1990,85,Yugoslavia,3765,Zoran Vulic,1,0
 540,1990,35,Estados Unidos,2899,Michael Windischmann,1,0
 541,1990,60,Paises Bajos,6540,Jan Wouters,1,0
-542,1990,,URSS,431,Andrei Zygmantovich,1,0
+542,1990,88,URSS,431,Andrei Zygmantovich,1,0
 543,1994,35,Estados Unidos,2771,Fernando Clavijo,1,1
 544,1994,56,México,7727,Luis Garcia,1,1
 545,1994,73,Suecia,3504,Stefan Schwarz,1,1

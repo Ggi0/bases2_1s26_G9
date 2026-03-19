@@ -22,13 +22,13 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 21,6,1930,6,Argentina,5415,Guillermo Stabile,13,NO,NO
 22,6,1930,6,Argentina,5246,Mario Evaristo,51,NO,NO
 23,6,1930,17,Chile,766,Guillermo Subiabre,15,NO,NO
-24,7,1930,,Yugoslavia,3749,Aleksandar Tirnanic,21,NO,NO
-25,7,1930,,Yugoslavia,3544,Ivica Bek,30,NO,NO
+24,7,1930,85,Yugoslavia,3749,Aleksandar Tirnanic,21,NO,NO
+25,7,1930,85,Yugoslavia,3544,Ivica Bek,30,NO,NO
 26,7,1930,11,Brasil,1767,Preguinho,62,NO,NO
-27,8,1930,,Yugoslavia,3544,Ivica Bek,60,NO,NO
-28,8,1930,,Yugoslavia,3645,Blagoje Marjanovic,65,NO,NO
-29,8,1930,,Yugoslavia,3544,Ivica Bek,67,NO,NO
-30,8,1930,,Yugoslavia,3760,Djordje Vujadinovic,85,NO,NO
+27,8,1930,85,Yugoslavia,3544,Ivica Bek,60,NO,NO
+28,8,1930,85,Yugoslavia,3645,Blagoje Marjanovic,65,NO,NO
+29,8,1930,85,Yugoslavia,3544,Ivica Bek,67,NO,NO
+30,8,1930,85,Yugoslavia,3760,Djordje Vujadinovic,85,NO,NO
 31,9,1930,11,Brasil,1729,Moderato,37,NO,NO
 32,9,1930,11,Brasil,1767,Preguinho,67,NO,NO
 33,9,1930,11,Brasil,1729,Moderato,73,NO,NO
@@ -62,7 +62,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 61,34,1930,80,Uruguay,5900,Victoriano Iriarte,61,NO,NO
 62,34,1930,80,Uruguay,5842,Pedro Cea,67,NO,NO
 63,34,1930,80,Uruguay,5842,Pedro Cea,72,NO,NO
-64,34,1930,,Yugoslavia,3721,Branislav Sekulic,4,NO,NO
+64,34,1930,85,Yugoslavia,3721,Branislav Sekulic,4,NO,NO
 65,34,1930,6,Argentina,5363,Carlos Peucelle,20,NO,NO
 66,34,1930,6,Argentina,5415,Guillermo Stabile,37,NO,NO
 67,34,1930,80,Uruguay,5861,Pablo Dorado,12,NO,NO
@@ -99,8 +99,8 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 98,52,1934,34,España,4949,Iraragorri,25,NO,NO
 99,52,1934,34,España,4964,Isidro Langara,29,NO,NO
 100,52,1934,11,Brasil,1690,Leonidas,55,NO,NO
-101,52,1934,,Checoslovaquia,560,Antonin Puc,50,NO,NO
-102,52,1934,,Checoslovaquia,537,Oldrich Nejedly,67,NO,NO
+101,52,1934,86,Checoslovaquia,560,Antonin Puc,50,NO,NO
+102,52,1934,86,Checoslovaquia,537,Oldrich Nejedly,67,NO,NO
 103,52,1934,68,Rumania,1877,Stefan Dobay,11,NO,NO
 104,52,1934,74,Suiza,8129,Leopold Kielholz,7,NO,NO
 105,52,1934,74,Suiza,8129,Leopold Kielholz,43,NO,NO
@@ -112,9 +112,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 111,52,1934,8,Austria,4552,Josef Bican,109,NO,NO
 112,52,1934,36,Francia,3998,Jean Nicolas,18,NO,NO
 113,52,1934,36,Francia,4067,Georges Verriest,116,SI,NO
-114,52,1934,,Checoslovaquia,585,Frantisek Svoboda,24,NO,NO
-115,52,1934,,Checoslovaquia,585,Frantisek Svoboda,49,NO,NO
-116,52,1934,,Checoslovaquia,537,Oldrich Nejedly,82,NO,NO
+114,52,1934,86,Checoslovaquia,585,Frantisek Svoboda,24,NO,NO
+115,52,1934,86,Checoslovaquia,585,Frantisek Svoboda,49,NO,NO
+116,52,1934,86,Checoslovaquia,537,Oldrich Nejedly,82,NO,NO
 117,52,1934,74,Suiza,8129,Leopold Kielholz,18,NO,NO
 118,52,1934,74,Suiza,8125,Willy Jaeggi,78,NO,NO
 119,52,1934,8,Austria,4586,Johann Horvath,8,NO,NO
@@ -126,9 +126,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 125,52,1934,51,Italia,5627,Giovanni Ferrari,44,NO,NO
 126,52,1934,34,España,7836,Luis Regueiro,30,NO,NO
 127,52,1934,51,Italia,5689,Giuseppe Meazza,11,NO,NO
-128,52,1934,,Checoslovaquia,537,Oldrich Nejedly,21,NO,NO
-129,52,1934,,Checoslovaquia,537,Oldrich Nejedly,69,NO,NO
-130,52,1934,,Checoslovaquia,537,Oldrich Nejedly,80,NO,NO
+128,52,1934,86,Checoslovaquia,537,Oldrich Nejedly,21,NO,NO
+129,52,1934,86,Checoslovaquia,537,Oldrich Nejedly,69,NO,NO
+130,52,1934,86,Checoslovaquia,537,Oldrich Nejedly,80,NO,NO
 131,52,1934,1,Alemania,6234,Rudolf Noack,62,NO,NO
 132,52,1934,51,Italia,5653,Enrique Guaita,19,NO,NO
 133,52,1934,8,Austria,4586,Johann Horvath,28,NO,NO
@@ -138,7 +138,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 137,52,1934,1,Alemania,6198,Ernest Lehner,42,NO,NO
 138,52,1934,51,Italia,5713,Raimundo Orsi,81,NO,NO
 139,52,1934,51,Italia,5757,Angelo Schiavio,95,NO,NO
-140,52,1934,,Checoslovaquia,560,Antonin Puc,76,NO,NO
+140,52,1934,86,Checoslovaquia,560,Antonin Puc,76,NO,NO
 141,71,1938,74,Suiza,8033,Andre Abegglen,43,NO,NO
 142,71,1938,1,Alemania,6102,Josef Gauchel,29,NO,NO
 143,71,1938,36,Francia,4064,Emile Veinante,1,NO,NO
@@ -165,9 +165,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 164,71,1938,42,Hungría,7634,Gyula Zsengeller,35,NO,NO
 165,71,1938,42,Hungría,7634,Gyula Zsengeller,76,NO,NO
 166,71,1938,42,Hungría,7596,Gyorgy Sarosi,89,NO,NO
-167,71,1938,,Checoslovaquia,506,Josef Kostalek,93,NO,NO
-168,71,1938,,Checoslovaquia,537,Oldrich Nejedly,111,NO,NO
-169,71,1938,,Checoslovaquia,597,Josef Zeman,118,NO,NO
+167,71,1938,86,Checoslovaquia,506,Josef Kostalek,93,NO,NO
+168,71,1938,86,Checoslovaquia,537,Oldrich Nejedly,111,NO,NO
+169,71,1938,86,Checoslovaquia,597,Josef Zeman,118,NO,NO
 170,71,1938,25,Cuba,2431,Hector Socorro,44,NO,NO
 171,71,1938,25,Cuba,2428,Jose Magrina,69,NO,NO
 172,71,1938,25,Cuba,2431,Hector Socorro,103,NO,NO
@@ -198,10 +198,10 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 197,71,1938,42,Hungría,7596,Gyorgy Sarosi,40,NO,NO
 198,71,1938,42,Hungría,7634,Gyula Zsengeller,89,NO,NO
 199,71,1938,11,Brasil,1690,Leonidas,30,NO,NO
-200,71,1938,,Checoslovaquia,537,Oldrich Nejedly,65,SI,NO
+200,71,1938,86,Checoslovaquia,537,Oldrich Nejedly,65,SI,NO
 201,71,1938,11,Brasil,1690,Leonidas,57,NO,NO
 202,71,1938,11,Brasil,5047,Roberto,63,NO,NO
-203,71,1938,,Checoslovaquia,503,Vlastimil Kopecky,25,NO,NO
+203,71,1938,86,Checoslovaquia,503,Vlastimil Kopecky,25,NO,NO
 204,71,1938,42,Hungría,3414,Sven Jacobsson,19,NO,SI
 205,71,1938,42,Hungría,7598,Ferenc Sas,37,NO,NO
 206,71,1938,42,Hungría,7634,Gyula Zsengeller,39,NO,NO
@@ -227,17 +227,17 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 226,72,1950,11,Brasil,1660,Jair,65,NO,NO
 227,72,1950,11,Brasil,1546,Baltazar,71,NO,NO
 228,72,1950,11,Brasil,1519,Ademir,79,NO,NO
-229,73,1950,,Yugoslavia,3665,Rajko Mitic,59,NO,NO
-230,73,1950,,Yugoslavia,3750,Kosta Tomasevic,70,NO,NO
-231,73,1950,,Yugoslavia,3679,Tihomir Ognjanov,84,NO,NO
+229,73,1950,85,Yugoslavia,3665,Rajko Mitic,59,NO,NO
+230,73,1950,85,Yugoslavia,3750,Kosta Tomasevic,70,NO,NO
+231,73,1950,85,Yugoslavia,3679,Tihomir Ognjanov,84,NO,NO
 232,74,1950,11,Brasil,1528,Alfredo Ii,3,NO,NO
 233,74,1950,11,Brasil,1546,Baltazar,32,NO,NO
 234,74,1950,74,Suiza,8087,Jackie Fatton,17,NO,NO
 235,74,1950,74,Suiza,8087,Jackie Fatton,88,NO,NO
-236,75,1950,,Yugoslavia,3546,Stjepan Bobek,20,NO,NO
-237,75,1950,,Yugoslavia,3554,Zeljko Cajkovski,23,NO,NO
-238,75,1950,,Yugoslavia,3554,Zeljko Cajkovski,51,NO,NO
-239,75,1950,,Yugoslavia,3750,Kosta Tomasevic,81,NO,NO
+236,75,1950,85,Yugoslavia,3546,Stjepan Bobek,20,NO,NO
+237,75,1950,85,Yugoslavia,3554,Zeljko Cajkovski,23,NO,NO
+238,75,1950,85,Yugoslavia,3554,Zeljko Cajkovski,51,NO,NO
+239,75,1950,85,Yugoslavia,3750,Kosta Tomasevic,81,NO,NO
 240,75,1950,56,México,7812,Hector Ortiz,89,SI,NO
 241,76,1950,11,Brasil,1519,Ademir,4,NO,NO
 242,76,1950,11,Brasil,1846,Zizinho,69,NO,NO
@@ -316,18 +316,18 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 315,116,1954,11,Brasil,1763,Pinga,34,NO,NO
 316,116,1954,11,Brasil,1763,Pinga,43,NO,NO
 317,116,1954,11,Brasil,1674,Julinho,69,NO,NO
-318,117,1954,,Yugoslavia,3663,Milos Milutinovic,15,NO,NO
+318,117,1954,85,Yugoslavia,3663,Milos Milutinovic,15,NO,NO
 319,118,1954,11,Brasil,1596,Didi,69,NO,NO
-320,118,1954,,Yugoslavia,3767,Branko Zebec,48,NO,NO
+320,118,1954,85,Yugoslavia,3767,Branko Zebec,48,NO,NO
 321,119,1954,36,Francia,4070,Jean Vincent,19,NO,NO
 322,119,1954,36,Francia,7677,Raul Cardenas,46,NO,SI
 323,119,1954,36,Francia,3954,Raymond Kopa,88,SI,NO
 324,119,1954,56,México,7763,Jose Lamadrid,54,NO,NO
 325,119,1954,56,México,7653,Tomas Balcazar,85,NO,NO
-326,120,1954,,Alemania Occidental,6269,Hans Schaefer,14,NO,NO
-327,120,1954,,Alemania Occidental,6175,Berni Klodt,52,NO,NO
-328,120,1954,,Alemania Occidental,6312,Ottmar Walter,60,NO,NO
-329,120,1954,,Alemania Occidental,6220,Max Morlock,84,NO,NO
+326,120,1954,87,Alemania Occidental,6269,Hans Schaefer,14,NO,NO
+327,120,1954,87,Alemania Occidental,6175,Berni Klodt,52,NO,NO
+328,120,1954,87,Alemania Occidental,6312,Ottmar Walter,60,NO,NO
+329,120,1954,87,Alemania Occidental,6220,Max Morlock,84,NO,NO
 330,120,1954,77,Turquía,5486,Mamat Suat,2,NO,NO
 331,121,1954,42,Hungría,7587,Ferenc Puskas,12,NO,NO
 332,121,1954,42,Hungría,7561,Mihaly Lantos,18,NO,NO
@@ -346,9 +346,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 345,122,1954,42,Hungría,7552,Sandor Kocsis,69,NO,NO
 346,122,1954,42,Hungría,7622,Jozsef Toth,75,NO,NO
 347,122,1954,42,Hungría,7552,Sandor Kocsis,78,NO,NO
-348,122,1954,,Alemania Occidental,6245,Alfred Pfaff,25,NO,NO
-349,122,1954,,Alemania Occidental,6251,Helmut Rahn,77,NO,NO
-350,122,1954,,Alemania Occidental,6134,Richard Herrmann,84,NO,NO
+348,122,1954,87,Alemania Occidental,6245,Alfred Pfaff,25,NO,NO
+349,122,1954,87,Alemania Occidental,6251,Helmut Rahn,77,NO,NO
+350,122,1954,87,Alemania Occidental,6134,Richard Herrmann,84,NO,NO
 351,123,1954,77,Turquía,5486,Mamat Suat,10,NO,NO
 352,123,1954,77,Turquía,5472,Lefter Kucukandonyadis,18,NO,NO
 353,123,1954,77,Turquía,5486,Mamat Suat,30,NO,NO
@@ -356,13 +356,13 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 355,123,1954,77,Turquía,5455,Sargun Burhan,64,NO,NO
 356,123,1954,77,Turquía,5455,Sargun Burhan,70,NO,NO
 357,123,1954,77,Turquía,5470,Erol Keskin,76,NO,NO
-358,124,1954,,Alemania Occidental,6312,Ottmar Walter,7,NO,NO
-359,124,1954,,Alemania Occidental,6269,Hans Schaefer,12,NO,NO
-360,124,1954,,Alemania Occidental,6220,Max Morlock,30,NO,NO
-361,124,1954,,Alemania Occidental,6220,Max Morlock,60,NO,NO
-362,124,1954,,Alemania Occidental,6311,Fritz Walter,62,NO,NO
-363,124,1954,,Alemania Occidental,6220,Max Morlock,77,NO,NO
-364,124,1954,,Alemania Occidental,6269,Hans Schaefer,79,NO,NO
+358,124,1954,87,Alemania Occidental,6312,Ottmar Walter,7,NO,NO
+359,124,1954,87,Alemania Occidental,6269,Hans Schaefer,12,NO,NO
+360,124,1954,87,Alemania Occidental,6220,Max Morlock,30,NO,NO
+361,124,1954,87,Alemania Occidental,6220,Max Morlock,60,NO,NO
+362,124,1954,87,Alemania Occidental,6311,Fritz Walter,62,NO,NO
+363,124,1954,87,Alemania Occidental,6220,Max Morlock,77,NO,NO
+364,124,1954,87,Alemania Occidental,6269,Hans Schaefer,79,NO,NO
 365,124,1954,77,Turquía,5463,Mustafa Erton,21,NO,NO
 366,124,1954,77,Turquía,5472,Lefter Kucukandonyadis,82,NO,NO
 367,125,1954,8,Austria,4628,Erich Probst,33,NO,NO
@@ -421,20 +421,20 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 420,160,1954,80,Uruguay,5807,Javier Ambrois,78,NO,NO
 421,160,1954,44,Inglaterra,1327,Nat Lofthouse,16,NO,NO
 422,160,1954,44,Inglaterra,1271,Tom Finney,67,NO,NO
-423,160,1954,,Alemania Occidental,3588,Ivan Horvat,9,NO,SI
-424,160,1954,,Alemania Occidental,6251,Helmut Rahn,85,NO,NO
+423,160,1954,87,Alemania Occidental,3588,Ivan Horvat,9,NO,SI
+424,160,1954,87,Alemania Occidental,6251,Helmut Rahn,85,NO,NO
 425,160,1954,42,Hungría,7538,Nandor Hidegkuti,4,NO,NO
 426,160,1954,42,Hungría,7552,Sandor Kocsis,7,NO,NO
 427,160,1954,42,Hungría,7561,Mihaly Lantos,60,SI,NO
 428,160,1954,42,Hungría,7552,Sandor Kocsis,88,NO,NO
 429,160,1954,11,Brasil,1599,Djalma Santos,18,SI,NO
 430,160,1954,11,Brasil,1674,Julinho,65,NO,NO
-431,160,1954,,Alemania Occidental,6269,Hans Schaefer,31,NO,NO
-432,160,1954,,Alemania Occidental,6220,Max Morlock,47,NO,NO
-433,160,1954,,Alemania Occidental,6311,Fritz Walter,54,SI,NO
-434,160,1954,,Alemania Occidental,6312,Ottmar Walter,61,NO,NO
-435,160,1954,,Alemania Occidental,6311,Fritz Walter,64,SI,NO
-436,160,1954,,Alemania Occidental,6312,Ottmar Walter,89,NO,NO
+431,160,1954,87,Alemania Occidental,6269,Hans Schaefer,31,NO,NO
+432,160,1954,87,Alemania Occidental,6220,Max Morlock,47,NO,NO
+433,160,1954,87,Alemania Occidental,6311,Fritz Walter,54,SI,NO
+434,160,1954,87,Alemania Occidental,6312,Ottmar Walter,61,NO,NO
+435,160,1954,87,Alemania Occidental,6311,Fritz Walter,64,SI,NO
+436,160,1954,87,Alemania Occidental,6312,Ottmar Walter,89,NO,NO
 437,160,1954,8,Austria,4628,Erich Probst,51,NO,NO
 438,160,1954,42,Hungría,7513,Zoltan Czibor,13,NO,NO
 439,160,1954,42,Hungría,7538,Nandor Hidegkuti,46,NO,NO
@@ -448,36 +448,36 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 447,160,1954,8,Austria,4615,Ernst Ocwirk,89,NO,NO
 448,160,1954,42,Hungría,7587,Ferenc Puskas,6,NO,NO
 449,160,1954,42,Hungría,7513,Zoltan Czibor,8,NO,NO
-450,160,1954,,Alemania Occidental,6220,Max Morlock,10,NO,NO
-451,160,1954,,Alemania Occidental,6251,Helmut Rahn,18,NO,NO
-452,160,1954,,Alemania Occidental,6251,Helmut Rahn,84,NO,NO
+450,160,1954,87,Alemania Occidental,6220,Max Morlock,10,NO,NO
+451,160,1954,87,Alemania Occidental,6251,Helmut Rahn,18,NO,NO
+452,160,1954,87,Alemania Occidental,6251,Helmut Rahn,84,NO,NO
 453,161,1958,6,Argentina,5223,Omar Oreste Corbatta,2,NO,NO
-454,161,1958,,Alemania Occidental,6251,Helmut Rahn,32,NO,NO
-455,161,1958,,Alemania Occidental,6281,Uwe Seeler,40,NO,NO
-456,161,1958,,Alemania Occidental,6251,Helmut Rahn,79,NO,NO
+454,161,1958,87,Alemania Occidental,6251,Helmut Rahn,32,NO,NO
+455,161,1958,87,Alemania Occidental,6281,Uwe Seeler,40,NO,NO
+456,161,1958,87,Alemania Occidental,6251,Helmut Rahn,79,NO,NO
 457,162,1958,47,Irlanda del Norte,2239,Wilbur Cush,20,NO,NO
-458,163,1958,,Alemania Occidental,6269,Hans Schaefer,59,NO,NO
-459,163,1958,,Alemania Occidental,6251,Helmut Rahn,70,NO,NO
-460,163,1958,,Checoslovaquia,460,Milan Dvorak,24,SI,NO
-461,163,1958,,Checoslovaquia,599,Zdenek Zikan,43,NO,NO
+458,163,1958,87,Alemania Occidental,6269,Hans Schaefer,59,NO,NO
+459,163,1958,87,Alemania Occidental,6251,Helmut Rahn,70,NO,NO
+460,163,1958,86,Checoslovaquia,460,Milan Dvorak,24,SI,NO
+461,163,1958,86,Checoslovaquia,599,Zdenek Zikan,43,NO,NO
 462,164,1958,6,Argentina,5223,Omar Oreste Corbatta,38,SI,NO
 463,164,1958,6,Argentina,5316,Norberto Menendez,55,NO,NO
 464,164,1958,6,Argentina,5168,Ludovico Avio,59,NO,NO
 465,164,1958,47,Irlanda del Norte,2261,Peter Mcparland,3,NO,NO
-466,165,1958,,Alemania Occidental,6251,Helmut Rahn,20,NO,NO
-467,165,1958,,Alemania Occidental,6281,Uwe Seeler,79,NO,NO
+466,165,1958,87,Alemania Occidental,6251,Helmut Rahn,20,NO,NO
+467,165,1958,87,Alemania Occidental,6281,Uwe Seeler,79,NO,NO
 468,165,1958,47,Irlanda del Norte,2261,Peter Mcparland,19,NO,NO
 469,165,1958,47,Irlanda del Norte,2261,Peter Mcparland,60,NO,NO
-470,166,1958,,Checoslovaquia,460,Milan Dvorak,8,NO,NO
-471,166,1958,,Checoslovaquia,599,Zdenek Zikan,17,NO,NO
-472,166,1958,,Checoslovaquia,478,Vaclav Hovorka,40,NO,NO
-473,166,1958,,Checoslovaquia,461,Jiri Feureisl,69,NO,NO
-474,166,1958,,Checoslovaquia,599,Zdenek Zikan,82,NO,NO
-475,166,1958,,Checoslovaquia,478,Vaclav Hovorka,89,NO,NO
+470,166,1958,86,Checoslovaquia,460,Milan Dvorak,8,NO,NO
+471,166,1958,86,Checoslovaquia,599,Zdenek Zikan,17,NO,NO
+472,166,1958,86,Checoslovaquia,478,Vaclav Hovorka,40,NO,NO
+473,166,1958,86,Checoslovaquia,461,Jiri Feureisl,69,NO,NO
+474,166,1958,86,Checoslovaquia,599,Zdenek Zikan,82,NO,NO
+475,166,1958,86,Checoslovaquia,478,Vaclav Hovorka,89,NO,NO
 476,166,1958,6,Argentina,5223,Omar Oreste Corbatta,65,SI,NO
 477,167,1958,47,Irlanda del Norte,2261,Peter Mcparland,44,NO,NO
 478,167,1958,47,Irlanda del Norte,2261,Peter Mcparland,99,NO,NO
-479,167,1958,,Checoslovaquia,599,Zdenek Zikan,19,NO,NO
+479,167,1958,86,Checoslovaquia,599,Zdenek Zikan,19,NO,NO
 480,168,1958,36,Francia,3915,Just Fontaine,24,NO,NO
 481,168,1958,36,Francia,3915,Just Fontaine,30,NO,NO
 482,168,1958,36,Francia,4007,Roger Piantoni,52,NO,NO
@@ -488,16 +488,16 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 487,168,1958,62,Paraguay,4306,Florencio Amarilla,20,NO,NO
 488,168,1958,62,Paraguay,4306,Florencio Amarilla,44,SI,NO
 489,168,1958,62,Paraguay,4415,Jorge Romero,50,NO,NO
-490,169,1958,,Yugoslavia,3694,Aleksandar Petakovic,6,NO,NO
+490,169,1958,85,Yugoslavia,3694,Aleksandar Petakovic,6,NO,NO
 491,169,1958,31,Escocia,2392,Jimmy Murray,49,NO,NO
 492,170,1958,62,Paraguay,4297,Juan Aguero,4,NO,NO
 493,170,1958,62,Paraguay,4408,Cayetano Re,45,NO,NO
 494,170,1958,62,Paraguay,4405,Jose Parodi,73,NO,NO
 495,170,1958,31,Escocia,2391,Jackie Mudie,24,NO,NO
 496,170,1958,31,Escocia,2304,Bobby Collins,76,NO,NO
-497,171,1958,,Yugoslavia,3694,Aleksandar Petakovic,16,NO,NO
-498,171,1958,,Yugoslavia,3756,Toza Veselinovic,63,NO,NO
-499,171,1958,,Yugoslavia,3756,Toza Veselinovic,88,NO,NO
+497,171,1958,85,Yugoslavia,3694,Aleksandar Petakovic,16,NO,NO
+498,171,1958,85,Yugoslavia,3756,Toza Veselinovic,63,NO,NO
+499,171,1958,85,Yugoslavia,3756,Toza Veselinovic,88,NO,NO
 500,171,1958,36,Francia,3915,Just Fontaine,4,NO,NO
 501,171,1958,36,Francia,3915,Just Fontaine,85,NO,NO
 502,172,1958,36,Francia,3954,Raymond Kopa,22,NO,NO
@@ -506,9 +506,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 505,173,1958,62,Paraguay,4405,Jose Parodi,20,NO,NO
 506,173,1958,62,Paraguay,4297,Juan Aguero,49,NO,NO
 507,173,1958,62,Paraguay,4415,Jorge Romero,80,NO,NO
-508,173,1958,,Yugoslavia,3680,Radivoje Ognjanovic,12,NO,NO
-509,173,1958,,Yugoslavia,3756,Toza Veselinovic,29,NO,NO
-510,173,1958,,Yugoslavia,3712,Zdravko Rajkov,73,NO,NO
+508,173,1958,85,Yugoslavia,3680,Radivoje Ognjanovic,12,NO,NO
+509,173,1958,85,Yugoslavia,3756,Toza Veselinovic,29,NO,NO
+510,173,1958,85,Yugoslavia,3712,Zdravko Rajkov,73,NO,NO
 511,174,1958,42,Hungría,7503,Jozsef Bozsik,5,NO,NO
 512,174,1958,37,Gales,2535,John Charles,27,NO,NO
 513,175,1958,73,Suecia,3508,Agne Simonsson,17,NO,NO
@@ -529,20 +529,20 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 528,181,1958,11,Brasil,5519,Jose Altafini,38,NO,NO
 529,181,1958,11,Brasil,1739,Nilton Santos,49,NO,NO
 530,181,1958,11,Brasil,5519,Jose Altafini,89,NO,NO
-531,182,1958,,URSS,401,Nikita Simonyan,13,NO,NO
-532,182,1958,,URSS,309,Aleksandr Ivanov,55,NO,NO
+531,182,1958,88,URSS,401,Nikita Simonyan,13,NO,NO
+532,182,1958,88,URSS,309,Aleksandr Ivanov,55,NO,NO
 533,182,1958,44,Inglaterra,1315,Derek Kevan,66,NO,NO
 534,182,1958,44,Inglaterra,1271,Tom Finney,85,SI,NO
-535,184,1958,,URSS,307,Anatoli Ilyin,15,NO,NO
-536,184,1958,,URSS,310,Valentin Ivanov,63,NO,NO
+535,184,1958,88,URSS,307,Anatoli Ilyin,15,NO,NO
+536,184,1958,88,URSS,310,Valentin Ivanov,63,NO,NO
 537,185,1958,11,Brasil,1820,Vava,3,NO,NO
 538,185,1958,11,Brasil,1820,Vava,77,NO,NO
 539,186,1958,44,Inglaterra,1290,John Haynes,56,NO,NO
 540,186,1958,44,Inglaterra,1315,Derek Kevan,73,NO,NO
 541,186,1958,8,Austria,4596,Karl Koller,16,NO,NO
 542,186,1958,8,Austria,4593,Alfred Koerner,70,NO,NO
-543,187,1958,,URSS,307,Anatoli Ilyin,68,NO,NO
-544,223,1958,,Alemania Occidental,6251,Helmut Rahn,12,NO,NO
+543,187,1958,88,URSS,307,Anatoli Ilyin,68,NO,NO
+544,223,1958,87,Alemania Occidental,6251,Helmut Rahn,12,NO,NO
 545,223,1958,11,Brasil,1759,Pelé,66,NO,NO
 546,223,1958,36,Francia,4072,Maryan Wisnieski,22,NO,NO
 547,223,1958,36,Francia,3915,Just Fontaine,55,NO,NO
@@ -550,7 +550,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 549,223,1958,36,Francia,4007,Roger Piantoni,68,NO,NO
 550,223,1958,73,Suecia,3402,Kurt Hamrin,49,NO,NO
 551,223,1958,73,Suecia,3508,Agne Simonsson,88,NO,NO
-552,223,1958,,Alemania Occidental,6269,Hans Schaefer,24,NO,NO
+552,223,1958,87,Alemania Occidental,6269,Hans Schaefer,24,NO,NO
 553,223,1958,73,Suecia,3511,Lennart Skoglund,32,NO,NO
 554,223,1958,73,Suecia,3394,Gunnar Gren,81,NO,NO
 555,223,1958,73,Suecia,3402,Kurt Hamrin,88,NO,NO
@@ -561,9 +561,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 560,223,1958,11,Brasil,1759,Pelé,52,NO,NO
 561,223,1958,11,Brasil,1759,Pelé,64,NO,NO
 562,223,1958,11,Brasil,1759,Pelé,75,NO,NO
-563,223,1958,,Alemania Occidental,6076,Hans Ciesclarczyk,18,NO,NO
-564,223,1958,,Alemania Occidental,6251,Helmut Rahn,52,NO,NO
-565,223,1958,,Alemania Occidental,6269,Hans Schaefer,84,NO,NO
+563,223,1958,87,Alemania Occidental,6076,Hans Ciesclarczyk,18,NO,NO
+564,223,1958,87,Alemania Occidental,6251,Helmut Rahn,52,NO,NO
+565,223,1958,87,Alemania Occidental,6269,Hans Schaefer,84,NO,NO
 566,223,1958,36,Francia,3915,Just Fontaine,16,NO,NO
 567,223,1958,36,Francia,3954,Raymond Kopa,27,SI,NO
 568,223,1958,36,Francia,3915,Just Fontaine,36,NO,NO
@@ -580,45 +580,45 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 579,224,1962,80,Uruguay,5849,Luis Cubilla,56,NO,NO
 580,224,1962,80,Uruguay,5994,Jose Sasia,75,NO,NO
 581,224,1962,19,Colombia,2734,Francisco Zuluaga,19,SI,NO
-582,225,1962,,URSS,310,Valentin Ivanov,51,NO,NO
-583,225,1962,,URSS,373,Viktor Ponedelnik,83,NO,NO
-584,226,1962,,Yugoslavia,3724,Josip Skoblar,25,SI,NO
-585,226,1962,,Yugoslavia,3579,Milan Galic,29,NO,NO
-586,226,1962,,Yugoslavia,3601,Drazen Jerkovic,49,NO,NO
+582,225,1962,88,URSS,310,Valentin Ivanov,51,NO,NO
+583,225,1962,88,URSS,373,Viktor Ponedelnik,83,NO,NO
+584,226,1962,85,Yugoslavia,3724,Josip Skoblar,25,SI,NO
+585,226,1962,85,Yugoslavia,3579,Milan Galic,29,NO,NO
+586,226,1962,85,Yugoslavia,3601,Drazen Jerkovic,49,NO,NO
 587,226,1962,80,Uruguay,5825,Angel Cabrera,19,NO,NO
-588,227,1962,,URSS,310,Valentin Ivanov,8,NO,NO
-589,227,1962,,URSS,275,Igor Chislenko,10,NO,NO
-590,227,1962,,URSS,310,Valentin Ivanov,11,NO,NO
-591,227,1962,,URSS,373,Viktor Ponedelnik,56,NO,NO
+588,227,1962,88,URSS,310,Valentin Ivanov,8,NO,NO
+589,227,1962,88,URSS,275,Igor Chislenko,10,NO,NO
+590,227,1962,88,URSS,310,Valentin Ivanov,11,NO,NO
+591,227,1962,88,URSS,373,Viktor Ponedelnik,56,NO,NO
 592,227,1962,19,Colombia,2632,German Aceros,21,NO,NO
 593,227,1962,19,Colombia,2653,Marcos Coll,68,NO,NO
 594,227,1962,19,Colombia,2710,Antonio Rada,72,NO,NO
 595,227,1962,19,Colombia,2684,Marino Klinger,76,NO,NO
-596,228,1962,,URSS,351,Aleksei Mamykin,38,NO,NO
-597,228,1962,,URSS,310,Valentin Ivanov,89,NO,NO
+596,228,1962,88,URSS,351,Aleksei Mamykin,38,NO,NO
+597,228,1962,88,URSS,310,Valentin Ivanov,89,NO,NO
 598,228,1962,80,Uruguay,5994,Jose Sasia,54,NO,NO
-599,229,1962,,Yugoslavia,3579,Milan Galic,20,NO,NO
-600,229,1962,,Yugoslavia,3601,Drazen Jerkovic,25,NO,NO
-601,229,1962,,Yugoslavia,3579,Milan Galic,61,NO,NO
-602,229,1962,,Yugoslavia,3649,Vojislav Melic,82,NO,NO
-603,229,1962,,Yugoslavia,3601,Drazen Jerkovic,87,NO,NO
+599,229,1962,85,Yugoslavia,3579,Milan Galic,20,NO,NO
+600,229,1962,85,Yugoslavia,3601,Drazen Jerkovic,25,NO,NO
+601,229,1962,85,Yugoslavia,3579,Milan Galic,61,NO,NO
+602,229,1962,85,Yugoslavia,3649,Vojislav Melic,82,NO,NO
+603,229,1962,85,Yugoslavia,3601,Drazen Jerkovic,87,NO,NO
 604,230,1962,17,Chile,758,Leonel Sanchez,44,NO,NO
 605,230,1962,17,Chile,735,Jaime Ramirez,51,NO,NO
 606,230,1962,17,Chile,758,Leonel Sanchez,55,NO,NO
 607,230,1962,74,Suiza,8226,Rolf Wuethrich,6,NO,NO
 608,232,1962,17,Chile,735,Jaime Ramirez,73,NO,NO
 609,232,1962,17,Chile,771,Jorge Toro,87,NO,NO
-610,233,1962,,Alemania Occidental,6069,Albert Bruells,45,NO,NO
-611,233,1962,,Alemania Occidental,6281,Uwe Seeler,59,NO,NO
+610,233,1962,87,Alemania Occidental,6069,Albert Bruells,45,NO,NO
+611,233,1962,87,Alemania Occidental,6281,Uwe Seeler,59,NO,NO
 612,233,1962,74,Suiza,8184,Heinz Schneiter,73,NO,NO
-613,234,1962,,Alemania Occidental,6297,Horst Szymaniak,21,SI,NO
-614,234,1962,,Alemania Occidental,6281,Uwe Seeler,82,NO,NO
+613,234,1962,87,Alemania Occidental,6297,Horst Szymaniak,21,SI,NO
+614,234,1962,87,Alemania Occidental,6281,Uwe Seeler,82,NO,NO
 615,235,1962,51,Italia,5697,Bruno Mora,2,NO,NO
 616,235,1962,51,Italia,5561,Giacomo Bulgarelli,65,NO,NO
 617,235,1962,51,Italia,5561,Giacomo Bulgarelli,67,NO,NO
 618,236,1962,11,Brasil,1833,Zagallo,56,NO,NO
 619,236,1962,11,Brasil,1759,Pelé,73,NO,NO
-620,237,1962,,Checoslovaquia,582,Josef Stibranyi,80,NO,NO
+620,237,1962,86,Checoslovaquia,582,Josef Stibranyi,80,NO,NO
 621,239,1962,34,España,5019,Joaquin Peiro,90,NO,NO
 622,240,1962,11,Brasil,1535,Amarildo,72,NO,NO
 623,240,1962,11,Brasil,1535,Amarildo,86,NO,NO
@@ -626,7 +626,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 625,241,1962,56,México,7707,Isidoro Diaz,12,NO,NO
 626,241,1962,56,México,7704,Alfredo Del Aguila,29,NO,NO
 627,241,1962,56,México,7752,Hector Hernandez,90,SI,NO
-628,241,1962,,Checoslovaquia,526,Vaclav Masek,1,NO,NO
+628,241,1962,86,Checoslovaquia,526,Vaclav Masek,1,NO,NO
 629,242,1962,6,Argentina,5248,Hector Facundo,4,NO,NO
 630,243,1962,42,Hungría,7616,Lajos Tichy,17,NO,NO
 631,243,1962,42,Hungría,7490,Florian Albert,71,NO,NO
@@ -646,26 +646,26 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 645,280,1962,11,Brasil,1820,Vava,53,NO,NO
 646,280,1962,11,Brasil,1637,Garrincha,59,NO,NO
 647,280,1962,44,Inglaterra,1293,Gerry Hitchens,38,NO,NO
-648,280,1962,,Checoslovaquia,568,Adolf Scherer,13,NO,NO
+648,280,1962,86,Checoslovaquia,568,Adolf Scherer,13,NO,NO
 649,280,1962,17,Chile,758,Leonel Sanchez,11,NO,NO
 650,280,1962,17,Chile,748,Eladio Rojas,29,NO,NO
-651,280,1962,,URSS,275,Igor Chislenko,26,NO,NO
-652,280,1962,,Yugoslavia,3708,Petar Radakovic,85,NO,NO
+651,280,1962,88,URSS,275,Igor Chislenko,26,NO,NO
+652,280,1962,85,Yugoslavia,3708,Petar Radakovic,85,NO,NO
 653,280,1962,17,Chile,771,Jorge Toro,42,NO,NO
 654,280,1962,17,Chile,758,Leonel Sanchez,61,SI,NO
 655,280,1962,11,Brasil,1637,Garrincha,9,NO,NO
 656,280,1962,11,Brasil,1637,Garrincha,32,NO,NO
 657,280,1962,11,Brasil,1820,Vava,47,NO,NO
 658,280,1962,11,Brasil,1820,Vava,78,NO,NO
-659,280,1962,,Yugoslavia,3601,Drazen Jerkovic,69,NO,NO
-660,280,1962,,Checoslovaquia,495,Josef Kadraba,48,NO,NO
-661,280,1962,,Checoslovaquia,568,Adolf Scherer,80,NO,NO
-662,280,1962,,Checoslovaquia,568,Adolf Scherer,84,SI,NO
+659,280,1962,85,Yugoslavia,3601,Drazen Jerkovic,69,NO,NO
+660,280,1962,86,Checoslovaquia,495,Josef Kadraba,48,NO,NO
+661,280,1962,86,Checoslovaquia,568,Adolf Scherer,80,NO,NO
+662,280,1962,86,Checoslovaquia,568,Adolf Scherer,84,SI,NO
 663,280,1962,17,Chile,748,Eladio Rojas,90,NO,NO
 664,280,1962,11,Brasil,1535,Amarildo,17,NO,NO
 665,280,1962,11,Brasil,1845,Zito,69,NO,NO
 666,280,1962,11,Brasil,1820,Vava,78,NO,NO
-667,280,1962,,Checoslovaquia,528,Josef Masopust,15,NO,NO
+667,280,1962,86,Checoslovaquia,528,Josef Masopust,15,NO,NO
 668,282,1966,36,Francia,3935,Gerard Hausser,62,NO,NO
 669,282,1966,56,México,7664,Enrique Borja,48,NO,NO
 670,283,1966,80,Uruguay,5976,Pedro Rocha,26,NO,NO
@@ -675,11 +675,11 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 674,284,1966,44,Inglaterra,1302,Roger Hunt,75,NO,NO
 675,286,1966,44,Inglaterra,1302,Roger Hunt,38,NO,NO
 676,286,1966,44,Inglaterra,1302,Roger Hunt,75,NO,NO
-677,287,1966,,Alemania Occidental,6128,Sigi Held,15,NO,NO
-678,287,1966,,Alemania Occidental,6119,Helmut Haller,20,NO,NO
-679,287,1966,,Alemania Occidental,6051,Franz Beckenbauer,39,NO,NO
-680,287,1966,,Alemania Occidental,6051,Franz Beckenbauer,52,NO,NO
-681,287,1966,,Alemania Occidental,6119,Helmut Haller,77,SI,NO
+677,287,1966,87,Alemania Occidental,6128,Sigi Held,15,NO,NO
+678,287,1966,87,Alemania Occidental,6119,Helmut Haller,20,NO,NO
+679,287,1966,87,Alemania Occidental,6051,Franz Beckenbauer,39,NO,NO
+680,287,1966,87,Alemania Occidental,6051,Franz Beckenbauer,52,NO,NO
+681,287,1966,87,Alemania Occidental,6119,Helmut Haller,77,SI,NO
 682,288,1966,6,Argentina,5165,Luis Artime,65,NO,NO
 683,288,1966,6,Argentina,5165,Luis Artime,79,NO,NO
 684,288,1966,34,España,5023,Pirri,71,NO,NO
@@ -688,8 +688,8 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 687,289,1966,74,Suiza,8170,Rene Quentin,28,NO,NO
 688,291,1966,6,Argentina,5165,Luis Artime,53,NO,NO
 689,291,1966,6,Argentina,5334,Ermindo Onega,81,NO,NO
-690,292,1966,,Alemania Occidental,6088,Lothar Emmerich,38,NO,NO
-691,292,1966,,Alemania Occidental,6281,Uwe Seeler,84,NO,NO
+690,292,1966,87,Alemania Occidental,6088,Lothar Emmerich,38,NO,NO
+691,292,1966,87,Alemania Occidental,6281,Uwe Seeler,84,NO,NO
 692,292,1966,34,España,4923,Jose Maria Fuste,22,NO,NO
 693,293,1966,11,Brasil,1759,Pelé,15,NO,NO
 694,293,1966,11,Brasil,1637,Garrincha,63,NO,NO
@@ -712,22 +712,22 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 711,298,1966,42,Hungría,7571,Kalman Meszoly,45,NO,NO
 712,298,1966,42,Hungría,7496,Ferenc Bene,54,NO,NO
 713,298,1966,12,Bulgaria,2915,Georgi Asparukhov,15,NO,NO
-714,299,1966,,URSS,350,Eduard Malofeyev,31,NO,NO
-715,299,1966,,URSS,255,Anatoli Banishevski,33,NO,NO
-716,299,1966,,URSS,350,Eduard Malofeyev,88,NO,NO
+714,299,1966,88,URSS,350,Eduard Malofeyev,31,NO,NO
+715,299,1966,88,URSS,255,Anatoli Banishevski,33,NO,NO
+716,299,1966,88,URSS,350,Eduard Malofeyev,88,NO,NO
 717,300,1966,51,Italia,5688,Sandro Mazzola,8,NO,NO
 718,300,1966,51,Italia,5538,Paolo Barison,88,NO,NO
 719,301,1966,20,Corea del Norte,8000,Seung Zin Pak,88,NO,NO
 720,301,1966,17,Chile,700,Ruben Marcos,26,SI,NO
-721,302,1966,,URSS,275,Igor Chislenko,57,NO,NO
+721,302,1966,88,URSS,275,Igor Chislenko,57,NO,NO
 722,303,1966,20,Corea del Norte,7997,Doo Ik Pak,42,NO,NO
-723,304,1966,,URSS,376,Valeriy Porkuyan,28,NO,NO
-724,304,1966,,URSS,376,Valeriy Porkuyan,85,NO,NO
+723,304,1966,88,URSS,376,Valeriy Porkuyan,28,NO,NO
+724,304,1966,88,URSS,376,Valeriy Porkuyan,85,NO,NO
 725,304,1966,17,Chile,700,Ruben Marcos,32,NO,NO
-726,337,1966,,Alemania Occidental,6119,Helmut Haller,11,NO,NO
-727,337,1966,,Alemania Occidental,6051,Franz Beckenbauer,70,NO,NO
-728,337,1966,,Alemania Occidental,6281,Uwe Seeler,75,NO,NO
-729,337,1966,,Alemania Occidental,6119,Helmut Haller,83,NO,NO
+726,337,1966,87,Alemania Occidental,6119,Helmut Haller,11,NO,NO
+727,337,1966,87,Alemania Occidental,6051,Franz Beckenbauer,70,NO,NO
+728,337,1966,87,Alemania Occidental,6281,Uwe Seeler,75,NO,NO
+729,337,1966,87,Alemania Occidental,6119,Helmut Haller,83,NO,NO
 730,337,1966,44,Inglaterra,1304,Geoff Hurst,78,NO,NO
 731,337,1966,65,Portugal,3228,Eusebio,27,NO,NO
 732,337,1966,65,Portugal,3228,Eusebio,43,SI,NO
@@ -737,38 +737,38 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 736,337,1966,20,Corea del Norte,8000,Seung Zin Pak,1,NO,NO
 737,337,1966,20,Corea del Norte,7991,Dong Woon Li,22,NO,NO
 738,337,1966,20,Corea del Norte,8009,Seung Kook Yang,25,NO,NO
-739,337,1966,,URSS,275,Igor Chislenko,5,NO,NO
-740,337,1966,,URSS,376,Valeriy Porkuyan,46,NO,NO
+739,337,1966,88,URSS,275,Igor Chislenko,5,NO,NO
+740,337,1966,88,URSS,376,Valeriy Porkuyan,46,NO,NO
 741,337,1966,42,Hungría,7496,Ferenc Bene,57,NO,NO
-742,337,1966,,Alemania Occidental,6119,Helmut Haller,43,NO,NO
-743,337,1966,,Alemania Occidental,6051,Franz Beckenbauer,67,NO,NO
-744,337,1966,,URSS,376,Valeriy Porkuyan,88,NO,NO
+742,337,1966,87,Alemania Occidental,6119,Helmut Haller,43,NO,NO
+743,337,1966,87,Alemania Occidental,6051,Franz Beckenbauer,67,NO,NO
+744,337,1966,88,URSS,376,Valeriy Porkuyan,88,NO,NO
 745,337,1966,44,Inglaterra,1239,Bobby Charlton,30,NO,NO
 746,337,1966,44,Inglaterra,1239,Bobby Charlton,80,NO,NO
 747,337,1966,65,Portugal,3228,Eusebio,82,SI,NO
 748,337,1966,65,Portugal,3228,Eusebio,12,SI,NO
 749,337,1966,65,Portugal,3322,Jose Torres,89,NO,NO
-750,337,1966,,URSS,350,Eduard Malofeyev,43,NO,NO
+750,337,1966,88,URSS,350,Eduard Malofeyev,43,NO,NO
 751,337,1966,44,Inglaterra,1304,Geoff Hurst,18,NO,NO
 752,337,1966,44,Inglaterra,1365,Martin Peters,78,NO,NO
 753,337,1966,44,Inglaterra,1304,Geoff Hurst,101,NO,NO
 754,337,1966,44,Inglaterra,1304,Geoff Hurst,120,NO,NO
-755,337,1966,,Alemania Occidental,6119,Helmut Haller,12,NO,NO
-756,337,1966,,Alemania Occidental,6313,Wolfgang Weber,89,NO,NO
+755,337,1966,87,Alemania Occidental,6119,Helmut Haller,12,NO,NO
+756,337,1966,87,Alemania Occidental,6313,Wolfgang Weber,89,NO,NO
 757,339,1970,13,Bélgica,6726,Wilfried Van Moer,12,NO,NO
 758,339,1970,13,Bélgica,6726,Wilfried Van Moer,54,NO,NO
 759,339,1970,13,Bélgica,6644,Raoul Lambert,79,SI,NO
-760,340,1970,,URSS,262,Anatoly Bishovets,14,NO,NO
-761,340,1970,,URSS,252,Kakhi Asatiani,57,NO,NO
-762,340,1970,,URSS,262,Anatoly Bishovets,63,NO,NO
-763,340,1970,,URSS,322,Vitali Khmelnitski,76,NO,NO
+760,340,1970,88,URSS,262,Anatoly Bishovets,14,NO,NO
+761,340,1970,88,URSS,252,Kakhi Asatiani,57,NO,NO
+762,340,1970,88,URSS,262,Anatoly Bishovets,63,NO,NO
+763,340,1970,88,URSS,322,Vitali Khmelnitski,76,NO,NO
 764,340,1970,13,Bélgica,6644,Raoul Lambert,86,NO,NO
 765,341,1970,56,México,7883,Javier Valdivia,45,NO,NO
 766,341,1970,56,México,7883,Javier Valdivia,46,NO,NO
 767,341,1970,56,México,7721,Javier Fragoso,58,NO,NO
 768,341,1970,56,México,7655,Juan Ignacio Basaguren,83,NO,NO
-769,342,1970,,URSS,262,Anatoly Bishovets,51,NO,NO
-770,342,1970,,URSS,262,Anatoly Bishovets,74,NO,NO
+769,342,1970,88,URSS,262,Anatoly Bishovets,51,NO,NO
+770,342,1970,88,URSS,262,Anatoly Bishovets,74,NO,NO
 771,343,1970,56,México,7819,Gustavo Pena,14,SI,NO
 772,344,1970,80,Uruguay,5913,Ildo Maneiro,23,NO,NO
 773,344,1970,80,Uruguay,5935,Juan Mujica,50,NO,NO
@@ -781,10 +781,10 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 780,351,1970,11,Brasil,1759,Pelé,59,NO,NO
 781,351,1970,11,Brasil,1663,Jairzinho,61,NO,NO
 782,351,1970,11,Brasil,1663,Jairzinho,83,NO,NO
-783,351,1970,,Checoslovaquia,548,Ladislav Petras,11,NO,NO
+783,351,1970,86,Checoslovaquia,548,Ladislav Petras,11,NO,NO
 784,352,1970,68,Rumania,1916,Alexandru Neagu,52,NO,NO
 785,352,1970,68,Rumania,1882,Florea Dumitrache,75,SI,NO
-786,352,1970,,Checoslovaquia,548,Ladislav Petras,5,NO,NO
+786,352,1970,86,Checoslovaquia,548,Ladislav Petras,5,NO,NO
 787,353,1970,11,Brasil,1663,Jairzinho,59,NO,NO
 788,354,1970,11,Brasil,1759,Pelé,19,NO,NO
 789,354,1970,11,Brasil,1663,Jairzinho,22,NO,NO
@@ -797,28 +797,28 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 796,356,1970,63,Perú,2147,Teofilo Cubillas,73,NO,NO
 797,356,1970,12,Bulgaria,2923,Dinko Dermendzhiev,13,NO,NO
 798,356,1970,12,Bulgaria,2918,Hristo Bonev,49,NO,NO
-799,357,1970,,Alemania Occidental,6281,Uwe Seeler,56,NO,NO
-800,357,1970,,Alemania Occidental,6223,Gerd Mueller,80,NO,NO
+799,357,1970,87,Alemania Occidental,6281,Uwe Seeler,56,NO,NO
+800,357,1970,87,Alemania Occidental,6223,Gerd Mueller,80,NO,NO
 801,357,1970,55,Marruecos,8371,Houmane Jarir,21,NO,NO
 802,358,1970,63,Perú,2147,Teofilo Cubillas,65,NO,NO
 803,358,1970,63,Perú,2141,Roberto Challe,67,NO,NO
 804,358,1970,63,Perú,2147,Teofilo Cubillas,75,NO,NO
-805,359,1970,,Alemania Occidental,6199,Stan Libuda,20,NO,NO
-806,359,1970,,Alemania Occidental,6223,Gerd Mueller,27,NO,NO
-807,359,1970,,Alemania Occidental,6223,Gerd Mueller,52,SI,NO
-808,359,1970,,Alemania Occidental,6281,Uwe Seeler,70,NO,NO
-809,359,1970,,Alemania Occidental,6223,Gerd Mueller,88,NO,NO
+805,359,1970,87,Alemania Occidental,6199,Stan Libuda,20,NO,NO
+806,359,1970,87,Alemania Occidental,6223,Gerd Mueller,27,NO,NO
+807,359,1970,87,Alemania Occidental,6223,Gerd Mueller,52,SI,NO
+808,359,1970,87,Alemania Occidental,6281,Uwe Seeler,70,NO,NO
+809,359,1970,87,Alemania Occidental,6223,Gerd Mueller,88,NO,NO
 810,359,1970,12,Bulgaria,2981,Asparukh Nikodimov,12,NO,NO
 811,359,1970,12,Bulgaria,2959,Todor Kolev,89,NO,NO
-812,360,1970,,Alemania Occidental,6223,Gerd Mueller,19,NO,NO
-813,360,1970,,Alemania Occidental,6223,Gerd Mueller,26,NO,NO
-814,360,1970,,Alemania Occidental,6223,Gerd Mueller,39,NO,NO
+812,360,1970,87,Alemania Occidental,6223,Gerd Mueller,19,NO,NO
+813,360,1970,87,Alemania Occidental,6223,Gerd Mueller,26,NO,NO
+814,360,1970,87,Alemania Occidental,6223,Gerd Mueller,39,NO,NO
 815,360,1970,63,Perú,2147,Teofilo Cubillas,44,NO,NO
 816,361,1970,12,Bulgaria,3024,Dobromir Zhechev,40,NO,NO
 817,361,1970,55,Marruecos,8362,Mahjoub Ghazouani,61,NO,NO
-818,394,1970,,Alemania Occidental,6051,Franz Beckenbauer,68,NO,NO
-819,394,1970,,Alemania Occidental,6281,Uwe Seeler,76,NO,NO
-820,394,1970,,Alemania Occidental,6223,Gerd Mueller,108,NO,NO
+818,394,1970,87,Alemania Occidental,6051,Franz Beckenbauer,68,NO,NO
+819,394,1970,87,Alemania Occidental,6281,Uwe Seeler,76,NO,NO
+820,394,1970,87,Alemania Occidental,6223,Gerd Mueller,108,NO,NO
 821,394,1970,44,Inglaterra,1351,Alan Mullery,31,NO,NO
 822,394,1970,44,Inglaterra,1365,Martin Peters,49,NO,NO
 823,394,1970,11,Brasil,1782,Rivelino,11,NO,NO
@@ -837,44 +837,44 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 836,394,1970,51,Italia,5562,Tarcisio Burgnich,98,NO,NO
 837,394,1970,51,Italia,5746,Gigi Riva,104,NO,NO
 838,394,1970,51,Italia,5747,Gianni Rivera,111,NO,NO
-839,394,1970,,Alemania Occidental,6274,Karl-Heinz Schnellinger,90,NO,NO
-840,394,1970,,Alemania Occidental,6223,Gerd Mueller,94,NO,NO
-841,394,1970,,Alemania Occidental,6223,Gerd Mueller,110,NO,NO
+839,394,1970,87,Alemania Occidental,6274,Karl-Heinz Schnellinger,90,NO,NO
+840,394,1970,87,Alemania Occidental,6223,Gerd Mueller,94,NO,NO
+841,394,1970,87,Alemania Occidental,6223,Gerd Mueller,110,NO,NO
 842,394,1970,80,Uruguay,5849,Luis Cubilla,19,NO,NO
 843,394,1970,11,Brasil,1584,Clodoaldo,44,NO,NO
 844,394,1970,11,Brasil,1663,Jairzinho,76,NO,NO
 845,394,1970,11,Brasil,1782,Rivelino,89,NO,NO
-846,394,1970,,Alemania Occidental,6239,Wolfgang Overath,26,NO,NO
+846,394,1970,87,Alemania Occidental,6239,Wolfgang Overath,26,NO,NO
 847,394,1970,11,Brasil,1759,Pelé,18,NO,NO
 848,394,1970,11,Brasil,1640,Gerson,66,NO,NO
 849,394,1970,11,Brasil,1663,Jairzinho,71,NO,NO
 850,394,1970,11,Brasil,1571,Carlos Alberto,86,NO,NO
 851,394,1970,51,Italia,5553,Roberto Boninsegna,37,NO,NO
-852,395,1974,,Alemania Occidental,6067,Paul Breitner,18,NO,NO
+852,395,1974,87,Alemania Occidental,6067,Paul Breitner,18,NO,NO
 853,396,1974,2,Alemania Oriental,7301,Colin Curran,58,NO,SI
 854,396,1974,2,Alemania Oriental,2522,Joachim Streich,72,NO,NO
-855,397,1974,,Alemania Occidental,6239,Wolfgang Overath,12,NO,NO
-856,397,1974,,Alemania Occidental,6078,Bernd Cullmann,34,NO,NO
-857,397,1974,,Alemania Occidental,6223,Gerd Mueller,53,NO,NO
+855,397,1974,87,Alemania Occidental,6239,Wolfgang Overath,12,NO,NO
+856,397,1974,87,Alemania Occidental,6078,Bernd Cullmann,34,NO,NO
+857,397,1974,87,Alemania Occidental,6223,Gerd Mueller,53,NO,NO
 858,398,1974,17,Chile,626,Sergio Ahumada,69,NO,NO
 859,398,1974,2,Alemania Oriental,2511,Martin Hoffmann,55,NO,NO
 860,399,1974,2,Alemania Oriental,2521,Juergen Sparwasser,77,NO,NO
 861,402,1974,31,Escocia,2363,Peter Lorimer,26,NO,NO
 862,402,1974,31,Escocia,2356,Joe Jordan,34,NO,NO
-863,404,1974,,Yugoslavia,3540,Dusan Bajevic,8,NO,NO
-864,404,1974,,Yugoslavia,3575,Dragan Dzajic,14,NO,NO
-865,404,1974,,Yugoslavia,3744,Ivica Surjak,18,NO,NO
-866,404,1974,,Yugoslavia,3615,Josip Katalinski,22,NO,NO
-867,404,1974,,Yugoslavia,3540,Dusan Bajevic,30,NO,NO
-868,404,1974,,Yugoslavia,3547,Vladislav Bogicevic,35,NO,NO
-869,404,1974,,Yugoslavia,3677,Branko Oblak,61,NO,NO
-870,404,1974,,Yugoslavia,3696,Ilija Petkovic,65,NO,NO
-871,404,1974,,Yugoslavia,3540,Dusan Bajevic,81,NO,NO
+863,404,1974,85,Yugoslavia,3540,Dusan Bajevic,8,NO,NO
+864,404,1974,85,Yugoslavia,3575,Dragan Dzajic,14,NO,NO
+865,404,1974,85,Yugoslavia,3744,Ivica Surjak,18,NO,NO
+866,404,1974,85,Yugoslavia,3615,Josip Katalinski,22,NO,NO
+867,404,1974,85,Yugoslavia,3540,Dusan Bajevic,30,NO,NO
+868,404,1974,85,Yugoslavia,3547,Vladislav Bogicevic,35,NO,NO
+869,404,1974,85,Yugoslavia,3677,Branko Oblak,61,NO,NO
+870,404,1974,85,Yugoslavia,3696,Ilija Petkovic,65,NO,NO
+871,404,1974,85,Yugoslavia,3540,Dusan Bajevic,81,NO,NO
 872,405,1974,11,Brasil,1663,Jairzinho,12,NO,NO
 873,405,1974,11,Brasil,1782,Rivelino,66,NO,NO
 874,405,1974,11,Brasil,1818,Valdomiro,79,NO,NO
 875,406,1974,31,Escocia,2356,Joe Jordan,88,NO,NO
-876,406,1974,,Yugoslavia,3614,Stanislav Karasi,81,NO,NO
+876,406,1974,85,Yugoslavia,3614,Stanislav Karasi,81,NO,NO
 877,408,1974,60,Paises Bajos,6468,Johnny Rep,7,NO,NO
 878,408,1974,60,Paises Bajos,6468,Johnny Rep,86,NO,NO
 879,409,1974,12,Bulgaria,2918,Hristo Bonev,75,NO,NO
@@ -927,26 +927,26 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 926,423,1974,2,Alemania Oriental,2522,Joachim Streich,14,NO,NO
 927,424,1974,60,Paises Bajos,6452,Johan Neeskens,50,NO,NO
 928,424,1974,60,Paises Bajos,6378,Johan Cruyff,65,NO,NO
-929,425,1974,,Alemania Occidental,6067,Paul Breitner,39,NO,NO
-930,425,1974,,Alemania Occidental,6223,Gerd Mueller,82,NO,NO
+929,425,1974,87,Alemania Occidental,6067,Paul Breitner,39,NO,NO
+930,425,1974,87,Alemania Occidental,6223,Gerd Mueller,82,NO,NO
 931,426,1974,64,Polonia,3110,Grzegorz Lato,43,NO,NO
-932,427,1974,,Alemania Occidental,6239,Wolfgang Overath,51,NO,NO
-933,427,1974,,Alemania Occidental,6063,Rainer Bonhof,52,NO,NO
-934,427,1974,,Alemania Occidental,6112,Juergen Grabowski,76,NO,NO
-935,427,1974,,Alemania Occidental,6142,Uli Hoeness,89,SI,NO
+932,427,1974,87,Alemania Occidental,6239,Wolfgang Overath,51,NO,NO
+933,427,1974,87,Alemania Occidental,6063,Rainer Bonhof,52,NO,NO
+934,427,1974,87,Alemania Occidental,6112,Juergen Grabowski,76,NO,NO
+935,427,1974,87,Alemania Occidental,6142,Uli Hoeness,89,SI,NO
 936,427,1974,73,Suecia,3375,Ralf Edstrom,24,NO,NO
 937,427,1974,73,Suecia,3503,Roland Sandberg,53,NO,NO
 938,428,1974,64,Polonia,3048,Kazimierz Deyna,24,SI,NO
 939,428,1974,64,Polonia,3110,Grzegorz Lato,62,NO,NO
-940,428,1974,,Yugoslavia,3614,Stanislav Karasi,43,NO,NO
-941,429,1974,,Alemania Occidental,6223,Gerd Mueller,76,NO,NO
+940,428,1974,85,Yugoslavia,3614,Stanislav Karasi,43,NO,NO
+941,429,1974,87,Alemania Occidental,6223,Gerd Mueller,76,NO,NO
 942,430,1974,73,Suecia,3375,Ralf Edstrom,29,NO,NO
 943,430,1974,73,Suecia,3528,Conny Torstensson,85,NO,NO
-944,430,1974,,Yugoslavia,3744,Ivica Surjak,27,NO,NO
+944,430,1974,85,Yugoslavia,3744,Ivica Surjak,27,NO,NO
 945,469,1974,64,Polonia,3110,Grzegorz Lato,76,NO,NO
 946,469,1974,60,Paises Bajos,6452,Johan Neeskens,2,SI,NO
-947,469,1974,,Alemania Occidental,6067,Paul Breitner,25,SI,NO
-948,469,1974,,Alemania Occidental,6223,Gerd Mueller,43,NO,NO
+947,469,1974,87,Alemania Occidental,6067,Paul Breitner,25,SI,NO
+948,469,1974,87,Alemania Occidental,6223,Gerd Mueller,43,NO,NO
 949,470,1978,6,Argentina,5304,Leopoldo Luque,15,NO,NO
 950,470,1978,6,Argentina,5186,Daniel Bertoni,83,NO,NO
 951,470,1978,42,Hungría,7508,Karoly Csapo,10,NO,NO
@@ -969,12 +969,12 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 968,477,1978,78,Túnez,7197,Nejib Ghommidh,79,NO,NO
 969,477,1978,78,Túnez,7187,Mokhtar Douieb,87,NO,NO
 970,477,1978,56,México,7886,Arturo Vasquez,45,SI,NO
-971,478,1978,,Alemania Occidental,6222,Dieter Mueller,15,NO,NO
-972,478,1978,,Alemania Occidental,6224,Hansi Mueller,30,NO,NO
-973,478,1978,,Alemania Occidental,6265,Karl-Heinz Rummenigge,38,NO,NO
-974,478,1978,,Alemania Occidental,6094,Heinz Flohe,44,NO,NO
-975,478,1978,,Alemania Occidental,6265,Karl-Heinz Rummenigge,73,NO,NO
-976,478,1978,,Alemania Occidental,6094,Heinz Flohe,89,NO,NO
+971,478,1978,87,Alemania Occidental,6222,Dieter Mueller,15,NO,NO
+972,478,1978,87,Alemania Occidental,6224,Hansi Mueller,30,NO,NO
+973,478,1978,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,38,NO,NO
+974,478,1978,87,Alemania Occidental,6094,Heinz Flohe,44,NO,NO
+975,478,1978,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,73,NO,NO
+976,478,1978,87,Alemania Occidental,6094,Heinz Flohe,89,NO,NO
 977,479,1978,64,Polonia,3110,Grzegorz Lato,43,NO,NO
 978,481,1978,64,Polonia,3035,Zbigniew Boniek,43,NO,NO
 979,481,1978,64,Polonia,3048,Kazimierz Deyna,56,NO,NO
@@ -1013,16 +1013,16 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1012,495,1978,60,Paises Bajos,6468,Johnny Rep,53,NO,NO
 1013,495,1978,60,Paises Bajos,6500,Willy Van De Kerkhof,82,NO,NO
 1014,495,1978,8,Austria,4614,Erich Obermayer,79,NO,NO
-1015,496,1978,,Alemania Occidental,6035,Ruediger Abramczik,3,NO,NO
-1016,496,1978,,Alemania Occidental,6222,Dieter Mueller,70,NO,NO
+1015,496,1978,87,Alemania Occidental,6035,Ruediger Abramczik,3,NO,NO
+1016,496,1978,87,Alemania Occidental,6222,Dieter Mueller,70,NO,NO
 1017,496,1978,60,Paises Bajos,6410,Arie Haan,27,NO,NO
 1018,496,1978,60,Paises Bajos,6499,Rene Van De Kerkhof,84,NO,NO
 1019,497,1978,51,Italia,5752,Paolo Rossi,14,NO,NO
 1020,498,1978,8,Austria,6307,Berti Vogts,59,NO,SI
 1021,498,1978,8,Austria,4603,Hans Krankl,66,NO,NO
 1022,498,1978,8,Austria,4603,Hans Krankl,87,NO,NO
-1023,498,1978,,Alemania Occidental,6265,Karl-Heinz Rummenigge,19,NO,NO
-1024,498,1978,,Alemania Occidental,6140,Bernd Hoelzenbein,68,NO,NO
+1023,498,1978,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,19,NO,NO
+1024,498,1978,87,Alemania Occidental,6140,Bernd Hoelzenbein,68,NO,NO
 1025,499,1978,60,Paises Bajos,6373,Ernie Brandts,50,NO,NO
 1026,499,1978,60,Paises Bajos,6410,Arie Haan,75,NO,NO
 1027,499,1978,51,Italia,6373,Ernie Brandts,18,NO,SI
@@ -1052,9 +1052,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1051,545,1982,64,Polonia,3035,Zbigniew Boniek,4,NO,NO
 1052,545,1982,64,Polonia,3035,Zbigniew Boniek,26,NO,NO
 1053,545,1982,64,Polonia,3035,Zbigniew Boniek,53,NO,NO
-1054,546,1982,,URSS,368,Khoren Oganesian,48,NO,NO
-1055,549,1982,,Alemania Occidental,6202,Pierre Littbarski,50,NO,NO
-1056,549,1982,,Alemania Occidental,6093,Klaus Fischer,75,NO,NO
+1054,546,1982,88,URSS,368,Khoren Oganesian,48,NO,NO
+1055,549,1982,87,Alemania Occidental,6202,Pierre Littbarski,50,NO,NO
+1056,549,1982,87,Alemania Occidental,6093,Klaus Fischer,75,NO,NO
 1057,549,1982,34,España,5097,Jesus Zamora,82,NO,NO
 1058,551,1982,51,Italia,5772,Marco Tardelli,57,NO,NO
 1059,551,1982,51,Italia,5563,Antonio Cabrini,67,NO,NO
@@ -1088,14 +1088,14 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1087,561,1982,63,Perú,2175,Guillermo La Rosa,83,NO,NO
 1088,562,1982,51,Italia,5651,Francesco Graziani,60,NO,NO
 1089,562,1982,14,Camerún,930,Gregoire Mbida,61,NO,NO
-1090,563,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,67,NO,NO
+1090,563,1982,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,67,NO,NO
 1091,563,1982,5,Argelia,6875,Rabah Madjer,54,NO,NO
 1092,563,1982,5,Argelia,6835,Lakhdar Belloumi,68,NO,NO
 1093,564,1982,8,Austria,4638,Walter Schachner,22,NO,NO
-1094,565,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,9,NO,NO
-1095,565,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,57,NO,NO
-1096,565,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,66,NO,NO
-1097,565,1982,,Alemania Occidental,6256,Uwe Reinders,83,NO,NO
+1094,565,1982,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,9,NO,NO
+1095,565,1982,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,57,NO,NO
+1096,565,1982,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,66,NO,NO
+1097,565,1982,87,Alemania Occidental,6256,Uwe Reinders,83,NO,NO
 1098,565,1982,17,Chile,709,Gustavo Moscoso,90,NO,NO
 1099,566,1982,8,Austria,4638,Walter Schachner,55,NO,NO
 1100,566,1982,8,Austria,4603,Hans Krankl,67,NO,NO
@@ -1104,7 +1104,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1103,567,1982,5,Argelia,6839,Tedj Bensaoula,35,NO,NO
 1104,567,1982,17,Chile,717,Miguel Neira,59,SI,NO
 1105,567,1982,17,Chile,696,Juan Letelier,73,NO,NO
-1106,568,1982,,Alemania Occidental,6149,Horst Hrubesch,10,NO,NO
+1106,568,1982,87,Alemania Occidental,6149,Horst Hrubesch,10,NO,NO
 1107,569,1982,13,Bélgica,6731,Erwin Vandenbergh,62,NO,NO
 1108,570,1982,42,Hungría,7579,Tibor Nyilasi,4,NO,NO
 1109,570,1982,42,Hungría,7586,Gabor Poloskei,11,NO,NO
@@ -1131,7 +1131,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1130,575,1982,44,Inglaterra,1379,Bryan Robson,67,NO,NO
 1131,575,1982,44,Inglaterra,1332,Paul Mariner,83,NO,NO
 1132,575,1982,36,Francia,4043,Gerard Soler,24,NO,NO
-1133,576,1982,,Checoslovaquia,544,Antonin Panenka,21,SI,NO
+1133,576,1982,86,Checoslovaquia,544,Antonin Panenka,21,SI,NO
 1134,576,1982,54,Kuwait,7902,Faisal Al Dakhil,57,NO,NO
 1135,577,1982,44,Inglaterra,1279,Trevor Francis,62,NO,NO
 1136,577,1982,44,Inglaterra,434,Jozef Barmos,66,NO,SI
@@ -1141,20 +1141,20 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1140,578,1982,36,Francia,3852,Maxime Bossis,89,NO,NO
 1141,578,1982,54,Kuwait,7901,Abdulaziz Al Balushi,75,NO,NO
 1142,579,1982,36,Francia,4042,Didier Six,66,NO,NO
-1143,579,1982,,Checoslovaquia,544,Antonin Panenka,84,SI,NO
+1143,579,1982,86,Checoslovaquia,544,Antonin Panenka,84,SI,NO
 1144,580,1982,44,Inglaterra,1279,Trevor Francis,27,NO,NO
 1145,581,1982,34,España,4974,Lopez Ufarte,65,SI,NO
 1146,581,1982,41,Honduras,245,Hector Zelaya,7,NO,NO
 1147,583,1982,34,España,4957,Juanito,14,SI,NO
 1148,583,1982,34,España,5062,Enrique Saura,66,NO,NO
-1149,583,1982,,Yugoslavia,3583,Ivan Gudelj,10,NO,NO
+1149,583,1982,85,Yugoslavia,3583,Ivan Gudelj,10,NO,NO
 1150,584,1982,41,Honduras,219,Eduardo Laing,60,NO,NO
 1151,584,1982,47,Irlanda del Norte,2225,Gerry Armstrong,9,NO,NO
-1152,585,1982,,Yugoslavia,3700,Vladimir Petrovic,88,SI,NO
+1152,585,1982,85,Yugoslavia,3700,Vladimir Petrovic,88,SI,NO
 1153,586,1982,47,Irlanda del Norte,2225,Gerry Armstrong,47,NO,NO
 1154,587,1982,11,Brasil,1805,Socrates,75,NO,NO
 1155,587,1982,11,Brasil,3225,Eder,88,NO,NO
-1156,587,1982,,URSS,253,Andrei Bal,34,NO,NO
+1156,587,1982,88,URSS,253,Andrei Bal,34,NO,NO
 1157,588,1982,31,Escocia,2314,Kenny Dalglish,18,NO,NO
 1158,588,1982,31,Escocia,2413,John Wark,29,NO,NO
 1159,588,1982,31,Escocia,2413,John Wark,32,NO,NO
@@ -1167,20 +1167,20 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1166,589,1982,11,Brasil,3225,Eder,63,NO,NO
 1167,589,1982,11,Brasil,1623,Falcao,87,NO,NO
 1168,589,1982,31,Escocia,2393,David Narey,18,NO,NO
-1169,590,1982,,URSS,298,Yuri Gavrilov,24,NO,NO
-1170,590,1982,,URSS,263,Oleg Blokhin,48,NO,NO
-1171,590,1982,,URSS,254,Sergei Baltacha,68,NO,NO
-1172,591,1982,,URSS,276,Aleksandr Chivadze,59,NO,NO
-1173,591,1982,,URSS,397,Ramaz Shengelia,84,NO,NO
+1169,590,1982,88,URSS,298,Yuri Gavrilov,24,NO,NO
+1170,590,1982,88,URSS,263,Oleg Blokhin,48,NO,NO
+1171,590,1982,88,URSS,254,Sergei Baltacha,68,NO,NO
+1172,591,1982,88,URSS,276,Aleksandr Chivadze,59,NO,NO
+1173,591,1982,88,URSS,397,Ramaz Shengelia,84,NO,NO
 1174,591,1982,31,Escocia,2356,Joe Jordan,15,NO,NO
 1175,591,1982,31,Escocia,2406,Graeme Souness,86,NO,NO
 1176,592,1982,11,Brasil,1843,Zico,28,NO,NO
 1177,592,1982,11,Brasil,1843,Zico,31,NO,NO
 1178,592,1982,11,Brasil,1623,Falcao,64,NO,NO
 1179,592,1982,11,Brasil,1801,Serginho,70,NO,NO
-1180,645,1982,,Alemania Occidental,6202,Pierre Littbarski,17,NO,NO
-1181,645,1982,,Alemania Occidental,6265,Karl-Heinz Rummenigge,102,NO,NO
-1182,645,1982,,Alemania Occidental,6093,Klaus Fischer,108,NO,NO
+1180,645,1982,87,Alemania Occidental,6202,Pierre Littbarski,17,NO,NO
+1181,645,1982,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,102,NO,NO
+1182,645,1982,87,Alemania Occidental,6093,Klaus Fischer,108,NO,NO
 1183,645,1982,36,Francia,4012,Michel Platini,26,SI,NO
 1184,645,1982,36,Francia,4056,Marius Tresor,92,NO,NO
 1185,645,1982,36,Francia,3922,Alain Giresse,98,NO,NO
@@ -1194,7 +1194,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1193,645,1982,51,Italia,5752,Paolo Rossi,57,NO,NO
 1194,645,1982,51,Italia,5772,Marco Tardelli,69,NO,NO
 1195,645,1982,51,Italia,5520,Alessandro Altobelli,81,NO,NO
-1196,645,1982,,Alemania Occidental,6067,Paul Breitner,83,NO,NO
+1196,645,1982,87,Alemania Occidental,6067,Paul Breitner,83,NO,NO
 1197,646,1986,12,Bulgaria,2998,Nasko Sirakov,85,NO,NO
 1198,646,1986,51,Italia,5520,Alessandro Altobelli,43,NO,NO
 1199,647,1986,6,Argentina,5430,Jorge Valdano,6,NO,NO
@@ -1227,21 +1227,21 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1226,657,1986,13,Bélgica,6738,Frank Vercauteren,30,NO,NO
 1227,657,1986,13,Bélgica,6750,Daniel Veyt,59,NO,NO
 1228,658,1986,36,Francia,4002,Jean-Pierre Papin,79,NO,NO
-1229,659,1986,,URSS,418,Pavel Yakovenko,2,NO,NO
-1230,659,1986,,URSS,248,Sergei Aleinikov,4,NO,NO
-1231,659,1986,,URSS,257,Igor Belanov,24,SI,NO
-1232,659,1986,,URSS,419,Ivan Yaremchuk,66,NO,NO
-1233,659,1986,,URSS,7514,Laszlo Dajka,73,NO,SI
-1234,659,1986,,URSS,381,Sergei Rodionov,80,NO,NO
+1229,659,1986,88,URSS,418,Pavel Yakovenko,2,NO,NO
+1230,659,1986,88,URSS,248,Sergei Aleinikov,4,NO,NO
+1231,659,1986,88,URSS,257,Igor Belanov,24,SI,NO
+1232,659,1986,88,URSS,419,Ivan Yaremchuk,66,NO,NO
+1233,659,1986,88,URSS,7514,Laszlo Dajka,73,NO,SI
+1234,659,1986,88,URSS,381,Sergei Rodionov,80,NO,NO
 1235,660,1986,36,Francia,3912,Luis Fernandez,62,NO,NO
-1236,660,1986,,URSS,380,Vasili Rats,53,NO,NO
+1236,660,1986,88,URSS,380,Vasili Rats,53,NO,NO
 1237,661,1986,42,Hungría,7519,Marton Esterhazy,2,NO,NO
 1238,661,1986,42,Hungría,7515,Lajos Detari,75,NO,NO
 1239,662,1986,36,Francia,4045,Yannick Stopyra,29,NO,NO
 1240,662,1986,36,Francia,4053,Jean Tigana,62,NO,NO
 1241,662,1986,36,Francia,4025,Dominique Rocheteau,84,NO,NO
-1242,663,1986,,URSS,263,Oleg Blokhin,58,NO,NO
-1243,663,1986,,URSS,427,Aleksandr Zavarov,74,NO,NO
+1242,663,1986,88,URSS,263,Oleg Blokhin,58,NO,NO
+1243,663,1986,88,URSS,427,Aleksandr Zavarov,74,NO,NO
 1244,664,1986,11,Brasil,1805,Socrates,62,NO,NO
 1245,665,1986,5,Argelia,6901,Djamel Zidane,59,NO,NO
 1246,665,1986,47,Irlanda del Norte,2278,Norman Whiteside,6,NO,NO
@@ -1257,9 +1257,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1256,669,1986,11,Brasil,1569,Careca,87,NO,NO
 1257,670,1986,26,Dinamarca,4208,Preben Elkjaer Larsen,57,NO,NO
 1258,671,1986,80,Uruguay,5806,Antonio Alzamendi,4,NO,NO
-1259,671,1986,,Alemania Occidental,6039,Klaus Allofs,84,NO,NO
-1260,672,1986,,Alemania Occidental,6306,Rudi Voeller,22,NO,NO
-1261,672,1986,,Alemania Occidental,6039,Klaus Allofs,50,NO,NO
+1259,671,1986,87,Alemania Occidental,6039,Klaus Allofs,84,NO,NO
+1260,672,1986,87,Alemania Occidental,6306,Rudi Voeller,22,NO,NO
+1261,672,1986,87,Alemania Occidental,6039,Klaus Allofs,50,NO,NO
 1262,672,1986,31,Escocia,2408,Gordon Strachan,18,NO,NO
 1263,673,1986,26,Dinamarca,4208,Preben Elkjaer Larsen,11,NO,NO
 1264,673,1986,26,Dinamarca,4247,Soren Lerby,41,NO,NO
@@ -1279,9 +1279,9 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1278,681,1986,55,Marruecos,8375,Abdelrazzak Khairi,19,NO,NO
 1279,681,1986,55,Marruecos,8375,Abdelrazzak Khairi,27,NO,NO
 1280,681,1986,55,Marruecos,8377,Abdelkarim Krimau,62,NO,NO
-1281,734,1986,,URSS,257,Igor Belanov,27,NO,NO
-1282,734,1986,,URSS,257,Igor Belanov,70,NO,NO
-1283,734,1986,,URSS,257,Igor Belanov,111,SI,NO
+1281,734,1986,88,URSS,257,Igor Belanov,27,NO,NO
+1282,734,1986,88,URSS,257,Igor Belanov,70,NO,NO
+1283,734,1986,88,URSS,257,Igor Belanov,111,SI,NO
 1284,734,1986,13,Bélgica,6690,Enzo Scifo,56,NO,NO
 1285,734,1986,13,Bélgica,6571,Jan Ceulemans,77,NO,NO
 1286,734,1986,13,Bélgica,6605,Stephane Demol,102,NO,NO
@@ -1293,7 +1293,7 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1292,734,1986,11,Brasil,1610,Edinho,79,NO,NO
 1293,734,1986,11,Brasil,1569,Careca,83,SI,NO
 1294,734,1986,6,Argentina,5349,Pedro Pasculli,42,NO,NO
-1295,734,1986,,Alemania Occidental,6212,Lothar Matthaeus,87,NO,NO
+1295,734,1986,87,Alemania Occidental,6212,Lothar Matthaeus,87,NO,NO
 1296,734,1986,36,Francia,4012,Michel Platini,15,NO,NO
 1297,734,1986,36,Francia,4045,Yannick Stopyra,57,NO,NO
 1298,734,1986,44,Inglaterra,1325,Gary Lineker,31,NO,NO
@@ -1314,8 +1314,8 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1313,734,1986,34,España,5064,Juan Antonio Senor,85,NO,NO
 1314,734,1986,6,Argentina,5307,Diego Maradona,51,NO,NO
 1315,734,1986,6,Argentina,5307,Diego Maradona,63,NO,NO
-1316,734,1986,,Alemania Occidental,6066,Andreas Brehme,9,NO,NO
-1317,734,1986,,Alemania Occidental,6306,Rudi Voeller,89,NO,NO
+1316,734,1986,87,Alemania Occidental,6066,Andreas Brehme,9,NO,NO
+1317,734,1986,87,Alemania Occidental,6306,Rudi Voeller,89,NO,NO
 1318,734,1986,13,Bélgica,6571,Jan Ceulemans,11,NO,NO
 1319,734,1986,13,Bélgica,6575,Nico Claesen,73,NO,NO
 1320,734,1986,36,Francia,3913,Jean-Marc Ferreri,27,NO,NO
@@ -1325,17 +1325,17 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1324,734,1986,6,Argentina,5197,Jose Brown,23,NO,NO
 1325,734,1986,6,Argentina,5430,Jorge Valdano,55,NO,NO
 1326,734,1986,6,Argentina,5200,Jorge Burruchaga,83,NO,NO
-1327,734,1986,,Alemania Occidental,6265,Karl-Heinz Rummenigge,74,NO,NO
-1328,734,1986,,Alemania Occidental,6306,Rudi Voeller,80,NO,NO
+1327,734,1986,87,Alemania Occidental,6265,Karl-Heinz Rummenigge,74,NO,NO
+1328,734,1986,87,Alemania Occidental,6306,Rudi Voeller,80,NO,NO
 1329,735,1990,51,Italia,5758,Salvatore Schillaci,78,NO,NO
 1330,736,1990,35,Estados Unidos,2764,Paul Caligiuri,60,NO,NO
-1331,736,1990,,Checoslovaquia,576,Tomas Skuhravy,26,NO,NO
-1332,736,1990,,Checoslovaquia,440,Michal Bilek,40,SI,NO
-1333,736,1990,,Checoslovaquia,470,Ivan Hasek,50,NO,NO
-1334,736,1990,,Checoslovaquia,576,Tomas Skuhravy,78,NO,NO
-1335,736,1990,,Checoslovaquia,522,Milan Luhovy,90,NO,NO
+1331,736,1990,86,Checoslovaquia,576,Tomas Skuhravy,26,NO,NO
+1332,736,1990,86,Checoslovaquia,440,Michal Bilek,40,SI,NO
+1333,736,1990,86,Checoslovaquia,470,Ivan Hasek,50,NO,NO
+1334,736,1990,86,Checoslovaquia,576,Tomas Skuhravy,78,NO,NO
+1335,736,1990,86,Checoslovaquia,522,Milan Luhovy,90,NO,NO
 1336,737,1990,51,Italia,5646,Giuseppe Giannini,11,NO,NO
-1337,738,1990,,Checoslovaquia,440,Michal Bilek,31,SI,NO
+1337,738,1990,86,Checoslovaquia,440,Michal Bilek,31,SI,NO
 1338,739,1990,51,Italia,5758,Salvatore Schillaci,9,NO,NO
 1339,739,1990,51,Italia,5533,Roberto Baggio,78,NO,NO
 1340,740,1990,8,Austria,4616,Andeas Ogris,49,NO,NO
@@ -1351,10 +1351,10 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1350,744,1990,68,Rumania,1851,Gavril Balint,88,NO,NO
 1351,745,1990,6,Argentina,5325,Pedro Monzon,62,NO,NO
 1352,745,1990,68,Rumania,1851,Gavril Balint,68,NO,NO
-1353,746,1990,,URSS,377,Oleg Protasov,20,NO,NO
-1354,746,1990,,URSS,431,Andrei Zygmantovich,29,NO,NO
-1355,746,1990,,URSS,427,Aleksandr Zavarov,52,NO,NO
-1356,746,1990,,URSS,285,Igor Dobrovolskyi,63,NO,NO
+1353,746,1990,88,URSS,377,Oleg Protasov,20,NO,NO
+1354,746,1990,88,URSS,431,Andrei Zygmantovich,29,NO,NO
+1355,746,1990,88,URSS,427,Aleksandr Zavarov,52,NO,NO
+1356,746,1990,88,URSS,285,Igor Dobrovolskyi,63,NO,NO
 1357,747,1990,11,Brasil,1569,Careca,40,NO,NO
 1358,747,1990,11,Brasil,1569,Careca,63,NO,NO
 1359,747,1990,73,Suecia,3366,Tomas Brolin,79,NO,NO
@@ -1369,24 +1369,24 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1368,752,1990,22,Costa Rica,2023,Hernan Medford,87,NO,NO
 1369,753,1990,19,Colombia,2712,Bernardo Redin,50,NO,NO
 1370,753,1990,19,Colombia,2725,Carlos Valderrama,85,NO,NO
-1371,754,1990,,Alemania Occidental,6212,Lothar Matthaeus,28,NO,NO
-1372,754,1990,,Alemania Occidental,6174,Juergen Klinsmann,39,NO,NO
-1373,754,1990,,Alemania Occidental,6212,Lothar Matthaeus,64,NO,NO
-1374,754,1990,,Alemania Occidental,6306,Rudi Voeller,70,NO,NO
-1375,754,1990,,Yugoslavia,3610,Davor Jozic,55,NO,NO
-1376,755,1990,,Yugoslavia,3610,Davor Jozic,75,NO,NO
-1377,756,1990,,Alemania Occidental,6306,Rudi Voeller,35,NO,NO
-1378,756,1990,,Alemania Occidental,6174,Juergen Klinsmann,37,NO,NO
-1379,756,1990,,Alemania Occidental,6212,Lothar Matthaeus,47,NO,NO
-1380,756,1990,,Alemania Occidental,6053,Uwe Bein,58,NO,NO
-1381,756,1990,,Alemania Occidental,6306,Rudi Voeller,75,NO,NO
+1371,754,1990,87,Alemania Occidental,6212,Lothar Matthaeus,28,NO,NO
+1372,754,1990,87,Alemania Occidental,6174,Juergen Klinsmann,39,NO,NO
+1373,754,1990,87,Alemania Occidental,6212,Lothar Matthaeus,64,NO,NO
+1374,754,1990,87,Alemania Occidental,6306,Rudi Voeller,70,NO,NO
+1375,754,1990,85,Yugoslavia,3610,Davor Jozic,55,NO,NO
+1376,755,1990,85,Yugoslavia,3610,Davor Jozic,75,NO,NO
+1377,756,1990,87,Alemania Occidental,6306,Rudi Voeller,35,NO,NO
+1378,756,1990,87,Alemania Occidental,6174,Juergen Klinsmann,37,NO,NO
+1379,756,1990,87,Alemania Occidental,6212,Lothar Matthaeus,47,NO,NO
+1380,756,1990,87,Alemania Occidental,6053,Uwe Bein,58,NO,NO
+1381,756,1990,87,Alemania Occidental,6306,Rudi Voeller,75,NO,NO
 1382,756,1990,30,Emiratos Arabes,7958,Khalid Ismail,46,NO,NO
-1383,757,1990,,Alemania Occidental,6202,Pierre Littbarski,88,NO,NO
+1383,757,1990,87,Alemania Occidental,6202,Pierre Littbarski,88,NO,NO
 1384,757,1990,19,Colombia,2714,Freddy Rincon,90,NO,NO
-1385,758,1990,,Yugoslavia,3745,Safet Susic,5,NO,NO
-1386,758,1990,,Yugoslavia,3685,Darko Pancev,9,NO,NO
-1387,758,1990,,Yugoslavia,3685,Darko Pancev,46,NO,NO
-1388,758,1990,,Yugoslavia,3705,Robert Prosinecki,90,NO,NO
+1385,758,1990,85,Yugoslavia,3745,Safet Susic,5,NO,NO
+1386,758,1990,85,Yugoslavia,3685,Darko Pancev,9,NO,NO
+1387,758,1990,85,Yugoslavia,3685,Darko Pancev,46,NO,NO
+1388,758,1990,85,Yugoslavia,3705,Robert Prosinecki,90,NO,NO
 1389,758,1990,30,Emiratos Arabes,7956,Ali Thani Jumaa,22,NO,NO
 1390,759,1990,13,Bélgica,6591,Marc De Grijse,53,NO,NO
 1391,759,1990,13,Bélgica,6599,Michel De Wolf,64,NO,NO
@@ -1412,23 +1412,23 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1411,807,1990,14,Camerún,936,Roger Milla,106,NO,NO
 1412,807,1990,14,Camerún,936,Roger Milla,109,NO,NO
 1413,807,1990,19,Colombia,2712,Bernardo Redin,115,NO,NO
-1414,808,1990,,Checoslovaquia,576,Tomas Skuhravy,12,NO,NO
-1415,808,1990,,Checoslovaquia,576,Tomas Skuhravy,63,NO,NO
-1416,808,1990,,Checoslovaquia,515,Lubos Kubik,75,NO,NO
-1417,808,1990,,Checoslovaquia,576,Tomas Skuhravy,82,NO,NO
+1414,808,1990,86,Checoslovaquia,576,Tomas Skuhravy,12,NO,NO
+1415,808,1990,86,Checoslovaquia,576,Tomas Skuhravy,63,NO,NO
+1416,808,1990,86,Checoslovaquia,515,Lubos Kubik,75,NO,NO
+1417,808,1990,86,Checoslovaquia,576,Tomas Skuhravy,82,NO,NO
 1418,808,1990,22,Costa Rica,2004,Ronald Gonzalez,54,NO,NO
 1419,809,1990,6,Argentina,5208,Claudio Caniggia,80,NO,NO
-1420,810,1990,,Alemania Occidental,6174,Juergen Klinsmann,51,NO,NO
-1421,810,1990,,Alemania Occidental,6066,Andreas Brehme,82,NO,NO
+1420,810,1990,87,Alemania Occidental,6174,Juergen Klinsmann,51,NO,NO
+1421,810,1990,87,Alemania Occidental,6066,Andreas Brehme,82,NO,NO
 1422,810,1990,60,Paises Bajos,6431,Ronald Koeman,89,SI,NO
 1423,812,1990,51,Italia,5758,Salvatore Schillaci,65,NO,NO
 1424,812,1990,51,Italia,5764,Aldo Serena,85,NO,NO
 1425,813,1990,34,España,4959,Julio Salinas,83,NO,NO
-1426,813,1990,,Yugoslavia,3739,Dragan Stojkovic,78,NO,NO
-1427,813,1990,,Yugoslavia,3739,Dragan Stojkovic,92,NO,NO
+1426,813,1990,85,Yugoslavia,3739,Dragan Stojkovic,78,NO,NO
+1427,813,1990,85,Yugoslavia,3739,Dragan Stojkovic,92,NO,NO
 1428,814,1990,44,Inglaterra,1368,David Platt,119,NO,NO
 1429,816,1990,51,Italia,5758,Salvatore Schillaci,38,NO,NO
-1430,817,1990,,Alemania Occidental,6212,Lothar Matthaeus,25,SI,NO
+1430,817,1990,87,Alemania Occidental,6212,Lothar Matthaeus,25,SI,NO
 1431,818,1990,14,Camerún,914,Emmanuel Kunde,61,SI,NO
 1432,818,1990,14,Camerún,884,Eugene Ekeke,65,NO,NO
 1433,818,1990,44,Inglaterra,1368,David Platt,25,NO,NO
@@ -1437,11 +1437,11 @@ id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es
 1436,819,1990,51,Italia,5758,Salvatore Schillaci,17,NO,NO
 1437,819,1990,6,Argentina,5208,Claudio Caniggia,67,NO,NO
 1438,820,1990,44,Inglaterra,1325,Gary Lineker,80,NO,NO
-1439,820,1990,,Alemania Occidental,6066,Andreas Brehme,60,NO,NO
+1439,820,1990,87,Alemania Occidental,6066,Andreas Brehme,60,NO,NO
 1440,821,1990,51,Italia,5533,Roberto Baggio,71,NO,NO
 1441,821,1990,51,Italia,5758,Salvatore Schillaci,86,SI,NO
 1442,821,1990,44,Inglaterra,1368,David Platt,81,NO,NO
-1443,822,1990,,Alemania Occidental,6066,Andreas Brehme,85,SI,NO
+1443,822,1990,87,Alemania Occidental,6066,Andreas Brehme,85,SI,NO
 1444,823,1994,35,Estados Unidos,2905,Eric Wynalda,44,NO,NO
 1445,823,1994,74,Suiza,8057,Georges Bregy,39,NO,NO
 1446,824,1994,19,Colombia,2727,Adolfo Valencia,43,NO,NO

@@ -3,7 +3,7 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 2,1930,1,17,Chile,4,3,2,0,1,5,3,2,NO
 3,1930,1,36,Francia,2,3,1,0,2,4,3,1,NO
 4,1930,1,56,México,0,3,0,0,3,4,13,-9,NO
-5,1930,2,,Yugoslavia,4,2,2,0,0,6,1,5,SI
+5,1930,2,85,Yugoslavia,4,2,2,0,0,6,1,5,SI
 6,1930,2,11,Brasil,2,2,1,0,1,5,2,3,NO
 7,1930,2,9,Bolivia,0,2,0,0,2,0,8,-8,NO
 8,1930,3,80,Uruguay,4,2,2,0,0,5,0,5,SI
@@ -13,7 +13,7 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 12,1930,4,62,Paraguay,2,2,1,0,1,1,3,-2,NO
 13,1930,4,13,Bélgica,0,2,0,0,2,0,4,-4,NO
 14,1950,1,11,Brasil,5,3,2,1,0,8,2,6,SI
-15,1950,1,,Yugoslavia,4,3,2,0,1,7,3,4,NO
+15,1950,1,85,Yugoslavia,4,3,2,0,1,7,3,4,NO
 16,1950,1,74,Suiza,3,3,1,1,1,4,6,-2,NO
 17,1950,1,56,México,0,3,0,0,3,2,10,-8,NO
 18,1950,2,34,España,6,3,3,0,0,6,1,5,SI
@@ -30,27 +30,27 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 29,1950,F,73,Suecia,2,3,1,0,2,6,11,-5,NO
 30,1950,F,34,España,1,3,0,1,2,4,11,-7,NO
 31,1954,1,11,Brasil,3,2,1,1,0,6,1,5,SI
-32,1954,1,,Yugoslavia,3,2,1,1,0,2,1,1,SI
+32,1954,1,85,Yugoslavia,3,2,1,1,0,2,1,1,SI
 33,1954,1,36,Francia,2,2,1,0,1,3,3,0,NO
 34,1954,1,56,México,0,2,0,0,2,2,8,-6,NO
 35,1954,2,42,Hungría,4,2,2,0,0,17,3,14,SI
-36,1954,2,,Alemania Occidental,2,2,1,0,1,7,9,-2,SI
+36,1954,2,87,Alemania Occidental,2,2,1,0,1,7,9,-2,SI
 37,1954,2,77,Turquía,2,2,1,0,1,8,4,4,NO
 38,1954,2,21,Corea del Sur,0,2,0,0,2,0,16,-16,NO
 39,1954,3,80,Uruguay,4,2,2,0,0,9,0,9,SI
 40,1954,3,8,Austria,4,2,2,0,0,6,0,6,SI
-41,1954,3,,Checoslovaquia,0,2,0,0,2,0,7,-7,NO
+41,1954,3,86,Checoslovaquia,0,2,0,0,2,0,7,-7,NO
 42,1954,3,31,Escocia,0,2,0,0,2,0,8,-8,NO
 43,1954,4,44,Inglaterra,3,2,1,1,0,6,4,2,SI
 44,1954,4,74,Suiza,2,2,1,0,1,2,3,-1,SI
 45,1954,4,51,Italia,2,2,1,0,1,5,3,2,NO
 46,1954,4,13,Bélgica,1,2,0,1,1,5,8,-3,NO
-47,1958,1,,Alemania Occidental,4,3,1,2,0,7,5,2,SI
+47,1958,1,87,Alemania Occidental,4,3,1,2,0,7,5,2,SI
 48,1958,1,47,Irlanda del Norte,3,3,1,1,1,4,5,-1,SI
-49,1958,1,,Checoslovaquia,3,3,1,1,1,8,4,4,NO
+49,1958,1,86,Checoslovaquia,3,3,1,1,1,8,4,4,NO
 50,1958,1,6,Argentina,2,3,1,0,2,5,10,-5,NO
 51,1958,2,36,Francia,4,3,2,0,1,11,7,4,SI
-52,1958,2,,Yugoslavia,4,3,1,2,0,7,6,1,SI
+52,1958,2,85,Yugoslavia,4,3,1,2,0,7,6,1,SI
 53,1958,2,62,Paraguay,3,3,1,1,1,9,12,-3,NO
 54,1958,2,31,Escocia,1,3,0,1,2,4,6,-2,NO
 55,1958,3,73,Suecia,5,3,2,1,0,5,1,4,SI
@@ -58,19 +58,19 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 57,1958,3,42,Hungría,3,3,1,1,1,6,3,3,NO
 58,1958,3,56,México,1,3,0,1,2,1,8,-7,NO
 59,1958,4,11,Brasil,5,3,2,1,0,5,0,5,SI
-60,1958,4,,URSS,3,3,1,1,1,4,4,0,SI
+60,1958,4,88,URSS,3,3,1,1,1,4,4,0,SI
 61,1958,4,44,Inglaterra,3,3,0,3,0,4,4,0,NO
 62,1958,4,8,Austria,1,3,0,1,2,2,7,-5,NO
-63,1962,1,,URSS,5,3,2,1,0,8,5,3,SI
-64,1962,1,,Yugoslavia,4,3,2,0,1,8,3,5,SI
+63,1962,1,88,URSS,5,3,2,1,0,8,5,3,SI
+64,1962,1,85,Yugoslavia,4,3,2,0,1,8,3,5,SI
 65,1962,1,80,Uruguay,2,3,1,0,2,4,6,-2,NO
 66,1962,1,19,Colombia,1,3,0,1,2,5,11,-6,NO
-67,1962,2,,Alemania Occidental,5,3,2,1,0,4,1,3,SI
+67,1962,2,87,Alemania Occidental,5,3,2,1,0,4,1,3,SI
 68,1962,2,17,Chile,4,3,2,0,1,5,3,2,SI
 69,1962,2,51,Italia,3,3,1,1,1,3,2,1,NO
 70,1962,2,74,Suiza,0,3,0,0,3,2,8,-6,NO
 71,1962,3,11,Brasil,5,3,2,1,0,4,1,3,SI
-72,1962,3,,Checoslovaquia,3,3,1,1,1,2,3,-1,SI
+72,1962,3,86,Checoslovaquia,3,3,1,1,1,2,3,-1,SI
 73,1962,3,56,México,2,3,1,0,2,3,4,-1,NO
 74,1962,3,34,España,2,3,1,0,2,2,3,-1,NO
 75,1962,4,42,Hungría,5,3,2,1,0,8,2,6,SI
@@ -81,7 +81,7 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 80,1966,1,80,Uruguay,4,3,1,2,0,2,1,1,SI
 81,1966,1,56,México,2,3,0,2,1,1,3,-2,NO
 82,1966,1,36,Francia,1,3,0,1,2,2,5,-3,NO
-83,1966,2,,Alemania Occidental,5,3,2,1,0,7,1,6,SI
+83,1966,2,87,Alemania Occidental,5,3,2,1,0,7,1,6,SI
 84,1966,2,6,Argentina,5,3,2,1,0,4,1,3,SI
 85,1966,2,34,España,2,3,1,0,2,4,5,-1,NO
 86,1966,2,74,Suiza,0,3,0,0,3,1,9,-8,NO
@@ -89,11 +89,11 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 88,1966,3,42,Hungría,4,3,2,0,1,7,5,2,SI
 89,1966,3,11,Brasil,2,3,1,0,2,4,6,-2,NO
 90,1966,3,12,Bulgaria,0,3,0,0,3,1,8,-7,NO
-91,1966,4,,URSS,6,3,3,0,0,6,1,5,SI
+91,1966,4,88,URSS,6,3,3,0,0,6,1,5,SI
 92,1966,4,20,Corea del Norte,3,3,1,1,1,2,4,-2,SI
 93,1966,4,51,Italia,2,3,1,0,2,2,2,0,NO
 94,1966,4,17,Chile,1,3,0,1,2,2,5,-3,NO
-95,1970,1,,URSS,5,3,2,1,0,6,1,5,SI
+95,1970,1,88,URSS,5,3,2,1,0,6,1,5,SI
 96,1970,1,56,México,5,3,2,1,0,5,0,5,SI
 97,1970,1,13,Bélgica,2,3,1,0,2,4,5,-1,NO
 98,1970,1,29,El Salvador,0,3,0,0,3,0,9,-9,NO
@@ -104,16 +104,16 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 103,1970,3,11,Brasil,6,3,3,0,0,8,3,5,SI
 104,1970,3,44,Inglaterra,4,3,2,0,1,2,1,1,SI
 105,1970,3,68,Rumania,2,3,1,0,2,4,5,-1,NO
-106,1970,3,,Checoslovaquia,0,3,0,0,3,2,7,-5,NO
-107,1970,4,,Alemania Occidental,6,3,3,0,0,10,4,6,SI
+106,1970,3,86,Checoslovaquia,0,3,0,0,3,2,7,-5,NO
+107,1970,4,87,Alemania Occidental,6,3,3,0,0,10,4,6,SI
 108,1970,4,63,Perú,4,3,2,0,1,7,5,2,SI
 109,1970,4,12,Bulgaria,1,3,0,1,2,5,9,-4,NO
 110,1970,4,55,Marruecos,1,3,0,1,2,2,6,-4,NO
 111,1974,1,2,Alemania Oriental,5,3,2,1,0,4,1,3,SI
-112,1974,1,,Alemania Occidental,4,3,2,0,1,4,1,3,SI
+112,1974,1,87,Alemania Occidental,4,3,2,0,1,4,1,3,SI
 113,1974,1,17,Chile,2,3,0,2,1,1,2,-1,NO
 114,1974,1,7,Australia,1,3,0,1,2,0,5,-5,NO
-115,1974,2,,Yugoslavia,4,3,1,2,0,10,1,9,SI
+115,1974,2,85,Yugoslavia,4,3,1,2,0,10,1,9,SI
 116,1974,2,11,Brasil,4,3,1,2,0,3,0,3,SI
 117,1974,2,31,Escocia,4,3,1,2,0,3,1,2,NO
 118,1974,2,,Zaire,0,3,0,0,3,0,14,-14,NO
@@ -129,16 +129,16 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 128,1974,A,11,Brasil,4,3,2,0,1,3,3,0,SI
 129,1974,A,2,Alemania Oriental,1,3,0,1,2,1,4,-3,NO
 130,1974,A,6,Argentina,1,3,0,1,2,2,7,-5,NO
-131,1974,B,,Alemania Occidental,6,3,3,0,0,7,2,5,SI
+131,1974,B,87,Alemania Occidental,6,3,3,0,0,7,2,5,SI
 132,1974,B,64,Polonia,4,3,2,0,1,3,2,1,SI
 133,1974,B,73,Suecia,2,3,1,0,2,4,6,-2,NO
-134,1974,B,,Yugoslavia,0,3,0,0,3,2,6,-4,NO
+134,1974,B,85,Yugoslavia,0,3,0,0,3,2,6,-4,NO
 135,1978,1,51,Italia,6,3,3,0,0,6,2,4,SI
 136,1978,1,6,Argentina,4,3,2,0,1,4,3,1,SI
 137,1978,1,36,Francia,2,3,1,0,2,5,5,0,NO
 138,1978,1,42,Hungría,0,3,0,0,3,3,8,-5,NO
 139,1978,2,64,Polonia,5,3,2,1,0,4,1,3,SI
-140,1978,2,,Alemania Occidental,4,3,1,2,0,6,0,6,SI
+140,1978,2,87,Alemania Occidental,4,3,1,2,0,6,0,6,SI
 141,1978,2,78,Túnez,3,3,1,1,1,3,2,1,NO
 142,1978,2,56,México,0,3,0,0,3,2,12,-10,NO
 143,1978,3,8,Austria,4,3,2,0,1,3,2,1,SI
@@ -151,16 +151,16 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 150,1978,4,48,Irán,1,3,0,1,2,2,8,-6,NO
 151,1978,A,60,Paises Bajos,5,3,2,1,0,9,4,5,SI
 152,1978,A,51,Italia,3,3,1,1,1,2,2,0,SI
-153,1978,A,,Alemania Occidental,2,3,0,2,1,4,5,-1,NO
+153,1978,A,87,Alemania Occidental,2,3,0,2,1,4,5,-1,NO
 154,1978,A,8,Austria,2,3,1,0,2,4,8,-4,NO
 155,1978,B,6,Argentina,5,3,2,1,0,8,0,8,SI
 156,1978,B,11,Brasil,5,3,2,1,0,6,1,5,SI
 157,1978,B,64,Polonia,2,3,1,0,2,2,5,-3,NO
 158,1978,B,63,Perú,0,3,0,0,3,0,10,-10,NO
 159,1982,1,64,Polonia,3,2,1,1,0,3,0,3,SI
-160,1982,1,,URSS,3,2,1,1,0,1,0,1,NO
+160,1982,1,88,URSS,3,2,1,1,0,1,0,1,NO
 161,1982,1,13,Bélgica,0,2,0,0,2,0,4,-4,NO
-162,1982,2,,Alemania Occidental,3,2,1,1,0,2,1,1,SI
+162,1982,2,87,Alemania Occidental,3,2,1,1,0,2,1,1,SI
 163,1982,2,44,Inglaterra,2,2,0,2,0,0,0,0,NO
 164,1982,2,34,España,1,2,0,1,1,1,2,-1,NO
 165,1982,3,51,Italia,4,2,2,0,0,5,3,2,SI
@@ -173,7 +173,7 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 172,1982,A,51,Italia,3,3,0,3,0,2,2,0,SI
 173,1982,A,14,Camerún,3,3,0,3,0,1,1,0,NO
 174,1982,A,63,Perú,2,3,0,2,1,2,6,-4,NO
-175,1982,B,,Alemania Occidental,4,3,2,0,1,6,3,3,SI
+175,1982,B,87,Alemania Occidental,4,3,2,0,1,6,3,3,SI
 176,1982,B,8,Austria,4,3,2,0,1,3,1,2,SI
 177,1982,B,5,Argelia,4,3,2,0,1,5,5,0,NO
 178,1982,B,17,Chile,0,3,0,0,3,3,8,-5,NO
@@ -183,14 +183,14 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 182,1982,C,29,El Salvador,0,3,0,0,3,1,13,-12,NO
 183,1982,D,44,Inglaterra,6,3,3,0,0,6,1,5,SI
 184,1982,D,36,Francia,3,3,1,1,1,6,5,1,SI
-185,1982,D,,Checoslovaquia,2,3,0,2,1,2,4,-2,NO
+185,1982,D,86,Checoslovaquia,2,3,0,2,1,2,4,-2,NO
 186,1982,D,54,Kuwait,1,3,0,1,2,2,6,-4,NO
 187,1982,E,47,Irlanda del Norte,4,3,1,2,0,2,1,1,SI
 188,1982,E,34,España,3,3,1,1,1,3,3,0,SI
-189,1982,E,,Yugoslavia,3,3,1,1,1,2,2,0,NO
+189,1982,E,85,Yugoslavia,3,3,1,1,1,2,2,0,NO
 190,1982,E,41,Honduras,2,3,0,2,1,2,3,-1,NO
 191,1982,F,11,Brasil,6,3,3,0,0,10,2,8,SI
-192,1982,F,,URSS,3,3,1,1,1,6,4,2,SI
+192,1982,F,88,URSS,3,3,1,1,1,6,4,2,SI
 193,1982,F,31,Escocia,3,3,1,1,1,8,8,0,NO
 194,1982,F,59,Nueva Zelanda,0,3,0,0,3,2,12,-10,NO
 195,1986,A,6,Argentina,5,3,2,1,0,6,2,4,SI
@@ -201,7 +201,7 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 200,1986,B,62,Paraguay,4,3,1,2,0,4,3,1,SI
 201,1986,B,13,Bélgica,3,3,1,1,1,5,5,0,SI
 202,1986,B,45,Iraq,0,3,0,0,3,1,4,-3,NO
-203,1986,C,,URSS,5,3,2,1,0,9,1,8,SI
+203,1986,C,88,URSS,5,3,2,1,0,9,1,8,SI
 204,1986,C,36,Francia,5,3,2,1,0,5,1,4,SI
 205,1986,C,42,Hungría,2,3,1,0,2,2,9,-7,NO
 206,1986,C,15,Canadá,0,3,0,0,3,0,5,-5,NO
@@ -210,7 +210,7 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 209,1986,D,47,Irlanda del Norte,1,3,0,1,2,2,6,-4,NO
 210,1986,D,5,Argelia,1,3,0,1,2,1,5,-4,NO
 211,1986,E,26,Dinamarca,6,3,3,0,0,9,1,8,SI
-212,1986,E,,Alemania Occidental,3,3,1,1,1,3,4,-1,SI
+212,1986,E,87,Alemania Occidental,3,3,1,1,1,3,4,-1,SI
 213,1986,E,80,Uruguay,2,3,0,2,1,2,7,-5,SI
 214,1986,E,31,Escocia,1,3,0,1,2,1,3,-2,NO
 215,1986,F,55,Marruecos,4,3,1,2,0,3,1,2,SI
@@ -218,19 +218,19 @@ id_posicion_grupo,anio,id_grupo,id_seleccion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif
 217,1986,F,64,Polonia,3,3,1,1,1,1,3,-2,SI
 218,1986,F,65,Portugal,2,3,1,0,2,2,4,-2,NO
 219,1990,A,51,Italia,6,3,3,0,0,4,0,4,SI
-220,1990,A,,Checoslovaquia,4,3,2,0,1,6,3,3,SI
+220,1990,A,86,Checoslovaquia,4,3,2,0,1,6,3,3,SI
 221,1990,A,8,Austria,2,3,1,0,2,2,3,-1,NO
 222,1990,A,35,Estados Unidos,0,3,0,0,3,2,8,-6,NO
 223,1990,B,14,Camerún,4,3,2,0,1,3,5,-2,SI
 224,1990,B,68,Rumania,3,3,1,1,1,4,3,1,SI
 225,1990,B,6,Argentina,3,3,1,1,1,3,2,1,SI
-226,1990,B,,URSS,2,3,1,0,2,4,4,0,NO
+226,1990,B,88,URSS,2,3,1,0,2,4,4,0,NO
 227,1990,C,11,Brasil,6,3,3,0,0,4,1,3,SI
 228,1990,C,22,Costa Rica,4,3,2,0,1,3,2,1,SI
 229,1990,C,31,Escocia,2,3,1,0,2,2,3,-1,NO
 230,1990,C,73,Suecia,0,3,0,0,3,3,6,-3,NO
-231,1990,D,,Alemania Occidental,5,3,2,1,0,10,3,7,SI
-232,1990,D,,Yugoslavia,4,3,2,0,1,6,5,1,SI
+231,1990,D,87,Alemania Occidental,5,3,2,1,0,10,3,7,SI
+232,1990,D,85,Yugoslavia,4,3,2,0,1,6,5,1,SI
 233,1990,D,19,Colombia,3,3,1,1,1,3,2,1,SI
 234,1990,D,30,Emiratos Arabes,0,3,0,0,3,2,11,-9,NO
 235,1990,E,34,España,5,3,2,1,0,5,2,3,SI

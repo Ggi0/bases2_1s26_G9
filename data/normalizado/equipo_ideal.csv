@@ -1,6 +1,6 @@
 id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 1,1930,Arquero,5813,Enrique Ballestrero,80,Uruguay
-2,1930,Defensores,3596,Milutin Ivkovic,,Yugoslavia
+2,1930,Defensores,3596,Milutin Ivkovic,85,Yugoslavia
 3,1930,Defensores,5940,Jose Nasazzi,80,Uruguay
 4,1930,Mediocampistas,5809,Jose Andrade,80,Uruguay
 5,1930,Mediocampistas,5880,Alvaro Gestido,80,Uruguay
@@ -18,10 +18,10 @@ id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 17,1934,Mediocampistas,5694,Luis Monti,51,Italia
 18,1934,Delanteros,5653,Enrique Guaita,51,Italia
 19,1934,Delanteros,5689,Giuseppe Meazza,51,Italia
-20,1934,Delanteros,537,Oldrich Nejedly,,Checoslovaquia
+20,1934,Delanteros,537,Oldrich Nejedly,86,Checoslovaquia
 21,1934,Delanteros,5713,Raimundo Orsi,51,Italia
 22,1934,Delanteros,4647,Matthias Sindelar,8,Austria
-23,1938,Arquero,551,Frantisek Planicka,,Checoslovaquia
+23,1938,Arquero,551,Frantisek Planicka,86,Checoslovaquia
 24,1938,Defensores,1601,Domingos Da Guia,11,Brasil
 25,1938,Defensores,5634,Alfredo Foni,51,Italia
 26,1938,Defensores,5743,Pietro Rava,51,Italia
@@ -50,10 +50,10 @@ id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 49,1954,Mediocampistas,7503,Jozsef Bozsik,42,Hungría
 50,1954,Mediocampistas,7513,Zoltan Czibor,42,Hungría
 51,1954,Mediocampistas,7538,Nandor Hidegkuti,42,Hungría
-52,1954,Mediocampistas,6311,Fritz Walter,,Alemania Occidental
+52,1954,Mediocampistas,6311,Fritz Walter,87,Alemania Occidental
 53,1954,Delanteros,7552,Sandor Kocsis,42,Hungría
 54,1954,Delanteros,7587,Ferenc Puskas,42,Hungría
-55,1954,Delanteros,6251,Helmut Rahn,,Alemania Occidental
+55,1954,Delanteros,6251,Helmut Rahn,87,Alemania Occidental
 56,1958,Arquero,2245,Harry Gregg,47,Irlanda del Norte
 57,1958,Defensores,1553,Bellini,11,Brasil
 58,1958,Defensores,1599,Djalma Santos,11,Brasil
@@ -65,12 +65,12 @@ id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 64,1958,Delanteros,3915,Just Fontaine,36,Francia
 65,1958,Delanteros,1637,Garrincha,11,Brasil
 66,1958,Delanteros,1759,Pelé,11,Brasil
-67,1962,Arquero,570,Viliam Schrojf,,Checoslovaquia
+67,1962,Arquero,570,Viliam Schrojf,86,Checoslovaquia
 68,1962,Defensores,1599,Djalma Santos,11,Brasil
 69,1962,Defensores,5673,Cesare Maldini,51,Italia
-70,1962,Defensores,6274,Karl-Heinz Schnellinger,,Alemania Occidental
-71,1962,Defensores,417,Valeri Voronin,,URSS
-72,1962,Mediocampistas,528,Josef Masopust,,Checoslovaquia
+70,1962,Defensores,6274,Karl-Heinz Schnellinger,87,Alemania Occidental
+71,1962,Defensores,417,Valeri Voronin,88,URSS
+72,1962,Mediocampistas,528,Josef Masopust,86,Checoslovaquia
 73,1962,Mediocampistas,1833,Zagallo,11,Brasil
 74,1962,Mediocampistas,1845,Zito,11,Brasil
 75,1962,Delanteros,1637,Garrincha,11,Brasil
@@ -81,31 +81,31 @@ id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 80,1966,Defensores,5312,Silvio Marzolini,6,Argentina
 81,1966,Defensores,1347,Bobby Moore,44,Inglaterra
 82,1966,Defensores,3325,Vicente,65,Portugal
-83,1966,Mediocampistas,6051,Franz Beckenbauer,,Alemania Occidental
+83,1966,Mediocampistas,6051,Franz Beckenbauer,87,Alemania Occidental
 84,1966,Mediocampistas,1239,Bobby Charlton,44,Inglaterra
 85,1966,Mediocampistas,3211,Coluna,65,Portugal
 86,1966,Delanteros,7490,Florian Albert,42,Hungría
 87,1966,Delanteros,3228,Eusebio,65,Portugal
-88,1966,Delanteros,6281,Uwe Seeler,,Alemania Occidental
+88,1966,Delanteros,6281,Uwe Seeler,87,Alemania Occidental
 89,1970,Arquero,5922,Ladislao Mazurkiewicz,80,Uruguay
 90,1970,Defensores,5808,Atilio Ancheta,80,Uruguay
-91,1970,Defensores,6051,Franz Beckenbauer,,Alemania Occidental
+91,1970,Defensores,6051,Franz Beckenbauer,87,Alemania Occidental
 92,1970,Defensores,1571,Carlos Alberto,11,Brasil
 93,1970,Defensores,5623,Giacinto Facchetti,51,Italia
 94,1970,Mediocampistas,1239,Bobby Charlton,44,Inglaterra
 95,1970,Mediocampistas,1640,Gerson,11,Brasil
 96,1970,Mediocampistas,1782,Rivelino,11,Brasil
 97,1970,Delanteros,1663,Jairzinho,11,Brasil
-98,1970,Delanteros,6223,Gerd Mueller,,Alemania Occidental
+98,1970,Delanteros,6223,Gerd Mueller,87,Alemania Occidental
 99,1970,Delanteros,1759,Pelé,11,Brasil
-100,1974,Arquero,6208,Sepp Maier,,Alemania Occidental
-101,1974,Defensores,6051,Franz Beckenbauer,,Alemania Occidental
-102,1974,Defensores,6067,Paul Breitner,,Alemania Occidental
+100,1974,Arquero,6208,Sepp Maier,87,Alemania Occidental
+101,1974,Defensores,6051,Franz Beckenbauer,87,Alemania Occidental
+102,1974,Defensores,6067,Paul Breitner,87,Alemania Occidental
 103,1974,Defensores,6434,Ruud Krol,60,Paises Bajos
-104,1974,Defensores,6307,Berti Vogts,,Alemania Occidental
+104,1974,Defensores,6307,Berti Vogts,87,Alemania Occidental
 105,1974,Mediocampistas,3048,Kazimierz Deyna,64,Polonia
 106,1974,Mediocampistas,6452,Johan Neeskens,60,Paises Bajos
-107,1974,Mediocampistas,6239,Wolfgang Overath,,Alemania Occidental
+107,1974,Mediocampistas,6239,Wolfgang Overath,87,Alemania Occidental
 108,1974,Delanteros,6378,Johan Cruyff,60,Paises Bajos
 109,1974,Delanteros,3110,Grzegorz Lato,64,Polonia
 110,1974,Delanteros,6467,Rob Rensenbrink,60,Paises Bajos
@@ -113,7 +113,7 @@ id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 112,1978,Defensores,6434,Ruud Krol,60,Paises Bajos
 113,1978,Defensores,5350,Daniel Passarella,6,Argentina
 114,1978,Defensores,5420,Alberto Tarantini,6,Argentina
-115,1978,Defensores,6307,Berti Vogts,,Alemania Occidental
+115,1978,Defensores,6307,Berti Vogts,87,Alemania Occidental
 116,1978,Mediocampistas,1598,Dirceu,11,Brasil
 117,1978,Mediocampistas,6467,Rob Rensenbrink,60,Paises Bajos
 118,1978,Delanteros,5549,Roberto Bettega,51,Italia
@@ -130,7 +130,7 @@ id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 129,1982,Mediocampistas,4012,Michel Platini,36,Francia
 130,1982,Mediocampistas,1843,Zico,11,Brasil
 131,1982,Delanteros,5752,Paolo Rossi,51,Italia
-132,1982,Delanteros,6265,Karl-Heinz Rummenigge,,Alemania Occidental
+132,1982,Delanteros,6265,Karl-Heinz Rummenigge,87,Alemania Occidental
 133,1986,Arquero,6679,Jean-Marie Pfaff,13,Bélgica
 134,1986,Defensores,3822,Manuel Amoros,36,Francia
 135,1986,Defensores,1671,Josimar,11,Brasil
@@ -145,13 +145,13 @@ id_equipo_ideal,anio,posicion,id_jugador,jugador,id_seleccion,seleccion
 144,1990,Arquero,1986,Gabelo Conejo,22,Costa Rica
 145,1990,Arquero,5275,Sergio Goycochea,6,Argentina
 146,1990,Defensores,5536,Franco Baresi,51,Italia
-147,1990,Defensores,6066,Andreas Brehme,,Alemania Occidental
+147,1990,Defensores,6066,Andreas Brehme,87,Alemania Occidental
 148,1990,Defensores,5674,Paolo Maldini,51,Italia
 149,1990,Mediocampistas,1281,Paul Gascoigne,44,Inglaterra
 150,1990,Mediocampistas,5307,Diego Maradona,6,Argentina
-151,1990,Mediocampistas,6212,Lothar Matthaeus,,Alemania Occidental
-152,1990,Mediocampistas,3739,Dragan Stojkovic,,Yugoslavia
-153,1990,Delanteros,6174,Juergen Klinsmann,,Alemania Occidental
+151,1990,Mediocampistas,6212,Lothar Matthaeus,87,Alemania Occidental
+152,1990,Mediocampistas,3739,Dragan Stojkovic,85,Yugoslavia
+153,1990,Delanteros,6174,Juergen Klinsmann,87,Alemania Occidental
 154,1990,Delanteros,936,Roger Milla,14,Camerún
 155,1990,Delanteros,5758,Salvatore Schillaci,51,Italia
 156,1994,Arquero,6684,Michel Preudhomme,13,Bélgica
