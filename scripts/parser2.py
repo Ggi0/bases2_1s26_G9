@@ -24,12 +24,63 @@ Uso:
     python parser2.py 2022 2018 # varios años
 """
 
-import os, sys, csv, re
+import os, sys, csv, re, unicodedata
 from bs4 import BeautifulSoup
 
 HTML_DIR = "html"
 DATA_DIR = "data"
 os.makedirs(DATA_DIR, exist_ok=True)
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# NORMALIZACIÓN DE CARACTERES
+# ─────────────────────────────────────────────────────────────────────────────
+
+def normalizar_texto(texto):
+    """
+    Normaliza texto eliminando acentos, tildes y caracteres especiales.
+    Preserva ñ y mantiene caracteres alfanuméricos.
+    
+    Ejemplo: "José Martínez" → "Jose Martinez"
+    Ejemplo: "Peña" → "Pena"
+    """
+    if not texto:
+        return texto
+    
+    texto = str(texto).strip()
+    
+    # Mapeo especial para ñ y Ñ (preservar)
+    # Se procesa primero para no perderla en NFD
+    texto_proc = texto
+    
+    # Convertir a forma NFD (descompuesta) para separar base de acentos
+    texto_nfd = unicodedata.normalize('NFD', texto_proc)
+    
+    # Remover marcas diacríticas (acentos, etc.)
+    # Pero preservar caracteres base como ñ
+    resultado = ''.join(
+        c for c in texto_nfd 
+        if unicodedata.category(c) != 'Mn'  # Mn = Marca diacrítica
+    )
+    
+    # Convertir de vuelta a forma NFC (compuesta) para consistencia
+    resultado = unicodedata.normalize('NFC', resultado)
+    
+    return resultado
+
+def normalizar_nombre(nombre):
+    """
+    Normaliza un nombre de persona.
+    - Elimina/normaliza acentos y tildes
+    - Convierte a título (Primera letra mayúscula)
+    - Limpia espacios extras
+    """
+    if not nombre:
+        return ""
+    
+    nombre = normalizar_texto(nombre).strip()
+    # Convertir cada palabra a título
+    return " ".join(word.capitalize() for word in nombre.split())
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -54,6 +105,27 @@ def guardar_csv(nombre, campos, filas):
             w.writeheader()
         w.writerows(filas)
     return len(filas)
+
+def cargar_csv_crudo(nombre, carpeta=DATA_DIR):
+    """
+    Carga un CSV crudo (ya con columnas separadas).
+    
+    Esto permite que si los datos ya vienen separados por columnas
+    (ej: de una fuente externa), se pueden cargar directamente sin 
+    necesidad de parsear HTML.
+    
+    Retorna lista de diccionarios con datos del CSV.
+    """
+    ruta = os.path.join(carpeta, f"{nombre}.csv")
+    if not os.path.exists(ruta):
+        return None
+    
+    try:
+        with open(ruta, 'r', encoding='utf-8') as f:
+            return list(csv.DictReader(f))
+    except Exception as e:
+        print(f"  [ERROR cargando {nombre}.csv] {e}")
+        return None
 
 def num_o_none(texto):
     t = str(texto).replace(".","").strip()
@@ -207,7 +279,8 @@ def extraer_goles_de_rd100(rd, anio, grupo, num_partido, fecha, local, visitante
                 "num_partido": num_partido, "fecha": fecha,
                 "local": local, "visitante": visitante,
                 "equipo": equipo,
-                "minuto": minuto, "jugador": jugador,
+                "minuto": minuto, 
+                "jugador": normalizar_nombre(jugador),  # Normaliza tildes/ñs
                 "es_penal": "SI" if es_pen else "NO",
             })
 
@@ -342,7 +415,9 @@ def parsear_goleadores(anio):
                        if re.match(r"^\d+\.\d+$", t)]
 
             goleadores.append({
-                "anio": anio, "jugador": jugador, "pais": pais,
+                "anio": anio, 
+                "jugador": normalizar_nombre(jugador),  # Normaliza tildes/ñs
+                "pais": pais,
                 "goles":    numeros[0] if len(numeros) > 0 else None,
                 "partidos": numeros[1] if len(numeros) > 1 else None,
                 "promedio": floats[0]  if floats else None,
@@ -418,7 +493,8 @@ def parsear_premios(anio):
             pais    = img.get("alt","").strip() if img else ""
             if jugador:
                 premios.append({"anio": anio, "tipo_premio": texto,
-                                "jugador": jugador, "pais": pais})
+                                "jugador": normalizar_nombre(jugador),  # Normaliza tildes/ñs
+                                "pais": pais})
 
         # ── Equipo Ideal ──────────────────────────────────────────────────
         elif texto == "Equipo Ideal":
@@ -447,7 +523,8 @@ def parsear_premios(anio):
                     if jugador:
                         equipo_ideal.append({
                             "anio": anio, "posicion": posicion_actual,
-                            "jugador": jugador, "pais": pais,
+                            "jugador": normalizar_nombre(jugador),  # Normaliza tildes/ñs
+                            "pais": pais,
                         })
 
             # Entrenador (fuera de rd-100-25, en div con texto "Entrenador:")
@@ -510,7 +587,9 @@ def parsear_tarjetas(anio):
                 continue
             numeros = [int(t) for t in textos if t.isdigit()]
             tarjetas.append({
-                "anio": anio, "jugador": jugador, "pais": pais,
+                "anio": anio, 
+                "jugador": normalizar_nombre(jugador),  # Normaliza tildes/ñs
+                "pais": pais,
                 "amarillas": numeros[0] if len(numeros) > 0 else None,
                 "rojas":     numeros[1] if len(numeros) > 1 else None,
             })
@@ -595,7 +674,7 @@ def _match_jugador(nombre, jugador_idx_exacto, jugador_idx_invertido):
     Estrategia de matching:
       1. Busca exacto en ambos índices
       2. Intenta invertir si tiene coma o espacios
-      3. Busca parcial por apellido si falla
+      3. Busca versión normalizada (sin acentos)
     """
     if not nombre:
         return None
@@ -608,7 +687,14 @@ def _match_jugador(nombre, jugador_idx_exacto, jugador_idx_invertido):
     if n in jugador_idx_invertido:
         return jugador_idx_invertido[n]
     
-    # 2. Si tiene coma, es formato "Apellido, Nombre" - convertir a "Nombre Apellido"
+    # 2. Buscar también versión normalizada (sin acentos/tildes)
+    n_norm = normalizar_texto(n).lower()
+    if n_norm in jugador_idx_exacto:
+        return jugador_idx_exacto[n_norm]
+    if n_norm in jugador_idx_invertido:
+        return jugador_idx_invertido[n_norm]
+    
+    # 3. Si tiene coma, es formato "Apellido, Nombre" - convertir a "Nombre Apellido"
     if "," in n:
         partes = [p.strip() for p in n.split(",", 1)]
         invertido = f"{partes[1]} {partes[0]}".lower()
@@ -616,8 +702,14 @@ def _match_jugador(nombre, jugador_idx_exacto, jugador_idx_invertido):
             return jugador_idx_exacto[invertido]
         if invertido in jugador_idx_invertido:
             return jugador_idx_invertido[invertido]
+        # Probar también versión normalizada
+        invertido_norm = normalizar_texto(invertido).lower()
+        if invertido_norm in jugador_idx_exacto:
+            return jugador_idx_exacto[invertido_norm]
+        if invertido_norm in jugador_idx_invertido:
+            return jugador_idx_invertido[invertido_norm]
     
-    # 3. Si NO tiene coma pero tiene espacios, es "Nombre Apellido" - intentar invertir a "Apellido Nombre"
+    # 4. Si NO tiene coma pero tiene espacios, es "Nombre Apellido" - intentar invertir a "Apellido Nombre"
     if " " in n and "," not in n:
         partes = n.rsplit(" ", 1)  # Últimas 2 palabras
         if len(partes) == 2:
@@ -626,6 +718,12 @@ def _match_jugador(nombre, jugador_idx_exacto, jugador_idx_invertido):
                 return jugador_idx_exacto[invertido]
             if invertido in jugador_idx_invertido:
                 return jugador_idx_invertido[invertido]
+            # Probar también versión normalizada
+            invertido_norm = normalizar_texto(invertido).lower()
+            if invertido_norm in jugador_idx_exacto:
+                return jugador_idx_exacto[invertido_norm]
+            if invertido_norm in jugador_idx_invertido:
+                return jugador_idx_invertido[invertido_norm]
     
     return None
 
@@ -662,6 +760,7 @@ def normalizar():
     
     # Construir índices de jugadores para match por nombre
     # Soporta dos formatos: "Nombre Apellido" y "Apellido, Nombre"
+    # También crea índices con versión normalizada (sin acentos)
     _jug_exacto    = {}
     _jug_invertido = {}
     for _i, _r in enumerate(jugadores, 1):
@@ -677,6 +776,11 @@ def normalizar():
         # Índice 1: Nombre EXACTO como está en el CSV (ej: "Achilier, Gabriel")
         _jug_exacto[_nom_lower] = _id
         
+        # Índice 1b: También versión normalizada (sin acentos/tildes)
+        _nom_norm = normalizar_texto(_nom_lower).lower()
+        if _nom_norm != _nom_lower:  # Solo si tiene diferencia
+            _jug_exacto[_nom_norm] = _id
+        
         # Índice 2: Si tiene coma, guardar también sin comas y parseado
         if "," in _nom_lower:
             # "Valencia, Enner" → también buscar "Valencia Enner" o "Enner Valencia"
@@ -691,6 +795,14 @@ def normalizar():
             # Guardar como "Nombre Apellido" (invertido)
             _invertido = f"{_nombre} {_apellido}"
             _jug_invertido[_invertido] = _id
+            
+            # También versiones normalizadas
+            _sin_coma_norm = normalizar_texto(_sin_coma).lower()
+            _invertido_norm = normalizar_texto(_invertido).lower()
+            if _sin_coma_norm != _sin_coma:
+                _jug_invertido[_sin_coma_norm] = _id
+            if _invertido_norm != _invertido:
+                _jug_invertido[_invertido_norm] = _id
         
         # Índice 3: Si NO tiene coma, crear versión con coma
         elif " " in _nom_lower:
@@ -699,6 +811,11 @@ def normalizar():
             if len(_partes_esp) == 2:
                 _con_coma = f"{_partes_esp[1]}, {_partes_esp[0]}"
                 _jug_invertido[_con_coma] = _id
+                
+                # También versión normalizada
+                _con_coma_norm = normalizar_texto(_con_coma).lower()
+                if _con_coma_norm != _con_coma:
+                    _jug_invertido[_con_coma_norm] = _id
 
     # ── 1. SELECCION — IDs fijos desde seleccion.csv ──────────────────────────
     # Busca seleccion.csv en: carpeta del script → directorio actual → data/
