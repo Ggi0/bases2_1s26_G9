@@ -584,6 +584,51 @@ def _escribir(nombre, campos, filas):
         w.writerows(filas)
     return len(filas)
 
+
+def _match_jugador(nombre, jugador_idx_exacto, jugador_idx_invertido):
+    """
+    Busca el id_jugador dado un nombre.
+    Soporta múltiples formatos:
+      - "Nombre Apellido" (HTML)
+      - "Apellido, Nombre" (CSV con coma)
+    
+    Estrategia de matching:
+      1. Busca exacto en ambos índices
+      2. Intenta invertir si tiene coma o espacios
+      3. Busca parcial por apellido si falla
+    """
+    if not nombre:
+        return None
+    
+    n = nombre.strip().lower()
+    
+    # 1. Buscar directo (ya en el índice exacto)
+    if n in jugador_idx_exacto:
+        return jugador_idx_exacto[n]
+    if n in jugador_idx_invertido:
+        return jugador_idx_invertido[n]
+    
+    # 2. Si tiene coma, es formato "Apellido, Nombre" - convertir a "Nombre Apellido"
+    if "," in n:
+        partes = [p.strip() for p in n.split(",", 1)]
+        invertido = f"{partes[1]} {partes[0]}".lower()
+        if invertido in jugador_idx_exacto:
+            return jugador_idx_exacto[invertido]
+        if invertido in jugador_idx_invertido:
+            return jugador_idx_invertido[invertido]
+    
+    # 3. Si NO tiene coma pero tiene espacios, es "Nombre Apellido" - intentar invertir a "Apellido Nombre"
+    if " " in n and "," not in n:
+        partes = n.rsplit(" ", 1)  # Últimas 2 palabras
+        if len(partes) == 2:
+            invertido = f"{partes[1]}, {partes[0]}".lower()
+            if invertido in jugador_idx_exacto:
+                return jugador_idx_exacto[invertido]
+            if invertido in jugador_idx_invertido:
+                return jugador_idx_invertido[invertido]
+    
+    return None
+
 def normalizar():
     print(f"\n{'='*52}")
     print("  NORMALIZANDO datos...")
@@ -600,7 +645,60 @@ def normalizar():
     premios      = _leer("premios")
     equipo_ideal = _leer("equipo_ideal")
     tarjetas     = _leer("tarjetas")
-    jugadores    = _leer("jugadores_pais")  # de parse.py
+    jugadores    = _leer("jugadores_pais")  # Busca en scripts/data/
+
+    # Si no hay datos, buscar en la carpeta padre (bases2_1s26_G9/data/)
+    if not jugadores:
+        # Usar sys.argv[0] para obtener la ruta del script actual
+        script_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        parent_data_path = os.path.join(os.path.dirname(script_dir), "data")
+        if os.path.exists(parent_data_path):
+            jugadores = _leer("jugadores_pais", carpeta=parent_data_path)
+    
+    if not jugadores:
+        print("  [ADVERTENCIA] No se encontró jugadores_pais.csv")
+        print("              Búscalo en: ./data/ o ../data/")
+        print("              Los id_jugador en goles/premios/etc serán NULL")
+    
+    # Construir índices de jugadores para match por nombre
+    # Soporta dos formatos: "Nombre Apellido" y "Apellido, Nombre"
+    _jug_exacto    = {}
+    _jug_invertido = {}
+    for _i, _r in enumerate(jugadores, 1):
+        # Intentar obtener id_jugador; si no existe, usar el índice
+        _nom = (_r.get("nombre") or _r.get("NOMBRE","")).strip()
+        _id  = int(_r.get("id_jugador") or _r.get("ID JUGADOR") or _i)
+        
+        if not _nom:
+            continue
+        
+        _nom_lower = _nom.lower()
+        
+        # Índice 1: Nombre EXACTO como está en el CSV (ej: "Achilier, Gabriel")
+        _jug_exacto[_nom_lower] = _id
+        
+        # Índice 2: Si tiene coma, guardar también sin comas y parseado
+        if "," in _nom_lower:
+            # "Valencia, Enner" → también buscar "Valencia Enner" o "Enner Valencia"
+            _partes = _nom_lower.split(",", 1)
+            _apellido = _partes[0].strip()
+            _nombre = _partes[1].strip()
+            
+            # Guardar como "Apellido Nombre" (sin coma)
+            _sin_coma = f"{_apellido} {_nombre}"
+            _jug_invertido[_sin_coma] = _id
+            
+            # Guardar como "Nombre Apellido" (invertido)
+            _invertido = f"{_nombre} {_apellido}"
+            _jug_invertido[_invertido] = _id
+        
+        # Índice 3: Si NO tiene coma, crear versión con coma
+        elif " " in _nom_lower:
+            # "Juan Pérez" → también buscar "Pérez, Juan"
+            _partes_esp = _nom_lower.rsplit(" ", 1)
+            if len(_partes_esp) == 2:
+                _con_coma = f"{_partes_esp[1]}, {_partes_esp[0]}"
+                _jug_invertido[_con_coma] = _id
 
     # ── 1. SELECCION — IDs fijos desde seleccion.csv ──────────────────────────
     # Busca seleccion.csv en: carpeta del script → directorio actual → data/
@@ -746,6 +844,7 @@ def normalizar():
     for r in goles:
         anio = int(r["anio"])
         num  = int(r["num_partido"]) if r.get("num_partido") else None
+        jugador = r.get("jugador","").strip()
         filas.append({
             "id_gol":       id_gol,
             "id_partido":   partido_map.get((anio, num)),
@@ -753,14 +852,15 @@ def normalizar():
             "num_partido":  num,
             "id_seleccion": sid(r.get("equipo","")),
             "equipo":       r.get("equipo",""),
-            "jugador":      r.get("jugador",""),
+            "id_jugador":   _match_jugador(jugador, _jug_exacto, _jug_invertido),
+            "jugador":      jugador,
             "minuto":       r.get("minuto") or None,
             "es_penal":     r.get("es_penal",""),
         })
         id_gol += 1
     n = _escribir("gol", [
         "id_gol","id_partido","anio","num_partido",
-        "id_seleccion","equipo","jugador","minuto","es_penal"
+        "id_seleccion","equipo","id_jugador","jugador","minuto","es_penal"
     ], filas)
     print(f"  [gol]                {n} goles")
 
@@ -768,12 +868,14 @@ def normalizar():
     filas  = []
     id_gle = 1
     for r in goleadores:
+        jugador = r.get("jugador","").strip()
         filas.append({
             "id_goleador":  id_gle,
             "anio":         int(r["anio"]),
             "id_seleccion": sid(r.get("pais","")),
             "pais":         r.get("pais",""),
-            "jugador":      r.get("jugador",""),
+            "id_jugador":   _match_jugador(jugador, _jug_exacto, _jug_invertido),
+            "jugador":      jugador,
             "goles":        r.get("goles") or None,
             "partidos":     r.get("partidos") or None,
             "promedio":     r.get("promedio") or None,
@@ -781,7 +883,7 @@ def normalizar():
         id_gle += 1
     n = _escribir("goleador", [
         "id_goleador","anio","id_seleccion","pais",
-        "jugador","goles","partidos","promedio"
+        "id_jugador","jugador","goles","partidos","promedio"
     ], filas)
     print(f"  [goleador]           {n} jugadores")
 
@@ -806,17 +908,19 @@ def normalizar():
     filas  = []
     id_pre = 1
     for r in premios:
+        jugador = r.get("jugador","").strip()
         filas.append({
             "id_premio":    id_pre,
             "anio":         int(r["anio"]),
             "tipo_premio":  r.get("tipo_premio",""),
-            "jugador":      r.get("jugador",""),
+            "id_jugador":   _match_jugador(jugador, _jug_exacto, _jug_invertido),
+            "jugador":      jugador,
             "id_seleccion": sid(r.get("pais","")),
             "pais":         r.get("pais",""),
         })
         id_pre += 1
     n = _escribir("premio", [
-        "id_premio","anio","tipo_premio","jugador","id_seleccion","pais"
+        "id_premio","anio","tipo_premio","id_jugador","jugador","id_seleccion","pais"
     ], filas)
     print(f"  [premio]             {n} premios")
 
@@ -824,17 +928,19 @@ def normalizar():
     filas = []
     id_ei = 1
     for r in equipo_ideal:
+        jugador = r.get("jugador","").strip()
         filas.append({
             "id_equipo_ideal": id_ei,
             "anio":            int(r["anio"]),
             "posicion":        r.get("posicion",""),
-            "jugador":         r.get("jugador",""),
+            "id_jugador":      _match_jugador(jugador, _jug_exacto, _jug_invertido),
+            "jugador":         jugador,
             "id_seleccion":    sid(r.get("pais","")),
             "pais":            r.get("pais",""),
         })
         id_ei += 1
     n = _escribir("equipo_ideal", [
-        "id_equipo_ideal","anio","posicion","jugador","id_seleccion","pais"
+        "id_equipo_ideal","anio","posicion","id_jugador","jugador","id_seleccion","pais"
     ], filas)
     print(f"  [equipo_ideal]       {n} jugadores")
 
@@ -842,56 +948,34 @@ def normalizar():
     filas  = []
     id_tar = 1
     for r in tarjetas:
+        jugador = r.get("jugador","").strip()
         filas.append({
             "id_tarjeta":   id_tar,
             "anio":         int(r["anio"]),
             "id_seleccion": sid(r.get("pais","")),
             "pais":         r.get("pais",""),
-            "jugador":      r.get("jugador",""),
+            "id_jugador":   _match_jugador(jugador, _jug_exacto, _jug_invertido),
+            "jugador":      jugador,
             "amarillas":    r.get("amarillas") or None,
             "rojas":        r.get("rojas") or None,
         })
         id_tar += 1
     n = _escribir("tarjeta", [
-        "id_tarjeta","anio","id_seleccion","pais","jugador","amarillas","rojas"
+        "id_tarjeta","anio","id_seleccion","pais","id_jugador","jugador","amarillas","rojas"
     ], filas)
     print(f"  [tarjeta]            {n} jugadores")
 
     # ── 12. JUGADOR_PAIS ──────────────────────────────────────────────────────
     filas  = []
     id_jug = 1
-
-    # Detectar si jugadores_pais.csv ya viene con IDs propios
-    # Soporta dos formatos:
-    #   - De parse.py:        columnas  nombre, seleccion
-    #   - Con IDs ya hechos:  columnas  id_jugador/ID JUGADOR, nombre/NOMBRE,
-    #                                   id_seleccion/ID SELECCION, seleccion/SELECCION
-    primera = jugadores[0] if jugadores else {}
-    tiene_ids = any(k in primera for k in ["id_jugador","ID JUGADOR"])
-
     for r in jugadores:
-        if tiene_ids:
-            # Usar IDs que ya vienen en el archivo
-            id_jug_val  = r.get("id_jugador") or r.get("ID JUGADOR","")
-            nombre_val  = r.get("nombre")     or r.get("NOMBRE","")
-            id_sel_val  = r.get("id_seleccion") or r.get("ID SELECCION","")
-            sel_val     = r.get("seleccion")  or r.get("SELECCION","")
-            filas.append({
-                "id_jugador":   int(id_jug_val) if str(id_jug_val).isdigit() else id_jug,
-                "nombre":       nombre_val.strip(),
-                "id_seleccion": int(id_sel_val) if str(id_sel_val).isdigit() else sid(sel_val),
-                "seleccion":    sel_val.strip(),
-            })
-        else:
-            # Sin IDs — generarlos y buscar id_seleccion en sel_map
-            filas.append({
-                "id_jugador":   id_jug,
-                "nombre":       r.get("nombre","").strip(),
-                "id_seleccion": sid(r.get("seleccion","")),
-                "seleccion":    r.get("seleccion","").strip(),
-            })
+        filas.append({
+            "id_jugador":   id_jug,
+            "nombre":       r.get("nombre",""),
+            "id_seleccion": sid(r.get("seleccion","")),
+            "seleccion":    r.get("seleccion",""),
+        })
         id_jug += 1
-
     n = _escribir("jugador_pais", [
         "id_jugador","nombre","id_seleccion","seleccion"
     ], filas)
