@@ -1,33 +1,33 @@
 id_posicion_grupo,id_grupo,anio,grupo,id_seleccion,pais,pts,pj,pg,pe,pp,gf,gc,diferencia,clasificado
-1,1,2018,Grupo A,32,Uruguay,9,3,3,0,0,5,0,5,Si
-2,1,2018,Grupo A,26,Rusia,6,3,2,0,1,8,4,4,Si
-3,1,2018,Grupo A,2,Arabia Saudita,3,3,1,0,2,2,7,-5,No
-4,1,2018,Grupo A,12,Egipto,0,3,0,0,3,2,6,-4,No
-5,2,2018,Grupo B,13,España,5,3,1,2,0,6,5,1,Si
-6,2,2018,Grupo B,25,Portugal,5,3,1,2,0,5,4,1,Si
-7,2,2018,Grupo B,16,Irán,4,3,1,1,1,2,2,0,No
-8,2,2018,Grupo B,19,Marruecos,1,3,0,1,2,2,4,-2,No
-9,3,2018,Grupo C,14,Francia,7,3,2,1,0,3,1,2,Si
-10,3,2018,Grupo C,11,Dinamarca,5,3,1,2,0,2,1,1,Si
-11,3,2018,Grupo C,23,Perú,3,3,1,0,2,2,2,0,No
-12,3,2018,Grupo C,4,Australia,1,3,0,1,2,2,5,-3,No
-13,4,2018,Grupo D,10,Croacia,9,3,3,0,0,7,1,6,Si
-14,4,2018,Grupo D,3,Argentina,4,3,1,1,1,3,5,-2,Si
-15,4,2018,Grupo D,21,Nigeria,3,3,1,0,2,3,4,-1,No
-16,4,2018,Grupo D,17,Islandia,1,3,0,1,2,2,5,-3,No
-17,5,2018,Grupo E,5,Brasil,7,3,2,1,0,5,1,4,Si
-18,5,2018,Grupo E,30,Suiza,5,3,1,2,0,5,4,1,Si
-19,5,2018,Grupo E,28,Serbia,3,3,1,0,2,2,4,-2,No
-20,5,2018,Grupo E,9,Costa Rica,1,3,0,1,2,2,5,-3,No
-21,6,2018,Grupo F,29,Suecia,6,3,2,0,1,5,2,3,Si
-22,6,2018,Grupo F,20,México,6,3,2,0,1,3,4,-1,Si
-23,6,2018,Grupo F,8,Corea del Sur,3,3,1,0,2,3,3,0,No
+1,1,2018,Grupo A,80,Uruguay,9,3,3,0,0,5,0,5,Si
+2,1,2018,Grupo A,69,Rusia,6,3,2,0,1,8,4,4,Si
+3,1,2018,Grupo A,4,Arabia Saudita,3,3,1,0,2,2,7,-5,No
+4,1,2018,Grupo A,28,Egipto,0,3,0,0,3,2,6,-4,No
+5,2,2018,Grupo B,34,España,5,3,1,2,0,6,5,1,Si
+6,2,2018,Grupo B,65,Portugal,5,3,1,2,0,5,4,1,Si
+7,2,2018,Grupo B,48,Irán,4,3,1,1,1,2,2,0,No
+8,2,2018,Grupo B,55,Marruecos,1,3,0,1,2,2,4,-2,No
+9,3,2018,Grupo C,36,Francia,7,3,2,1,0,3,1,2,Si
+10,3,2018,Grupo C,26,Dinamarca,5,3,1,2,0,2,1,1,Si
+11,3,2018,Grupo C,63,Perú,3,3,1,0,2,2,2,0,No
+12,3,2018,Grupo C,7,Australia,1,3,0,1,2,2,5,-3,No
+13,4,2018,Grupo D,24,Croacia,9,3,3,0,0,7,1,6,Si
+14,4,2018,Grupo D,6,Argentina,4,3,1,1,1,3,5,-2,Si
+15,4,2018,Grupo D,57,Nigeria,3,3,1,0,2,3,4,-1,No
+16,4,2018,Grupo D,49,Islandia,1,3,0,1,2,2,5,-3,No
+17,5,2018,Grupo E,11,Brasil,7,3,2,1,0,5,1,4,Si
+18,5,2018,Grupo E,74,Suiza,5,3,1,2,0,5,4,1,Si
+19,5,2018,Grupo E,71,Serbia,3,3,1,0,2,2,4,-2,No
+20,5,2018,Grupo E,22,Costa Rica,1,3,0,1,2,2,5,-3,No
+21,6,2018,Grupo F,73,Suecia,6,3,2,0,1,5,2,3,Si
+22,6,2018,Grupo F,56,México,6,3,2,0,1,3,4,-1,Si
+23,6,2018,Grupo F,21,Corea del Sur,3,3,1,0,2,3,3,0,No
 24,6,2018,Grupo F,1,Alemania,3,3,1,0,2,2,4,-2,No
-25,7,2018,Grupo G,6,Bélgica,9,3,3,0,0,9,2,7,Si
-26,7,2018,Grupo G,15,Inglaterra,6,3,2,0,1,8,3,5,Si
-27,7,2018,Grupo G,31,Túnez,3,3,1,0,2,5,8,-3,No
-28,7,2018,Grupo G,22,Panamá,0,3,0,0,3,2,11,-9,No
-29,8,2018,Grupo H,7,Colombia,6,3,2,0,1,5,2,3,Si
-30,8,2018,Grupo H,18,Japón,4,3,1,1,1,4,4,0,Si
-31,8,2018,Grupo H,27,Senegal,4,3,1,1,1,4,4,0,No
-32,8,2018,Grupo H,24,Polonia,3,3,1,0,2,2,5,-3,No
+25,7,2018,Grupo G,13,Bélgica,9,3,3,0,0,9,2,7,Si
+26,7,2018,Grupo G,44,Inglaterra,6,3,2,0,1,8,3,5,Si
+27,7,2018,Grupo G,78,Túnez,3,3,1,0,2,5,8,-3,No
+28,7,2018,Grupo G,61,Panamá,0,3,0,0,3,2,11,-9,No
+29,8,2018,Grupo H,19,Colombia,6,3,2,0,1,5,2,3,Si
+30,8,2018,Grupo H,53,Japón,4,3,1,1,1,4,4,0,Si
+31,8,2018,Grupo H,70,Senegal,4,3,1,1,1,4,4,0,No
+32,8,2018,Grupo H,64,Polonia,3,3,1,0,2,2,5,-3,No

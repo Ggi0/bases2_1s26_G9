@@ -1,0 +1,118 @@
+id_goleador;anio;id_seleccion;pais;jugador;goles;partidos;promedio
+1;2022;36;Francia;Kylian Mbappé;8;7;1.14
+2;2022;6;Argentina;Lionel Messi;7;7;1
+3;2022;6;Argentina;Julian Alvarez;4;7;0.57
+4;2022;36;Francia;Olivier Giroud;4;6;0.67
+5;2022;60;Paises Bajos;Cody Gakpo;3;5;0.6
+6;2022;34;España;Álvaro Morata;3;4;0.75
+7;2022;65;Portugal;Gonçalo Ramos;3;4;0.75
+8;2022;44;Inglaterra;Marcus Rashford;3;5;0.6
+9;2022;11;Brasil;Richarlison;3;4;0.75
+10;2022;44;Inglaterra;Bukayo Saka;3;4;0.75
+11;2022;27;Ecuador;Enner Valencia;3;3;1
+12;2022;14;Camerún;Vincent Aboubakar;2;3;0.67
+13;2022;4;Arabia Saudita;Salem Al-Dawsari;2;3;0.67
+14;2022;21;Corea del Sur;Gue-sung Cho;2;4;0.5
+15;2022;80;Uruguay;Giorgian De Arrascaeta;2;2;1
+16;2022;53;Japón;Ritsu Doan;2;4;0.5
+17;2022;74;Suiza;Breel Embolo;2;4;0.5
+18;2022;55;Marruecos;Youssef En-Nesyri;2;7;0.29
+19;2022;65;Portugal;Bruno Fernandes;2;4;0.5
+20;2022;1;Alemania;Niclas Füllkrug;2;3;0.67
+21;2022;1;Alemania;Kai Havertz;2;2;1
+22;2022;44;Inglaterra;Harry Kane;2;5;0.4
+23;2022;24;Croacia;Andrej Kramarić;2;7;0.29
+24;2022;38;Ghana;Mohammed Kudus;2;3;0.67
+25;2022;65;Portugal;Rafael Leão;2;5;0.4
+26;2022;64;Polonia;Robert Lewandowski;2;4;0.5
+27;2022;71;Serbia;Aleksandar Mitrović;2;3;0.67
+28;2022;11;Brasil;Neymar Jr.;2;3;0.67
+29;2022;48;Irán;Mehdi Taremi;2;3;0.67
+30;2022;34;España;Ferran Torres;2;4;0.5
+31;2022;60;Paises Bajos;Wout Weghorst;2;4;0.5
+32;2022;55;Marruecos;Zakaria Aboukhlal;1;4;0.25
+33;2022;74;Suiza;Manuel Akanji;1;4;0.25
+34;2022;4;Arabia Saudita;Saleh Al-Shehri;1;3;0.33
+35;2022;53;Japón;Takuma Asano;1;4;0.25
+36;2022;34;España;Marco Asensio;1;4;0.25
+37;2022;38;Ghana;Andre Ayew;1;3;0.33
+38;2022;37;Gales;Gareth Bale;1;3;0.33
+39;2022;13;Bélgica;Michy Batshuayi;1;2;0.5
+40;2022;44;Inglaterra;Jude Bellingham;1;5;0.2
+41;2022;60;Paises Bajos;Daley Blind;1;5;0.2
+42;2022;38;Ghana;Osman Bukari;1;2;0.5
+43;2022;27;Ecuador;Moisés Caicedo;1;3;0.33
+44;2022;11;Brasil;Casemiro;1;4;0.25
+45;2022;14;Camerún;Jean-Charles Castelletto;1;2;0.5
+46;2022;56;México;Luis Chávez;1;3;0.33
+47;2022;48;Irán;Rouzbeh Cheshmi;1;2;0.5
+48;2022;14;Camerún;Eric Maxim Choupo Moting;1;3;0.33
+49;2022;26;Dinamarca;Andreas Christensen;1;3;0.33
+50;2022;55;Marruecos;Achraf Dari;1;3;0.33
+51;2022;15;Canadá;Alphonso Davies;1;3;0.33
+52;2022;60;Paises Bajos;Frenkie de Jong;1;5;0.2
+53;2022;60;Paises Bajos;Memphis Depay;1;5;0.2
+54;2022;6;Argentina;Angel Di Maria;1;5;0.2
+55;2022;70;Senegal;Boulaye Dia;1;4;0.25
+56;2022;70;Senegal;Famara Diéhiou;1;2;0.5
+57;2022;70;Senegal;Bamba Dieng;1;4;0.25
+58;2022;7;Australia;Mitchell Duke;1;4;0.25
+59;2022;60;Paises Bajos;Denzel Dumfries;1;5;0.2
+60;2022;65;Portugal;João Félix;1;4;0.25
+61;2022;6;Argentina;Enzo Fernandez;1;7;0.14
+62;2022;44;Inglaterra;Phil Foden;1;4;0.25
+63;2022;74;Suiza;Remo Freuler;1;4;0.25
+64;2022;22;Costa Rica;Keysher Fuller;1;3;0.33
+65;2022;34;España;Gavi;1;4;0.25
+66;2022;1;Alemania;Serge Gnabry;1;3;0.33
+67;2022;7;Australia;Craig Goodwin;1;4;0.25
+68;2022;44;Inglaterra;Jack Grealish;1;5;0.2
+69;2022;65;Portugal;Raphaël Guerreiro;1;4;0.25
+70;2022;1;Alemania;Ilkay Gündogan;1;3;0.33
+71;2022;24;Croacia;Josko Gvardiol;1;7;0.14
+72;2022;44;Inglaterra;Jordan Henderson;1;4;0.25
+73;2022;36;Francia;Théo Hernandez;1;6;0.17
+74;2022;65;Portugal;Ricardo Horta;1;3;0.33
+75;2022;21;Corea del Sur;Hee-chan Hwang;1;2;0.5
+76;2022;78;Túnez;Wahbi Khazri;1;2;0.5
+77;2022;21;Corea del Sur;Young-Gwon Kim;1;4;0.25
+78;2022;60;Paises Bajos;Davy Klaassen;1;4;0.25
+79;2022;36;Francia;Randal Kolo Muani;1;3;0.33
+80;2022;70;Senegal;Kalidou Koulibaly;1;4;0.25
+81;2022;7;Australia;Mathew Leckie;1;4;0.25
+82;2022;24;Croacia;Marko Livaja;1;6;0.17
+83;2022;6;Argentina;Alexis Mac Allister;1;6;0.17
+84;2022;53;Japón;Daizen Maeda;1;3;0.33
+85;2022;24;Croacia;Lovro Majer;1;7;0.14
+86;2022;56;México;Henry Martin;1;2;0.5
+87;2022;71;Serbia;Sergej Milinković-Savić;1;3;0.33
+88;2022;6;Argentina;Nahuel Molina;1;7;0.14
+89;2022;16;Catar;Mohammed Muntari;1;3;0.33
+90;2022;34;España;Dani Olmo;1;4;0.25
+91;2022;24;Croacia;Mislav Orsic;1;6;0.17
+92;2022;21;Corea del Sur;Seung-ho Paik;1;1;1
+93;2022;11;Brasil;Lucas Paqueta;1;4;0.25
+94;2022;71;Serbia;Strahinja Pavlovic;1;3;0.33
+95;2022;65;Portugal;Pepe;1;4;0.25
+96;2022;24;Croacia;Ivan Perisic;1;7;0.14
+97;2022;24;Croacia;Bruno Petkovic;1;6;0.17
+98;2022;35;Estados Unidos;Christian Pulisic;1;4;0.25
+99;2022;36;Francia;Adrien Rabiot;1;6;0.17
+100;2022;48;Irán;Ramin Rezaeian;1;2;0.5
+101;2022;65;Portugal;Cristiano Ronaldo;1;5;0.2
+102;2022;55;Marruecos;Romain Saïss;1;6;0.17
+103;2022;38;Ghana;Mohammed Salisu;1;3;0.33
+104;2022;70;Senegal;Ismaïla Sarr;1;4;0.25
+105;2022;74;Suiza;Xherdan Shaqiri;1;3;0.33
+106;2022;34;España;Carlos Soler;1;2;0.5
+107;2022;44;Inglaterra;Raheem Sterling;1;3;0.33
+108;2022;53;Japón;Ao Tanaka;1;3;0.33
+109;2022;36;Francia;Aurélien Tchouaméni;1;7;0.14
+110;2022;22;Costa Rica;Yeltsin Tejeda;1;3;0.33
+111;2022;22;Costa Rica;Juan Pablo Vargas;1;1;1
+112;2022;11;Brasil;Vinicius Junior;1;4;0.25
+113;2022;71;Serbia;Dusan Vlahovic;1;2;0.5
+114;2022;35;Estados Unidos;Tim Weah;1;4;0.25
+115;2022;35;Estados Unidos;Haji Wright;1;4;0.25
+116;2022;64;Polonia;Piotr Zieliński;1;4;0.25
+117;2022;55;Marruecos;Hakim Ziyech;1;7;0.14

@@ -1,0 +1,198 @@
+id_tarjeta;anio;id_seleccion;pais;jugador;amarillas;rojas
+1;2022;14;Camerún;Vincent Aboubakar;1;3
+2;2022;55;Marruecos;Walid Cheddira;1;2
+3;2022;60;Paises Bajos;Denzel Dumfries;1;5
+4;2022;37;Gales;Wayne Heennesey;1;2
+5;2022;6;Argentina;Marcos Acuña;3;6
+6;2022;6;Argentina;Gonzalo Montiel;3;4
+7;2022;4;Arabia Saudita;Abdulelah Al-Amri;2;3
+8;2022;4;Arabia Saudita;Abdulelah Al-Malki;2;2
+9;2022;22;Costa Rica;Francisco Calvo;2;2
+10;2022;64;Polonia;Matty Cash;2;4
+11;2022;7;Australia;Milos Degenek;2;4
+12;2022;14;Camerún;Collins Faï;2;3
+13;2022;71;Serbia;Nemanja Gudelj;2;2
+14;2022;70;Senegal;Idrissa Gana Gueye;2;3
+15;2022;7;Australia;Jackson Irvine;2;4
+16;2022;53;Japón;Ko Itakura;2;3
+17;2022;48;Irán;Alireza Jahanbakhsh;2;2
+18;2022;21;Corea del Sur;Woo-young Jung;2;4
+19;2022;24;Croacia;Mateo Kovacic;2;7
+20;2022;71;Serbia;Sasa Lukic;2;3
+21;2022;27;Ecuador;Jhegson Méndez;2;2
+22;2022;71;Serbia;Nikola Milenković;2;3
+23;2022;13;Bélgica;Amadou Onana;2;2
+24;2022;6;Argentina;Nicolas Otamendi;2;7
+25;2022;6;Argentina;Leandro Paredes;2;5
+26;2022;71;Serbia;Strahinja Pavlovic;2;3
+27;2022;6;Argentina;Cristian Romero;2;7
+28;2022;74;Suiza;Fabian Schär;2;2
+29;2022;38;Ghana;Alidu Seidu;2;2
+30;2022;78;Túnez;Ali Abdi;1;3
+31;2022;4;Arabia Saudita;Saud Abdulhamid;1;3
+32;2022;35;Estados Unidos;Kellyn Acosta;1;2
+33;2022;35;Estados Unidos;Tyler Adams;1;4
+34;2022;15;Canadá;Sam Adekugbe;1;3
+35;2022;16;Catar;Akram Afif;1;3
+36;2022;16;Catar;Homam Ahmed;1;3
+37;2022;74;Suiza;Manuel Akanji;1;4
+38;2022;60;Paises Bajos;Nathan Aké;1;5
+39;2022;16;Catar;Saad Al Sheeb;1;1
+40;2022;4;Arabia Saudita;Nawaf Al-Abed;1;2
+41;2022;4;Arabia Saudita;Ali Al-Bulaihi;1;3
+42;2022;4;Arabia Saudita;Salem Al-Dawsari;1;3
+43;2022;4;Arabia Saudita;Ali Al-Hassan;1;1
+44;2022;4;Arabia Saudita;Mohammed Al-Owais;1;3
+45;2022;4;Arabia Saudita;Saleh Al-Shehri;1;3
+46;2022;16;Catar;Almoez Ali;1;3
+47;2022;56;México;Roberto Alvarado;1;1
+48;2022;56;México;Edson Álvarez;1;2
+49;2022;55;Marruecos;Selim Amallah;1;7
+50;2022;38;Ghana;Daniel Amartey;1;3
+51;2022;55;Marruecos;Sofyan Amrabat;1;7
+52;2022;56;México;Néstor Araujo;1;1
+53;2022;38;Ghana;Andre Ayew;1;3
+54;2022;4;Arabia Saudita;Hattan Bahebri;1;2
+55;2022;37;Gales;Gareth Bale;1;3
+56;2022;24;Croacia;Borna Barisic;1;1
+57;2022;14;Camerún;Christian Bassogog;1;1
+58;2022;7;Australia;Aziz Behich;1;4
+59;2022;80;Uruguay;Rodrigo Bentancur;1;3
+60;2022;64;Polonia;Bartosz Bereszyński;1;4
+61;2022;60;Paises Bajos;Steven Berghuis;1;4
+62;2022;60;Paises Bajos;Steven Bergwijn;1;4
+63;2022;22;Costa Rica;Celso Borges;1;3
+64;2022;16;Catar;Karim Boudiaf;1;3
+65;2022;55;Marruecos;Sofiane Boufal;1;7
+66;2022;24;Croacia;Marcelo Brozovic;1;6
+67;2022;15;Canadá;Tajon Buchanan;1;3
+68;2022;34;España;Sergio Busquets;1;4
+69;2022;80;Uruguay;Martin Caceres;1;1
+70;2022;27;Ecuador;Moisés Caicedo;1;3
+71;2022;22;Costa Rica;Joel Campbell;1;3
+72;2022;13;Bélgica;Yannick Carrasco;1;2
+73;2022;11;Brasil;Casemiro;1;4
+74;2022;80;Uruguay;Edinson Cavani;1;3
+75;2022;21;Corea del Sur;Gue-sung Cho;1;4
+76;2022;26;Dinamarca;Andreas Christensen;1;3
+77;2022;70;Senegal;Pathé Ciss;1;3
+78;2022;80;Uruguay;Sebastián Coates;1;2
+79;2022;74;Suiza;Eray Cömert;1;2
+80;2022;22;Costa Rica;Anthony Contreras;1;3
+81;2022;26;Dinamarca;Andreas Cornelius;1;3
+82;2022;11;Brasil;Danilo;1;3
+83;2022;55;Marruecos;Achraf Dari;1;3
+84;2022;15;Canadá;Alphonso Davies;1;3
+85;2022;60;Paises Bajos;Frenkie de Jong;1;5
+86;2022;60;Paises Bajos;Matthijs De Ligt;1;2
+87;2022;36;Francia;Ousmane Dembélé;1;7
+88;2022;13;Bélgica;Leander Dendoncker;1;2
+89;2022;60;Paises Bajos;Memphis Depay;1;5
+90;2022;35;Estados Unidos;Sergiño Dest;1;4
+91;2022;70;Senegal;Boulaye Dia;1;4
+92;2022;65;Portugal;Rúben Dias;1;4
+93;2022;22;Costa Rica;Óscar Duarte;1;3
+94;2022;7;Australia;Mitchell Duke;1;4
+95;2022;74;Suiza;Nico Elvedi;1;2
+96;2022;53;Japón;Wataru Endo;1;4
+97;2022;65;Portugal;João Félix;1;4
+98;2022;65;Portugal;Bruno Fernandes;1;4
+99;2022;6;Argentina;Enzo Fernandez;1;7
+100;2022;64;Polonia;Przemyslaw Frankowski;1;4
+101;2022;11;Brasil;Fred;1;4
+102;2022;80;Uruguay;José María Giménez;1;3
+103;2022;36;Francia;Olivier Giroud;1;6
+104;2022;1;Alemania;Leon Goretzka;1;3
+105;2022;36;Francia;Antoine Griezmann;1;7
+106;2022;11;Brasil;Bruno Guimaraes;1;2
+107;2022;56;México;Érick Gutiérrez;1;1
+108;2022;36;Francia;Théo Hernandez;1;6
+109;2022;56;México;Héctor Herrera;1;2
+110;2022;15;Canadá;Junior Hoilett;1;3
+111;2022;48;Irán;Majid Hosseini;1;3
+112;2022;21;Corea del Sur;Hee-chan Hwang;1;2
+113;2022;70;Senegal;Ismail Jakobs;1;4
+114;2022;48;Irán;Abolfazl Jalali;1;1
+115;2022;37;Gales;Dan James;1;3
+116;2022;26;Dinamarca;Mathias Jensen;1;2
+117;2022;15;Canadá;Alistair Johnston;1;3
+118;2022;71;Serbia;Luka Jović;1;1
+119;2022;48;Irán;Hossein Kanaani;1;1
+120;2022;78;Túnez;Wajdi Kechrida;1;3
+121;2022;1;Alemania;Thilo Kehrer;1;1
+122;2022;78;Túnez;Taha Yassine Khenissi;1;2
+123;2022;21;Corea del Sur;Young-Gwon Kim;1;4
+124;2022;1;Alemania;Joshua Kimmich;1;3
+125;2022;64;Polonia;Jakub Kiwior;1;4
+126;2022;60;Paises Bajos;Teun Koopmeiners;1;5
+127;2022;70;Senegal;Kalidou Koulibaly;1;4
+128;2022;36;Francia;Jules Koundé;1;6
+129;2022;26;Dinamarca;Rasmus Kristensen;1;3
+130;2022;64;Polonia;Grzegorz Krychowiak;1;4
+131;2022;38;Ghana;Mohammed Kudus;1;3
+132;2022;14;Camerún;Pierre Kunde;1;2
+133;2022;78;Túnez;Aissa Laidouni;1;3
+134;2022;38;Ghana;Tariq Lamptey;1;2
+135;2022;60;Paises Bajos;Noa Lang;1;1
+136;2022;34;España;Aymeric Laporte;1;3
+137;2022;21;Corea del Sur;Kang-in Lee;1;4
+138;2022;24;Croacia;Dominik Livaković;1;7
+139;2022;24;Croacia;Dejan Lovren;1;6
+140;2022;16;Catar;Assim Madibo;1;2
+141;2022;4;Arabia Saudita;Abdullah Madu;1;1
+142;2022;44;Inglaterra;Harry Maguire;1;5
+143;2022;11;Brasil;Marquinhos;1;5
+144;2022;6;Argentina;Lisandro Martinez;1;5
+145;2022;35;Estados Unidos;Weston McKennie;1;4
+146;2022;70;Senegal;Nampalys Mendy;1;4
+147;2022;37;Gales;Chris Mepham;1;3
+148;2022;6;Argentina;Lionel Messi;1;7
+149;2022;13;Bélgica;Thomas Meunier;1;3
+150;2022;64;Polonia;Arkadiusz Milik;1;3
+151;2022;71;Serbia;Sergej Milinković-Savić;1;3
+152;2022;11;Brasil;Eder Militao;1;4
+153;2022;15;Canadá;Kamal Miller;1;3
+154;2022;71;Serbia;Aleksandar Mitrović;1;3
+155;2022;24;Croacia;Luka Modric;1;7
+156;2022;16;Catar;Ismaeel Mohammad;1;2
+157;2022;7;Australia;Aaron Mooy;1;4
+158;2022;56;México;Hector Moreno;1;3
+159;2022;65;Portugal;Rúben Neves;1;5
+160;2022;14;Camerún;Nicolas Nkoulou;1;2
+161;2022;80;Uruguay;Darwin Núñez;1;3
+162;2022;80;Uruguay;Mathías Olivera;1;3
+163;2022;15;Canadá;Jonathan Osorio;1;3
+164;2022;55;Marruecos;Azzedine Ounahi;1;7
+165;2022;65;Portugal;Danilo Pereira;1;1
+166;2022;24;Croacia;Bruno Petkovic;1;6
+167;2022;6;Argentina;German Pezzella;1;3
+168;2022;48;Irán;Morteza Pouraliganji;1;3
+169;2022;36;Francia;Adrien Rabiot;1;6
+170;2022;71;Serbia;Predrag Rajković;1;0
+171;2022;37;Gales;Aaron Ramsey;1;3
+172;2022;35;Estados Unidos;Tim Ream;1;4
+173;2022;48;Irán;Ramin Rezaeian;1;2
+174;2022;74;Suiza;Fabian Rieder;1;2
+175;2022;37;Gales;Joe Rodon;1;3
+176;2022;55;Marruecos;Abdelhamid Sabiri;1;5
+177;2022;55;Marruecos;Romain Saïss;1;6
+178;2022;56;México;Jorge Sánchez;1;2
+179;2022;78;Túnez;Ferjani Sassi;1;2
+180;2022;26;Dinamarca;Robert Skov;1;1
+181;2022;80;Uruguay;Luis Suarez;1;3
+182;2022;38;Ghana;Kamaldeen Sulemana;1;2
+183;2022;4;Arabia Saudita;Hassan Tambakti;1;2
+184;2022;53;Japón;Shogo Taniguchi;1;2
+185;2022;36;Francia;Aurélien Tchouaméni;1;7
+186;2022;36;Francia;Marcus Thuram;1;5
+187;2022;60;Paises Bajos;Jurrïen Timber;1;4
+188;2022;14;Camerún;Nouhou Tolo;1;3
+189;2022;74;Suiza;Rubén Vargas;1;4
+190;2022;65;Portugal;Vitinha;1;3
+191;2022;15;Canadá;Steven Vitoria;1;3
+192;2022;60;Paises Bajos;Wout Weghorst;1;4
+193;2022;74;Suiza;Silvan Widmer;1;3
+194;2022;38;Ghana;Inaki Williams;1;3
+195;2022;74;Suiza;Granit Xhaka;1;4
+196;2022;53;Japón;Miki Yamane;1;1
+197;2022;53;Japón;Maya Yoshida;1;4

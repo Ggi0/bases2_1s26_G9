@@ -1,0 +1,57 @@
+id_gol;id_partido;anio;num_partido;id_seleccion;equipo;jugador;minuto;es_penal
+1;1;2022;1;27;Ecuador;Enner Valencia;16;SI
+2;1;2022;1;27;Ecuador;Enner Valencia;31;NO
+3;2;2022;2;60;Paises Bajos;Cody Gakpo;84;NO
+4;2;2022;2;60;Paises Bajos;Davy Klaassen;90;NO
+5;3;2022;3;70;Senegal;Boulaye Dia;41;NO
+6;3;2022;3;70;Senegal;Famara Diéhiou;48;NO
+7;3;2022;3;70;Senegal;Bamba Dieng;84;NO
+8;4;2022;4;27;Ecuador;Enner Valencia;49;NO
+9;6;2022;6;70;Senegal;Ismaïla Sarr;44;NO
+10;6;2022;6;70;Senegal;Kalidou Koulibaly;70;NO
+11;1;2022;1;48;Irán;Mehdi Taremi;65;NO
+12;1;2022;1;48;Irán;Mehdi Taremi;90;SI
+13;2;2022;2;37;Gales;Gareth Bale;82;SI
+14;3;2022;3;48;Irán;Rouzbeh Cheshmi;90;NO
+15;3;2022;3;48;Irán;Ramin Rezaeian;90;NO
+16;5;2022;5;44;Inglaterra;Marcus Rashford;50;NO
+17;5;2022;5;44;Inglaterra;Phil Foden;51;NO
+18;5;2022;5;44;Inglaterra;Marcus Rashford;68;NO
+19;6;2022;6;35;Estados Unidos;Christian Pulisic;38;NO
+20;1;2022;1;4;Arabia Saudita;Saleh Al-Shehri;48;NO
+21;1;2022;1;4;Arabia Saudita;Salem Al-Dawsari;53;NO
+22;5;2022;5;56;México;Henry Martin;47;NO
+23;5;2022;5;56;México;Luis Chávez;52;NO
+24;6;2022;6;6;Argentina;Alexis Mac Allister;46;NO
+25;6;2022;6;6;Argentina;Julian Alvarez;67;NO
+26;2;2022;2;7;Australia;Craig Goodwin;9;NO
+27;3;2022;3;7;Australia;Mitchell Duke;23;NO
+28;4;2022;4;26;Dinamarca;Andreas Christensen;68;NO
+29;1;2022;1;53;Japón;Ritsu Doan;75;NO
+30;1;2022;1;53;Japón;Takuma Asano;83;NO
+31;3;2022;3;22;Costa Rica;Keysher Fuller;81;NO
+32;4;2022;4;1;Alemania;Niclas Füllkrug;83;NO
+33;5;2022;5;34;España;Álvaro Morata;11;NO
+34;6;2022;6;1;Alemania;Serge Gnabry;10;NO
+35;6;2022;6;1;Alemania;Kai Havertz;73;NO
+36;6;2022;6;1;Alemania;Kai Havertz;85;NO
+37;6;2022;6;1;Alemania;Niclas Füllkrug;89;NO
+38;3;2022;3;55;Marruecos;Romain Saïss;73;NO
+39;3;2022;3;55;Marruecos;Zakaria Aboukhlal;90;NO
+40;4;2022;4;15;Canadá;Alphonso Davies;2;NO
+41;6;2022;6;55;Marruecos;Hakim Ziyech;4;NO
+42;6;2022;6;55;Marruecos;Youssef En-Nesyri;23;NO
+43;3;2022;3;71;Serbia;Strahinja Pavlovic;45;NO
+44;3;2022;3;71;Serbia;Sergej Milinković-Savić;45;NO
+45;3;2022;3;71;Serbia;Aleksandar Mitrović;53;NO
+46;5;2022;5;74;Suiza;Xherdan Shaqiri;20;NO
+47;5;2022;5;74;Suiza;Breel Embolo;44;NO
+48;5;2022;5;74;Suiza;Remo Freuler;48;NO
+49;2;2022;2;38;Ghana;Andre Ayew;73;NO
+50;2;2022;2;38;Ghana;Osman Bukari;89;NO
+51;3;2022;3;38;Ghana;Mohammed Salisu;24;NO
+52;3;2022;3;38;Ghana;Mohammed Kudus;34;NO
+53;3;2022;3;38;Ghana;Mohammed Kudus;68;NO
+54;5;2022;5;80;Uruguay;Giorgian De Arrascaeta;26;NO
+55;5;2022;5;80;Uruguay;Giorgian De Arrascaeta;32;NO
+56;6;2022;6;65;Portugal;Ricardo Horta;5;NO

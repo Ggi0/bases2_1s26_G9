@@ -1,185 +1,185 @@
 id_tarjeta,anio,id_seleccion,pais,jugador,amarillas,rojas
-1,2018,7,Colombia,Carlos Sánchez,1,1
+1,2018,19,Colombia,Carlos Sánchez,1,1
 2,2018,1,Alemania,Jérôme Boateng,1,2
-3,2018,30,Suiza,Michael Lang,1,3
-4,2018,26,Rusia,Igor Smolnikov,1,1
-5,2018,29,Suecia,Sebastian Larsson,3,4
-6,2018,6,Bélgica,Toby Alderweireld,2,6
-7,2018,22,Panamá,Michael Amir Murillo,2,2
-8,2018,3,Argentina,Ever Banega,2,3
-9,2018,7,Colombia,Wílmar Barrios,2,3
-10,2018,30,Suiza,Valon Behrami,2,4
-11,2018,32,Uruguay,Rodrigo Bentancur,2,5
-12,2018,5,Brasil,Casemiro,2,4
-13,2018,22,Panamá,Armando Cooper,2,2
-14,2018,19,Marruecos,Karim El Ahmadi,2,3
-15,2018,26,Rusia,Yury Gazinsky,2,4
-16,2018,14,Francia,Lucas Hernandez,2,7
-17,2018,20,México,Héctor Herrera,2,4
-18,2018,8,Corea del Sur,Woo-young Jung,2,3
-19,2018,11,Dinamarca,Mathias Jørgensen,2,3
-20,2018,14,Francia,N'Golo Kanté,2,7
-21,2018,30,Suiza,Stephan Lichtsteiner,2,3
-22,2018,29,Suecia,Mikael Lustig,2,4
-23,2018,15,Inglaterra,Harry Maguire,2,7
-24,2018,10,Croacia,Mario Mandzukic,2,6
-25,2018,3,Argentina,Javier Mascherano,2,4
-26,2018,28,Serbia,Nemanja Matić,2,3
-27,2018,14,Francia,Blaise Matuidi,2,5
-28,2018,14,Francia,Kylian Mbappé,2,7
-29,2018,6,Bélgica,Thomas Meunier,2,5
-30,2018,28,Serbia,Aleksandar Mitrović,2,3
-31,2018,20,México,Hector Moreno,2,3
-32,2018,27,Senegal,M'Baye Niang,2,3
-33,2018,3,Argentina,Nicolas Otamendi,2,4
-34,2018,10,Croacia,Ante Rebic,2,6
-35,2018,25,Portugal,Cristiano Ronaldo,2,4
-36,2018,31,Túnez,Ferjani Sassi,2,3
-37,2018,30,Suiza,Fabian Schär,2,3
-38,2018,6,Bélgica,Jan Vertonghen,2,6
-39,2018,10,Croacia,Sime Vrsaljko,2,6
-40,2018,15,Inglaterra,Kyle Walker,2,5
-41,2018,11,Dinamarca,Yussuf Yurary Poulsen,2,3
-42,2018,9,Costa Rica,Johnny Acosta,1,3
-43,2018,3,Argentina,Marcos Acuña,1,1
-44,2018,2,Arabia Saudita,Taisir Al-Jassim,1,2
-45,2018,20,México,Edson Álvarez,1,4
-46,2018,16,Irán,Vahid Amiri,1,3
-47,2018,19,Marruecos,Nordin Amrabat,1,3
-48,2018,16,Irán,Karim Ansarifard,1,3
-49,2018,23,Perú,Pedro Aquino,1,3
-50,2018,7,Colombia,Santiago Arias,1,4
-51,2018,4,Australia,Daniel Arzani,1,3
-52,2018,22,Panamá,Ricardo Ávila,1,2
-53,2018,16,Irán,Sardar Azmoun,1,3
-54,2018,7,Colombia,Carlos Bacca,1,3
-55,2018,31,Túnez,Anice Badri,1,3
-56,2018,21,Nigeria,Leon Balogun,1,3
-57,2018,22,Panamá,Édgar Joel  Bárcenas,1,3
-58,2018,24,Polonia,Jan Bednarek,1,3
-59,2018,4,Australia,Aziz Behich,1,3
-60,2018,19,Marruecos,Medhi Benatia,1,2
-61,2018,19,Marruecos,Mbark Boussoufa,1,3
-62,2018,10,Croacia,Marcelo Brozovic,1,6
-63,2018,13,España,Sergio Busquets,1,4
-64,2018,9,Costa Rica,Francisco Calvo,1,2
-65,2018,9,Costa Rica,Joel Campbell,1,2
-66,2018,31,Túnez,Ghailene Chaalali,1,1
-67,2018,29,Suecia,Viktor Claesson,1,5
-68,2018,10,Croacia,Vedran Corluka,1,4
-69,2018,7,Colombia,Juan Guillermo Cuadrado,1,4
-70,2018,19,Marruecos,Manuel da Costa,1,3
-71,2018,22,Panamá,Erick Davis,1,2
-72,2018,6,Bélgica,Kevin De Bruyne,1,6
-73,2018,11,Dinamarca,Thomas Delaney,1,4
-74,2018,6,Bélgica,Leander Dendoncker,1,1
-75,2018,16,Irán,Omid Ebrahimi,1,3
-76,2018,29,Suecia,Albin Ekdal,1,5
-77,2018,19,Marruecos,Munir El Kajoui,1,3
-78,2018,22,Panamá,Fidel Escobar,1,3
-79,2018,5,Brasil,Fagner,1,4
-80,2018,7,Colombia,Radamel Falcao,1,4
-81,2018,12,Egipto,Ahmed Fathy,1,3
-82,2018,25,Portugal,Bruno Fernandes,1,2
-83,2018,5,Brasil,Fernandinho,1,5
-84,2018,5,Brasil,Filipe Luís,1,2
-85,2018,17,Islandia,Alfred Finnbogason,1,3
-86,2018,12,Egipto,Ali Gabr,1,3
-87,2018,20,México,Jesús Gallardo,1,4
-88,2018,9,Costa Rica,Cristian Gamboa,1,3
-89,2018,14,Francia,Olivier Giroud,1,7
-90,2018,22,Panamá,Aníbal Godoy,1,3
-91,2018,26,Rusia,Aleksandr Golovin,1,4
-92,2018,22,Panamá,Gabriel Enrique  Gómez,1,3
-93,2018,24,Polonia,Jacek Góralski,1,2
-94,2018,20,México,Andres Guardado,1,4
-95,2018,25,Portugal,Raphaël Guerreiro,1,4
-96,2018,23,Perú,Paolo Guerrero,1,3
-97,2018,27,Senegal,Idrissa Gana Gueye,1,3
-98,2018,29,Suecia,John Guidetti,1,2
-99,2018,9,Costa Rica,David Guzmán,1,3
-100,2018,16,Irán,Ehsan Hajsafi,1,3
-101,2018,19,Marruecos,Achraf Hakimi,1,3
-102,2018,17,Islandia,Emil Hallfredsson,1,2
-103,2018,18,Japón,Makoto Hasebe,1,4
-104,2018,6,Bélgica,Eden Hazard,1,6
-105,2018,12,Egipto,Ahmed Hegazi,1,3
-106,2018,15,Inglaterra,Jordan Henderson,1,5
+3,2018,74,Suiza,Michael Lang,1,3
+4,2018,69,Rusia,Igor Smolnikov,1,1
+5,2018,73,Suecia,Sebastian Larsson,3,4
+6,2018,13,Bélgica,Toby Alderweireld,2,6
+7,2018,61,Panamá,Michael Amir Murillo,2,2
+8,2018,6,Argentina,Ever Banega,2,3
+9,2018,19,Colombia,Wílmar Barrios,2,3
+10,2018,74,Suiza,Valon Behrami,2,4
+11,2018,80,Uruguay,Rodrigo Bentancur,2,5
+12,2018,11,Brasil,Casemiro,2,4
+13,2018,61,Panamá,Armando Cooper,2,2
+14,2018,55,Marruecos,Karim El Ahmadi,2,3
+15,2018,69,Rusia,Yury Gazinsky,2,4
+16,2018,36,Francia,Lucas Hernandez,2,7
+17,2018,56,México,Héctor Herrera,2,4
+18,2018,21,Corea del Sur,Woo-young Jung,2,3
+19,2018,26,Dinamarca,Mathias Jørgensen,2,3
+20,2018,36,Francia,N'Golo Kanté,2,7
+21,2018,74,Suiza,Stephan Lichtsteiner,2,3
+22,2018,73,Suecia,Mikael Lustig,2,4
+23,2018,44,Inglaterra,Harry Maguire,2,7
+24,2018,24,Croacia,Mario Mandzukic,2,6
+25,2018,6,Argentina,Javier Mascherano,2,4
+26,2018,71,Serbia,Nemanja Matić,2,3
+27,2018,36,Francia,Blaise Matuidi,2,5
+28,2018,36,Francia,Kylian Mbappé,2,7
+29,2018,13,Bélgica,Thomas Meunier,2,5
+30,2018,71,Serbia,Aleksandar Mitrović,2,3
+31,2018,56,México,Hector Moreno,2,3
+32,2018,70,Senegal,M'Baye Niang,2,3
+33,2018,6,Argentina,Nicolas Otamendi,2,4
+34,2018,24,Croacia,Ante Rebic,2,6
+35,2018,65,Portugal,Cristiano Ronaldo,2,4
+36,2018,78,Túnez,Ferjani Sassi,2,3
+37,2018,74,Suiza,Fabian Schär,2,3
+38,2018,13,Bélgica,Jan Vertonghen,2,6
+39,2018,24,Croacia,Sime Vrsaljko,2,6
+40,2018,44,Inglaterra,Kyle Walker,2,5
+41,2018,26,Dinamarca,Yussuf Yurary Poulsen,2,3
+42,2018,22,Costa Rica,Johnny Acosta,1,3
+43,2018,6,Argentina,Marcos Acuña,1,1
+44,2018,4,Arabia Saudita,Taisir Al-Jassim,1,2
+45,2018,56,México,Edson Álvarez,1,4
+46,2018,48,Irán,Vahid Amiri,1,3
+47,2018,55,Marruecos,Nordin Amrabat,1,3
+48,2018,48,Irán,Karim Ansarifard,1,3
+49,2018,63,Perú,Pedro Aquino,1,3
+50,2018,19,Colombia,Santiago Arias,1,4
+51,2018,7,Australia,Daniel Arzani,1,3
+52,2018,61,Panamá,Ricardo Ávila,1,2
+53,2018,48,Irán,Sardar Azmoun,1,3
+54,2018,19,Colombia,Carlos Bacca,1,3
+55,2018,78,Túnez,Anice Badri,1,3
+56,2018,57,Nigeria,Leon Balogun,1,3
+57,2018,61,Panamá,Édgar Joel  Bárcenas,1,3
+58,2018,64,Polonia,Jan Bednarek,1,3
+59,2018,7,Australia,Aziz Behich,1,3
+60,2018,55,Marruecos,Medhi Benatia,1,2
+61,2018,55,Marruecos,Mbark Boussoufa,1,3
+62,2018,24,Croacia,Marcelo Brozovic,1,6
+63,2018,34,España,Sergio Busquets,1,4
+64,2018,22,Costa Rica,Francisco Calvo,1,2
+65,2018,22,Costa Rica,Joel Campbell,1,2
+66,2018,78,Túnez,Ghailene Chaalali,1,1
+67,2018,73,Suecia,Viktor Claesson,1,5
+68,2018,24,Croacia,Vedran Corluka,1,4
+69,2018,19,Colombia,Juan Guillermo Cuadrado,1,4
+70,2018,55,Marruecos,Manuel da Costa,1,3
+71,2018,61,Panamá,Erick Davis,1,2
+72,2018,13,Bélgica,Kevin De Bruyne,1,6
+73,2018,26,Dinamarca,Thomas Delaney,1,4
+74,2018,13,Bélgica,Leander Dendoncker,1,1
+75,2018,48,Irán,Omid Ebrahimi,1,3
+76,2018,73,Suecia,Albin Ekdal,1,5
+77,2018,55,Marruecos,Munir El Kajoui,1,3
+78,2018,61,Panamá,Fidel Escobar,1,3
+79,2018,11,Brasil,Fagner,1,4
+80,2018,19,Colombia,Radamel Falcao,1,4
+81,2018,28,Egipto,Ahmed Fathy,1,3
+82,2018,65,Portugal,Bruno Fernandes,1,2
+83,2018,11,Brasil,Fernandinho,1,5
+84,2018,11,Brasil,Filipe Luís,1,2
+85,2018,49,Islandia,Alfred Finnbogason,1,3
+86,2018,28,Egipto,Ali Gabr,1,3
+87,2018,56,México,Jesús Gallardo,1,4
+88,2018,22,Costa Rica,Cristian Gamboa,1,3
+89,2018,36,Francia,Olivier Giroud,1,7
+90,2018,61,Panamá,Aníbal Godoy,1,3
+91,2018,69,Rusia,Aleksandr Golovin,1,4
+92,2018,61,Panamá,Gabriel Enrique  Gómez,1,3
+93,2018,64,Polonia,Jacek Góralski,1,2
+94,2018,56,México,Andres Guardado,1,4
+95,2018,65,Portugal,Raphaël Guerreiro,1,4
+96,2018,63,Perú,Paolo Guerrero,1,3
+97,2018,70,Senegal,Idrissa Gana Gueye,1,3
+98,2018,73,Suecia,John Guidetti,1,2
+99,2018,22,Costa Rica,David Guzmán,1,3
+100,2018,48,Irán,Ehsan Hajsafi,1,3
+101,2018,55,Marruecos,Achraf Hakimi,1,3
+102,2018,49,Islandia,Emil Hallfredsson,1,2
+103,2018,53,Japón,Makoto Hasebe,1,4
+104,2018,13,Bélgica,Eden Hazard,1,6
+105,2018,28,Egipto,Ahmed Hegazi,1,3
+106,2018,44,Inglaterra,Jordan Henderson,1,5
 107,2018,1,Alemania,Mats Hummels,1,2
-108,2018,23,Perú,Paolo Hurtado,1,1
-109,2018,8,Corea del Sur,Hee-chan Hwang,1,3
-110,2018,21,Nigeria,Brian Idowu,1,3
-111,2018,18,Japón,Takashi Inui,1,4
-112,2018,28,Serbia,Branislav Ivanovic,1,2
-113,2018,16,Irán,Alireza Jahanbakhsh,1,3
-114,2018,4,Australia,Mile Jedinak,1,3
-115,2018,10,Croacia,Tin Jedvaj,1,1
-116,2018,18,Japón,Eiji Kawashima,1,4
-117,2018,8,Corea del Sur,Shin-Wook Kim,1,1
-118,2018,8,Corea del Sur,Young-Gwon Kim,1,3
-119,2018,24,Polonia,Grzegorz Krychowiak,1,3
-120,2018,26,Rusia,Ilya Kutepov,1,5
-121,2018,20,México,Miguel Layún,1,4
-122,2018,4,Australia,Mathew Leckie,1,3
-123,2018,8,Corea del Sur,Yong Lee,1,3
-124,2018,8,Corea del Sur,Jae-sung Lee,1,3
-125,2018,8,Corea del Sur,Seung-woo Lee,1,2
-126,2018,15,Inglaterra,Jesse Lingard,1,6
-127,2018,28,Serbia,Adem Ljajić,1,3
-128,2018,15,Inglaterra,Ruben Loftus-Cheek,1,4
-129,2018,10,Croacia,Dejan Lovren,1,7
-130,2018,18,Japón,Tomoaki Makino,1,1
-131,2018,3,Argentina,Gabriel Mercado,1,3
-132,2018,3,Argentina,Lionel Messi,1,4
-133,2018,28,Serbia,Sergej Milinković-Savić,1,3
-134,2018,28,Serbia,Luka Milivojević,1,2
-135,2018,4,Australia,Mark Milligan,1,3
-136,2018,7,Colombia,Johan Mojica,1,4
-137,2018,8,Corea del Sur,Seon-min Moon,1,2
-138,2018,12,Egipto,Sam Morsy,1,1
+108,2018,63,Perú,Paolo Hurtado,1,1
+109,2018,21,Corea del Sur,Hee-chan Hwang,1,3
+110,2018,57,Nigeria,Brian Idowu,1,3
+111,2018,53,Japón,Takashi Inui,1,4
+112,2018,71,Serbia,Branislav Ivanovic,1,2
+113,2018,48,Irán,Alireza Jahanbakhsh,1,3
+114,2018,7,Australia,Mile Jedinak,1,3
+115,2018,24,Croacia,Tin Jedvaj,1,1
+116,2018,53,Japón,Eiji Kawashima,1,4
+117,2018,21,Corea del Sur,Shin-Wook Kim,1,1
+118,2018,21,Corea del Sur,Young-Gwon Kim,1,3
+119,2018,64,Polonia,Grzegorz Krychowiak,1,3
+120,2018,69,Rusia,Ilya Kutepov,1,5
+121,2018,56,México,Miguel Layún,1,4
+122,2018,7,Australia,Mathew Leckie,1,3
+123,2018,21,Corea del Sur,Yong Lee,1,3
+124,2018,21,Corea del Sur,Jae-sung Lee,1,3
+125,2018,21,Corea del Sur,Seung-woo Lee,1,2
+126,2018,44,Inglaterra,Jesse Lingard,1,6
+127,2018,71,Serbia,Adem Ljajić,1,3
+128,2018,44,Inglaterra,Ruben Loftus-Cheek,1,4
+129,2018,24,Croacia,Dejan Lovren,1,7
+130,2018,53,Japón,Tomoaki Makino,1,1
+131,2018,6,Argentina,Gabriel Mercado,1,3
+132,2018,6,Argentina,Lionel Messi,1,4
+133,2018,71,Serbia,Sergej Milinković-Savić,1,3
+134,2018,71,Serbia,Luka Milivojević,1,2
+135,2018,7,Australia,Mark Milligan,1,3
+136,2018,19,Colombia,Johan Mojica,1,4
+137,2018,21,Corea del Sur,Seon-min Moon,1,2
+138,2018,28,Egipto,Sam Morsy,1,1
 139,2018,1,Alemania,Thomas Müller,1,3
-140,2018,27,Senegal,Cheikh N'Doye,1,2
-141,2018,5,Brasil,Neymar Jr.,1,5
-142,2018,21,Nigeria,John Obi Mikel,1,3
-143,2018,14,Francia,Benjamin Pavard,1,6
-144,2018,5,Brasil,Philippe Coutinho,1,5
-145,2018,13,España,Gerard Piqué,1,4
-146,2018,10,Croacia,Josip Pivarić,1,4
-147,2018,10,Croacia,Marko Pjaca,1,3
-148,2018,14,Francia,Paul Pogba,1,6
-149,2018,28,Serbia,Aleksandar Prijović,1,1
-150,2018,25,Portugal,Ricardo Quaresma,1,3
-151,2018,10,Croacia,Ivan Rakitic,1,7
-152,2018,4,Australia,Josh Risdon,1,3
-153,2018,7,Colombia,James Rodríguez,1,3
-154,2018,32,Uruguay,Cristian Rodríguez,1,5
-155,2018,4,Australia,Tom Rogic,1,3
-156,2018,3,Argentina,Marcos Rojo,1,3
-157,2018,27,Senegal,Youssouf Sabaly,1,3
-158,2018,17,Islandia,Birkir Már Saevarsson,1,3
-159,2018,20,México,Carlos Salcedo,1,4
-160,2018,27,Senegal,Salif Sané,1,3
-161,2018,30,Suiza,Xherdan Shaqiri,1,4
-162,2018,18,Japón,Gaku Shibasaki,1,4
-163,2018,16,Irán,Masoud Shojaei,1,1
-164,2018,25,Portugal,Adrien Silva,1,3
-165,2018,11,Dinamarca,Pione Sisto,1,4
-166,2018,26,Rusia,Fyodor Smolov,1,5
-167,2018,25,Portugal,Cédric Soares,1,3
-168,2018,8,Corea del Sur,Heung-Min Son,1,3
-169,2018,15,Inglaterra,John Stones,1,7
-170,2018,10,Croacia,Ivan Strinić,1,6
-171,2018,3,Argentina,Nicolas Tagliafico,1,4
-172,2018,23,Perú,Renato Tapia,1,2
-173,2018,22,Panamá,Luis Tejada,1,2
-174,2018,6,Bélgica,Youri Tielemans,1,4
-175,2018,14,Francia,Corentin Tolisso,1,5
-176,2018,12,Egipto,Trézéguet,1,3
-177,2018,21,Nigeria,William Troost-Ekong,1,3
-178,2018,10,Croacia,Domagoj Vida,1,6
-179,2018,9,Costa Rica,Kendall Waston,1,1
-180,2018,6,Bélgica,Axel Witsel,1,6
-181,2018,30,Suiza,Granit Xhaka,1,4
-182,2018,23,Perú,Yoshimar Yotún,1,3
-183,2018,30,Suiza,Denis Zakaria,1,2
-184,2018,26,Rusia,Roman Zobnin,1,5
+140,2018,70,Senegal,Cheikh N'Doye,1,2
+141,2018,11,Brasil,Neymar Jr.,1,5
+142,2018,57,Nigeria,John Obi Mikel,1,3
+143,2018,36,Francia,Benjamin Pavard,1,6
+144,2018,11,Brasil,Philippe Coutinho,1,5
+145,2018,34,España,Gerard Piqué,1,4
+146,2018,24,Croacia,Josip Pivarić,1,4
+147,2018,24,Croacia,Marko Pjaca,1,3
+148,2018,36,Francia,Paul Pogba,1,6
+149,2018,71,Serbia,Aleksandar Prijović,1,1
+150,2018,65,Portugal,Ricardo Quaresma,1,3
+151,2018,24,Croacia,Ivan Rakitic,1,7
+152,2018,7,Australia,Josh Risdon,1,3
+153,2018,19,Colombia,James Rodríguez,1,3
+154,2018,80,Uruguay,Cristian Rodríguez,1,5
+155,2018,7,Australia,Tom Rogic,1,3
+156,2018,6,Argentina,Marcos Rojo,1,3
+157,2018,70,Senegal,Youssouf Sabaly,1,3
+158,2018,49,Islandia,Birkir Már Saevarsson,1,3
+159,2018,56,México,Carlos Salcedo,1,4
+160,2018,70,Senegal,Salif Sané,1,3
+161,2018,74,Suiza,Xherdan Shaqiri,1,4
+162,2018,53,Japón,Gaku Shibasaki,1,4
+163,2018,48,Irán,Masoud Shojaei,1,1
+164,2018,65,Portugal,Adrien Silva,1,3
+165,2018,26,Dinamarca,Pione Sisto,1,4
+166,2018,69,Rusia,Fyodor Smolov,1,5
+167,2018,65,Portugal,Cédric Soares,1,3
+168,2018,21,Corea del Sur,Heung-Min Son,1,3
+169,2018,44,Inglaterra,John Stones,1,7
+170,2018,24,Croacia,Ivan Strinić,1,6
+171,2018,6,Argentina,Nicolas Tagliafico,1,4
+172,2018,63,Perú,Renato Tapia,1,2
+173,2018,61,Panamá,Luis Tejada,1,2
+174,2018,13,Bélgica,Youri Tielemans,1,4
+175,2018,36,Francia,Corentin Tolisso,1,5
+176,2018,28,Egipto,Trézéguet,1,3
+177,2018,57,Nigeria,William Troost-Ekong,1,3
+178,2018,24,Croacia,Domagoj Vida,1,6
+179,2018,22,Costa Rica,Kendall Waston,1,1
+180,2018,13,Bélgica,Axel Witsel,1,6
+181,2018,74,Suiza,Granit Xhaka,1,4
+182,2018,63,Perú,Yoshimar Yotún,1,3
+183,2018,74,Suiza,Denis Zakaria,1,2
+184,2018,69,Rusia,Roman Zobnin,1,5
