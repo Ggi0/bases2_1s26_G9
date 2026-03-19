@@ -1,1 +1,1051 @@
-id_gol,id_partido,anio,num_partido,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal
+id_gol,id_partido,anio,id_seleccion,equipo,id_jugador,jugador,minuto,es_penal,es_autogol
+1,1,1930,36,Francia,3966,Lucien Laurent,19,NO,NO
+2,1,1930,36,Francia,3963,Marcel Langiller,40,NO,NO
+3,1,1930,36,Francia,3988,Andre Maschinot,43,NO,NO
+4,1,1930,36,Francia,3988,Andre Maschinot,87,NO,NO
+5,1,1930,56,México,7679,Juan Carreno,70,NO,NO
+6,2,1930,6,Argentina,5694,Luis Monti,81,NO,NO
+7,3,1930,17,Chile,786,Carlos Vidal,3,NO,NO
+8,3,1930,17,Chile,7854,Manuel Rosas,51,NO,SI
+9,3,1930,17,Chile,786,Carlos Vidal,65,NO,NO
+10,4,1930,6,Argentina,5415,Guillermo Stabile,8,NO,NO
+11,4,1930,6,Argentina,5445,Adolfo Zumelzu,12,NO,NO
+12,4,1930,6,Argentina,5415,Guillermo Stabile,17,NO,NO
+13,4,1930,6,Argentina,5434,Francisco Varallo,53,NO,NO
+14,4,1930,6,Argentina,5445,Adolfo Zumelzu,55,NO,NO
+15,4,1930,6,Argentina,5415,Guillermo Stabile,80,NO,NO
+16,4,1930,56,México,7854,Manuel Rosas,42,SI,NO
+17,4,1930,56,México,7854,Manuel Rosas,65,NO,NO
+18,4,1930,56,México,7732,Roberto Gayon,75,NO,NO
+19,5,1930,17,Chile,766,Guillermo Subiabre,65,NO,NO
+20,6,1930,6,Argentina,5415,Guillermo Stabile,12,NO,NO
+21,6,1930,6,Argentina,5415,Guillermo Stabile,13,NO,NO
+22,6,1930,6,Argentina,5246,Mario Evaristo,51,NO,NO
+23,6,1930,17,Chile,766,Guillermo Subiabre,15,NO,NO
+24,7,1930,,Yugoslavia,3749,Aleksandar Tirnanic,21,NO,NO
+25,7,1930,,Yugoslavia,3544,Ivica Bek,30,NO,NO
+26,7,1930,11,Brasil,1767,Preguinho,62,NO,NO
+27,8,1930,,Yugoslavia,3544,Ivica Bek,60,NO,NO
+28,8,1930,,Yugoslavia,3645,Blagoje Marjanovic,65,NO,NO
+29,8,1930,,Yugoslavia,3544,Ivica Bek,67,NO,NO
+30,8,1930,,Yugoslavia,3760,Djordje Vujadinovic,85,NO,NO
+31,9,1930,11,Brasil,1729,Moderato,37,NO,NO
+32,9,1930,11,Brasil,1767,Preguinho,67,NO,NO
+33,9,1930,11,Brasil,1729,Moderato,73,NO,NO
+34,9,1930,11,Brasil,1767,Preguinho,83,NO,NO
+35,10,1930,68,Rumania,1875,Adalbert Desu,1,NO,NO
+36,10,1930,68,Rumania,1946,Constantin Stanciu,79,NO,NO
+37,10,1930,68,Rumania,1897,Nicolae Kovacs,89,NO,NO
+38,10,1930,63,Perú,2216,Luis Souza,75,NO,NO
+39,11,1930,80,Uruguay,5838,Hector Castro,60,NO,NO
+40,12,1930,80,Uruguay,5861,Pablo Dorado,7,NO,NO
+41,12,1930,80,Uruguay,5995,Hector Scarone,24,NO,NO
+42,12,1930,80,Uruguay,5810,Juan Anselmo,30,NO,NO
+43,12,1930,80,Uruguay,5842,Pedro Cea,35,NO,NO
+44,13,1930,35,Estados Unidos,2844,Bart Mcghee,23,NO,NO
+45,13,1930,35,Estados Unidos,2799,Tom Florie,45,NO,NO
+46,13,1930,35,Estados Unidos,2861,Bert Patenaude,69,NO,NO
+47,14,1930,35,Estados Unidos,2861,Bert Patenaude,10,NO,NO
+48,14,1930,35,Estados Unidos,2861,Bert Patenaude,15,NO,NO
+49,14,1930,35,Estados Unidos,2861,Bert Patenaude,50,NO,NO
+50,15,1930,62,Paraguay,4434,Luis Vargas Pena,40,NO,NO
+51,34,1930,6,Argentina,5694,Luis Monti,20,NO,NO
+52,34,1930,6,Argentina,5403,Alejandro Scopelli,56,NO,NO
+53,34,1930,6,Argentina,5415,Guillermo Stabile,69,NO,NO
+54,34,1930,6,Argentina,5363,Carlos Peucelle,80,NO,NO
+55,34,1930,6,Argentina,5363,Carlos Peucelle,85,NO,NO
+56,34,1930,6,Argentina,5415,Guillermo Stabile,87,NO,NO
+57,34,1930,35,Estados Unidos,2761,Jim Brown,89,NO,NO
+58,34,1930,80,Uruguay,5842,Pedro Cea,18,NO,NO
+59,34,1930,80,Uruguay,5810,Juan Anselmo,20,NO,NO
+60,34,1930,80,Uruguay,5810,Juan Anselmo,31,NO,NO
+61,34,1930,80,Uruguay,5900,Victoriano Iriarte,61,NO,NO
+62,34,1930,80,Uruguay,5842,Pedro Cea,67,NO,NO
+63,34,1930,80,Uruguay,5842,Pedro Cea,72,NO,NO
+64,34,1930,,Yugoslavia,3721,Branislav Sekulic,4,NO,NO
+65,34,1930,6,Argentina,5363,Carlos Peucelle,20,NO,NO
+66,34,1930,6,Argentina,5415,Guillermo Stabile,37,NO,NO
+67,34,1930,80,Uruguay,5861,Pablo Dorado,12,NO,NO
+68,34,1930,80,Uruguay,5842,Pedro Cea,57,NO,NO
+69,34,1930,80,Uruguay,5900,Victoriano Iriarte,68,NO,NO
+70,34,1930,80,Uruguay,5838,Hector Castro,89,NO,NO
+71,52,1934,1,Alemania,6178,Stanislaus Kobierski,25,NO,NO
+72,52,1934,1,Alemania,6283,Otto Siffling,49,NO,NO
+73,52,1934,1,Alemania,6077,Edmund Conen,66,NO,NO
+74,52,1934,1,Alemania,6077,Edmund Conen,70,NO,NO
+75,52,1934,1,Alemania,6077,Edmund Conen,87,NO,NO
+76,52,1934,13,Bélgica,6753,Bernard Voorhoof,29,NO,NO
+77,52,1934,13,Bélgica,6753,Bernard Voorhoof,43,NO,NO
+78,52,1934,73,Suecia,3424,Sven Jonasson,9,NO,NO
+79,52,1934,73,Suecia,3424,Sven Jonasson,67,NO,NO
+80,52,1934,73,Suecia,3438,Knut Kroon,79,NO,NO
+81,52,1934,6,Argentina,5184,Ernesto Belis,4,NO,NO
+82,52,1934,6,Argentina,5260,Alberto Galateo,48,NO,NO
+83,52,1934,51,Italia,5757,Angelo Schiavio,18,NO,NO
+84,52,1934,51,Italia,5713,Raimundo Orsi,20,NO,NO
+85,52,1934,51,Italia,5757,Angelo Schiavio,29,NO,NO
+86,52,1934,51,Italia,5627,Giovanni Ferrari,63,NO,NO
+87,52,1934,51,Italia,5757,Angelo Schiavio,64,NO,NO
+88,52,1934,51,Italia,5713,Raimundo Orsi,69,NO,NO
+89,52,1934,51,Italia,5689,Giuseppe Meazza,90,NO,NO
+90,52,1934,35,Estados Unidos,2788,Aldo Donelli,57,NO,NO
+91,52,1934,42,Hungría,7615,Pal Teleki,11,NO,NO
+92,52,1934,42,Hungría,7618,Geza Toldi,27,NO,NO
+93,52,1934,42,Hungría,7631,Jeno Vincze,53,NO,NO
+94,52,1934,42,Hungría,7618,Geza Toldi,61,NO,NO
+95,52,1934,28,Egipto,2084,Abdulrahman Fawzi,31,NO,NO
+96,52,1934,28,Egipto,2084,Abdulrahman Fawzi,39,NO,NO
+97,52,1934,34,España,4949,Iraragorri,18,SI,NO
+98,52,1934,34,España,4949,Iraragorri,25,NO,NO
+99,52,1934,34,España,4964,Isidro Langara,29,NO,NO
+100,52,1934,11,Brasil,1690,Leonidas,55,NO,NO
+101,52,1934,,Checoslovaquia,560,Antonin Puc,50,NO,NO
+102,52,1934,,Checoslovaquia,537,Oldrich Nejedly,67,NO,NO
+103,52,1934,68,Rumania,1877,Stefan Dobay,11,NO,NO
+104,52,1934,74,Suiza,8129,Leopold Kielholz,7,NO,NO
+105,52,1934,74,Suiza,8129,Leopold Kielholz,43,NO,NO
+106,52,1934,74,Suiza,8033,Andre Abegglen,69,NO,NO
+107,52,1934,60,Paises Bajos,6480,Kick Smit,19,NO,NO
+108,52,1934,60,Paises Bajos,6526,Leen Vente,84,NO,NO
+109,52,1934,8,Austria,4647,Matthias Sindelar,44,NO,NO
+110,52,1934,8,Austria,4639,Toni Schall,93,NO,NO
+111,52,1934,8,Austria,4552,Josef Bican,109,NO,NO
+112,52,1934,36,Francia,3998,Jean Nicolas,18,NO,NO
+113,52,1934,36,Francia,4067,Georges Verriest,116,SI,NO
+114,52,1934,,Checoslovaquia,585,Frantisek Svoboda,24,NO,NO
+115,52,1934,,Checoslovaquia,585,Frantisek Svoboda,49,NO,NO
+116,52,1934,,Checoslovaquia,537,Oldrich Nejedly,82,NO,NO
+117,52,1934,74,Suiza,8129,Leopold Kielholz,18,NO,NO
+118,52,1934,74,Suiza,8125,Willy Jaeggi,78,NO,NO
+119,52,1934,8,Austria,4586,Johann Horvath,8,NO,NO
+120,52,1934,8,Austria,4669,Karl Zischek,51,NO,NO
+121,52,1934,42,Hungría,7596,Gyorgy Sarosi,60,SI,NO
+122,52,1934,1,Alemania,6146,Karl Hohmann,60,NO,NO
+123,52,1934,1,Alemania,6146,Karl Hohmann,63,NO,NO
+124,52,1934,73,Suecia,3372,Gosta Dunker,82,NO,NO
+125,52,1934,51,Italia,5627,Giovanni Ferrari,44,NO,NO
+126,52,1934,34,España,7836,Luis Regueiro,30,NO,NO
+127,52,1934,51,Italia,5689,Giuseppe Meazza,11,NO,NO
+128,52,1934,,Checoslovaquia,537,Oldrich Nejedly,21,NO,NO
+129,52,1934,,Checoslovaquia,537,Oldrich Nejedly,69,NO,NO
+130,52,1934,,Checoslovaquia,537,Oldrich Nejedly,80,NO,NO
+131,52,1934,1,Alemania,6234,Rudolf Noack,62,NO,NO
+132,52,1934,51,Italia,5653,Enrique Guaita,19,NO,NO
+133,52,1934,8,Austria,4586,Johann Horvath,28,NO,NO
+134,52,1934,8,Austria,4646,Karl Sesta,54,NO,NO
+135,52,1934,1,Alemania,6198,Ernest Lehner,1,NO,NO
+136,52,1934,1,Alemania,6077,Edmund Conen,27,NO,NO
+137,52,1934,1,Alemania,6198,Ernest Lehner,42,NO,NO
+138,52,1934,51,Italia,5713,Raimundo Orsi,81,NO,NO
+139,52,1934,51,Italia,5757,Angelo Schiavio,95,NO,NO
+140,52,1934,,Checoslovaquia,560,Antonin Puc,76,NO,NO
+141,71,1938,74,Suiza,8033,Andre Abegglen,43,NO,NO
+142,71,1938,1,Alemania,6102,Josef Gauchel,29,NO,NO
+143,71,1938,36,Francia,4064,Emile Veinante,1,NO,NO
+144,71,1938,36,Francia,3998,Jean Nicolas,16,NO,NO
+145,71,1938,36,Francia,3998,Jean Nicolas,69,NO,NO
+146,71,1938,13,Bélgica,6638,Henri Isemborghs,38,NO,NO
+147,71,1938,51,Italia,5630,Pietro Ferraris,2,NO,NO
+148,71,1938,51,Italia,5732,Silvio Piola,94,NO,NO
+149,71,1938,58,Noruega,7396,Arne Brustad,83,NO,NO
+150,71,1938,11,Brasil,1690,Leonidas,18,NO,NO
+151,71,1938,11,Brasil,1792,Romeu,25,NO,NO
+152,71,1938,11,Brasil,1761,Peracio,44,NO,NO
+153,71,1938,11,Brasil,1761,Peracio,71,NO,NO
+154,71,1938,11,Brasil,1690,Leonidas,93,NO,NO
+155,71,1938,11,Brasil,1690,Leonidas,104,NO,NO
+156,71,1938,64,Polonia,3162,Fryedryk Szerfke,23,SI,NO
+157,71,1938,64,Polonia,3178,Ernest Wilimowski,53,NO,NO
+158,71,1938,64,Polonia,3178,Ernest Wilimowski,59,NO,NO
+159,71,1938,64,Polonia,3178,Ernest Wilimowski,89,NO,NO
+160,71,1938,64,Polonia,3178,Ernest Wilimowski,118,NO,NO
+161,71,1938,42,Hungría,7553,Vilmos Kohut,13,NO,NO
+162,71,1938,42,Hungría,7618,Geza Toldi,15,NO,NO
+163,71,1938,42,Hungría,7596,Gyorgy Sarosi,28,NO,NO
+164,71,1938,42,Hungría,7634,Gyula Zsengeller,35,NO,NO
+165,71,1938,42,Hungría,7634,Gyula Zsengeller,76,NO,NO
+166,71,1938,42,Hungría,7596,Gyorgy Sarosi,89,NO,NO
+167,71,1938,,Checoslovaquia,506,Josef Kostalek,93,NO,NO
+168,71,1938,,Checoslovaquia,537,Oldrich Nejedly,111,NO,NO
+169,71,1938,,Checoslovaquia,597,Josef Zeman,118,NO,NO
+170,71,1938,25,Cuba,2431,Hector Socorro,44,NO,NO
+171,71,1938,25,Cuba,2428,Jose Magrina,69,NO,NO
+172,71,1938,25,Cuba,2431,Hector Socorro,103,NO,NO
+173,71,1938,68,Rumania,1856,Silviu Bindea,35,NO,NO
+174,71,1938,68,Rumania,1852,Iuliu Baratky,88,NO,NO
+175,71,1938,68,Rumania,1877,Stefan Dobay,105,NO,NO
+176,71,1938,74,Suiza,8219,Eugen Walachek,42,NO,NO
+177,71,1938,74,Suiza,8051,Fredy Bickel,64,NO,NO
+178,71,1938,74,Suiza,8033,Andre Abegglen,75,NO,NO
+179,71,1938,74,Suiza,8033,Andre Abegglen,78,NO,NO
+180,71,1938,1,Alemania,6118,Wilhelm Hahnemann,8,NO,NO
+181,71,1938,1,Alemania,8141,Ernst Loertscher,22,NO,SI
+182,71,1938,25,Cuba,2431,Hector Socorro,51,NO,NO
+183,71,1938,25,Cuba,2426,Tomas Fernandez,53,NO,NO
+184,71,1938,68,Rumania,1877,Stefan Dobay,28,NO,NO
+185,71,1938,73,Suecia,3432,Tore Keller,9,NO,NO
+186,71,1938,73,Suecia,3532,Gustav Wetterstrom,32,NO,NO
+187,71,1938,73,Suecia,3532,Gustav Wetterstrom,37,NO,NO
+188,71,1938,73,Suecia,3532,Gustav Wetterstrom,44,NO,NO
+189,71,1938,73,Suecia,3432,Tore Keller,80,NO,NO
+190,71,1938,73,Suecia,3432,Tore Keller,81,NO,NO
+191,71,1938,73,Suecia,3480,Arne Nyberg,84,NO,NO
+192,71,1938,73,Suecia,3342,Harry Andersson,90,NO,NO
+193,71,1938,51,Italia,5591,Gino Colaussi,9,NO,NO
+194,71,1938,51,Italia,5732,Silvio Piola,51,NO,NO
+195,71,1938,51,Italia,5732,Silvio Piola,72,NO,NO
+196,71,1938,36,Francia,3936,Oscar Heisserer,10,NO,NO
+197,71,1938,42,Hungría,7596,Gyorgy Sarosi,40,NO,NO
+198,71,1938,42,Hungría,7634,Gyula Zsengeller,89,NO,NO
+199,71,1938,11,Brasil,1690,Leonidas,30,NO,NO
+200,71,1938,,Checoslovaquia,537,Oldrich Nejedly,65,SI,NO
+201,71,1938,11,Brasil,1690,Leonidas,57,NO,NO
+202,71,1938,11,Brasil,5047,Roberto,63,NO,NO
+203,71,1938,,Checoslovaquia,503,Vlastimil Kopecky,25,NO,NO
+204,71,1938,42,Hungría,3414,Sven Jacobsson,19,NO,SI
+205,71,1938,42,Hungría,7598,Ferenc Sas,37,NO,NO
+206,71,1938,42,Hungría,7634,Gyula Zsengeller,39,NO,NO
+207,71,1938,42,Hungría,7596,Gyorgy Sarosi,65,NO,NO
+208,71,1938,42,Hungría,7634,Gyula Zsengeller,85,NO,NO
+209,71,1938,73,Suecia,3480,Arne Nyberg,1,NO,NO
+210,71,1938,11,Brasil,1792,Romeu,87,NO,NO
+211,71,1938,51,Italia,5591,Gino Colaussi,51,NO,NO
+212,71,1938,51,Italia,5689,Giuseppe Meazza,60,SI,NO
+213,71,1938,11,Brasil,1792,Romeu,44,NO,NO
+214,71,1938,11,Brasil,1690,Leonidas,63,NO,NO
+215,71,1938,11,Brasil,1690,Leonidas,74,NO,NO
+216,71,1938,11,Brasil,1761,Peracio,80,NO,NO
+217,71,1938,73,Suecia,3424,Sven Jonasson,28,NO,NO
+218,71,1938,73,Suecia,3480,Arne Nyberg,38,NO,NO
+219,71,1938,51,Italia,5591,Gino Colaussi,6,NO,NO
+220,71,1938,51,Italia,5732,Silvio Piola,16,NO,NO
+221,71,1938,51,Italia,5591,Gino Colaussi,35,NO,NO
+222,71,1938,51,Italia,5732,Silvio Piola,82,NO,NO
+223,71,1938,42,Hungría,7617,Pal Titkos,8,NO,NO
+224,71,1938,42,Hungría,7596,Gyorgy Sarosi,70,NO,NO
+225,72,1950,11,Brasil,1519,Ademir,30,NO,NO
+226,72,1950,11,Brasil,1660,Jair,65,NO,NO
+227,72,1950,11,Brasil,1546,Baltazar,71,NO,NO
+228,72,1950,11,Brasil,1519,Ademir,79,NO,NO
+229,73,1950,,Yugoslavia,3665,Rajko Mitic,59,NO,NO
+230,73,1950,,Yugoslavia,3750,Kosta Tomasevic,70,NO,NO
+231,73,1950,,Yugoslavia,3679,Tihomir Ognjanov,84,NO,NO
+232,74,1950,11,Brasil,1528,Alfredo Ii,3,NO,NO
+233,74,1950,11,Brasil,1546,Baltazar,32,NO,NO
+234,74,1950,74,Suiza,8087,Jackie Fatton,17,NO,NO
+235,74,1950,74,Suiza,8087,Jackie Fatton,88,NO,NO
+236,75,1950,,Yugoslavia,3546,Stjepan Bobek,20,NO,NO
+237,75,1950,,Yugoslavia,3554,Zeljko Cajkovski,23,NO,NO
+238,75,1950,,Yugoslavia,3554,Zeljko Cajkovski,51,NO,NO
+239,75,1950,,Yugoslavia,3750,Kosta Tomasevic,81,NO,NO
+240,75,1950,56,México,7812,Hector Ortiz,89,SI,NO
+241,76,1950,11,Brasil,1519,Ademir,4,NO,NO
+242,76,1950,11,Brasil,1846,Zizinho,69,NO,NO
+243,77,1950,74,Suiza,8043,Rene Bader,10,NO,NO
+244,77,1950,74,Suiza,8042,Kiki Antenen,44,NO,NO
+245,77,1950,56,México,7681,Horacio Casarin,89,NO,NO
+246,78,1950,34,España,4947,Silvestre Igoa,81,NO,NO
+247,78,1950,34,España,4875,Estanislao Basora,83,NO,NO
+248,78,1950,34,España,5099,Zarra,89,NO,NO
+249,78,1950,35,Estados Unidos,2860,Gino Pariani,17,NO,NO
+250,79,1950,44,Inglaterra,1348,Stan Mortensen,39,NO,NO
+251,79,1950,44,Inglaterra,1331,Wilf Mannion,51,NO,NO
+252,80,1950,34,España,4875,Estanislao Basora,17,NO,NO
+253,80,1950,34,España,5099,Zarra,30,NO,NO
+254,81,1950,35,Estados Unidos,2801,Joe Gaetjens,38,NO,NO
+255,82,1950,17,Chile,744,Jorge Robledo,16,NO,NO
+256,82,1950,17,Chile,656,Atilio Cremaschi,32,NO,NO
+257,82,1950,17,Chile,731,Andres Prieto,54,NO,NO
+258,82,1950,17,Chile,656,Atilio Cremaschi,60,NO,NO
+259,82,1950,17,Chile,741,Fernando Riera,82,NO,NO
+260,82,1950,35,Estados Unidos,2896,Frank Wallace,47,NO,NO
+261,82,1950,35,Estados Unidos,2838,Joe Maca,48,SI,NO
+262,83,1950,34,España,5099,Zarra,48,NO,NO
+263,84,1950,73,Suecia,3419,Hans Jeppsson,25,NO,NO
+264,84,1950,73,Suecia,3349,Sune Andersson,34,NO,NO
+265,84,1950,73,Suecia,3419,Hans Jeppsson,69,NO,NO
+266,84,1950,51,Italia,5572,Riccardo Carapellese,7,NO,NO
+267,84,1950,51,Italia,5702,Ermes Muccinelli,79,NO,NO
+268,85,1950,73,Suecia,3514,Stig Sundqvist,17,NO,NO
+269,85,1950,73,Suecia,3488,Karl-Erik Palmer,26,NO,NO
+270,85,1950,62,Paraguay,4387,Cesar Lopez Fretes,35,NO,NO
+271,85,1950,62,Paraguay,4385,Atilio Lopez,74,NO,NO
+272,86,1950,51,Italia,5572,Riccardo Carapellese,12,NO,NO
+273,86,1950,51,Italia,5717,Egisto Pandolfini,63,NO,NO
+274,87,1950,80,Uruguay,5927,Oscar Miguez,14,NO,NO
+275,87,1950,80,Uruguay,6029,Ernesto Vidal,18,NO,NO
+276,87,1950,80,Uruguay,5996,Juan Schiaffino,23,NO,NO
+277,87,1950,80,Uruguay,5927,Oscar Miguez,40,NO,NO
+278,87,1950,80,Uruguay,5927,Oscar Miguez,51,NO,NO
+279,87,1950,80,Uruguay,5996,Juan Schiaffino,54,NO,NO
+280,87,1950,80,Uruguay,5960,Julio Perez,83,NO,NO
+281,87,1950,80,Uruguay,5881,Alcides Ghiggia,87,NO,NO
+282,88,1950,11,Brasil,1519,Ademir,17,NO,NO
+283,88,1950,11,Brasil,1519,Ademir,36,NO,NO
+284,88,1950,11,Brasil,1582,Chico,39,NO,NO
+285,88,1950,11,Brasil,1519,Ademir,52,NO,NO
+286,88,1950,11,Brasil,1519,Ademir,58,NO,NO
+287,88,1950,11,Brasil,1704,Maneca,85,NO,NO
+288,88,1950,11,Brasil,1582,Chico,88,NO,NO
+289,88,1950,73,Suecia,3349,Sune Andersson,67,SI,NO
+290,89,1950,80,Uruguay,5881,Alcides Ghiggia,29,NO,NO
+291,89,1950,80,Uruguay,6025,Obdulio Varela,73,NO,NO
+292,89,1950,34,España,4875,Estanislao Basora,37,NO,NO
+293,89,1950,34,España,4875,Estanislao Basora,39,NO,NO
+294,90,1950,11,Brasil,1519,Ademir,15,NO,NO
+295,90,1950,11,Brasil,1660,Jair,21,NO,NO
+296,90,1950,11,Brasil,1582,Chico,31,NO,NO
+297,90,1950,11,Brasil,1582,Chico,55,NO,NO
+298,90,1950,11,Brasil,1519,Ademir,57,NO,NO
+299,90,1950,11,Brasil,1846,Zizinho,67,NO,NO
+300,90,1950,34,España,4947,Silvestre Igoa,71,NO,NO
+301,91,1950,80,Uruguay,5881,Alcides Ghiggia,39,NO,NO
+302,91,1950,80,Uruguay,5927,Oscar Miguez,77,NO,NO
+303,91,1950,80,Uruguay,5927,Oscar Miguez,85,NO,NO
+304,91,1950,73,Suecia,3488,Karl-Erik Palmer,5,NO,NO
+305,91,1950,73,Suecia,3514,Stig Sundqvist,40,NO,NO
+306,92,1950,73,Suecia,3514,Stig Sundqvist,15,NO,NO
+307,92,1950,73,Suecia,3462,Bror Mellberg,33,NO,NO
+308,92,1950,73,Suecia,3488,Karl-Erik Palmer,80,NO,NO
+309,92,1950,34,España,5099,Zarra,82,NO,NO
+310,93,1950,80,Uruguay,5996,Juan Schiaffino,66,NO,NO
+311,93,1950,80,Uruguay,5881,Alcides Ghiggia,79,NO,NO
+312,93,1950,11,Brasil,1635,Friaca,47,NO,NO
+313,116,1954,11,Brasil,1546,Baltazar,23,NO,NO
+314,116,1954,11,Brasil,1596,Didi,30,NO,NO
+315,116,1954,11,Brasil,1763,Pinga,34,NO,NO
+316,116,1954,11,Brasil,1763,Pinga,43,NO,NO
+317,116,1954,11,Brasil,1674,Julinho,69,NO,NO
+318,117,1954,,Yugoslavia,3663,Milos Milutinovic,15,NO,NO
+319,118,1954,11,Brasil,1596,Didi,69,NO,NO
+320,118,1954,,Yugoslavia,3767,Branko Zebec,48,NO,NO
+321,119,1954,36,Francia,4070,Jean Vincent,19,NO,NO
+322,119,1954,36,Francia,7677,Raul Cardenas,46,NO,SI
+323,119,1954,36,Francia,3954,Raymond Kopa,88,SI,NO
+324,119,1954,56,México,7763,Jose Lamadrid,54,NO,NO
+325,119,1954,56,México,7653,Tomas Balcazar,85,NO,NO
+326,120,1954,,Alemania Occidental,6269,Hans Schaefer,14,NO,NO
+327,120,1954,,Alemania Occidental,6175,Berni Klodt,52,NO,NO
+328,120,1954,,Alemania Occidental,6312,Ottmar Walter,60,NO,NO
+329,120,1954,,Alemania Occidental,6220,Max Morlock,84,NO,NO
+330,120,1954,77,Turquía,5486,Mamat Suat,2,NO,NO
+331,121,1954,42,Hungría,7587,Ferenc Puskas,12,NO,NO
+332,121,1954,42,Hungría,7561,Mihaly Lantos,18,NO,NO
+333,121,1954,42,Hungría,7552,Sandor Kocsis,24,NO,NO
+334,121,1954,42,Hungría,7552,Sandor Kocsis,36,NO,NO
+335,121,1954,42,Hungría,7552,Sandor Kocsis,50,NO,NO
+336,121,1954,42,Hungría,7513,Zoltan Czibor,59,NO,NO
+337,121,1954,42,Hungría,7582,Peter Palotas,75,NO,NO
+338,121,1954,42,Hungría,7582,Peter Palotas,83,NO,NO
+339,121,1954,42,Hungría,7587,Ferenc Puskas,89,NO,NO
+340,122,1954,42,Hungría,7552,Sandor Kocsis,3,NO,NO
+341,122,1954,42,Hungría,7587,Ferenc Puskas,17,NO,NO
+342,122,1954,42,Hungría,7552,Sandor Kocsis,21,NO,NO
+343,122,1954,42,Hungría,7538,Nandor Hidegkuti,52,NO,NO
+344,122,1954,42,Hungría,7538,Nandor Hidegkuti,54,NO,NO
+345,122,1954,42,Hungría,7552,Sandor Kocsis,69,NO,NO
+346,122,1954,42,Hungría,7622,Jozsef Toth,75,NO,NO
+347,122,1954,42,Hungría,7552,Sandor Kocsis,78,NO,NO
+348,122,1954,,Alemania Occidental,6245,Alfred Pfaff,25,NO,NO
+349,122,1954,,Alemania Occidental,6251,Helmut Rahn,77,NO,NO
+350,122,1954,,Alemania Occidental,6134,Richard Herrmann,84,NO,NO
+351,123,1954,77,Turquía,5486,Mamat Suat,10,NO,NO
+352,123,1954,77,Turquía,5472,Lefter Kucukandonyadis,18,NO,NO
+353,123,1954,77,Turquía,5486,Mamat Suat,30,NO,NO
+354,123,1954,77,Turquía,5455,Sargun Burhan,37,NO,NO
+355,123,1954,77,Turquía,5455,Sargun Burhan,64,NO,NO
+356,123,1954,77,Turquía,5455,Sargun Burhan,70,NO,NO
+357,123,1954,77,Turquía,5470,Erol Keskin,76,NO,NO
+358,124,1954,,Alemania Occidental,6312,Ottmar Walter,7,NO,NO
+359,124,1954,,Alemania Occidental,6269,Hans Schaefer,12,NO,NO
+360,124,1954,,Alemania Occidental,6220,Max Morlock,30,NO,NO
+361,124,1954,,Alemania Occidental,6220,Max Morlock,60,NO,NO
+362,124,1954,,Alemania Occidental,6311,Fritz Walter,62,NO,NO
+363,124,1954,,Alemania Occidental,6220,Max Morlock,77,NO,NO
+364,124,1954,,Alemania Occidental,6269,Hans Schaefer,79,NO,NO
+365,124,1954,77,Turquía,5463,Mustafa Erton,21,NO,NO
+366,124,1954,77,Turquía,5472,Lefter Kucukandonyadis,82,NO,NO
+367,125,1954,8,Austria,4628,Erich Probst,33,NO,NO
+368,126,1954,80,Uruguay,5927,Oscar Miguez,71,NO,NO
+369,126,1954,80,Uruguay,5996,Juan Schiaffino,84,NO,NO
+370,127,1954,8,Austria,4650,Ernst Stojaspal,3,NO,NO
+371,127,1954,8,Austria,4628,Erich Probst,4,NO,NO
+372,127,1954,8,Austria,4628,Erich Probst,21,NO,NO
+373,127,1954,8,Austria,4628,Erich Probst,24,NO,NO
+374,127,1954,8,Austria,4650,Ernst Stojaspal,65,NO,NO
+375,128,1954,80,Uruguay,5821,Carlos Borges,17,NO,NO
+376,128,1954,80,Uruguay,5927,Oscar Miguez,30,NO,NO
+377,128,1954,80,Uruguay,5821,Carlos Borges,47,NO,NO
+378,128,1954,80,Uruguay,5799,Julio Abbadie,54,NO,NO
+379,128,1954,80,Uruguay,5821,Carlos Borges,57,NO,NO
+380,128,1954,80,Uruguay,5927,Oscar Miguez,83,NO,NO
+381,128,1954,80,Uruguay,5799,Julio Abbadie,85,NO,NO
+382,129,1954,44,Inglaterra,1223,Ivor Broadis,26,NO,NO
+383,129,1954,44,Inglaterra,1327,Nat Lofthouse,36,NO,NO
+384,129,1954,44,Inglaterra,1223,Ivor Broadis,63,NO,NO
+385,129,1954,44,Inglaterra,1327,Nat Lofthouse,91,NO,NO
+386,129,1954,13,Bélgica,6545,Leopold Anoul,5,NO,NO
+387,129,1954,13,Bélgica,6580,Rik Coppens,67,NO,NO
+388,129,1954,13,Bélgica,6545,Leopold Anoul,71,NO,NO
+389,129,1954,13,Bélgica,1258,Jimmy Dickinson,94,NO,SI
+390,130,1954,74,Suiza,8046,Robert Ballaman,18,NO,NO
+391,130,1954,74,Suiza,8118,Sepp Huegi,78,NO,NO
+392,130,1954,51,Italia,5554,Giampiero Boniperti,44,NO,NO
+393,131,1954,44,Inglaterra,1350,Jimmy Mullen,43,NO,NO
+394,131,1954,44,Inglaterra,1428,Dennis Wilshaw,69,NO,NO
+395,132,1954,51,Italia,5717,Egisto Pandolfini,41,SI,NO
+396,132,1954,51,Italia,5639,Carlo Galli,48,NO,NO
+397,132,1954,51,Italia,5635,Amleto Frignani,58,NO,NO
+398,132,1954,51,Italia,5667,Benito Lorenzi,78,NO,NO
+399,132,1954,13,Bélgica,6545,Leopold Anoul,81,NO,NO
+400,133,1954,74,Suiza,8118,Sepp Huegi,14,NO,NO
+401,133,1954,74,Suiza,8046,Robert Ballaman,48,NO,NO
+402,133,1954,74,Suiza,8118,Sepp Huegi,85,NO,NO
+403,133,1954,74,Suiza,8087,Jackie Fatton,90,NO,NO
+404,133,1954,51,Italia,5707,Fulvio Nesti,67,NO,NO
+405,160,1954,8,Austria,4662,Theodor Wagner,25,NO,NO
+406,160,1954,8,Austria,4594,Robert Koerner,26,NO,NO
+407,160,1954,8,Austria,4662,Theodor Wagner,27,NO,NO
+408,160,1954,8,Austria,4615,Ernst Ocwirk,32,NO,NO
+409,160,1954,8,Austria,4594,Robert Koerner,34,NO,NO
+410,160,1954,8,Austria,4662,Theodor Wagner,53,NO,NO
+411,160,1954,8,Austria,4628,Erich Probst,76,NO,NO
+412,160,1954,74,Suiza,8046,Robert Ballaman,16,NO,NO
+413,160,1954,74,Suiza,8118,Sepp Huegi,17,NO,NO
+414,160,1954,74,Suiza,8118,Sepp Huegi,19,NO,NO
+415,160,1954,74,Suiza,8046,Robert Ballaman,39,NO,NO
+416,160,1954,74,Suiza,8118,Sepp Huegi,58,NO,NO
+417,160,1954,80,Uruguay,5821,Carlos Borges,5,NO,NO
+418,160,1954,80,Uruguay,6025,Obdulio Varela,39,NO,NO
+419,160,1954,80,Uruguay,5996,Juan Schiaffino,46,NO,NO
+420,160,1954,80,Uruguay,5807,Javier Ambrois,78,NO,NO
+421,160,1954,44,Inglaterra,1327,Nat Lofthouse,16,NO,NO
+422,160,1954,44,Inglaterra,1271,Tom Finney,67,NO,NO
+423,160,1954,,Alemania Occidental,3588,Ivan Horvat,9,NO,SI
+424,160,1954,,Alemania Occidental,6251,Helmut Rahn,85,NO,NO
+425,160,1954,42,Hungría,7538,Nandor Hidegkuti,4,NO,NO
+426,160,1954,42,Hungría,7552,Sandor Kocsis,7,NO,NO
+427,160,1954,42,Hungría,7561,Mihaly Lantos,60,SI,NO
+428,160,1954,42,Hungría,7552,Sandor Kocsis,88,NO,NO
+429,160,1954,11,Brasil,1599,Djalma Santos,18,SI,NO
+430,160,1954,11,Brasil,1674,Julinho,65,NO,NO
+431,160,1954,,Alemania Occidental,6269,Hans Schaefer,31,NO,NO
+432,160,1954,,Alemania Occidental,6220,Max Morlock,47,NO,NO
+433,160,1954,,Alemania Occidental,6311,Fritz Walter,54,SI,NO
+434,160,1954,,Alemania Occidental,6312,Ottmar Walter,61,NO,NO
+435,160,1954,,Alemania Occidental,6311,Fritz Walter,64,SI,NO
+436,160,1954,,Alemania Occidental,6312,Ottmar Walter,89,NO,NO
+437,160,1954,8,Austria,4628,Erich Probst,51,NO,NO
+438,160,1954,42,Hungría,7513,Zoltan Czibor,13,NO,NO
+439,160,1954,42,Hungría,7538,Nandor Hidegkuti,46,NO,NO
+440,160,1954,42,Hungría,7552,Sandor Kocsis,111,NO,NO
+441,160,1954,42,Hungría,7552,Sandor Kocsis,116,NO,NO
+442,160,1954,80,Uruguay,5899,Juan Hohberg,75,NO,NO
+443,160,1954,80,Uruguay,5899,Juan Hohberg,86,NO,NO
+444,160,1954,80,Uruguay,5899,Juan Hohberg,22,NO,NO
+445,160,1954,8,Austria,4650,Ernst Stojaspal,16,SI,NO
+446,160,1954,8,Austria,5848,Luis Cruz,59,NO,SI
+447,160,1954,8,Austria,4615,Ernst Ocwirk,89,NO,NO
+448,160,1954,42,Hungría,7587,Ferenc Puskas,6,NO,NO
+449,160,1954,42,Hungría,7513,Zoltan Czibor,8,NO,NO
+450,160,1954,,Alemania Occidental,6220,Max Morlock,10,NO,NO
+451,160,1954,,Alemania Occidental,6251,Helmut Rahn,18,NO,NO
+452,160,1954,,Alemania Occidental,6251,Helmut Rahn,84,NO,NO
+453,161,1958,6,Argentina,5223,Omar Oreste Corbatta,2,NO,NO
+454,161,1958,,Alemania Occidental,6251,Helmut Rahn,32,NO,NO
+455,161,1958,,Alemania Occidental,6281,Uwe Seeler,40,NO,NO
+456,161,1958,,Alemania Occidental,6251,Helmut Rahn,79,NO,NO
+457,162,1958,47,Irlanda del Norte,2239,Wilbur Cush,20,NO,NO
+458,163,1958,,Alemania Occidental,6269,Hans Schaefer,59,NO,NO
+459,163,1958,,Alemania Occidental,6251,Helmut Rahn,70,NO,NO
+460,163,1958,,Checoslovaquia,460,Milan Dvorak,24,SI,NO
+461,163,1958,,Checoslovaquia,599,Zdenek Zikan,43,NO,NO
+462,164,1958,6,Argentina,5223,Omar Oreste Corbatta,38,SI,NO
+463,164,1958,6,Argentina,5316,Norberto Menendez,55,NO,NO
+464,164,1958,6,Argentina,5168,Ludovico Avio,59,NO,NO
+465,164,1958,47,Irlanda del Norte,2261,Peter Mcparland,3,NO,NO
+466,165,1958,,Alemania Occidental,6251,Helmut Rahn,20,NO,NO
+467,165,1958,,Alemania Occidental,6281,Uwe Seeler,79,NO,NO
+468,165,1958,47,Irlanda del Norte,2261,Peter Mcparland,19,NO,NO
+469,165,1958,47,Irlanda del Norte,2261,Peter Mcparland,60,NO,NO
+470,166,1958,,Checoslovaquia,460,Milan Dvorak,8,NO,NO
+471,166,1958,,Checoslovaquia,599,Zdenek Zikan,17,NO,NO
+472,166,1958,,Checoslovaquia,478,Vaclav Hovorka,40,NO,NO
+473,166,1958,,Checoslovaquia,461,Jiri Feureisl,69,NO,NO
+474,166,1958,,Checoslovaquia,599,Zdenek Zikan,82,NO,NO
+475,166,1958,,Checoslovaquia,478,Vaclav Hovorka,89,NO,NO
+476,166,1958,6,Argentina,5223,Omar Oreste Corbatta,65,SI,NO
+477,167,1958,47,Irlanda del Norte,2261,Peter Mcparland,44,NO,NO
+478,167,1958,47,Irlanda del Norte,2261,Peter Mcparland,99,NO,NO
+479,167,1958,,Checoslovaquia,599,Zdenek Zikan,19,NO,NO
+480,168,1958,36,Francia,3915,Just Fontaine,24,NO,NO
+481,168,1958,36,Francia,3915,Just Fontaine,30,NO,NO
+482,168,1958,36,Francia,4007,Roger Piantoni,52,NO,NO
+483,168,1958,36,Francia,4072,Maryan Wisnieski,61,NO,NO
+484,168,1958,36,Francia,3915,Just Fontaine,67,NO,NO
+485,168,1958,36,Francia,3954,Raymond Kopa,70,NO,NO
+486,168,1958,36,Francia,4070,Jean Vincent,83,NO,NO
+487,168,1958,62,Paraguay,4306,Florencio Amarilla,20,NO,NO
+488,168,1958,62,Paraguay,4306,Florencio Amarilla,44,SI,NO
+489,168,1958,62,Paraguay,4415,Jorge Romero,50,NO,NO
+490,169,1958,,Yugoslavia,3694,Aleksandar Petakovic,6,NO,NO
+491,169,1958,31,Escocia,2392,Jimmy Murray,49,NO,NO
+492,170,1958,62,Paraguay,4297,Juan Aguero,4,NO,NO
+493,170,1958,62,Paraguay,4408,Cayetano Re,45,NO,NO
+494,170,1958,62,Paraguay,4405,Jose Parodi,73,NO,NO
+495,170,1958,31,Escocia,2391,Jackie Mudie,24,NO,NO
+496,170,1958,31,Escocia,2304,Bobby Collins,76,NO,NO
+497,171,1958,,Yugoslavia,3694,Aleksandar Petakovic,16,NO,NO
+498,171,1958,,Yugoslavia,3756,Toza Veselinovic,63,NO,NO
+499,171,1958,,Yugoslavia,3756,Toza Veselinovic,88,NO,NO
+500,171,1958,36,Francia,3915,Just Fontaine,4,NO,NO
+501,171,1958,36,Francia,3915,Just Fontaine,85,NO,NO
+502,172,1958,36,Francia,3954,Raymond Kopa,22,NO,NO
+503,172,1958,36,Francia,3915,Just Fontaine,44,NO,NO
+504,172,1958,31,Escocia,2285,Sammy Baird,66,NO,NO
+505,173,1958,62,Paraguay,4405,Jose Parodi,20,NO,NO
+506,173,1958,62,Paraguay,4297,Juan Aguero,49,NO,NO
+507,173,1958,62,Paraguay,4415,Jorge Romero,80,NO,NO
+508,173,1958,,Yugoslavia,3680,Radivoje Ognjanovic,12,NO,NO
+509,173,1958,,Yugoslavia,3756,Toza Veselinovic,29,NO,NO
+510,173,1958,,Yugoslavia,3712,Zdravko Rajkov,73,NO,NO
+511,174,1958,42,Hungría,7503,Jozsef Bozsik,5,NO,NO
+512,174,1958,37,Gales,2535,John Charles,27,NO,NO
+513,175,1958,73,Suecia,3508,Agne Simonsson,17,NO,NO
+514,175,1958,73,Suecia,3445,Nils Liedholm,57,SI,NO
+515,175,1958,73,Suecia,3508,Agne Simonsson,64,NO,NO
+516,176,1958,56,México,7657,Jaime Belmonte,89,NO,NO
+517,176,1958,37,Gales,2526,Ivor Allchurch,32,NO,NO
+518,177,1958,73,Suecia,3402,Kurt Hamrin,34,NO,NO
+519,177,1958,73,Suecia,3402,Kurt Hamrin,55,NO,NO
+520,177,1958,42,Hungría,7616,Lajos Tichy,77,NO,NO
+521,178,1958,42,Hungría,7616,Lajos Tichy,19,NO,NO
+522,178,1958,42,Hungría,7616,Lajos Tichy,46,NO,NO
+523,178,1958,42,Hungría,7594,Karoly Sandor,54,NO,NO
+524,178,1958,42,Hungría,7495,Jozsef Bencsis,69,NO,NO
+525,180,1958,37,Gales,2526,Ivor Allchurch,35,NO,NO
+526,180,1958,37,Gales,2556,Terry Medwin,76,NO,NO
+527,180,1958,42,Hungría,7616,Lajos Tichy,33,NO,NO
+528,181,1958,11,Brasil,5519,Jose Altafini,38,NO,NO
+529,181,1958,11,Brasil,1739,Nilton Santos,49,NO,NO
+530,181,1958,11,Brasil,5519,Jose Altafini,89,NO,NO
+531,182,1958,,URSS,401,Nikita Simonyan,13,NO,NO
+532,182,1958,,URSS,309,Aleksandr Ivanov,55,NO,NO
+533,182,1958,44,Inglaterra,1315,Derek Kevan,66,NO,NO
+534,182,1958,44,Inglaterra,1271,Tom Finney,85,SI,NO
+535,184,1958,,URSS,307,Anatoli Ilyin,15,NO,NO
+536,184,1958,,URSS,310,Valentin Ivanov,63,NO,NO
+537,185,1958,11,Brasil,1820,Vava,3,NO,NO
+538,185,1958,11,Brasil,1820,Vava,77,NO,NO
+539,186,1958,44,Inglaterra,1290,John Haynes,56,NO,NO
+540,186,1958,44,Inglaterra,1315,Derek Kevan,73,NO,NO
+541,186,1958,8,Austria,4596,Karl Koller,16,NO,NO
+542,186,1958,8,Austria,4593,Alfred Koerner,70,NO,NO
+543,187,1958,,URSS,307,Anatoli Ilyin,68,NO,NO
+544,223,1958,,Alemania Occidental,6251,Helmut Rahn,12,NO,NO
+545,223,1958,11,Brasil,1759,Pelé,66,NO,NO
+546,223,1958,36,Francia,4072,Maryan Wisnieski,22,NO,NO
+547,223,1958,36,Francia,3915,Just Fontaine,55,NO,NO
+548,223,1958,36,Francia,3915,Just Fontaine,63,NO,NO
+549,223,1958,36,Francia,4007,Roger Piantoni,68,NO,NO
+550,223,1958,73,Suecia,3402,Kurt Hamrin,49,NO,NO
+551,223,1958,73,Suecia,3508,Agne Simonsson,88,NO,NO
+552,223,1958,,Alemania Occidental,6269,Hans Schaefer,24,NO,NO
+553,223,1958,73,Suecia,3511,Lennart Skoglund,32,NO,NO
+554,223,1958,73,Suecia,3394,Gunnar Gren,81,NO,NO
+555,223,1958,73,Suecia,3402,Kurt Hamrin,88,NO,NO
+556,223,1958,36,Francia,3915,Just Fontaine,9,NO,NO
+557,223,1958,36,Francia,4007,Roger Piantoni,83,NO,NO
+558,223,1958,11,Brasil,1820,Vava,2,NO,NO
+559,223,1958,11,Brasil,1596,Didi,39,NO,NO
+560,223,1958,11,Brasil,1759,Pelé,52,NO,NO
+561,223,1958,11,Brasil,1759,Pelé,64,NO,NO
+562,223,1958,11,Brasil,1759,Pelé,75,NO,NO
+563,223,1958,,Alemania Occidental,6076,Hans Ciesclarczyk,18,NO,NO
+564,223,1958,,Alemania Occidental,6251,Helmut Rahn,52,NO,NO
+565,223,1958,,Alemania Occidental,6269,Hans Schaefer,84,NO,NO
+566,223,1958,36,Francia,3915,Just Fontaine,16,NO,NO
+567,223,1958,36,Francia,3954,Raymond Kopa,27,SI,NO
+568,223,1958,36,Francia,3915,Just Fontaine,36,NO,NO
+569,223,1958,36,Francia,3906,Yvon Douis,50,NO,NO
+570,223,1958,36,Francia,3915,Just Fontaine,78,NO,NO
+571,223,1958,36,Francia,3915,Just Fontaine,89,NO,NO
+572,223,1958,73,Suecia,3445,Nils Liedholm,4,NO,NO
+573,223,1958,73,Suecia,3508,Agne Simonsson,80,NO,NO
+574,223,1958,11,Brasil,1820,Vava,9,NO,NO
+575,223,1958,11,Brasil,1820,Vava,32,NO,NO
+576,223,1958,11,Brasil,1759,Pelé,55,NO,NO
+577,223,1958,11,Brasil,1833,Zagallo,68,NO,NO
+578,223,1958,11,Brasil,1759,Pelé,90,NO,NO
+579,224,1962,80,Uruguay,5849,Luis Cubilla,56,NO,NO
+580,224,1962,80,Uruguay,5994,Jose Sasia,75,NO,NO
+581,224,1962,19,Colombia,2734,Francisco Zuluaga,19,SI,NO
+582,225,1962,,URSS,310,Valentin Ivanov,51,NO,NO
+583,225,1962,,URSS,373,Viktor Ponedelnik,83,NO,NO
+584,226,1962,,Yugoslavia,3724,Josip Skoblar,25,SI,NO
+585,226,1962,,Yugoslavia,3579,Milan Galic,29,NO,NO
+586,226,1962,,Yugoslavia,3601,Drazen Jerkovic,49,NO,NO
+587,226,1962,80,Uruguay,5825,Angel Cabrera,19,NO,NO
+588,227,1962,,URSS,310,Valentin Ivanov,8,NO,NO
+589,227,1962,,URSS,275,Igor Chislenko,10,NO,NO
+590,227,1962,,URSS,310,Valentin Ivanov,11,NO,NO
+591,227,1962,,URSS,373,Viktor Ponedelnik,56,NO,NO
+592,227,1962,19,Colombia,2632,German Aceros,21,NO,NO
+593,227,1962,19,Colombia,2653,Marcos Coll,68,NO,NO
+594,227,1962,19,Colombia,2710,Antonio Rada,72,NO,NO
+595,227,1962,19,Colombia,2684,Marino Klinger,76,NO,NO
+596,228,1962,,URSS,351,Aleksei Mamykin,38,NO,NO
+597,228,1962,,URSS,310,Valentin Ivanov,89,NO,NO
+598,228,1962,80,Uruguay,5994,Jose Sasia,54,NO,NO
+599,229,1962,,Yugoslavia,3579,Milan Galic,20,NO,NO
+600,229,1962,,Yugoslavia,3601,Drazen Jerkovic,25,NO,NO
+601,229,1962,,Yugoslavia,3579,Milan Galic,61,NO,NO
+602,229,1962,,Yugoslavia,3649,Vojislav Melic,82,NO,NO
+603,229,1962,,Yugoslavia,3601,Drazen Jerkovic,87,NO,NO
+604,230,1962,17,Chile,758,Leonel Sanchez,44,NO,NO
+605,230,1962,17,Chile,735,Jaime Ramirez,51,NO,NO
+606,230,1962,17,Chile,758,Leonel Sanchez,55,NO,NO
+607,230,1962,74,Suiza,8226,Rolf Wuethrich,6,NO,NO
+608,232,1962,17,Chile,735,Jaime Ramirez,73,NO,NO
+609,232,1962,17,Chile,771,Jorge Toro,87,NO,NO
+610,233,1962,,Alemania Occidental,6069,Albert Bruells,45,NO,NO
+611,233,1962,,Alemania Occidental,6281,Uwe Seeler,59,NO,NO
+612,233,1962,74,Suiza,8184,Heinz Schneiter,73,NO,NO
+613,234,1962,,Alemania Occidental,6297,Horst Szymaniak,21,SI,NO
+614,234,1962,,Alemania Occidental,6281,Uwe Seeler,82,NO,NO
+615,235,1962,51,Italia,5697,Bruno Mora,2,NO,NO
+616,235,1962,51,Italia,5561,Giacomo Bulgarelli,65,NO,NO
+617,235,1962,51,Italia,5561,Giacomo Bulgarelli,67,NO,NO
+618,236,1962,11,Brasil,1833,Zagallo,56,NO,NO
+619,236,1962,11,Brasil,1759,Pelé,73,NO,NO
+620,237,1962,,Checoslovaquia,582,Josef Stibranyi,80,NO,NO
+621,239,1962,34,España,5019,Joaquin Peiro,90,NO,NO
+622,240,1962,11,Brasil,1535,Amarildo,72,NO,NO
+623,240,1962,11,Brasil,1535,Amarildo,86,NO,NO
+624,240,1962,34,España,4848,Adelardo,35,NO,NO
+625,241,1962,56,México,7707,Isidoro Diaz,12,NO,NO
+626,241,1962,56,México,7704,Alfredo Del Aguila,29,NO,NO
+627,241,1962,56,México,7752,Hector Hernandez,90,SI,NO
+628,241,1962,,Checoslovaquia,526,Vaclav Masek,1,NO,NO
+629,242,1962,6,Argentina,5248,Hector Facundo,4,NO,NO
+630,243,1962,42,Hungría,7616,Lajos Tichy,17,NO,NO
+631,243,1962,42,Hungría,7490,Florian Albert,71,NO,NO
+632,243,1962,44,Inglaterra,1272,Ron Flowers,60,SI,NO
+633,244,1962,44,Inglaterra,1272,Ron Flowers,17,SI,NO
+634,244,1962,44,Inglaterra,1239,Bobby Charlton,42,NO,NO
+635,244,1962,44,Inglaterra,1284,Jimmy Greaves,67,NO,NO
+636,244,1962,6,Argentina,5397,Jose Sanfilippo,81,NO,NO
+637,245,1962,42,Hungría,7490,Florian Albert,1,NO,NO
+638,245,1962,42,Hungría,7490,Florian Albert,6,NO,NO
+639,245,1962,42,Hungría,7616,Lajos Tichy,8,NO,NO
+640,245,1962,42,Hungría,7600,Erno Solymosi,12,NO,NO
+641,245,1962,42,Hungría,7490,Florian Albert,53,NO,NO
+642,245,1962,42,Hungría,7616,Lajos Tichy,70,NO,NO
+643,245,1962,12,Bulgaria,2999,Georgi Sokolov,64,NO,NO
+644,280,1962,11,Brasil,1637,Garrincha,31,NO,NO
+645,280,1962,11,Brasil,1820,Vava,53,NO,NO
+646,280,1962,11,Brasil,1637,Garrincha,59,NO,NO
+647,280,1962,44,Inglaterra,1293,Gerry Hitchens,38,NO,NO
+648,280,1962,,Checoslovaquia,568,Adolf Scherer,13,NO,NO
+649,280,1962,17,Chile,758,Leonel Sanchez,11,NO,NO
+650,280,1962,17,Chile,748,Eladio Rojas,29,NO,NO
+651,280,1962,,URSS,275,Igor Chislenko,26,NO,NO
+652,280,1962,,Yugoslavia,3708,Petar Radakovic,85,NO,NO
+653,280,1962,17,Chile,771,Jorge Toro,42,NO,NO
+654,280,1962,17,Chile,758,Leonel Sanchez,61,SI,NO
+655,280,1962,11,Brasil,1637,Garrincha,9,NO,NO
+656,280,1962,11,Brasil,1637,Garrincha,32,NO,NO
+657,280,1962,11,Brasil,1820,Vava,47,NO,NO
+658,280,1962,11,Brasil,1820,Vava,78,NO,NO
+659,280,1962,,Yugoslavia,3601,Drazen Jerkovic,69,NO,NO
+660,280,1962,,Checoslovaquia,495,Josef Kadraba,48,NO,NO
+661,280,1962,,Checoslovaquia,568,Adolf Scherer,80,NO,NO
+662,280,1962,,Checoslovaquia,568,Adolf Scherer,84,SI,NO
+663,280,1962,17,Chile,748,Eladio Rojas,90,NO,NO
+664,280,1962,11,Brasil,1535,Amarildo,17,NO,NO
+665,280,1962,11,Brasil,1845,Zito,69,NO,NO
+666,280,1962,11,Brasil,1820,Vava,78,NO,NO
+667,280,1962,,Checoslovaquia,528,Josef Masopust,15,NO,NO
+668,282,1966,36,Francia,3935,Gerard Hausser,62,NO,NO
+669,282,1966,56,México,7664,Enrique Borja,48,NO,NO
+670,283,1966,80,Uruguay,5976,Pedro Rocha,26,NO,NO
+671,283,1966,80,Uruguay,5847,Julio Cortes,31,NO,NO
+672,283,1966,36,Francia,3886,Hector De Bourgoing,15,SI,NO
+673,284,1966,44,Inglaterra,1239,Bobby Charlton,37,NO,NO
+674,284,1966,44,Inglaterra,1302,Roger Hunt,75,NO,NO
+675,286,1966,44,Inglaterra,1302,Roger Hunt,38,NO,NO
+676,286,1966,44,Inglaterra,1302,Roger Hunt,75,NO,NO
+677,287,1966,,Alemania Occidental,6128,Sigi Held,15,NO,NO
+678,287,1966,,Alemania Occidental,6119,Helmut Haller,20,NO,NO
+679,287,1966,,Alemania Occidental,6051,Franz Beckenbauer,39,NO,NO
+680,287,1966,,Alemania Occidental,6051,Franz Beckenbauer,52,NO,NO
+681,287,1966,,Alemania Occidental,6119,Helmut Haller,77,SI,NO
+682,288,1966,6,Argentina,5165,Luis Artime,65,NO,NO
+683,288,1966,6,Argentina,5165,Luis Artime,79,NO,NO
+684,288,1966,34,España,5023,Pirri,71,NO,NO
+685,289,1966,34,España,5057,Manuel Sanchis,57,NO,NO
+686,289,1966,34,España,4858,Amancio,75,NO,NO
+687,289,1966,74,Suiza,8170,Rene Quentin,28,NO,NO
+688,291,1966,6,Argentina,5165,Luis Artime,53,NO,NO
+689,291,1966,6,Argentina,5334,Ermindo Onega,81,NO,NO
+690,292,1966,,Alemania Occidental,6088,Lothar Emmerich,38,NO,NO
+691,292,1966,,Alemania Occidental,6281,Uwe Seeler,84,NO,NO
+692,292,1966,34,España,4923,Jose Maria Fuste,22,NO,NO
+693,293,1966,11,Brasil,1759,Pelé,15,NO,NO
+694,293,1966,11,Brasil,1637,Garrincha,63,NO,NO
+695,294,1966,65,Portugal,3255,Jose Augusto,2,NO,NO
+696,294,1966,65,Portugal,3255,Jose Augusto,67,NO,NO
+697,294,1966,65,Portugal,3322,Jose Torres,90,NO,NO
+698,294,1966,42,Hungría,7496,Ferenc Bene,60,NO,NO
+699,295,1966,42,Hungría,7496,Ferenc Bene,2,NO,NO
+700,295,1966,42,Hungría,7520,Janos Farkas,64,NO,NO
+701,295,1966,42,Hungría,7571,Kalman Meszoly,73,SI,NO
+702,295,1966,11,Brasil,1816,Tostao,14,NO,NO
+703,296,1966,65,Portugal,3012,Ivan Vutsov,17,NO,SI
+704,296,1966,65,Portugal,3228,Eusebio,38,NO,NO
+705,296,1966,65,Portugal,3322,Jose Torres,81,NO,NO
+706,297,1966,65,Portugal,3318,Simoes,15,NO,NO
+707,297,1966,65,Portugal,3228,Eusebio,27,NO,NO
+708,297,1966,65,Portugal,3228,Eusebio,85,NO,NO
+709,297,1966,11,Brasil,1780,Rildo,73,NO,NO
+710,298,1966,42,Hungría,2921,Ivan Davidov,43,NO,SI
+711,298,1966,42,Hungría,7571,Kalman Meszoly,45,NO,NO
+712,298,1966,42,Hungría,7496,Ferenc Bene,54,NO,NO
+713,298,1966,12,Bulgaria,2915,Georgi Asparukhov,15,NO,NO
+714,299,1966,,URSS,350,Eduard Malofeyev,31,NO,NO
+715,299,1966,,URSS,255,Anatoli Banishevski,33,NO,NO
+716,299,1966,,URSS,350,Eduard Malofeyev,88,NO,NO
+717,300,1966,51,Italia,5688,Sandro Mazzola,8,NO,NO
+718,300,1966,51,Italia,5538,Paolo Barison,88,NO,NO
+719,301,1966,20,Corea del Norte,8000,Seung Zin Pak,88,NO,NO
+720,301,1966,17,Chile,700,Ruben Marcos,26,SI,NO
+721,302,1966,,URSS,275,Igor Chislenko,57,NO,NO
+722,303,1966,20,Corea del Norte,7997,Doo Ik Pak,42,NO,NO
+723,304,1966,,URSS,376,Valeriy Porkuyan,28,NO,NO
+724,304,1966,,URSS,376,Valeriy Porkuyan,85,NO,NO
+725,304,1966,17,Chile,700,Ruben Marcos,32,NO,NO
+726,337,1966,,Alemania Occidental,6119,Helmut Haller,11,NO,NO
+727,337,1966,,Alemania Occidental,6051,Franz Beckenbauer,70,NO,NO
+728,337,1966,,Alemania Occidental,6281,Uwe Seeler,75,NO,NO
+729,337,1966,,Alemania Occidental,6119,Helmut Haller,83,NO,NO
+730,337,1966,44,Inglaterra,1304,Geoff Hurst,78,NO,NO
+731,337,1966,65,Portugal,3228,Eusebio,27,NO,NO
+732,337,1966,65,Portugal,3228,Eusebio,43,SI,NO
+733,337,1966,65,Portugal,3228,Eusebio,56,NO,NO
+734,337,1966,65,Portugal,3228,Eusebio,59,SI,NO
+735,337,1966,65,Portugal,3255,Jose Augusto,80,NO,NO
+736,337,1966,20,Corea del Norte,8000,Seung Zin Pak,1,NO,NO
+737,337,1966,20,Corea del Norte,7991,Dong Woon Li,22,NO,NO
+738,337,1966,20,Corea del Norte,8009,Seung Kook Yang,25,NO,NO
+739,337,1966,,URSS,275,Igor Chislenko,5,NO,NO
+740,337,1966,,URSS,376,Valeriy Porkuyan,46,NO,NO
+741,337,1966,42,Hungría,7496,Ferenc Bene,57,NO,NO
+742,337,1966,,Alemania Occidental,6119,Helmut Haller,43,NO,NO
+743,337,1966,,Alemania Occidental,6051,Franz Beckenbauer,67,NO,NO
+744,337,1966,,URSS,376,Valeriy Porkuyan,88,NO,NO
+745,337,1966,44,Inglaterra,1239,Bobby Charlton,30,NO,NO
+746,337,1966,44,Inglaterra,1239,Bobby Charlton,80,NO,NO
+747,337,1966,65,Portugal,3228,Eusebio,82,SI,NO
+748,337,1966,65,Portugal,3228,Eusebio,12,SI,NO
+749,337,1966,65,Portugal,3322,Jose Torres,89,NO,NO
+750,337,1966,,URSS,350,Eduard Malofeyev,43,NO,NO
+751,337,1966,44,Inglaterra,1304,Geoff Hurst,18,NO,NO
+752,337,1966,44,Inglaterra,1365,Martin Peters,78,NO,NO
+753,337,1966,44,Inglaterra,1304,Geoff Hurst,101,NO,NO
+754,337,1966,44,Inglaterra,1304,Geoff Hurst,120,NO,NO
+755,337,1966,,Alemania Occidental,6119,Helmut Haller,12,NO,NO
+756,337,1966,,Alemania Occidental,6313,Wolfgang Weber,89,NO,NO
+757,339,1970,13,Bélgica,6726,Wilfried Van Moer,12,NO,NO
+758,339,1970,13,Bélgica,6726,Wilfried Van Moer,54,NO,NO
+759,339,1970,13,Bélgica,6644,Raoul Lambert,79,SI,NO
+760,340,1970,,URSS,262,Anatoly Bishovets,14,NO,NO
+761,340,1970,,URSS,252,Kakhi Asatiani,57,NO,NO
+762,340,1970,,URSS,262,Anatoly Bishovets,63,NO,NO
+763,340,1970,,URSS,322,Vitali Khmelnitski,76,NO,NO
+764,340,1970,13,Bélgica,6644,Raoul Lambert,86,NO,NO
+765,341,1970,56,México,7883,Javier Valdivia,45,NO,NO
+766,341,1970,56,México,7883,Javier Valdivia,46,NO,NO
+767,341,1970,56,México,7721,Javier Fragoso,58,NO,NO
+768,341,1970,56,México,7655,Juan Ignacio Basaguren,83,NO,NO
+769,342,1970,,URSS,262,Anatoly Bishovets,51,NO,NO
+770,342,1970,,URSS,262,Anatoly Bishovets,74,NO,NO
+771,343,1970,56,México,7819,Gustavo Pena,14,SI,NO
+772,344,1970,80,Uruguay,5913,Ildo Maneiro,23,NO,NO
+773,344,1970,80,Uruguay,5935,Juan Mujica,50,NO,NO
+774,345,1970,51,Italia,5617,Angelo Domenghini,10,NO,NO
+775,347,1970,73,Suecia,3529,Tom Turesson,53,NO,NO
+776,347,1970,50,Israel,1006,Mordechai Spiegler,56,NO,NO
+777,348,1970,73,Suecia,3391,Ove Grahn,90,NO,NO
+778,350,1970,44,Inglaterra,1304,Geoff Hurst,65,NO,NO
+779,351,1970,11,Brasil,1782,Rivelino,24,NO,NO
+780,351,1970,11,Brasil,1759,Pelé,59,NO,NO
+781,351,1970,11,Brasil,1663,Jairzinho,61,NO,NO
+782,351,1970,11,Brasil,1663,Jairzinho,83,NO,NO
+783,351,1970,,Checoslovaquia,548,Ladislav Petras,11,NO,NO
+784,352,1970,68,Rumania,1916,Alexandru Neagu,52,NO,NO
+785,352,1970,68,Rumania,1882,Florea Dumitrache,75,SI,NO
+786,352,1970,,Checoslovaquia,548,Ladislav Petras,5,NO,NO
+787,353,1970,11,Brasil,1663,Jairzinho,59,NO,NO
+788,354,1970,11,Brasil,1759,Pelé,19,NO,NO
+789,354,1970,11,Brasil,1663,Jairzinho,22,NO,NO
+790,354,1970,11,Brasil,1759,Pelé,67,NO,NO
+791,354,1970,68,Rumania,1882,Florea Dumitrache,34,NO,NO
+792,354,1970,68,Rumania,1874,Emerich Dembrovschi,84,NO,NO
+793,355,1970,44,Inglaterra,1243,Allan Clarke,50,SI,NO
+794,356,1970,63,Perú,2162,Alberto Gallardo,50,NO,NO
+795,356,1970,63,Perú,2142,Hector Chumpitaz,55,NO,NO
+796,356,1970,63,Perú,2147,Teofilo Cubillas,73,NO,NO
+797,356,1970,12,Bulgaria,2923,Dinko Dermendzhiev,13,NO,NO
+798,356,1970,12,Bulgaria,2918,Hristo Bonev,49,NO,NO
+799,357,1970,,Alemania Occidental,6281,Uwe Seeler,56,NO,NO
+800,357,1970,,Alemania Occidental,6223,Gerd Mueller,80,NO,NO
+801,357,1970,55,Marruecos,8371,Houmane Jarir,21,NO,NO
+802,358,1970,63,Perú,2147,Teofilo Cubillas,65,NO,NO
+803,358,1970,63,Perú,2141,Roberto Challe,67,NO,NO
+804,358,1970,63,Perú,2147,Teofilo Cubillas,75,NO,NO
+805,359,1970,,Alemania Occidental,6199,Stan Libuda,20,NO,NO
+806,359,1970,,Alemania Occidental,6223,Gerd Mueller,27,NO,NO
+807,359,1970,,Alemania Occidental,6223,Gerd Mueller,52,SI,NO
+808,359,1970,,Alemania Occidental,6281,Uwe Seeler,70,NO,NO
+809,359,1970,,Alemania Occidental,6223,Gerd Mueller,88,NO,NO
+810,359,1970,12,Bulgaria,2981,Asparukh Nikodimov,12,NO,NO
+811,359,1970,12,Bulgaria,2959,Todor Kolev,89,NO,NO
+812,360,1970,,Alemania Occidental,6223,Gerd Mueller,19,NO,NO
+813,360,1970,,Alemania Occidental,6223,Gerd Mueller,26,NO,NO
+814,360,1970,,Alemania Occidental,6223,Gerd Mueller,39,NO,NO
+815,360,1970,63,Perú,2147,Teofilo Cubillas,44,NO,NO
+816,361,1970,12,Bulgaria,3024,Dobromir Zhechev,40,NO,NO
+817,361,1970,55,Marruecos,8362,Mahjoub Ghazouani,61,NO,NO
+818,394,1970,,Alemania Occidental,6051,Franz Beckenbauer,68,NO,NO
+819,394,1970,,Alemania Occidental,6281,Uwe Seeler,76,NO,NO
+820,394,1970,,Alemania Occidental,6223,Gerd Mueller,108,NO,NO
+821,394,1970,44,Inglaterra,1351,Alan Mullery,31,NO,NO
+822,394,1970,44,Inglaterra,1365,Martin Peters,49,NO,NO
+823,394,1970,11,Brasil,1782,Rivelino,11,NO,NO
+824,394,1970,11,Brasil,1816,Tostao,15,NO,NO
+825,394,1970,11,Brasil,1816,Tostao,52,NO,NO
+826,394,1970,11,Brasil,1663,Jairzinho,75,NO,NO
+827,394,1970,63,Perú,2162,Alberto Gallardo,28,NO,NO
+828,394,1970,63,Perú,2147,Teofilo Cubillas,70,NO,NO
+829,394,1970,51,Italia,7819,Gustavo Pena,25,NO,SI
+830,394,1970,51,Italia,5746,Gigi Riva,63,NO,NO
+831,394,1970,51,Italia,5747,Gianni Rivera,70,NO,NO
+832,394,1970,51,Italia,5746,Gigi Riva,76,NO,NO
+833,394,1970,56,México,7738,Jose Gonzalez,13,NO,NO
+834,394,1970,80,Uruguay,5865,Victor Esparrago,116,NO,NO
+835,394,1970,51,Italia,5553,Roberto Boninsegna,8,NO,NO
+836,394,1970,51,Italia,5562,Tarcisio Burgnich,98,NO,NO
+837,394,1970,51,Italia,5746,Gigi Riva,104,NO,NO
+838,394,1970,51,Italia,5747,Gianni Rivera,111,NO,NO
+839,394,1970,,Alemania Occidental,6274,Karl-Heinz Schnellinger,90,NO,NO
+840,394,1970,,Alemania Occidental,6223,Gerd Mueller,94,NO,NO
+841,394,1970,,Alemania Occidental,6223,Gerd Mueller,110,NO,NO
+842,394,1970,80,Uruguay,5849,Luis Cubilla,19,NO,NO
+843,394,1970,11,Brasil,1584,Clodoaldo,44,NO,NO
+844,394,1970,11,Brasil,1663,Jairzinho,76,NO,NO
+845,394,1970,11,Brasil,1782,Rivelino,89,NO,NO
+846,394,1970,,Alemania Occidental,6239,Wolfgang Overath,26,NO,NO
+847,394,1970,11,Brasil,1759,Pelé,18,NO,NO
+848,394,1970,11,Brasil,1640,Gerson,66,NO,NO
+849,394,1970,11,Brasil,1663,Jairzinho,71,NO,NO
+850,394,1970,11,Brasil,1571,Carlos Alberto,86,NO,NO
+851,394,1970,51,Italia,5553,Roberto Boninsegna,37,NO,NO
+852,395,1974,,Alemania Occidental,6067,Paul Breitner,18,NO,NO
+853,396,1974,2,Alemania Oriental,7301,Colin Curran,58,NO,SI
+854,396,1974,2,Alemania Oriental,2522,Joachim Streich,72,NO,NO
+855,397,1974,,Alemania Occidental,6239,Wolfgang Overath,12,NO,NO
+856,397,1974,,Alemania Occidental,6078,Bernd Cullmann,34,NO,NO
+857,397,1974,,Alemania Occidental,6223,Gerd Mueller,53,NO,NO
+858,398,1974,17,Chile,626,Sergio Ahumada,69,NO,NO
+859,398,1974,2,Alemania Oriental,2511,Martin Hoffmann,55,NO,NO
+860,399,1974,2,Alemania Oriental,2521,Juergen Sparwasser,77,NO,NO
+861,402,1974,31,Escocia,2363,Peter Lorimer,26,NO,NO
+862,402,1974,31,Escocia,2356,Joe Jordan,34,NO,NO
+863,404,1974,,Yugoslavia,3540,Dusan Bajevic,8,NO,NO
+864,404,1974,,Yugoslavia,3575,Dragan Dzajic,14,NO,NO
+865,404,1974,,Yugoslavia,3744,Ivica Surjak,18,NO,NO
+866,404,1974,,Yugoslavia,3615,Josip Katalinski,22,NO,NO
+867,404,1974,,Yugoslavia,3540,Dusan Bajevic,30,NO,NO
+868,404,1974,,Yugoslavia,3547,Vladislav Bogicevic,35,NO,NO
+869,404,1974,,Yugoslavia,3677,Branko Oblak,61,NO,NO
+870,404,1974,,Yugoslavia,3696,Ilija Petkovic,65,NO,NO
+871,404,1974,,Yugoslavia,3540,Dusan Bajevic,81,NO,NO
+872,405,1974,11,Brasil,1663,Jairzinho,12,NO,NO
+873,405,1974,11,Brasil,1782,Rivelino,66,NO,NO
+874,405,1974,11,Brasil,1818,Valdomiro,79,NO,NO
+875,406,1974,31,Escocia,2356,Joe Jordan,88,NO,NO
+876,406,1974,,Yugoslavia,3614,Stanislav Karasi,81,NO,NO
+877,408,1974,60,Paises Bajos,6468,Johnny Rep,7,NO,NO
+878,408,1974,60,Paises Bajos,6468,Johnny Rep,86,NO,NO
+879,409,1974,12,Bulgaria,2918,Hristo Bonev,75,NO,NO
+880,409,1974,80,Uruguay,5948,Ricardo Pavoni,87,NO,NO
+881,411,1974,12,Bulgaria,6434,Ruud Krol,78,NO,SI
+882,411,1974,60,Paises Bajos,6452,Johan Neeskens,5,SI,NO
+883,411,1974,60,Paises Bajos,6452,Johan Neeskens,45,SI,NO
+884,411,1974,60,Paises Bajos,6468,Johnny Rep,71,NO,NO
+885,411,1974,60,Paises Bajos,6390,Theo De Jong,88,NO,NO
+886,412,1974,73,Suecia,3375,Ralf Edstrom,46,NO,NO
+887,412,1974,73,Suecia,3503,Roland Sandberg,74,NO,NO
+888,412,1974,73,Suecia,3375,Ralf Edstrom,77,NO,NO
+889,413,1974,51,Italia,5747,Gianni Rivera,52,NO,NO
+890,413,1974,51,Italia,5543,Romeo Benetti,66,NO,NO
+891,413,1974,51,Italia,5523,Pietro Anastasi,79,NO,NO
+892,413,1974,40,Haití,2454,Emmanuel Sanon,46,NO,NO
+893,414,1974,64,Polonia,3110,Grzegorz Lato,7,NO,NO
+894,414,1974,64,Polonia,3160,Andrzej Szarmach,8,NO,NO
+895,414,1974,64,Polonia,3110,Grzegorz Lato,62,NO,NO
+896,414,1974,6,Argentina,5280,Ramon Heredia,60,NO,NO
+897,414,1974,6,Argentina,5171,Carlos Babington,66,NO,NO
+898,415,1974,6,Argentina,5283,Rene Houseman,19,NO,NO
+899,415,1974,51,Italia,5361,Roberto Perfumo,35,NO,SI
+900,416,1974,64,Polonia,3110,Grzegorz Lato,17,NO,NO
+901,416,1974,64,Polonia,3048,Kazimierz Deyna,18,NO,NO
+902,416,1974,64,Polonia,3160,Andrzej Szarmach,30,NO,NO
+903,416,1974,64,Polonia,3069,Jerzy Gorgon,31,NO,NO
+904,416,1974,64,Polonia,3160,Andrzej Szarmach,34,NO,NO
+905,416,1974,64,Polonia,3160,Andrzej Szarmach,50,NO,NO
+906,416,1974,64,Polonia,3110,Grzegorz Lato,87,NO,NO
+907,417,1974,6,Argentina,5441,Hector Yazalde,15,NO,NO
+908,417,1974,6,Argentina,5283,Rene Houseman,18,NO,NO
+909,417,1974,6,Argentina,5170,Ruben Ayala,55,NO,NO
+910,417,1974,6,Argentina,5441,Hector Yazalde,68,NO,NO
+911,417,1974,40,Haití,2454,Emmanuel Sanon,63,NO,NO
+912,418,1974,64,Polonia,3160,Andrzej Szarmach,38,NO,NO
+913,418,1974,64,Polonia,3048,Kazimierz Deyna,44,NO,NO
+914,418,1974,51,Italia,5569,Fabio Capello,85,NO,NO
+915,419,1974,11,Brasil,1782,Rivelino,60,NO,NO
+916,420,1974,60,Paises Bajos,6378,Johan Cruyff,10,NO,NO
+917,420,1974,60,Paises Bajos,6434,Ruud Krol,25,NO,NO
+918,420,1974,60,Paises Bajos,6468,Johnny Rep,73,NO,NO
+919,420,1974,60,Paises Bajos,6378,Johan Cruyff,90,NO,NO
+920,421,1974,60,Paises Bajos,6452,Johan Neeskens,7,NO,NO
+921,421,1974,60,Paises Bajos,6467,Rob Rensenbrink,59,NO,NO
+922,422,1974,6,Argentina,5196,Miguel Brindisi,35,NO,NO
+923,422,1974,11,Brasil,1782,Rivelino,32,NO,NO
+924,422,1974,11,Brasil,1663,Jairzinho,49,NO,NO
+925,423,1974,6,Argentina,5283,Rene Houseman,20,NO,NO
+926,423,1974,2,Alemania Oriental,2522,Joachim Streich,14,NO,NO
+927,424,1974,60,Paises Bajos,6452,Johan Neeskens,50,NO,NO
+928,424,1974,60,Paises Bajos,6378,Johan Cruyff,65,NO,NO
+929,425,1974,,Alemania Occidental,6067,Paul Breitner,39,NO,NO
+930,425,1974,,Alemania Occidental,6223,Gerd Mueller,82,NO,NO
+931,426,1974,64,Polonia,3110,Grzegorz Lato,43,NO,NO
+932,427,1974,,Alemania Occidental,6239,Wolfgang Overath,51,NO,NO
+933,427,1974,,Alemania Occidental,6063,Rainer Bonhof,52,NO,NO
+934,427,1974,,Alemania Occidental,6112,Juergen Grabowski,76,NO,NO
+935,427,1974,,Alemania Occidental,6142,Uli Hoeness,89,SI,NO
+936,427,1974,73,Suecia,3375,Ralf Edstrom,24,NO,NO
+937,427,1974,73,Suecia,3503,Roland Sandberg,53,NO,NO
+938,428,1974,64,Polonia,3048,Kazimierz Deyna,24,SI,NO
+939,428,1974,64,Polonia,3110,Grzegorz Lato,62,NO,NO
+940,428,1974,,Yugoslavia,3614,Stanislav Karasi,43,NO,NO
+941,429,1974,,Alemania Occidental,6223,Gerd Mueller,76,NO,NO
+942,430,1974,73,Suecia,3375,Ralf Edstrom,29,NO,NO
+943,430,1974,73,Suecia,3528,Conny Torstensson,85,NO,NO
+944,430,1974,,Yugoslavia,3744,Ivica Surjak,27,NO,NO
+945,469,1974,64,Polonia,3110,Grzegorz Lato,76,NO,NO
+946,469,1974,60,Paises Bajos,6452,Johan Neeskens,2,SI,NO
+947,469,1974,,Alemania Occidental,6067,Paul Breitner,25,SI,NO
+948,469,1974,,Alemania Occidental,6223,Gerd Mueller,43,NO,NO
+949,470,1978,6,Argentina,5304,Leopoldo Luque,15,NO,NO
+950,470,1978,6,Argentina,5186,Daniel Bertoni,83,NO,NO
+951,470,1978,42,Hungría,7508,Karoly Csapo,10,NO,NO
+952,471,1978,51,Italia,5752,Paolo Rossi,29,NO,NO
+953,471,1978,51,Italia,5793,Renato Zaccarelli,54,NO,NO
+954,471,1978,36,Francia,3959,Bernard Lacombe,1,NO,NO
+955,472,1978,6,Argentina,5350,Daniel Passarella,45,SI,NO
+956,472,1978,6,Argentina,5304,Leopoldo Luque,73,NO,NO
+957,472,1978,36,Francia,4012,Michel Platini,60,NO,NO
+958,473,1978,51,Italia,5752,Paolo Rossi,34,NO,NO
+959,473,1978,51,Italia,5549,Roberto Bettega,36,NO,NO
+960,473,1978,51,Italia,5543,Romeo Benetti,60,NO,NO
+961,473,1978,42,Hungría,7621,Andras Toth,81,SI,NO
+962,474,1978,36,Francia,3977,Christian Lopez,22,NO,NO
+963,474,1978,36,Francia,3843,Marc Berdoll,37,NO,NO
+964,474,1978,36,Francia,4025,Dominique Rocheteau,42,NO,NO
+965,474,1978,42,Hungría,7633,Sandor Zombori,41,NO,NO
+966,475,1978,51,Italia,5549,Roberto Bettega,67,NO,NO
+967,477,1978,78,Túnez,7213,Ali Kaabi,55,NO,NO
+968,477,1978,78,Túnez,7197,Nejib Ghommidh,79,NO,NO
+969,477,1978,78,Túnez,7187,Mokhtar Douieb,87,NO,NO
+970,477,1978,56,México,7886,Arturo Vasquez,45,SI,NO
+971,478,1978,,Alemania Occidental,6222,Dieter Mueller,15,NO,NO
+972,478,1978,,Alemania Occidental,6224,Hansi Mueller,30,NO,NO
+973,478,1978,,Alemania Occidental,6265,Karl-Heinz Rummenigge,38,NO,NO
+974,478,1978,,Alemania Occidental,6094,Heinz Flohe,44,NO,NO
+975,478,1978,,Alemania Occidental,6265,Karl-Heinz Rummenigge,73,NO,NO
+976,478,1978,,Alemania Occidental,6094,Heinz Flohe,89,NO,NO
+977,479,1978,64,Polonia,3110,Grzegorz Lato,43,NO,NO
+978,481,1978,64,Polonia,3035,Zbigniew Boniek,43,NO,NO
+979,481,1978,64,Polonia,3048,Kazimierz Deyna,56,NO,NO
+980,481,1978,64,Polonia,3035,Zbigniew Boniek,84,NO,NO
+981,481,1978,56,México,7835,Victor Rangel,52,NO,NO
+982,482,1978,8,Austria,4638,Walter Schachner,9,NO,NO
+983,482,1978,8,Austria,4603,Hans Krankl,76,NO,NO
+984,482,1978,34,España,4905,Dani,21,NO,NO
+985,483,1978,73,Suecia,3510,Thomas Sjoberg,37,NO,NO
+986,483,1978,11,Brasil,1771,Reinaldo,45,NO,NO
+987,484,1978,8,Austria,4603,Hans Krankl,42,SI,NO
+988,486,1978,11,Brasil,1785,Roberto Dinamite,40,NO,NO
+989,487,1978,34,España,4867,Juan Manuel Asensi,75,NO,NO
+990,488,1978,60,Paises Bajos,6467,Rob Rensenbrink,40,SI,NO
+991,488,1978,60,Paises Bajos,6467,Rob Rensenbrink,62,NO,NO
+992,488,1978,60,Paises Bajos,6467,Rob Rensenbrink,79,SI,NO
+993,489,1978,63,Perú,2148,Cesar Cueto,43,NO,NO
+994,489,1978,63,Perú,2147,Teofilo Cubillas,71,NO,NO
+995,489,1978,63,Perú,2147,Teofilo Cubillas,77,NO,NO
+996,489,1978,31,Escocia,2356,Joe Jordan,14,NO,NO
+997,490,1978,31,Escocia,4102,Andranik Eskandarian,43,NO,SI
+998,490,1978,48,Irán,4096,Iraj Danayfar,60,NO,NO
+999,492,1978,31,Escocia,2314,Kenny Dalglish,44,NO,NO
+1000,492,1978,31,Escocia,2328,Archie Gemmill,47,SI,NO
+1001,492,1978,31,Escocia,2328,Archie Gemmill,68,NO,NO
+1002,492,1978,60,Paises Bajos,6467,Rob Rensenbrink,34,SI,NO
+1003,492,1978,60,Paises Bajos,6468,Johnny Rep,71,NO,NO
+1004,493,1978,63,Perú,2222,Jose Velasquez,2,NO,NO
+1005,493,1978,63,Perú,2147,Teofilo Cubillas,36,SI,NO
+1006,493,1978,63,Perú,2147,Teofilo Cubillas,39,SI,NO
+1007,493,1978,63,Perú,2147,Teofilo Cubillas,79,NO,NO
+1008,493,1978,48,Irán,4169,Hassan Rowshan,41,NO,NO
+1009,495,1978,60,Paises Bajos,6373,Ernie Brandts,6,NO,NO
+1010,495,1978,60,Paises Bajos,6467,Rob Rensenbrink,35,SI,NO
+1011,495,1978,60,Paises Bajos,6468,Johnny Rep,36,NO,NO
+1012,495,1978,60,Paises Bajos,6468,Johnny Rep,53,NO,NO
+1013,495,1978,60,Paises Bajos,6500,Willy Van De Kerkhof,82,NO,NO
+1014,495,1978,8,Austria,4614,Erich Obermayer,79,NO,NO
+1015,496,1978,,Alemania Occidental,6035,Ruediger Abramczik,3,NO,NO
+1016,496,1978,,Alemania Occidental,6222,Dieter Mueller,70,NO,NO
+1017,496,1978,60,Paises Bajos,6410,Arie Haan,27,NO,NO
+1018,496,1978,60,Paises Bajos,6499,Rene Van De Kerkhof,84,NO,NO
+1019,497,1978,51,Italia,5752,Paolo Rossi,14,NO,NO
+1020,498,1978,8,Austria,6307,Berti Vogts,59,NO,SI
+1021,498,1978,8,Austria,4603,Hans Krankl,66,NO,NO
+1022,498,1978,8,Austria,4603,Hans Krankl,87,NO,NO
+1023,498,1978,,Alemania Occidental,6265,Karl-Heinz Rummenigge,19,NO,NO
+1024,498,1978,,Alemania Occidental,6140,Bernd Hoelzenbein,68,NO,NO
+1025,499,1978,60,Paises Bajos,6373,Ernie Brandts,50,NO,NO
+1026,499,1978,60,Paises Bajos,6410,Arie Haan,75,NO,NO
+1027,499,1978,51,Italia,6373,Ernie Brandts,18,NO,SI
+1028,500,1978,6,Argentina,5290,Mario Kempes,16,NO,NO
+1029,500,1978,6,Argentina,5290,Mario Kempes,71,NO,NO
+1030,501,1978,11,Brasil,1598,Dirceu,15,NO,NO
+1031,501,1978,11,Brasil,1598,Dirceu,28,NO,NO
+1032,501,1978,11,Brasil,1843,Zico,73,SI,NO
+1033,503,1978,64,Polonia,3160,Andrzej Szarmach,65,NO,NO
+1034,504,1978,6,Argentina,5290,Mario Kempes,21,NO,NO
+1035,504,1978,6,Argentina,5420,Alberto Tarantini,43,NO,NO
+1036,504,1978,6,Argentina,5290,Mario Kempes,48,NO,NO
+1037,504,1978,6,Argentina,5304,Leopoldo Luque,50,NO,NO
+1038,504,1978,6,Argentina,5283,Rene Houseman,67,NO,NO
+1039,504,1978,6,Argentina,5304,Leopoldo Luque,72,NO,NO
+1040,505,1978,11,Brasil,1733,Nelinho,12,NO,NO
+1041,505,1978,11,Brasil,1785,Roberto Dinamite,57,NO,NO
+1042,505,1978,11,Brasil,1785,Roberto Dinamite,63,NO,NO
+1043,505,1978,64,Polonia,3110,Grzegorz Lato,45,NO,NO
+1044,544,1978,11,Brasil,1733,Nelinho,64,NO,NO
+1045,544,1978,11,Brasil,1598,Dirceu,72,NO,NO
+1046,544,1978,51,Italia,5579,Franco Causio,38,NO,NO
+1047,544,1978,6,Argentina,5290,Mario Kempes,38,NO,NO
+1048,544,1978,6,Argentina,5290,Mario Kempes,105,NO,NO
+1049,544,1978,6,Argentina,5186,Daniel Bertoni,116,NO,NO
+1050,544,1978,60,Paises Bajos,6451,Dick Nanninga,82,NO,NO

@@ -1,14 +1,5 @@
-anio_mundial,grupo,posicion,seleccion,pts,pj,pg,pe,pp,gf,gc,dif,clasificado
-1930,1,1,Argentina,6,3,3,0,0,10,4,6,Si
-1930,1,2,Chile,4,3,2,0,1,5,3,2,No
-1930,1,3,Francia,2,3,1,0,2,4,3,1,No
-1930,1,4,México,0,3,0,0,3,4,13,-9,No
-1930,2,1,Yugoslavia,4,2,2,0,0,6,1,5,Si
-1930,2,2,Brasil,2,2,1,0,1,5,2,3,No
-1930,2,3,Bolivia,0,2,0,0,2,0,8,-8,No
-1930,3,1,Uruguay,4,2,2,0,0,5,0,5,Si
-1930,3,2,Rumania,2,2,1,0,1,3,5,-2,No
-1930,3,3,Perú,0,2,0,0,2,1,4,-3,No
-1930,4,1,Estados Unidos,4,2,2,0,0,6,0,6,Si
-1930,4,2,Paraguay,2,2,1,0,1,1,3,-2,No
-1930,4,3,Bélgica,0,2,0,0,2,0,4,-4,No
+anio,id_grupo,selecciones
+1930,1,"Argentina, Chile, Francia, México"
+1930,2,"Bolivia, Brasil, Yugoslavia"
+1930,3,"Perú, Rumania, Uruguay"
+1930,4,"Bélgica, Estados Unidos, Paraguay"

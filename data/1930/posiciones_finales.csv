@@ -1,14 +1,14 @@
-anio_mundial,posicion,seleccion,etapa_alcanzada,pts,pj,pg,pe,pp,gf,gc,dif
-1930,1,Uruguay,Final,8,4,4,0,0,15,3,12
-1930,2,Argentina,Final,8,5,4,0,1,18,9,9
-1930,3,Estados Unidos,Partido 3er Puesto,4,3,2,0,1,7,6,1
-1930,4,Yugoslavia,Partido 3er Puesto,4,3,2,0,1,7,7,0
-1930,5,Chile,Grupos 1ra Ronda,4,3,2,0,1,5,3,2
-1930,6,Brasil,Grupos 1ra Ronda,2,2,1,0,1,5,2,3
-1930,7,Francia,Grupos 1ra Ronda,2,3,1,0,2,4,3,1
-1930,8,Rumania,Grupos 1ra Ronda,2,2,1,0,1,3,5,-2
-1930,9,Paraguay,Grupos 1ra Ronda,2,2,1,0,1,1,3,-2
-1930,10,Perú,Grupos 1ra Ronda,0,2,0,0,2,1,4,-3
-1930,11,Bélgica,Grupos 1ra Ronda,0,2,0,0,2,0,4,-4
-1930,12,Bolivia,Grupos 1ra Ronda,0,2,0,0,2,0,8,-8
-1930,13,México,Grupos 1ra Ronda,0,3,0,0,3,4,13,-9
+anio,posicion,seleccion
+1930,1,Uruguay
+1930,2,Argentina
+1930,3,Estados Unidos
+1930,4,Yugoslavia
+1930,5,Chile
+1930,6,Brasil
+1930,7,Francia
+1930,8,Rumania
+1930,9,Paraguay
+1930,10,Perú
+1930,11,Bélgica
+1930,12,Bolivia
+1930,13,México

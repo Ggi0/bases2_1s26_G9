@@ -1,1 +1,12 @@
-id_mundial,anio,id_organizador,organizador,id_campeon,campeon,num_selecciones,num_partidos,goles,promedio_gol
+anio,id_organizador,organizador,id_campeon,campeon,num_selecciones,num_partidos,goles,promedio_gol
+1930,,,80,Uruguay,13,18,70,3.89
+1934,,,51,Italia,16,17,70,4.12
+1938,,,51,Italia,16,18,84,4.67
+1950,,,80,Uruguay,13,22,88,4.0
+1954,,,,Alemania Occidental,16,26,140,5.38
+1958,,,11,Brasil,16,35,126,3.6
+1962,,,11,Brasil,16,32,89,2.78
+1966,,,44,Inglaterra,16,32,89,2.78
+1970,,,11,Brasil,16,32,95,2.97
+1974,,,,Alemania Occidental,16,38,97,2.55
+1978,,,6,Argentina,16,38,102,2.68

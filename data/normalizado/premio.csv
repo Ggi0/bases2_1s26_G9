@@ -1,1 +1,20 @@
-id_premio,anio,tipo_premio,id_jugador,jugador,id_seleccion,pais
+id_premio,anio,id_tipo_premio,tipo_premio,id_jugador,jugador,id_seleccion,seleccion
+1,1930,4,Botín de Oro,5415,Guillermo Stabile,6,Argentina
+2,1934,4,Botín de Oro,537,Oldrich Nejedly,,Checoslovaquia
+3,1938,4,Botín de Oro,1690,Leonidas,11,Brasil
+4,1950,4,Botín de Oro,1519,Ademir,11,Brasil
+5,1954,4,Botín de Oro,7552,Sandor Kocsis,42,Hungría
+6,1958,4,Botín de Oro,3915,Just Fontaine,36,Francia
+7,1958,8,Mejor Jugador Joven,1759,Pelé,11,Brasil
+8,1962,4,Botín de Oro,7490,Florian Albert,42,Hungría
+9,1962,8,Mejor Jugador Joven,7490,Florian Albert,42,Hungría
+10,1966,4,Botín de Oro,3228,Eusebio,65,Portugal
+11,1966,8,Mejor Jugador Joven,6051,Franz Beckenbauer,,Alemania Occidental
+12,1970,4,Botín de Oro,6223,Gerd Mueller,,Alemania Occidental
+13,1970,8,Mejor Jugador Joven,2147,Teofilo Cubillas,63,Perú
+14,1970,9,FIFA Fair Play,,Perú,63,Perú
+15,1974,4,Botín de Oro,3110,Grzegorz Lato,64,Polonia
+16,1974,8,Mejor Jugador Joven,3187,Wladyslaw Zmuda,64,Polonia
+17,1978,4,Botín de Oro,5290,Mario Kempes,6,Argentina
+18,1978,8,Mejor Jugador Joven,5563,Antonio Cabrini,51,Italia
+19,1978,9,FIFA Fair Play,,Argentina,6,Argentina

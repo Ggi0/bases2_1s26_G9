@@ -1,18 +1,19 @@
-id_partido,anio_mundial,fecha,etapa,equipo_local,goles_local,goles_visitante,equipo_visitante,url_partido
-1934_1,1934,27-May-1934,Octavos,Alemania,5,2,Bélgica,../partidos/1934_alemania_belgica.php
-1934_2,1934,27-May-1934,Octavos,Suecia,3,2,Argentina,../partidos/1934_suecia_argentina.php
-1934_3,1934,27-May-1934,Octavos,Italia,7,1,Estados Unidos,../partidos/1934_italia_estados_unidos.php
-1934_4,1934,27-May-1934,Octavos,Hungría,4,2,Egipto,../partidos/1934_hungria_egipto.php
-1934_5,1934,27-May-1934,Octavos,España,3,1,Brasil,../partidos/1934_espana_brasil.php
-1934_6,1934,27-May-1934,Octavos,Checoslovaquia,2,1,Rumania,../partidos/1934_checoslovaquia_rumania.php
-1934_7,1934,27-May-1934,Octavos,Suiza,3,2,Paises Bajos,../partidos/1934_suiza_holanda.php
-1934_8,1934,27-May-1934,Octavos,Austria,3,2,Francia,../partidos/1934_austria_francia.php
-1934_9,1934,31-May-1934,Cuartos,Checoslovaquia,3,2,Suiza,../partidos/1934_checoslovaquia_suiza.php
-1934_10,1934,31-May-1934,Cuartos,Austria,2,1,Hungría,../partidos/1934_austria_hungria.php
-1934_11,1934,31-May-1934,Cuartos,Alemania,2,1,Suecia,../partidos/1934_alemania_suecia.php
-1934_12,1934,31-May-1934,Cuartos,Italia,1,1,España,../partidos/1934_italia_espana.php
-1934_13,1934,01-Jun-1934,Cuartos,Italia,1,0,España,../partidos/1934_italia_espana_2.php
-1934_14,1934,03-Jun-1934,Semis,Checoslovaquia,3,1,Alemania,../partidos/1934_checoslovaquia_alemania.php
-1934_15,1934,03-Jun-1934,Semis,Italia,1,0,Austria,../partidos/1934_italia_austria.php
-1934_16,1934,07-Jun-1934,3er Puesto,Austria,2,3,Alemania,../partidos/1934_austria_alemania.php
-1934_17,1934,10-Jun-1934,Final,Italia,2,1,Checoslovaquia,../partidos/1934_italia_checoslovaquia.php
+anio,id_partido_str,num_partido,num_partido_seq,fuente,fecha,etapa,local,visitante,goles_local,goles_visitante,tiempo_extra,penales,penales_local,penales_visitante
+1934,1934_r_1,1,1,resultados,27-May-1934,Octavos,Alemania,Bélgica,5,2,NO,NO,,
+1934,1934_r_2,2,2,resultados,27-May-1934,Octavos,Suecia,Argentina,3,2,NO,NO,,
+1934,1934_r_3,3,3,resultados,27-May-1934,Octavos,Italia,Estados Unidos,7,1,NO,NO,,
+1934,1934_r_4,4,4,resultados,27-May-1934,Octavos,Hungría,Egipto,4,2,NO,NO,,
+1934,1934_r_5,5,5,resultados,27-May-1934,Octavos,España,Brasil,3,1,NO,NO,,
+1934,1934_r_6,6,6,resultados,27-May-1934,Octavos,Checoslovaquia,Rumania,2,1,NO,NO,,
+1934,1934_r_7,7,7,resultados,27-May-1934,Octavos,Suiza,Paises Bajos,3,2,NO,NO,,
+1934,1934_r_8,8,8,resultados,27-May-1934,Octavos,Austria,Francia,3,2,SI,NO,,
+1934,1934_r_9,9,9,resultados,31-May-1934,Cuartos,Checoslovaquia,Suiza,3,2,NO,NO,,
+1934,1934_r_10,10,10,resultados,31-May-1934,Cuartos,Austria,Hungría,2,1,NO,NO,,
+1934,1934_r_11,11,11,resultados,31-May-1934,Cuartos,Alemania,Suecia,2,1,NO,NO,,
+1934,1934_r_12,12,12,resultados,31-May-1934,Cuartos,Italia,España,1,1,SI,NO,,
+1934,1934_r_13,13,13,resultados,01-Jun-1934,Cuartos,Italia,España,1,0,NO,NO,,
+1934,1934_r_14,14,14,resultados,03-Jun-1934,Semis,Checoslovaquia,Alemania,3,1,NO,NO,,
+1934,1934_r_15,15,15,resultados,03-Jun-1934,Semis,Italia,Austria,1,0,NO,NO,,
+1934,1934_r_16,16,16,resultados,07-Jun-1934,3er Puesto,Austria,Alemania,2,3,NO,NO,,
+1934,1934_r_17,17,17,resultados,10-Jun-1934,Final,Italia,Checoslovaquia,2,1,SI,NO,,
+1934,1934_r_,,18,resultados,27-May-1934,,Alemania,Bélgica,5,2,NO,NO,,
