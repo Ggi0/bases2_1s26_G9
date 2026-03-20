@@ -189,8 +189,8 @@ CREATE TABLE POSICION_FINAL (
     CONSTRAINT FK_POSFIN_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
 
-    CONSTRAINT UQ_POSICION UNIQUE (ANIO, POSICION),
-    CONSTRAINT UQ_SELECCION UNIQUE (ANIO, ID_SELECCION)
+    CONSTRAINT UQ_POSFIN_POSICION UNIQUE (ANIO, POSICION),
+    CONSTRAINT UQ_POSFIN_SELECCION UNIQUE (ANIO, ID_SELECCION)
 );
 
 -- ============================================================
@@ -252,8 +252,10 @@ CREATE TABLE EQUIPO_IDEAL (
     CONSTRAINT FK_EQIDEAL_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
 
-    CONSTRAINT UQ_EQIDEAL_JUG UNIQUE (ANIO, ID_JUGADOR),
-    CONSTRAINT UQ_EQIDEAL_POS UNIQUE (ANIO, POSICION)
+    -- Se mantiene UQ_EQIDEAL_JUG para asegurar que cada jugador aparezca solo una vez por año.
+    -- Se eliminó UQ_EQIDEAL_POS porque múltiples jugadores pueden ocupar la misma posición
+    -- dentro del equipo ideal (ej: 3-5 delanteros, 2-4 defensores), generando 170 duplicados válidos en (ANIO, POSICION).
+    CONSTRAINT UQ_EQIDEAL_JUG UNIQUE (ANIO, ID_JUGADOR)
 );
 
 -- ============================================================

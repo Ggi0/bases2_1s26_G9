@@ -1,104 +1,104 @@
-id_premio,anio,id_tipo_premio,tipo_premio,id_jugador,jugador,id_seleccion,seleccion
-1,1930,4,Botín de Oro,5415,Guillermo Stabile,6,Argentina
-2,1934,4,Botín de Oro,537,Oldrich Nejedly,86,Checoslovaquia
-3,1938,4,Botín de Oro,1690,Leonidas,11,Brasil
-4,1950,4,Botín de Oro,1519,Ademir,11,Brasil
-5,1954,4,Botín de Oro,7552,Sandor Kocsis,42,Hungría
-6,1958,4,Botín de Oro,3915,Just Fontaine,36,Francia
-7,1958,8,Mejor Jugador Joven,1759,Pelé,11,Brasil
-8,1962,4,Botín de Oro,7490,Florian Albert,42,Hungría
-9,1962,8,Mejor Jugador Joven,7490,Florian Albert,42,Hungría
-10,1966,4,Botín de Oro,3228,Eusebio,65,Portugal
-11,1966,8,Mejor Jugador Joven,6051,Franz Beckenbauer,87,Alemania Occidental
-12,1970,4,Botín de Oro,6223,Gerd Mueller,87,Alemania Occidental
-13,1970,8,Mejor Jugador Joven,2147,Teofilo Cubillas,63,Perú
-14,1970,9,FIFA Fair Play,,Perú,63,Perú
-15,1974,4,Botín de Oro,3110,Grzegorz Lato,64,Polonia
-16,1974,8,Mejor Jugador Joven,3187,Wladyslaw Zmuda,64,Polonia
-17,1978,4,Botín de Oro,5290,Mario Kempes,6,Argentina
-18,1978,8,Mejor Jugador Joven,5563,Antonio Cabrini,51,Italia
-19,1978,9,FIFA Fair Play,,Argentina,6,Argentina
-20,1982,1,Balón de Oro,5752,Paolo Rossi,51,Italia
-21,1982,2,Balón de Plata,1623,Falcao,11,Brasil
-22,1982,3,Balón de Bronce,6265,Karl-Heinz Rummenigge,87,Alemania Occidental
-23,1982,4,Botín de Oro,5752,Paolo Rossi,51,Italia
-24,1982,8,Mejor Jugador Joven,3822,Manuel Amoros,36,Francia
-25,1982,9,FIFA Fair Play,,Brasil,11,Brasil
-26,1986,1,Balón de Oro,5307,Diego Maradona,6,Argentina
-27,1986,2,Balón de Plata,6276,Harald Schumacher,87,Alemania Occidental
-28,1986,3,Balón de Bronce,4208,Preben Elkjaer Larsen,26,Dinamarca
-29,1986,4,Botín de Oro,1325,Gary Lineker,44,Inglaterra
-30,1986,8,Mejor Jugador Joven,6690,Enzo Scifo,13,Bélgica
-31,1986,9,FIFA Fair Play,,Brasil,11,Brasil
-32,1990,1,Balón de Oro,5758,Salvatore Schillaci,51,Italia
-33,1990,2,Balón de Plata,6212,Lothar Matthaeus,87,Alemania Occidental
-34,1990,3,Balón de Bronce,5307,Diego Maradona,6,Argentina
-35,1990,4,Botín de Oro,5758,Salvatore Schillaci,51,Italia
-36,1990,8,Mejor Jugador Joven,3705,Robert Prosinecki,85,Yugoslavia
-37,1990,9,FIFA Fair Play,,Inglaterra,44,Inglaterra
-38,1994,1,Balón de Oro,1791,Romario,11,Brasil
-39,1994,2,Balón de Plata,5533,Roberto Baggio,51,Italia
-40,1994,3,Balón de Bronce,3001,Hristo Stoichkov,12,Bulgaria
-41,1994,4,Botín de Oro,385,Oleg Salenko,69,Rusia
-42,1994,7,Guante de Oro,6684,Michel Preudhomme,13,Bélgica
-43,1994,8,Mejor Jugador Joven,6458,Marc Overmars,60,Paises Bajos
-44,1994,9,FIFA Fair Play,,Brasil,11,Brasil
-45,1998,1,Balón de Oro,1795,Ronaldo,11,Brasil
-46,1998,2,Balón de Plata,3743,Davor Suker,24,Croacia
-47,1998,3,Balón de Bronce,4051,Lilian Thuram,36,Francia
-48,1998,4,Botín de Oro,3743,Davor Suker,24,Croacia
-49,1998,7,Guante de Oro,3832,Fabien Barthez,36,Francia
-50,1998,8,Mejor Jugador Joven,1358,Michael Owen,44,Inglaterra
-51,1998,9,FIFA Fair Play,,Francia,36,Francia
-52,2002,1,Balón de Oro,6161,Oliver Kahn,1,Alemania
-53,2002,2,Balón de Plata,1795,Ronaldo,11,Brasil
-54,2002,3,Balón de Bronce,6972,Myung Bo Hong,21,Corea del Sur
-55,2002,4,Botín de Oro,1795,Ronaldo,11,Brasil
-56,2002,7,Guante de Oro,6161,Oliver Kahn,1,Alemania
-57,2002,8,Mejor Jugador Joven,2789,Landon Donovan,35,Estados Unidos
-58,2002,9,FIFA Fair Play,,Bélgica,13,Bélgica
-59,2006,1,Balón de Oro,4075,Zinedine Zidane,36,Francia
-60,2006,2,Balón de Plata,5568,Fabio Cannavaro,51,Italia
-61,2006,3,Balón de Bronce,5733,Andrea Pirlo,51,Italia
-62,2006,4,Botín de Oro,6176,Miroslav Klose,1,Alemania
-63,2006,5,Botín de Plata,5225,Hernan Crespo,6,Argentina
-64,2006,6,Botín de Bronce,1795,Ronaldo,11,Brasil
-65,2006,7,Guante de Oro,5559,Gianluigi Buffon,51,Italia
-66,2006,8,Mejor Jugador Joven,6248,Lukas Podolski,1,Alemania
-67,2006,9,FIFA Fair Play,,Brasil,11,Brasil
-68,2010,1,Balón de Oro,5872,Diego Forlan,80,Uruguay
-69,2010,2,Balón de Plata,6481,Wesley Sneijder,60,Paises Bajos
-70,2010,3,Balón de Bronce,5091,David Villa,34,España
-71,2010,4,Botín de Oro,6226,Thomas Müller,1,Alemania
-72,2010,5,Botín de Plata,5091,David Villa,34,España
-73,2010,6,Botín de Bronce,6481,Wesley Sneijder,60,Paises Bajos
-74,2010,7,Guante de Oro,4892,Iker Casillas,34,España
-75,2010,8,Mejor Jugador Joven,6226,Thomas Müller,1,Alemania
-76,2010,9,FIFA Fair Play,,España,34,España
-77,2014,1,Balón de Oro,5318,Lionel Messi,6,Argentina
-78,2014,2,Balón de Plata,6226,Thomas Müller,1,Alemania
-79,2014,3,Balón de Bronce,6471,Arjen Robben,60,Paises Bajos
-80,2014,4,Botín de Oro,2715,James Rodríguez,19,Colombia
-81,2014,5,Botín de Plata,6226,Thomas Müller,1,Alemania
-82,2014,6,Botín de Bronce,1735,Neymar Jr.,11,Brasil
-83,2014,7,Guante de Oro,6230,Manuel Neuer,1,Alemania
-84,2014,8,Mejor Jugador Joven,4013,Paul Pogba,36,Francia
-85,2014,9,FIFA Fair Play,,Colombia,19,Colombia
-86,2018,1,Balón de Oro,1124,Luka Modric,24,Croacia
-87,2018,2,Balón de Plata,6628,Eden Hazard,13,Bélgica
-88,2018,3,Balón de Bronce,3930,Antoine Griezmann,36,Francia
-89,2018,4,Botín de Oro,1312,Harry Kane,44,Inglaterra
-90,2018,5,Botín de Plata,3930,Antoine Griezmann,36,Francia
-91,2018,6,Botín de Bronce,6648,Romelu Lukaku,13,Bélgica
-92,2018,7,Guante de Oro,6581,Thibaut Courtois,13,Bélgica
-93,2018,8,Mejor Jugador Joven,3992,Kylian Mbappé,36,Francia
-94,2018,9,FIFA Fair Play,,España,34,España
-95,2022,1,Balón de Oro,5318,Lionel Messi,6,Argentina
-96,2022,2,Balón de Plata,3992,Kylian Mbappé,36,Francia
-97,2022,3,Balón de Bronce,1124,Luka Modric,24,Croacia
-98,2022,4,Botín de Oro,3992,Kylian Mbappé,36,Francia
-99,2022,5,Botín de Plata,5318,Lionel Messi,6,Argentina
-100,2022,6,Botín de Bronce,3923,Olivier Giroud,36,Francia
-101,2022,7,Guante de Oro,5309,Emiliano Martinez,6,Argentina
-102,2022,8,Mejor Jugador Joven,5251,Enzo Fernandez,6,Argentina
-103,2022,9,FIFA Fair Play,,Inglaterra,44,Inglaterra
+id_premio,anio,id_tipo_premio,id_jugador,id_seleccion
+1,1930,4,5415,6
+2,1934,4,537,86
+3,1938,4,1690,11
+4,1950,4,1519,11
+5,1954,4,7552,42
+6,1958,4,3915,36
+7,1958,8,1759,11
+8,1962,4,7490,42
+9,1962,8,7490,42
+10,1966,4,3228,65
+11,1966,8,6051,87
+12,1970,4,6223,87
+13,1970,8,2147,63
+14,1970,9,,63
+15,1974,4,3110,64
+16,1974,8,3187,64
+17,1978,4,5290,6
+18,1978,8,5563,51
+19,1978,9,,6
+20,1982,1,5752,51
+21,1982,2,1623,11
+22,1982,3,6265,87
+23,1982,4,5752,51
+24,1982,8,3822,36
+25,1982,9,,11
+26,1986,1,5307,6
+27,1986,2,6276,87
+28,1986,3,4208,26
+29,1986,4,1325,44
+30,1986,8,6690,13
+31,1986,9,,11
+32,1990,1,5758,51
+33,1990,2,6212,87
+34,1990,3,5307,6
+35,1990,4,5758,51
+36,1990,8,3705,85
+37,1990,9,,44
+38,1994,1,1791,11
+39,1994,2,5533,51
+40,1994,3,3001,12
+41,1994,4,385,69
+42,1994,7,6684,13
+43,1994,8,6458,60
+44,1994,9,,11
+45,1998,1,1795,11
+46,1998,2,3743,24
+47,1998,3,4051,36
+48,1998,4,3743,24
+49,1998,7,3832,36
+50,1998,8,1358,44
+51,1998,9,,36
+52,2002,1,6161,1
+53,2002,2,1795,11
+54,2002,3,6972,21
+55,2002,4,1795,11
+56,2002,7,6161,1
+57,2002,8,2789,35
+58,2002,9,,13
+59,2006,1,4075,36
+60,2006,2,5568,51
+61,2006,3,5733,51
+62,2006,4,6176,1
+63,2006,5,5225,6
+64,2006,6,1795,11
+65,2006,7,5559,51
+66,2006,8,6248,1
+67,2006,9,,11
+68,2010,1,5872,80
+69,2010,2,6481,60
+70,2010,3,5091,34
+71,2010,4,6226,1
+72,2010,5,5091,34
+73,2010,6,6481,60
+74,2010,7,4892,34
+75,2010,8,6226,1
+76,2010,9,,34
+77,2014,1,5318,6
+78,2014,2,6226,1
+79,2014,3,6471,60
+80,2014,4,2715,19
+81,2014,5,6226,1
+82,2014,6,1735,11
+83,2014,7,6230,1
+84,2014,8,4013,36
+85,2014,9,,19
+86,2018,1,1124,24
+87,2018,2,6628,13
+88,2018,3,3930,36
+89,2018,4,1312,44
+90,2018,5,3930,36
+91,2018,6,6648,13
+92,2018,7,6581,13
+93,2018,8,3992,36
+94,2018,9,,34
+95,2022,1,5318,6
+96,2022,2,3992,36
+97,2022,3,1124,24
+98,2022,4,3992,36
+99,2022,5,5318,6
+100,2022,6,3923,36
+101,2022,7,5309,6
+102,2022,8,5251,6
+103,2022,9,,44

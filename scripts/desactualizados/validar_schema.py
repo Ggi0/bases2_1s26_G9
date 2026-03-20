@@ -67,7 +67,7 @@ def compare_schemas():
         csv_cols, error = get_csv_columns(table_name)
         
         if error:
-            print(f"❌ {table_name.upper()}")
+            print(f"[ERROR] {table_name.upper()}")
             print(f"   Error: {error}")
             all_ok = False
             issues.append((table_name, "No existe archivo"))
@@ -83,10 +83,10 @@ def compare_schemas():
         extra = set(csv_norm) - set(expected_norm)
         
         if not missing and not extra:
-            print(f"✅ {table_name.upper()}")
+            print(f"[OK] {table_name.upper()}")
             print(f"   Columnas: {len(csv_cols)} (coinciden con SQL)")
         else:
-            print(f"⚠️  {table_name.upper()}")
+            print(f"[WARNING] {table_name.upper()}")
             all_ok = False
             
             if missing:
@@ -103,9 +103,9 @@ def compare_schemas():
     # Resumen
     print("=" * 70)
     if all_ok:
-        print("✅ TODOS LOS ESQUEMAS COINCIDEN")
+        print("[OK] TODOS LOS ESQUEMAS COINCIDEN")
     else:
-        print(f"⚠️  ENCONTRADOS {len(issues)} PROBLEMAS")
+        print(f"[WARNING] ENCONTRADOS {len(issues)} PROBLEMAS")
         print()
         for table, issue in issues:
             print(f"  - {table}: {issue}")
