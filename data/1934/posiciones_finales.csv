@@ -1,17 +1,17 @@
-anio_mundial,posicion,seleccion,etapa_alcanzada,pts,pj,pg,pe,pp,gf,gc,dif
-1934,1,Italia,Final,9,5,4,1,0,12,3,9
-1934,2,Checoslovaquia,Final,6,4,3,0,1,9,6,3
-1934,3,Alemania,Partido 3er Puesto,6,4,3,0,1,11,8,3
-1934,4,Austria,Partido 3er Puesto,4,4,2,0,2,7,7,0
-1934,5,España,Cuartos de Final,3,3,1,1,1,4,3,1
-1934,6,Hungría,Cuartos de Final,2,2,1,0,1,5,4,1
-1934,7,Suiza,Cuartos de Final,2,2,1,0,1,5,5,0
-1934,8,Suecia,Cuartos de Final,2,2,1,0,1,4,4,0
-1934,9,Argentina,Octavos de Final,0,1,0,0,1,2,3,-1
-1934,9,Francia,Octavos de Final,0,1,0,0,1,2,3,-1
-1934,9,Paises Bajos,Octavos de Final,0,1,0,0,1,2,3,-1
-1934,12,Rumania,Octavos de Final,0,1,0,0,1,1,2,-1
-1934,13,Egipto,Octavos de Final,0,1,0,0,1,2,4,-2
-1934,14,Brasil,Octavos de Final,0,1,0,0,1,1,3,-2
-1934,15,Bélgica,Octavos de Final,0,1,0,0,1,2,5,-3
-1934,16,Estados Unidos,Octavos de Final,0,1,0,0,1,1,7,-6
+anio,posicion,seleccion
+1934,1,Italia
+1934,2,Checoslovaquia
+1934,3,Alemania
+1934,4,Austria
+1934,5,España
+1934,6,Hungría
+1934,7,Suiza
+1934,8,Suecia
+1934,9,Argentina
+1934,9,Francia
+1934,9,Paises Bajos
+1934,12,Rumania
+1934,13,Egipto
+1934,14,Brasil
+1934,15,Bélgica
+1934,16,Estados Unidos

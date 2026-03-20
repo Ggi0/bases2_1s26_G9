@@ -1,4 +1,4 @@
-anio,posicion,jugador,pais
+anio,posicion,jugador,seleccion
 2010,Arquero,Iker Casillas,España
 2010,Defensores,Philipp Lahm,Alemania
 2010,Defensores,Maicon,Brasil
@@ -10,4 +10,3 @@ anio,posicion,jugador,pais
 2010,Mediocampistas,Xavi,España
 2010,Delanteros,Diego Forlan,Uruguay
 2010,Delanteros,David Villa,España
-2010,Entrenador,Vicente Del Bosque,España

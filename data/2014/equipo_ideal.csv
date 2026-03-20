@@ -1,4 +1,4 @@
-anio,posicion,jugador,pais
+anio,posicion,jugador,seleccion
 2014,Arquero,Manuel Neuer,Alemania
 2014,Defensores,David Luiz,Brasil
 2014,Defensores,Mats Hummels,Alemania
@@ -10,4 +10,3 @@ anio,posicion,jugador,pais
 2014,Delanteros,Lionel Messi,Argentina
 2014,Delanteros,Thomas Müller,Alemania
 2014,Delanteros,Neymar Jr.,Brasil
-2014,Entrenador,Joachim Löw,Alemania

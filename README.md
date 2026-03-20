@@ -48,7 +48,7 @@ esto hará un archivo .csv con los datos recolectados
 
 Cada mundial se descarga individualmente. Firefox se abrirá automáticamente — no lo cierres mientras corre.
 
-> ⚠️ Cada página espera **40-60 segundos** para no ser baneado. Un mundial tarda aprox. **10-15 minutos**.
+> NOTA: Cada página espera **40-60 segundos** para no ser baneado. Un mundial tarda aprox. **10-15 minutos**.
 
 ```bash
 python 1_mundiales.py 2022

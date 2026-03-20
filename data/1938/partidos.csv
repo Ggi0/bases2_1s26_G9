@@ -1,19 +1,20 @@
-id_partido,anio_mundial,fecha,etapa,equipo_local,goles_local,goles_visitante,equipo_visitante,url_partido
-1938_1,1938,04-Jun-1938,Octavos,Suiza,1,1,Alemania,../partidos/1938_suiza_alemania.php
-1938_2,1938,05-Jun-1938,Octavos,Francia,3,1,Bélgica,../partidos/1938_francia_belgica.php
-1938_3,1938,05-Jun-1938,Octavos,Italia,2,1,Noruega,../partidos/1938_italia_noruega.php
-1938_4,1938,05-Jun-1938,Octavos,Brasil,6,5,Polonia,../partidos/1938_brasil_polonia.php
-1938_5,1938,05-Jun-1938,Octavos,Hungría,6,0,Indias Orientales Holand.,../partidos/1938_hungria_indias_orientales.php
-1938_6,1938,05-Jun-1938,Octavos,Checoslovaquia,3,0,Paises Bajos,../partidos/1938_checoslovaquia_holanda.php
-1938_7,1938,05-Jun-1938,Octavos,Cuba,3,3,Rumania,../partidos/1938_cuba_rumania.php
-1938_8,1938,09-Jun-1938,Octavos,Suiza,4,2,Alemania,../partidos/1938_suiza_alemania_2.php
-1938_9,1938,09-Jun-1938,Octavos,Cuba,2,1,Rumania,../partidos/1938_cuba_rumania_2.php
-1938_10,1938,12-Jun-1938,Cuartos,Cuba,0,8,Suecia,../partidos/1938_cuba_suecia.php
-1938_11,1938,12-Jun-1938,Cuartos,Italia,3,1,Francia,../partidos/1938_italia_francia.php
-1938_12,1938,12-Jun-1938,Cuartos,Hungría,2,0,Suiza,../partidos/1938_hungria_suiza.php
-1938_13,1938,12-Jun-1938,Cuartos,Brasil,1,1,Checoslovaquia,../partidos/1938_brasil_checoslovaquia.php
-1938_14,1938,14-Jun-1938,Cuartos,Brasil,2,1,Checoslovaquia,../partidos/1938_brasil_checoslovaquia_2.php
-1938_15,1938,16-Jun-1938,Semis,Hungría,5,1,Suecia,../partidos/1938_hungria_suecia.php
-1938_16,1938,16-Jun-1938,Semis,Brasil,1,2,Italia,../partidos/1938_brasil_italia.php
-1938_17,1938,19-Jun-1938,3er Puesto,Brasil,4,2,Suecia,../partidos/1938_brasil_suecia.php
-1938_18,1938,19-Jun-1938,Final,Italia,4,2,Hungría,../partidos/1938_italia_hungria.php
+anio,id_partido_str,num_partido,num_partido_seq,fuente,fecha,etapa,local,visitante,goles_local,goles_visitante,tiempo_extra,penales,penales_local,penales_visitante
+1938,1938_r_1,1,1,resultados,04-Jun-1938,Octavos,Suiza,Alemania,1,1,SI,NO,,
+1938,1938_r_2,2,2,resultados,05-Jun-1938,Octavos,Francia,Bélgica,3,1,NO,NO,,
+1938,1938_r_3,3,3,resultados,05-Jun-1938,Octavos,Italia,Noruega,2,1,SI,NO,,
+1938,1938_r_4,4,4,resultados,05-Jun-1938,Octavos,Brasil,Polonia,6,5,SI,NO,,
+1938,1938_r_5,5,5,resultados,05-Jun-1938,Octavos,Hungría,Indias Orientales Holand.,6,0,NO,NO,,
+1938,1938_r_6,6,6,resultados,05-Jun-1938,Octavos,Checoslovaquia,Paises Bajos,3,0,SI,NO,,
+1938,1938_r_7,7,7,resultados,05-Jun-1938,Octavos,Cuba,Rumania,3,3,SI,NO,,
+1938,1938_r_8,8,8,resultados,09-Jun-1938,Octavos,Suiza,Alemania,4,2,NO,NO,,
+1938,1938_r_9,9,9,resultados,09-Jun-1938,Octavos,Cuba,Rumania,2,1,NO,NO,,
+1938,1938_r_10,10,10,resultados,12-Jun-1938,Cuartos,Cuba,Suecia,0,8,NO,NO,,
+1938,1938_r_11,11,11,resultados,12-Jun-1938,Cuartos,Italia,Francia,3,1,NO,NO,,
+1938,1938_r_12,12,12,resultados,12-Jun-1938,Cuartos,Hungría,Suiza,2,0,NO,NO,,
+1938,1938_r_13,13,13,resultados,12-Jun-1938,Cuartos,Brasil,Checoslovaquia,1,1,SI,NO,,
+1938,1938_r_14,14,14,resultados,14-Jun-1938,Cuartos,Brasil,Checoslovaquia,2,1,NO,NO,,
+1938,1938_r_15,15,15,resultados,16-Jun-1938,Semis,Hungría,Suecia,5,1,NO,NO,,
+1938,1938_r_16,16,16,resultados,16-Jun-1938,Semis,Brasil,Italia,1,2,NO,NO,,
+1938,1938_r_17,17,17,resultados,19-Jun-1938,3er Puesto,Brasil,Suecia,4,2,NO,NO,,
+1938,1938_r_18,18,18,resultados,19-Jun-1938,Final,Italia,Hungría,4,2,NO,NO,,
+1938,1938_r_,,19,resultados,04-Jun-1938,,Suiza,Alemania,1,1,SI,NO,,
