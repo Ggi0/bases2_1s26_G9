@@ -36,6 +36,10 @@ CREATE TABLE JUGADOR_PAIS (
         REFERENCES SELECCION(ID_SELECCION)
 );
 
+
+
+-- 3. DETALLE_JUGADOR
+
 CREATE TABLE DETALLE_JUGADOR (
     ID_JUGADOR          NUMBER          NOT NULL,
     ANIO                NUMBER(4)       NOT NULL,
@@ -67,7 +71,7 @@ CREATE TABLE DETALLE_JUGADOR (
 );
 
 -- ============================================================
--- 3. MUNDIAL
+-- 4. MUNDIAL
 -- ============================================================
 CREATE TABLE MUNDIAL (
     ANIO                NUMBER(4)       NOT NULL,
@@ -87,7 +91,7 @@ CREATE TABLE MUNDIAL (
 );
 
 -- ============================================================
--- 4. GRUPO
+-- 5. GRUPO
 -- ============================================================
 CREATE TABLE GRUPO (
     ANIO            NUMBER(4)       NOT NULL,
@@ -101,7 +105,7 @@ CREATE TABLE GRUPO (
 );
 
 -- ============================================================
--- 5. PARTIDO
+-- 6. PARTIDO
 -- ============================================================
 CREATE TABLE PARTIDO (
     ID_PARTIDO          NUMBER          NOT NULL,
@@ -132,7 +136,7 @@ CREATE TABLE PARTIDO (
 );
 
 -- ============================================================
--- 6. POSICION_GRUPO
+-- 7. POSICION_GRUPO
 -- ============================================================
 CREATE TABLE POSICION_GRUPO (
     ID_POSICION_GRUPO   NUMBER      NOT NULL,
@@ -161,7 +165,7 @@ CREATE TABLE POSICION_GRUPO (
 );
 
 -- ============================================================
--- 7. GOL
+-- 8. GOL
 -- ============================================================
 CREATE TABLE GOL (
     ID_GOL          NUMBER      NOT NULL,
@@ -185,7 +189,7 @@ CREATE TABLE GOL (
 );
 
 -- ============================================================
--- 8. GOLEADOR
+-- 9. GOLEADOR
 -- ============================================================
 CREATE TABLE GOLEADOR (
     ID_GOLEADOR     NUMBER      NOT NULL,
@@ -206,7 +210,7 @@ CREATE TABLE GOLEADOR (
 );
 
 -- ============================================================
--- 9. POSICION_FINAL
+-- 10. POSICION_FINAL
 -- ============================================================
 CREATE TABLE POSICION_FINAL (
     ID_POSICION_FINAL   NUMBER      NOT NULL,
@@ -227,7 +231,7 @@ CREATE TABLE POSICION_FINAL (
 );
 
 -- ============================================================
--- 10. TIPO_PREMIO
+-- 11. TIPO_PREMIO
 -- ============================================================
 CREATE TABLE TIPO_PREMIO (
     ID_TIPO_PREMIO NUMBER        NOT NULL,
@@ -238,7 +242,7 @@ CREATE TABLE TIPO_PREMIO (
 );
 
 -- ============================================================
--- 11. PREMIO
+-- 12. PREMIO
 -- ============================================================
 CREATE TABLE PREMIO (
     ID_PREMIO       NUMBER      NOT NULL,
@@ -265,7 +269,7 @@ CREATE TABLE PREMIO (
 );
 
 -- ============================================================
--- 12. EQUIPO_IDEAL
+-- 13. EQUIPO_IDEAL
 -- ============================================================
 CREATE TABLE EQUIPO_IDEAL (
     ID_EQUIPO_IDEAL NUMBER      NOT NULL,
@@ -292,7 +296,7 @@ CREATE TABLE EQUIPO_IDEAL (
 );
 
 -- ============================================================
--- 13. TARJETA
+-- 14. TARJETA
 -- ============================================================
 CREATE TABLE TARJETA (
     ID_TARJETA      NUMBER      NOT NULL,
