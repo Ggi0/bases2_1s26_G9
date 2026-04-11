@@ -4,7 +4,6 @@
 
 `python -m venv nombre_entorno`
 
-
 ### activarlo
     linux / mac:
     `source nombre_entorno/bin/activate`
