@@ -35,8 +35,45 @@ CREATE TABLE JUGADOR_PAIS (
         REFERENCES SELECCION(ID_SELECCION)
 );
 
+<<<<<<< HEAD
+=======
+
+
+-- 3. DETALLE_JUGADOR
+
+CREATE TABLE DETALLE_JUGADOR (
+    ID_JUGADOR          NUMBER          NOT NULL,
+    ANIO                NUMBER(4)       NOT NULL,
+    CAMISETA            VARCHAR2(20),
+    POSICION            VARCHAR2(50),
+    JUGO                NUMBER,
+    JUGO_TITULAR        NUMBER,
+    CAPITAN             NUMBER,
+    NO_JUGO             NUMBER,
+    GOLES               NUMBER,
+    PROM_GOLES          NUMBER(5,2),
+    TARJETA_AMARILLA    NUMBER,
+    TARJETA_ROJA        NUMBER,
+    PG                  NUMBER,
+    PE                  NUMBER,
+    PP                  NUMBER,
+    POS_FINAL           NUMBER,
+
+    CONSTRAINT PK_DETALLE_JUGADOR 
+        PRIMARY KEY (ID_JUGADOR, ANIO),
+
+    CONSTRAINT FK_DETALLE_JUGADOR_JUG 
+        FOREIGN KEY (ID_JUGADOR)
+        REFERENCES JUGADOR_PAIS(ID_JUGADOR),
+
+    CONSTRAINT FK_DETALLE_JUGADOR_MUN 
+        FOREIGN KEY (ANIO)
+        REFERENCES MUNDIAL(ANIO)
+);
+
+>>>>>>> origin/feature/normalizacion
 -- ============================================================
--- 3. MUNDIAL
+-- 4. MUNDIAL
 -- ============================================================
 CREATE TABLE MUNDIAL (
     ANIO                NUMBER(4)       NOT NULL,
@@ -56,6 +93,7 @@ CREATE TABLE MUNDIAL (
 );
 
 -- ============================================================
+<<<<<<< HEAD
 -- 4. DETALLE_JUGADOR
 -- ============================================================
 CREATE TABLE DETALLE_JUGADOR (
@@ -83,6 +121,8 @@ CREATE TABLE DETALLE_JUGADOR (
 );
 
 -- ============================================================
+=======
+>>>>>>> origin/feature/normalizacion
 -- 5. GRUPO
 -- ============================================================
 CREATE TABLE GRUPO (
