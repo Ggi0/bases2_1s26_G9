@@ -3,13 +3,12 @@ BEGIN
     FOR t IN (SELECT table_name FROM user_tables WHERE table_name IN (
         'TARJETA','EQUIPO_IDEAL','PREMIO','TIPO_PREMIO','POSICION_FINAL',
         'GOLEADOR','GOL','POSICION_GRUPO','PARTIDO','GRUPO',
-        'MUNDIAL','JUGADOR_PAIS','SELECCION'
+        'DETALLE_JUGADOR','MUNDIAL','JUGADOR_PAIS','SELECCION'
     )) LOOP
         EXECUTE IMMEDIATE 'DROP TABLE ' || t.table_name || ' CASCADE CONSTRAINTS';
     END LOOP;
 END;
 /
-
 
 -- ============================================================
 -- 1. SELECCION
@@ -24,46 +23,16 @@ CREATE TABLE SELECCION (
 -- 2. JUGADOR_PAIS
 -- ============================================================
 CREATE TABLE JUGADOR_PAIS (
-    ID_JUGADOR      NUMBER          NOT NULL,
-    NOMBRE          VARCHAR2(200)   NOT NULL,
-    ID_SELECCION    NUMBER          NOT NULL,
-    SELECCION       VARCHAR2(100),
-    ALTURA                  VARCHAR2(20),
-    FECHA_NACIMIENTO        VARCHAR2(30),
-    NACIONALIDAD        VARCHAR2(100)   -- pueden haber varias
+    ID_JUGADOR          NUMBER          NOT NULL,
+    NOMBRE              VARCHAR2(200)   NOT NULL,
+    ID_SELECCION        NUMBER          NOT NULL,
+    SELECCION           VARCHAR2(100),
+    ALTURA              VARCHAR2(20),
+    FECHA_NACIMIENTO    VARCHAR2(30),
+    NACIONALIDAD        VARCHAR2(100),
     CONSTRAINT PK_JUGADOR_PAIS PRIMARY KEY (ID_JUGADOR),
     CONSTRAINT FK_JUGADOR_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION)
-);
-
-CREATE TABLE DETALLE_JUGADOR (
-    ID_JUGADOR          NUMBER          NOT NULL,
-    ANIO                NUMBER(4)       NOT NULL,
-    CAMISETA            VARCHAR2(20),
-    POSICION            VARCHAR2(50),
-    JUGO                NUMBER,
-    JUGO_TITULAR        NUMBER,
-    CAPITAN             NUMBER,
-    NO_JUGO             NUMBER,
-    GOLES               NUMBER,
-    PROM_GOLES          NUMBER(5,2),
-    TARJETA_AMARILLA    NUMBER,
-    TARJETA_ROJA        NUMBER,
-    PG                  NUMBER,
-    PE                  NUMBER,
-    PP                  NUMBER,
-    POS_FINAL           NUMBER,
-
-    CONSTRAINT PK_DETALLE_JUGADOR 
-        PRIMARY KEY (ID_JUGADOR, ANIO),
-
-    CONSTRAINT FK_DETALLE_JUGADOR_JUG 
-        FOREIGN KEY (ID_JUGADOR)
-        REFERENCES JUGADOR_PAIS(ID_JUGADOR),
-
-    CONSTRAINT FK_DETALLE_JUGADOR_MUN 
-        FOREIGN KEY (ANIO)
-        REFERENCES MUNDIAL(ANIO)
 );
 
 -- ============================================================
@@ -87,21 +56,46 @@ CREATE TABLE MUNDIAL (
 );
 
 -- ============================================================
--- 4. GRUPO
+-- 4. DETALLE_JUGADOR
+-- ============================================================
+CREATE TABLE DETALLE_JUGADOR (
+    ID_JUGADOR          NUMBER          NOT NULL,
+    ANIO                NUMBER(4)       NOT NULL,
+    CAMISETA            VARCHAR2(20),
+    POSICION            VARCHAR2(50),
+    JUGO                NUMBER,
+    JUGO_TITULAR        NUMBER,
+    CAPITAN             NUMBER,
+    NO_JUGO             NUMBER,
+    GOLES               NUMBER,
+    PROM_GOLES          NUMBER(5,2),
+    TARJETA_AMARILLA    NUMBER,
+    TARJETA_ROJA        NUMBER,
+    PG                  NUMBER,
+    PE                  NUMBER,
+    PP                  NUMBER,
+    POS_FINAL           NUMBER,
+    CONSTRAINT PK_DETALLE_JUGADOR PRIMARY KEY (ID_JUGADOR, ANIO),
+    CONSTRAINT FK_DETALLE_JUGADOR_JUG FOREIGN KEY (ID_JUGADOR)
+        REFERENCES JUGADOR_PAIS(ID_JUGADOR),
+    CONSTRAINT FK_DETALLE_JUGADOR_MUN FOREIGN KEY (ANIO)
+        REFERENCES MUNDIAL(ANIO)
+);
+
+-- ============================================================
+-- 5. GRUPO
 -- ============================================================
 CREATE TABLE GRUPO (
     ANIO            NUMBER(4)       NOT NULL,
     ID_GRUPO        VARCHAR2(5)     NOT NULL,
     SELECCIONES     VARCHAR2(500),
-
     CONSTRAINT PK_GRUPO PRIMARY KEY (ANIO, ID_GRUPO),
-
     CONSTRAINT FK_GRUPO_MUN FOREIGN KEY (ANIO)
         REFERENCES MUNDIAL(ANIO)
 );
 
 -- ============================================================
--- 5. PARTIDO
+-- 6. PARTIDO
 -- ============================================================
 CREATE TABLE PARTIDO (
     ID_PARTIDO          NUMBER          NOT NULL,
@@ -117,22 +111,18 @@ CREATE TABLE PARTIDO (
     PENALES             VARCHAR2(2),
     PENALES_LOCAL       NUMBER,
     PENALES_VISITANTE   NUMBER,
-
     CONSTRAINT PK_PARTIDO PRIMARY KEY (ID_PARTIDO),
     CONSTRAINT UQ_PARTIDO UNIQUE (ANIO, NUM_PARTIDO),
-
     CONSTRAINT FK_PARTIDO_MUN FOREIGN KEY (ANIO)
         REFERENCES MUNDIAL(ANIO),
-
     CONSTRAINT FK_PARTIDO_LOCAL FOREIGN KEY (ID_LOCAL)
         REFERENCES SELECCION(ID_SELECCION),
-
     CONSTRAINT FK_PARTIDO_VISIT FOREIGN KEY (ID_VISITANTE)
         REFERENCES SELECCION(ID_SELECCION)
 );
 
 -- ============================================================
--- 6. POSICION_GRUPO
+-- 7. POSICION_GRUPO
 -- ============================================================
 CREATE TABLE POSICION_GRUPO (
     ID_POSICION_GRUPO   NUMBER      NOT NULL,
@@ -148,20 +138,16 @@ CREATE TABLE POSICION_GRUPO (
     GC                  NUMBER,
     DIFERENCIA          NUMBER,
     CLASIFICADO         VARCHAR2(5),
-
     CONSTRAINT PK_POSICION_GRUPO PRIMARY KEY (ID_POSICION_GRUPO),
-
     CONSTRAINT FK_POSGRP_GRUPO FOREIGN KEY (ANIO, ID_GRUPO)
         REFERENCES GRUPO(ANIO, ID_GRUPO),
-
     CONSTRAINT FK_POSGRP_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
-
     CONSTRAINT UQ_POSICION UNIQUE (ANIO, ID_GRUPO, ID_SELECCION)
 );
 
 -- ============================================================
--- 7. GOL
+-- 8. GOL
 -- ============================================================
 CREATE TABLE GOL (
     ID_GOL          NUMBER      NOT NULL,
@@ -171,21 +157,17 @@ CREATE TABLE GOL (
     MINUTO          NUMBER      NOT NULL,
     ES_PENAL        VARCHAR2(2),
     ES_AUTOGOL      VARCHAR2(20),
-
     CONSTRAINT PK_GOL PRIMARY KEY (ID_GOL),
-
     CONSTRAINT FK_GOL_PARTIDO FOREIGN KEY (ID_PARTIDO)
         REFERENCES PARTIDO(ID_PARTIDO),
-
     CONSTRAINT FK_GOL_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
-
     CONSTRAINT FK_GOL_JUG FOREIGN KEY (ID_JUGADOR)
         REFERENCES JUGADOR_PAIS(ID_JUGADOR)
 );
 
 -- ============================================================
--- 8. GOLEADOR
+-- 9. GOLEADOR
 -- ============================================================
 CREATE TABLE GOLEADOR (
     ID_GOLEADOR     NUMBER      NOT NULL,
@@ -195,50 +177,42 @@ CREATE TABLE GOLEADOR (
     GOLES           NUMBER,
     PARTIDOS        NUMBER,
     PROMEDIO        NUMBER(5,2),
-
     CONSTRAINT PK_GOLEADOR PRIMARY KEY (ID_GOLEADOR),
-
     CONSTRAINT FK_GOLEADOR_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
-
     CONSTRAINT FK_GOLEADOR_JUG FOREIGN KEY (ID_JUGADOR)
         REFERENCES JUGADOR_PAIS(ID_JUGADOR)
 );
 
 -- ============================================================
--- 9. POSICION_FINAL
+-- 10. POSICION_FINAL
 -- ============================================================
 CREATE TABLE POSICION_FINAL (
     ID_POSICION_FINAL   NUMBER      NOT NULL,
     ANIO                NUMBER(4)   NOT NULL,
     POSICION            NUMBER      NOT NULL,
     ID_SELECCION        NUMBER      NOT NULL,
-
     CONSTRAINT PK_POSICION_FINAL PRIMARY KEY (ID_POSICION_FINAL),
-
     CONSTRAINT FK_POSFIN_MUN FOREIGN KEY (ANIO)
         REFERENCES MUNDIAL(ANIO),
-
     CONSTRAINT FK_POSFIN_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
-
     CONSTRAINT UQ_POSFIN_POSICION UNIQUE (ANIO, POSICION),
     CONSTRAINT UQ_POSFIN_SELECCION UNIQUE (ANIO, ID_SELECCION)
 );
 
 -- ============================================================
--- 10. TIPO_PREMIO
+-- 11. TIPO_PREMIO
 -- ============================================================
 CREATE TABLE TIPO_PREMIO (
     ID_TIPO_PREMIO NUMBER        NOT NULL,
     NOMBRE         VARCHAR2(100) NOT NULL,
-
     CONSTRAINT PK_TIPO_PREMIO PRIMARY KEY (ID_TIPO_PREMIO),
     CONSTRAINT UQ_TIPO_PREMIO UNIQUE (NOMBRE)
 );
 
 -- ============================================================
--- 11. PREMIO
+-- 12. PREMIO
 -- ============================================================
 CREATE TABLE PREMIO (
     ID_PREMIO       NUMBER      NOT NULL,
@@ -246,53 +220,39 @@ CREATE TABLE PREMIO (
     ID_TIPO_PREMIO  NUMBER      NOT NULL,
     ID_JUGADOR      NUMBER,
     ID_SELECCION    NUMBER      NOT NULL,
-
     CONSTRAINT PK_PREMIO PRIMARY KEY (ID_PREMIO),
-
     CONSTRAINT FK_PREMIO_MUN FOREIGN KEY (ANIO)
         REFERENCES MUNDIAL(ANIO),
-
     CONSTRAINT FK_PREMIO_TIPO FOREIGN KEY (ID_TIPO_PREMIO)
         REFERENCES TIPO_PREMIO(ID_TIPO_PREMIO),
-
     CONSTRAINT FK_PREMIO_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
-
     CONSTRAINT FK_PREMIO_JUG FOREIGN KEY (ID_JUGADOR)
         REFERENCES JUGADOR_PAIS(ID_JUGADOR),
-
     CONSTRAINT UQ_PREMIO UNIQUE (ANIO, ID_TIPO_PREMIO)
 );
 
 -- ============================================================
--- 12. EQUIPO_IDEAL
+-- 13. EQUIPO_IDEAL
 -- ============================================================
 CREATE TABLE EQUIPO_IDEAL (
-    ID_EQUIPO_IDEAL NUMBER      NOT NULL,
-    ANIO            NUMBER(4)   NOT NULL,
+    ID_EQUIPO_IDEAL NUMBER       NOT NULL,
+    ANIO            NUMBER(4)    NOT NULL,
     POSICION        VARCHAR2(50) NOT NULL,
-    ID_JUGADOR      NUMBER      NOT NULL,
-    ID_SELECCION    NUMBER      NOT NULL,
-
+    ID_JUGADOR      NUMBER       NOT NULL,
+    ID_SELECCION    NUMBER       NOT NULL,
     CONSTRAINT PK_EQUIPO_IDEAL PRIMARY KEY (ID_EQUIPO_IDEAL),
-
     CONSTRAINT FK_EQIDEAL_MUN FOREIGN KEY (ANIO)
         REFERENCES MUNDIAL(ANIO),
-
     CONSTRAINT FK_EQIDEAL_JUG FOREIGN KEY (ID_JUGADOR)
         REFERENCES JUGADOR_PAIS(ID_JUGADOR),
-
     CONSTRAINT FK_EQIDEAL_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
-
-    -- Se mantiene UQ_EQIDEAL_JUG para asegurar que cada jugador aparezca solo una vez por año.
-    -- Se eliminó UQ_EQIDEAL_POS porque múltiples jugadores pueden ocupar la misma posición
-    -- dentro del equipo ideal (ej: 3-5 delanteros, 2-4 defensores), generando 170 duplicados válidos en (ANIO, POSICION).
     CONSTRAINT UQ_EQIDEAL_JUG UNIQUE (ANIO, ID_JUGADOR)
 );
 
 -- ============================================================
--- 13. TARJETA
+-- 14. TARJETA
 -- ============================================================
 CREATE TABLE TARJETA (
     ID_TARJETA      NUMBER      NOT NULL,
@@ -301,19 +261,12 @@ CREATE TABLE TARJETA (
     ID_SELECCION    NUMBER      NOT NULL,
     AMARILLAS       NUMBER      DEFAULT 0,
     ROJAS           NUMBER      DEFAULT 0,
-
     CONSTRAINT PK_TARJETA PRIMARY KEY (ID_TARJETA),
-
     CONSTRAINT FK_TARJETA_MUN FOREIGN KEY (ANIO)
         REFERENCES MUNDIAL(ANIO),
-
     CONSTRAINT FK_TARJETA_JUG FOREIGN KEY (ID_JUGADOR)
         REFERENCES JUGADOR_PAIS(ID_JUGADOR),
-
     CONSTRAINT FK_TARJETA_SEL FOREIGN KEY (ID_SELECCION)
         REFERENCES SELECCION(ID_SELECCION),
-
     CONSTRAINT UQ_TARJETA UNIQUE (ANIO, ID_JUGADOR)
 );
-
-
